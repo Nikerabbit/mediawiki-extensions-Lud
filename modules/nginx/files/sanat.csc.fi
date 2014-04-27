@@ -1,0 +1,37 @@
+# file managed by puppet
+
+server {
+	listen 80 default_server;
+
+	server_name sanat.csc.fi;
+	root /www/sanat.csc.fi/docroot;
+
+	# Avoid delay in redirection when just typing the domain.
+	# Keep in sync with MediaWiki config.
+	location = / {
+		rewrite ^ /wiki/Etusivu;
+	}
+
+	# Pretty urls for MediaWiki
+	location ~ ^/wiki/(.*)$ {
+		rewrite ^/wiki/(.*)$ /w/index.php?title=$1&$args;
+	}
+
+	# Allowed php files, case sensitive
+	location ~ ^/w/(i|index|load|api|opensearch_desc|profileinfo|webfiles/jserror)\.php$ {
+		fastcgi_pass 127.0.0.1:9000;
+		fastcgi_buffers 16 8k;
+		include fastcgi_params;
+		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+	}
+
+	# Deny access to all php files except those above
+	location ~* \.php$ {
+		deny all;
+	}
+
+	# Some basic caching
+	location ~* \.(png|jpg|jpeg|gif|ico|svg|woff|eot|ttf|webp)$ {
+		expires 2M;
+	}
+}

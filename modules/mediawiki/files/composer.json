@@ -1,0 +1,10 @@
+{
+	"require": {
+		"mediawiki/semantic-media-wiki": "*",
+		"mediawiki/semantic-forms": "*",
+		"mediawiki/invite-signup": "*",
+		"mediawiki/universal-language-selector": "*",
+		"mediawiki/translate": "*"
+	},
+	"minimum-stability": "dev"
+}
