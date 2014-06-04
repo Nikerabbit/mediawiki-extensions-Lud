@@ -35,6 +35,14 @@ class mediawiki {
     require => Vcsrepo['/www/mediawiki'],
   }
 
+  file { '/www/mediawiki/extensions/Sanat':
+    ensure  => directory,
+    purge   => true,
+    recurse => true,
+    source  => 'puppet:///modules/mediawiki/Sanat',
+    require => Vcsrepo['/www/mediawiki'],
+  }
+
   include composer
   composer::exec { 'extension-install':
     cmd     => 'update',
@@ -70,7 +78,7 @@ class mediawiki {
   file { '/www/mediawiki/LocalSettings.php':
     ensure  => present,
     source  => 'puppet:///modules/mediawiki/LocalSettings.php',
-    require => Exec['mediawiki-install'],
+    require => [Exec['mediawiki-install'], File['/www/mediawiki/extensions/Sanat']],
   }
 
   exec { 'mediawiki-install-post':

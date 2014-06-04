@@ -1,0 +1,16 @@
+{
+	"sanat-da": "Intro text for page listing alternatives sharing same dictionary form",
+	"sanat-entry-examples": "Heading for examples section",
+	"sanat-entryform-lit": "Text shown to readers",
+	"sanat-entry-seealso": "Heading for see also section",
+	"sanat-entry-translations": "Heading for translations section",
+	"sanat-entryform-baseform": "Label for form field",
+	"sanat-entryform-lit": "Label for checkbox",
+	"sanat-entryform-pos": "Label for form field",
+	"sanat-lc-en": "Language name",
+	"sanat-lc-fi": "Language name",
+	"sanat-lc-lud": "Language name",
+	"sanat-lc-lud-x-south": "Language name",
+	"sanat-lc-ru": "Language name",
+	"sanat-lc-und": "Language name"
+}

@@ -73,6 +73,7 @@ $smwgQMaxInlineLimit = $wgCategoryPagingLimit = 250;
 
 include_once "$IP/extensions/ParserFunctions/ParserFunctions.php";
 include_once "$IP/extensions/DeleteBatch/DeleteBatch.php";
+include_once "$IP/extensions/Sanat/Sanat.php";
 
 function lfAddNamespace( $id, $name ) {
 	global $wgExtraNamespaces, $wgContentNamespaces, $wgNamespacesToBeSearchedDefault,
