@@ -1,0 +1,8 @@
+This property has type [[Has type::Text]].
+
+Allowed values:
+* [[Allows value::en|en {{langname|en}}]]
+* [[Allows value::fi|fi {{langname|fi}}]]
+* [[Allows value::ru|ru {{langname|ru}}]]
+* [[Allows value::lud|lud {{langname|lud}}]]
+* [[Allows value::lud-x-south|lud-x-south {{langname|lud-x-south}}]]
