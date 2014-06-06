@@ -11,7 +11,7 @@ $IP = __DIR__;
 $VHOST = 'sanat.csc.fi';
 
 ini_set( 'error_log', "/www/$VHOST/logs/error_php" );
-ini_set( 'display_errors',         1 );
+ini_set( 'display_errors',         0 );
 ini_set( 'ignore_repeated_errors', 1 );
 ini_set( 'log_errors',             1 );
 ini_set( 'expose_php',             0 );
