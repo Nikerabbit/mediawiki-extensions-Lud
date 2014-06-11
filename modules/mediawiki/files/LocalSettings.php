@@ -63,6 +63,7 @@ $sfgRedLinksCheckOnlyLocalProps = true;
 $sfgRenameEditTabs = true;
 
 $wgGroupPermissions['sysop']['invitesignup'] = true;
+$wgGroupPermissions['*']['edit'] = false;
 $wgGroupPermissions['*']['createaccount'] = false;
 $wgGroupPermissions['sysop']['deletebatch'] = true;
 
