@@ -1,0 +1,13 @@
+{{#ask: {{{query}}}
+|?Value
+|?Parent
+|format=ul
+|limit={{{limit|500}}}
+|link=subject
+|sort=Value
+|headers=show
+|mainlabel=-
+|template=dictlist
+|columns=3
+|intro={{{intro}}}
+}}

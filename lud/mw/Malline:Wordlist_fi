@@ -1,0 +1,32 @@
+<includeonly>
+{{dictquery|query={{{query}}} [[Value::<a]]              |intro=<h2>#</h2>}}
+{{dictquery|query={{{query}}} [[Value::>a]] [[Value::<b]]|intro=<h2>a</h2>}}
+{{dictquery|query={{{query}}} [[Value::>b]] [[Value::<c]]|intro=<h2>b</h2>}}
+{{dictquery|query={{{query}}} [[Value::>c]] [[Value::<d]]|intro=<h2>c</h2>}}
+{{dictquery|query={{{query}}} [[Value::>d]] [[Value::<e]]|intro=<h2>d</h2>}}
+{{dictquery|query={{{query}}} [[Value::>e]] [[Value::<f]]|intro=<h2>e</h2>}}
+{{dictquery|query={{{query}}} [[Value::>f]] [[Value::<g]]|intro=<h2>f</h2>}}
+{{dictquery|query={{{query}}} [[Value::>g]] [[Value::<h]]|intro=<h2>g</h2>}}
+{{dictquery|query={{{query}}} [[Value::>h]] [[Value::<i]]|intro=<h2>h</h2>}}
+{{dictquery|query={{{query}}} [[Value::>i]] [[Value::<j]]|intro=<h2>i</h2>}}
+{{dictquery|query={{{query}}} [[Value::>j]] [[Value::<k]]|intro=<h2>j</h2>}}
+{{dictquery|query={{{query}}} [[Value::>k]] [[Value::<l]]|intro=<h2>k</h2>}}
+{{dictquery|query={{{query}}} [[Value::>l]] [[Value::<m]]|intro=<h2>l</h2>}}
+{{dictquery|query={{{query}}} [[Value::>m]] [[Value::<n]]|intro=<h2>m</h2>}}
+{{dictquery|query={{{query}}} [[Value::>n]] [[Value::<o]]|intro=<h2>n</h2>}}
+{{dictquery|query={{{query}}} [[Value::>o]] [[Value::<p]]|intro=<h2>o</h2>}}
+{{dictquery|query={{{query}}} [[Value::>p]] [[Value::<q]]|intro=<h2>p</h2>}}
+{{dictquery|query={{{query}}} [[Value::>q]] [[Value::<r]]|intro=<h2>q</h2>}}
+{{dictquery|query={{{query}}} [[Value::>r]] [[Value::<s]]|intro=<h2>r</h2>}}
+{{dictquery|query={{{query}}} [[Value::>s]] [[Value::<t]]|intro=<h2>s</h2>}}
+{{dictquery|query={{{query}}} [[Value::>t]] [[Value::<u]]|intro=<h2>t</h2>}}
+{{dictquery|query={{{query}}} [[Value::>u]] [[Value::<v]]|intro=<h2>u</h2>}}
+{{dictquery|query={{{query}}} [[Value::>v]] [[Value::<w]]|intro=<h2>v</h2>}}
+{{dictquery|query={{{query}}} [[Value::>w]] [[Value::<x]]|intro=<h2>w</h2>}}
+{{dictquery|query={{{query}}} [[Value::>x]] [[Value::<y]]|intro=<h2>x</h2>}}
+{{dictquery|query={{{query}}} [[Value::>y]] [[Value::<z]]|intro=<h2>y</h2>}}
+{{dictquery|query={{{query}}} [[Value::>z]] [[Value::<å]]|intro=<h2>z</h2>}}
+{{dictquery|query={{{query}}} [[Value::>å]] [[Value::<ä]]|intro=<h2>å</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ä]] [[Value::<ö]]|intro=<h2>ä</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ö]]              |intro=<h2>ö</h2>}}
+</includeonly>

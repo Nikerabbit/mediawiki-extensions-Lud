@@ -1,0 +1,34 @@
+<includeonly>
+{{dictquery|query={{{query}}} [[Value::<а]]              |intro=<h2>#</h2>}}
+{{dictquery|query={{{query}}} [[Value::>а]] [[Value::<б]]|intro=<h2>а</h2>}}
+{{dictquery|query={{{query}}} [[Value::>б]] [[Value::<в]]|intro=<h2>б</h2>}}
+{{dictquery|query={{{query}}} [[Value::>в]] [[Value::<г]]|intro=<h2>в</h2>}}
+{{dictquery|query={{{query}}} [[Value::>г]] [[Value::<д]]|intro=<h2>г</h2>}}
+{{dictquery|query={{{query}}} [[Value::>д]] [[Value::<е]]|intro=<h2>д</h2>}}
+{{dictquery|query={{{query}}} [[Value::>е]] [[Value::<ё]]|intro=<h2>е</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ё]] [[Value::<ж]]|intro=<h2>ё</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ж]] [[Value::<з]]|intro=<h2>ж</h2>}}
+{{dictquery|query={{{query}}} [[Value::>з]] [[Value::<и]]|intro=<h2>з</h2>}}
+{{dictquery|query={{{query}}} [[Value::>и]] [[Value::<й]]|intro=<h2>и</h2>}}
+{{dictquery|query={{{query}}} [[Value::>й]] [[Value::<к]]|intro=<h2>й</h2>}}
+{{dictquery|query={{{query}}} [[Value::>к]] [[Value::<л]]|intro=<h2>к</h2>}}
+{{dictquery|query={{{query}}} [[Value::>л]] [[Value::<м]]|intro=<h2>л</h2>}}
+{{dictquery|query={{{query}}} [[Value::>м]] [[Value::<н]]|intro=<h2>м</h2>}}
+{{dictquery|query={{{query}}} [[Value::>н]] [[Value::<о]]|intro=<h2>н</h2>}}
+{{dictquery|query={{{query}}} [[Value::>о]] [[Value::<п]]|intro=<h2>о</h2>}}
+{{dictquery|query={{{query}}} [[Value::>п]] [[Value::<р]]|intro=<h2>п</h2>}}
+{{dictquery|query={{{query}}} [[Value::>р]] [[Value::<с]]|intro=<h2>р</h2>}}
+{{dictquery|query={{{query}}} [[Value::>с]] [[Value::<т]]|intro=<h2>с</h2>}}
+{{dictquery|query={{{query}}} [[Value::>т]] [[Value::<у]]|intro=<h2>т</h2>}}
+{{dictquery|query={{{query}}} [[Value::>у]] [[Value::<ф]]|intro=<h2>у</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ф]] [[Value::<х]]|intro=<h2>ф</h2>}}
+{{dictquery|query={{{query}}} [[Value::>х]] [[Value::<ц]]|intro=<h2>х</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ц]] [[Value::<ч]]|intro=<h2>ц</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ч]] [[Value::<ш]]|intro=<h2>ч</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ш]] [[Value::<щ]]|intro=<h2>ш</h2>}}
+{{dictquery|query={{{query}}} [[Value::>щ]] [[Value::<ы]]|intro=<h2>щ</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ы]] [[Value::<э]]|intro=<h2>ы</h2>}}
+{{dictquery|query={{{query}}} [[Value::>э]] [[Value::<ю]]|intro=<h2>э</h2>}}
+{{dictquery|query={{{query}}} [[Value::>ю]] [[Value::<я]]|intro=<h2>ю</h2>}}
+{{dictquery|query={{{query}}} [[Value::>я]]              |intro=<h2>я</h2>}}
+</includeonly>
