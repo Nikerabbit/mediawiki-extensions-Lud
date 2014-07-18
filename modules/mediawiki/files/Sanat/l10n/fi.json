@@ -7,9 +7,12 @@
 	"sanat-entryform-baseform": "Perusmuoto:",
 	"sanat-entryform-lit": "Tämä esimerkki on kirjallisuudesta",
 	"sanat-entryform-pos": "Sanaluokka:",
+	"sanat-entryform-langdesc": "Murrekuvaus",
 	"sanat-lc-en": "englanti",
 	"sanat-lc-fi": "suomi",
 	"sanat-lc-lud": "lyydi",
+	"sanat-lc-lud-x-middle": "keskilyydi",
+	"sanat-lc-lud-x-north": "pohjoislyydi",
 	"sanat-lc-lud-x-south": "etelälyydi",
 	"sanat-lc-ru": "venäjä",
 	"sanat-lc-und": "tuntematon kieli"

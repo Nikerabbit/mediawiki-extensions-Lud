@@ -22,6 +22,7 @@ __NOEDITSECTION__
 {{{section|{{INT:sanat-entry-translations}}|level=2|hidden}}}
 {{{for template|Translation|multiple}}}
 {{{field|1|mandatory|property=Language|input type=dropdown}}}
+{{{field|2|property=Language description|placeholder={{INT:sanat-entryform-langdesc}} }}}
 {{{field|text}}}
 {{{end template}}}
 
@@ -33,6 +34,7 @@ __NOEDITSECTION__
 {{{end template}}}
 {{{for template|Example-entry|multiple|embed in field=Example[entries]}}}
 {{{field|1|mandatory|property=Language|input type=dropdown}}}
+{{{field|2|property=Language description|placeholder={{INT:sanat-entryform-langdesc}} }}}
 {{{field|text}}}
 {{{end template}}}
 
