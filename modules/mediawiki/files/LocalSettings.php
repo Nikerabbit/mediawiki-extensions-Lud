@@ -33,6 +33,10 @@ $wgLocalisationCacheConf['manualRecache'] = true;
 
 $wgSecretKey = trim( file_get_contents( "/www/$VHOST/secret_key" ) );
 
+if ( is_readable( "/www/$VHOST/docroot/logo.png" ) ) {
+	$wgLogo = "/logo.png";
+}
+
 $wgSitename = "Sanat";
 $wgArticlePath = "/wiki/$1";
 $wgScriptPath = "/w";
