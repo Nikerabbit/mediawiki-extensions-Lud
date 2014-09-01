@@ -9,6 +9,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $IP = __DIR__;
 
 $VHOST = 'sanat.csc.fi';
+$wgServer = 'https://sanat.csc.fi';
 
 ini_set( 'error_log', "/www/$VHOST/logs/error_php" );
 ini_set( 'display_errors',         0 );
@@ -63,6 +64,8 @@ $wgLanguageCode = 'fi';
 $wgDefaultUserOptions['usenewrc'] = 1;
 
 enableSemantics( $VHOST );
+require "$IP/extensions/SemanticForms/SemanticForms.php";
+$wgIncludejQueryMigrate = true;
 $sfgRedLinksCheckOnlyLocalProps = true;
 $sfgRenameEditTabs = true;
 

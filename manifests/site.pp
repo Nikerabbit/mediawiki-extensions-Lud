@@ -6,6 +6,7 @@ node default {
   include mediawiki
   mediawiki::extension { 'ParserFunctions': }
   mediawiki::extension { 'DeleteBatch': }
+  mediawiki::extension { 'SemanticForms': }
   include mysql
   class { 'memcached':
     max_memory => 2048,

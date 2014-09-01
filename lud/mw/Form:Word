@@ -14,7 +14,7 @@ __NOEDITSECTION__
 {{{field|variants|holds template}}}
 {{{end template}}}
 {{{for template|Variant|multiple|embed in field=Word[variants]}}}
-{{{field|1|mandatory|property=Language|input type=dropdown}}}
+{{{field|language|mandatory|property=Language|input type=dropdown}}}
 {{{field|text}}}
 {{{end template}}}
 
