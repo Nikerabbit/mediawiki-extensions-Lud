@@ -1,0 +1,4 @@
+<noinclude>This template is used together with <nowiki>{{#ask: ... | format=template | template=passthrough }}</nowiki> to display examples.</noinclude>
+<includeonly>
+<div class="sanat-inlinetools" data-sanat-entry="{{{1}}}">{{#formlink:form=Example|link text={{INT:sanat-inlinetools-edit-example}}|link type=post button|target={{{1}}}|popup}}</div>
+{{{2}}}</includeonly>

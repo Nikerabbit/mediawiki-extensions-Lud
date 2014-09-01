@@ -20,9 +20,9 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 $dir = __DIR__;
 require_once "$dir/Resources.php";
 
-$GLOBALS['wgMessagesDirs']['Sanat'] = "$dir/l10n";
+$GLOBALS['wgMessagesDirs']['Sanat'] = "$dir/i18n";
 
 $GLOBALS['wgHooks']['BeforePageDisplay'][] = function ( OutputPage $out ) {
-	$out->addModules( 'ext.sanat.search' );
-	$out->addModuleStyles( 'ext.sanat' );
+	$out->addModuleStyles( 'ext.sanat.styles' );
+	$out->addModules( 'ext.sanat' );
 };

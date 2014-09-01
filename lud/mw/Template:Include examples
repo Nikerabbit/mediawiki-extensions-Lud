@@ -1,0 +1,8 @@
+<includeonly>
+{{#ask: [[Category:Example]] [[Parent::{{FULLPAGENAME}}]]
+| ?wikitext
+| format=template
+| template=Passthrough
+| link=none
+}}
+<div class="sanat-inlinetools">{{#formlink:form=Example|link text={{INT:sanat-inlinetools-add-example}}|link type=post button|popup|query string=Example[parent]={{FULLPAGENAME}}}}</div></includeonly>

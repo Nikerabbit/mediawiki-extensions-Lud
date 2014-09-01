@@ -28,7 +28,7 @@ class LudImport extends Maintenance {
 
 		$f = new LyydiFormatter();
 
-		$out = $f->findHomonyms( $out );
+		$out = $f->getEntries( $out );
 
 		foreach ( $out as $struct ) {
 			$title = $f->getTitle( $struct );
@@ -45,7 +45,7 @@ class LudImport extends Maintenance {
 			# Do the edit
 			$status = $page->doEditContent( $content, '', EDIT_FORCE_BOT );
 			if ( $status->isOK() ) {
-				$this->output( "." );
+				$this->output( ".", 'progress' );
 			} else {
 				$this->error( "Failed to import {$struct['id']}\n" );
 			}

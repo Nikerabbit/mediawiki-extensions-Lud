@@ -33,6 +33,8 @@ class SanatImport extends Maintenance {
 
 			$page = new WikiPage( $title );
 			$page->doEditContent( $content, '', false, $user );
+
+			$this->output( ".", 'progress' );
 		}
 	}
 }

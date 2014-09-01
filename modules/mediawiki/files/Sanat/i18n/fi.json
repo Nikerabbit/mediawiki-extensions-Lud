@@ -15,5 +15,9 @@
 	"sanat-lc-lud-x-north": "pohjoislyydi",
 	"sanat-lc-lud-x-south": "etelälyydi",
 	"sanat-lc-ru": "venäjä",
-	"sanat-lc-und": "tuntematon kieli"
+	"sanat-lc-und": "tuntematon kieli",
+	"sanat-examplepage": "Voit nähdä tämän esimerkin [[$1|käsitesivulla]].",
+	"sanat-inlinetools-add-example": "Lisää esimerkki",
+	"sanat-inlinetools-delete-example": "Poista esimerkki",
+	"sanat-inlinetools-edit-example": "Muokkaa esimerkkiä"
 }

@@ -15,5 +15,9 @@
 	"sanat-lc-lud-x-north": "Northern Ludic",
 	"sanat-lc-lud-x-south": "Southern Ludic",
 	"sanat-lc-ru": "Russian",
-	"sanat-lc-und": "Unknown language"
+	"sanat-lc-und": "Unknown language",
+	"sanat-examplepage": "Go to the [[$1|term page]] to see this example.",
+	"sanat-inlinetools-add-example": "Add example",
+	"sanat-inlinetools-delete-example": "Delete example",
+	"sanat-inlinetools-edit-example": "Edit example"
 }

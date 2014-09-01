@@ -1,7 +1,8 @@
 {
 	"require": {
-		"mediawiki/semantic-media-wiki": "*",
-		"mediawiki/semantic-forms": "*",
+		"mediawiki/vector-skin": "*",
+		"mediawiki/semantic-media-wiki": "~2.0",
+		"mediawiki/semantic-forms": "~2.7",
 		"mediawiki/invite-signup": "*",
 		"mediawiki/universal-language-selector": "*",
 		"mediawiki/translate": "*",

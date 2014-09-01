@@ -11,15 +11,12 @@ $resourcePaths = array(
 	'remoteExtPath' => 'Sanat'
 );
 
-$wgResourceModules['ext.sanat'] = array(
+$wgResourceModules['ext.sanat.styles'] = array(
 	'styles' => 'resources/ext.sanat.less',
 ) + $resourcePaths;
 
-$wgResourceModules['ext.sanat.search'] = array(
-	'styles' => 'resources/ext.sanat.search.less',
-	'scripts' => 'resources/ext.sanat.search.js',
-	'dependencies' => array(
-		'mediawiki.searchSuggest',
-		'mediawiki.Title',
-	),
+$wgResourceModules['ext.sanat'] = array(
+	'scripts' => 'resources/ext.sanat.js',
+	'dependencies' => 'mediawiki.util',
+	'messages' => 'sanat-inlinetools-delete-example',
 ) + $resourcePaths;

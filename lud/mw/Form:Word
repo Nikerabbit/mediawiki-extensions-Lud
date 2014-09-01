@@ -21,22 +21,12 @@ __NOEDITSECTION__
 =={{INT:sanat-entry-translations}}==
 {{{section|{{INT:sanat-entry-translations}}|level=2|hidden}}}
 {{{for template|Translation|multiple}}}
-{{{field|1|mandatory|property=Language|input type=dropdown}}}
-{{{field|2|property=Language description|placeholder={{INT:sanat-entryform-langdesc}} }}}
+{{{field|language|mandatory|property=Language|input type=dropdown}}}
+{{{field|langdesc|property=Language description|placeholder={{INT:sanat-entryform-langdesc}} }}}
 {{{field|text}}}
 {{{end template}}}
 
-=={{INT:sanat-entry-examples}}==
 {{{section|{{INT:sanat-entry-examples}}|level=2|hidden}}}
-{{{for template|Example|multiple}}}
-{{{field|literature|property=Literature|input type=checkbox}}} {{INT:sanat-entryform-lit}}
-{{{field|entries|holds template}}}
-{{{end template}}}
-{{{for template|Example-entry|multiple|embed in field=Example[entries]}}}
-{{{field|1|mandatory|property=Language|input type=dropdown}}}
-{{{field|2|property=Language description|placeholder={{INT:sanat-entryform-langdesc}} }}}
-{{{field|text}}}
-{{{end template}}}
 
 =={{INT:sanat-entry-seealso}}==
 {{{section|{{INT:sanat-entry-seealso}}|level=2|autogrow}}}

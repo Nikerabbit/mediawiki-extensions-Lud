@@ -24,8 +24,8 @@ class mediawiki {
   vcsrepo { "/www/mediawiki":
     ensure   => present,
     provider => git,
-    source   => 'https://github.com/wikimedia/mediawiki-core.git',
-    revision => 'REL1_23',
+    source   => 'https://github.com/Nikerabbit/mediawiki-core.git',
+    revision => 'lyydi',
     require  => File["/www/$vhost"],
   }
 
@@ -39,11 +39,14 @@ class mediawiki {
     ensure  => directory,
     purge   => true,
     recurse => true,
+    force   => true,
     source  => 'puppet:///modules/mediawiki/Sanat',
     require => Vcsrepo['/www/mediawiki'],
   }
 
   include composer
+  composer::selfupdate { 'selfupdate_composer': }
+
   composer::exec { 'extension-install':
     cmd     => 'update',
     cwd     => '/www/mediawiki',
@@ -97,7 +100,7 @@ class mediawiki {
   }
 
   exec { 'mediawiki-l10n-update':
-    command => "/usr/bin/php /www/mediawiki/maintenance/rebuildLocalisationCache.php --quiet --threads 8",
+    command => "/usr/bin/php /www/mediawiki/maintenance/rebuildLocalisationCache.php --quiet --threads 3",
     cwd     => '/www/mediawiki',
     require => Exec['mediawiki-update'],
   }

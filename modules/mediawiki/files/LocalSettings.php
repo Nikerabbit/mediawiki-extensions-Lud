@@ -70,15 +70,19 @@ $wgGroupPermissions['sysop']['invitesignup'] = true;
 $wgGroupPermissions['*']['edit'] = false;
 $wgGroupPermissions['*']['createaccount'] = false;
 $wgGroupPermissions['sysop']['deletebatch'] = true;
+$wgGroupPermissions['*']['viewedittab'] = false;
+$wgGroupPermissions['sysop']['viewedittab'] = true;
 
 $wgUseRCPatrol = false;
 $wgUseNPPatrol = false;
 
 $smwgQMaxInlineLimit = $wgCategoryPagingLimit = 250;
 
-include_once "$IP/extensions/ParserFunctions/ParserFunctions.php";
-include_once "$IP/extensions/DeleteBatch/DeleteBatch.php";
-include_once "$IP/extensions/Sanat/Sanat.php";
+$wgISGroups = array( 'sysop' );
+
+require "$IP/extensions/ParserFunctions/ParserFunctions.php";
+require "$IP/extensions/DeleteBatch/DeleteBatch.php";
+require "$IP/extensions/Sanat/Sanat.php";
 
 function lfAddNamespace( $id, $name ) {
 	global $wgExtraNamespaces, $wgContentNamespaces, $wgNamespacesToBeSearchedDefault,

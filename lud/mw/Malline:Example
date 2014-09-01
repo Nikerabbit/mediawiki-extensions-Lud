@@ -1,4 +1,0 @@
-<div class="mw-sanat-example-block">
-{{#ifeq:{{{literature}}}|Y|''{{INT:sanat-entry-lit}}''<br>}}
-{{{entries}}}
-</div>

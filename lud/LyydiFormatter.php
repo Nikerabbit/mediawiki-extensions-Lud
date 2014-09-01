@@ -5,6 +5,26 @@
  * @license MIT
  */
 class LyydiFormatter {
+	public function getEntries( $list ) {
+		$list = $this->findHomonyms( $list );
+		foreach ( $list as $entry ) {
+			if ( $entry['type'] !== 'entry' ) {
+				continue;
+			}
+
+			foreach ( $entry['examples'] as $index => $example ) {
+				$list[] = array(
+					'id' => "{$entry['id']}/$index",
+					'type' => 'entry-example',
+					'example' => $example,
+				);
+				unset( $entry['examples'] );
+			}
+		}
+
+		return $list;
+	}
+
 	public function findHomonyms( $list ) {
 		$out = array();
 		foreach ( $list as $entry ) {
@@ -66,8 +86,24 @@ class LyydiFormatter {
 		}
 
 		if ( $entry['type'] === 'redirect' ) {
-			// FIXME
 			return "#REDIRECT [[Lud:{$entry['target']}]]";
+		}
+
+		if ( $entry['type'] === 'entry-example' ) {
+			$out = "{{Example\n";
+			foreach ( $entry['example'] as $lang => $text ) {
+				if ( $lang === 'literature' ) {
+					$text = $text ? 'Y' : 'N';
+					$out .= "|literature=$text\n|entries=";
+					continue;
+				}
+
+				$out .= "{{Example-entry|language=$lang\n|text=$text\n}}";
+
+			}
+			$out .= "\n}}\n";
+
+			return $out;
 		}
 
 		$pos = $entry['properties']['pos'];
@@ -81,7 +117,7 @@ class LyydiFormatter {
 		}
 		$out .= "|variants=";
 		foreach ( $entry['cases'] as $lang => $value ) {
-			$out .= "{{Variant|$lang\n|text=$value\n}}\n";
+			$out .= "{{Variant|language=$lang\n|text=$value\n}}\n";
 		}
 		$out .= "}}\n";
 
@@ -89,31 +125,17 @@ class LyydiFormatter {
 		$out .= "=={{INT:sanat-entry-translations}}==\n";
 		foreach ( $entry['translations'] as $lang => $values ) {
 			foreach ( (array)$values as $value ) {
-				$out .= "{{Translation|$lang\n|text=$value\n}}\n";
+				$out .= "{{Translation|language=$lang\n|text=$value\n}}\n";
 			}
 		}
 
 		$out .= "=={{INT:sanat-entry-examples}}==\n";
-		foreach ( $entry['examples'] as $example ) {
-			$out .= "{{Example\n";
-			foreach ( $example as $lang => $text ) {
-				if ( $lang === 'literature' ) {
-					$text = $text ? 'Y' : 'N';
-					$out .= "|literature=$text\n|entries=\n";
-					continue;
-				}
-
-				$out .= "{{Example-entry|$lang\n|text=$text\n}}\n";
-
-			}
-			$out .= "}}\n";
-		}
+		$out .= "{{Include examples}}\n\n";
 
 		$out .= "=={{INT:sanat-entry-seealso}}==\n";
 		foreach ( $entry['links'] as $target ) {
 			$target = (array)$target;
 			foreach ( $target as &$page ) {
-				// FIXME
 				$page = "[[Lud:$page]]";
 			}
 

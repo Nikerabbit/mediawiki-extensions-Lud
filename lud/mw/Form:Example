@@ -1,0 +1,16 @@
+<includeonly>
+{{{info|page name=<Example[parent]>/<unique number;start=1>}}}
+{{{for template|Example}}}
+{{{field|literature|property=Literature|input type=checkbox}}} {{INT:sanat-entryform-lit}}
+{{{field|entries|holds template}}}
+{{{field|parent|hidden}}}
+{{{end template}}}
+{{{for template|Example-entry|multiple|embed in field=Example[entries]}}}
+{{{field|language|mandatory|property=Language|input type=dropdown}}}
+{{{field|langdesc|property=Language description|size=15|placeholder={{INT:sanat-entryform-langdesc}} }}}
+{{{field|text|input type=textarea|rows=1|cols=50|autogrow}}}
+{{{end template}}}
+
+{{{standard input|summary}}}
+{{{standard input|save}}}
+</includeonly>
