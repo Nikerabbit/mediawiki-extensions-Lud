@@ -13,14 +13,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $GLOBALS['wgExtensionCredits']['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'Lud',
-	'version' => '2014-06-04',
+	'version' => '2016-12-17',
 	'author' => 'Niklas Laxström',
 );
 
 $dir = __DIR__;
 require_once "$dir/Resources.php";
 
-$GLOBALS['wgMessagesDirs']['Sanat'] = "$dir/i18n";
+$GLOBALS['wgMessagesDirs']['Lud'] = "$dir/i18n";
 
 $GLOBALS['wgHooks']['BeforePageDisplay'][] = function ( OutputPage $out ) {
 	$out->addModuleStyles( 'ext.sanat.styles' );
