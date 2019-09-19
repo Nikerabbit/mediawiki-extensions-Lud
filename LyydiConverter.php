@@ -6,27 +6,54 @@
  */
 class LyydiConverter {
 	protected $pos = array(
-		's. yhd.',
-		's. dem.',
-		's. mon.',
-		's.',
-		'v.',
 		'a.',
+		'a. yhd.',
 		'adv.',
-		'num.',
-		'pron. yks.',
-		'pron. mon.',
-		'pron.',
+		'arv.',
+		'dem.',
+		'frekv.',
+		'harv.',
+		'hum.',
+		'imperat.',
+		'indef.',
 		'interj.',
-		'part.',
-		'prep. tai postp.',
+		'iron.',
+		'itkuv.',
+		'kansanr.',
+		'kar.',
+		'kieltov.',
+		'kirj.',
+		'komp.',
 		'konj.',
+		'konj. (part.)',
+		'ks.',
+		'kuv.',
+		'laul.',
+		'liitepart.',
+		'loits.',
+		'mom.',
+		'mon.',
+		'num.',
+		'part.',
+		'pers.',
+		'pn.',
 		'postp.',
 		'prep.',
-		'liitepart.',
-		'kieltov. imperat.',
-		'kieltov.',
-		'?.',
+		'prep. tai post.',
+		'pron.',
+		'refl.',
+		's.',
+		'sl.',
+		'sp.',
+		'sup.',
+		'taipum.',
+		'uskom.',
+		'uud.',
+		'v.',
+		'yhd.',
+		'yks.',
+		'yksipers.',
+		' ',
 	);
 
 	public function parse( $content ) {
@@ -42,7 +69,7 @@ class LyydiConverter {
 			unset( $lines[$i] );
 		}
 
-		$out = array();
+		$out = [];
 		foreach ( $lines as $i => $line ) {
 			if ( $this->isHeader( $line ) ) {
 				continue;
@@ -51,7 +78,7 @@ class LyydiConverter {
 			try {
 				$out[] = $this->parseLine( $line );
 			} catch ( Exception $e ) {
-				echo $e->getMessage() . "\n";
+				echo $e->getMessage() . "\nRivi: $line\n\n";
 			}
 		}
 
@@ -69,7 +96,7 @@ class LyydiConverter {
 		}
 
 		// References to other words
-		$links = array();
+		$links = [];
 		if ( preg_match( "~[.:] Vrt\. (.+)$~u", $line, $match ) ) {
 			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
 			$line = substr( $line, 0, -strlen( $match[0] ) );
@@ -77,19 +104,23 @@ class LyydiConverter {
 
 		// Normal entries
 		$wcs = implode( '|', array_map( 'preg_quote', $this->pos ) );
-		$regexp = "/^(.+) ($wcs) (.+) [—–] ([^:]+)(: .+)?$/uU";
+		$regexp = "/^([^. ]+)\s+(($wcs)+)\s+([^.]+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
+
+		if ( !preg_match( '/[—–]/', $line ) ) {
+			throw new Exception( 'Riviltä puuttuu "—"' );
+		}
 
 		if ( preg_match( $regexp, $line, $match ) ) {
-			list( $all, $word, $wc, $inf, $trans ) = $match;
+			list( $all, $word, $wc, $unused, $inf, $trans ) = $match;
 
-			$props = array();
+			$props = [];
 			$props['pos'] = $wc;
 
 			$translations = $this->splitTranslations( $trans );
 
-			$examples = array();
-			if ( isset( $match[5] ) ) {
-				$examples = substr( $match[5], 2 );
+			$examples = [];
+			if ( isset( $match[6] ) ) {
+				$examples = substr( $match[6], 2 );
 				$examples = $this->splitExamples( $examples );
 			}
 
@@ -106,7 +137,7 @@ class LyydiConverter {
 			);
 		}
 
-		throw new Exception( "Unable to parse line: $line" );
+		throw new Exception( 'Rivin jäsentäminen epäonnistui' );
 	}
 
 	public function isHeader( $line ) {
@@ -114,13 +145,13 @@ class LyydiConverter {
 	}
 
 	public function splitTranslations( $string ) {
-		if ( strpos( $string, '/' ) === false ) {
-			throw new Exception( "Unable to find / to split translations: $string" );
+		if ( strpos( $string, ' / ' ) === false ) {
+			throw new Exception( "Käännöksissä häikkää: *$string*" );
 		}
 
 		$languages = array_filter( array_map( 'trim', explode( ' / ', $string ) ) );
 		if ( count( $languages ) !== 2 ) {
-			throw new Exception( "Expecting only two languages: $string" );
+			throw new Exception( "Käännöksissä häikkää: *$string*" );
 		}
 
 		return array(
@@ -131,7 +162,7 @@ class LyydiConverter {
 
 	public function splitExamples( $string ) {
 		$string = trim( $string );
-		$ret = array();
+		$ret = [];
 		$re = '~^([^/]+) [‘’]([^/]+)’ / [‘’]([^/]+)’(?:\. )??~uU';
 		while ( preg_match( $re, $string, $match ) ) {
 			$literature = false;
