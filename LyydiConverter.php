@@ -124,17 +124,17 @@ class LyydiConverter {
 				$examples = $this->splitExamples( $examples );
 			}
 
-			return array(
+			return [
 				'id' => $word,
 				'base' => $word,
 				'type' => 'entry',
 				'language' => 'lud',
-				'cases' => array( 'lud-x-south' => $inf ),
+				'cases' => [ 'lud-x-south' => $inf ],
 				'properties' => $props,
 				'examples' => $examples,
 				'translations' => $translations,
 				'links' => $links,
-			);
+			];
 		}
 
 		throw new Exception( 'Rivin jäsentäminen epäonnistui' );
@@ -154,10 +154,10 @@ class LyydiConverter {
 			throw new Exception( "Käännöksissä häikkää: *$string*" );
 		}
 
-		return array(
+		return [
 			'fi' => array_map( 'trim', preg_split( '/[,;] /', $languages[0] ) ),
 			'ru' => array_map( 'trim', preg_split( '/[,;] /', $languages[1] ) ),
-		);
+		];
 	}
 
 	public function splitExamples( $string ) {
@@ -165,18 +165,17 @@ class LyydiConverter {
 		$ret = [];
 		$re = '~^([^/]+) [‘’]([^/]+)’ / [‘’]([^/]+)’(?:\. )??~uU';
 		while ( preg_match( $re, $string, $match ) ) {
-			$literature = false;
+			$code = 'lud-x-south';
 			if ( preg_match( '~kirj\.$~', $match[1] ) ) {
-				$literature = true;
+				$code = 'lud';
 				$match[1] = preg_replace( '~kirj\.$~', '', $match[1] );
 			}
 
-			$ret[] = array(
-				'literature' => $literature,
-				'lud-x-south' => $match[1],
+			$ret[] = [
+				$code => $match[1],
 				'fi' => $match[2],
 				'ru' => $match[3],
-			);
+			];
 
 			$string = substr( $string, strlen( $match[0] ) );
 		}

@@ -5,7 +5,7 @@
  * @license MIT
  */
 class LyydiFormatter {
-	public function getEntries( $list ) {
+	public function getEntries( array $list ) : array {
 		$list = $this->findHomonyms( $list );
 		foreach ( $list as $entry ) {
 			if ( $entry['type'] !== 'entry' ) {
@@ -13,11 +13,11 @@ class LyydiFormatter {
 			}
 
 			foreach ( $entry['examples'] as $index => $example ) {
-				$list[] = array(
+				$list[] = [
 					'id' => "{$entry['id']}/$index",
 					'type' => 'entry-example',
 					'example' => $example,
-				);
+				];
 				unset( $entry['examples'] );
 			}
 		}
@@ -25,8 +25,10 @@ class LyydiFormatter {
 		return $list;
 	}
 
-	public function findHomonyms( $list ) {
-		$out = array();
+	public function findHomonyms( array $list ) : array {
+		$out = [];
+
+		// Pass 1: collect homonyms together
 		foreach ( $list as $entry ) {
 			$id = $entry['id'];
 			if ( !isset( $out[$id] ) ) {
@@ -34,52 +36,82 @@ class LyydiFormatter {
 				continue;
 			}
 
-			$da = $this->getDisambiguator( $entry );
-			$entry['id'] .= " ($da)";
-
 			// We already have place holder, append to it
-			if ( $entry['type'] === 'disambiguation' ) {
+			if ( $out[$id]['type'] === 'disambiguation' ) {
 				$out[$id]['pages'][] = $entry;
-			} else {
-				// Take copy of the entry we are going to replace
-				$temp = $out[$id];
-				// Update the name of the existing one so that it does not clash
-				$da = $this->getDisambiguator( $temp );
-				$temp['id'] .= " ($da)";
+				continue;
+			}
 
-				$out[$id] = array(
-					'id' => $id,
-					'type' => 'disambiguation',
-					'pages' => array( $temp, $entry ),
-				);
 
-				// Also must keep them as their own entries in the list
-				$out[$entry['id']] = $entry;
-				$out[$temp['id']] = $temp;
+			// Take copy of the entry we are going to replace
+			$temp = $out[$id];
+			$out[$id] = [
+				'id' => $id,
+				'type' => 'disambiguation',
+				'pages' => [ $temp, $entry ],
+			];
+		}
+
+		// Pass 2: make honomyns have unique page names
+		foreach ( $out as $i => $entry ) {
+			if ( $entry['type'] !== 'disambiguation' ) {
+				continue;
+			}
+
+			$pages = $this->disambiguate( $entry['pages'] );
+			$out[$i]['pages'] = $pages;
+
+			// Add homonyms as separate pages too
+			foreach ( $pages as $x ) {
+				$out[$x['id']] = $x;
 			}
 		}
 
 		return array_values( $out );
 	}
 
-	public function getDisambiguator( $entry ) {
-		if ( isset( $entry['properties']['pos'] ) ) {
-			return $entry['properties']['pos'];
+	private function disambiguate( array $entries ) : array {
+		// Pass 1: add (pos) disambig if one exists
+		foreach ( $entries as $i => $x ) {
+			if ( isset( $x['properties']['pos'] ) ) {
+				$entries[$i]['id'] = "{$x['id']} ({$x['properties']['pos']})";
+			}
 		}
 
-		return $entry['type'];
+		// Pass 2: add "roman" numerals as last resort
+
+		// Pass 2a: build id => entries map
+		$map = [];
+		foreach ( $entries as $i => $x ) {
+			$map[$x['id']] = $map[$x['id']] ?? [];
+			$map[$x['id']] = $i;
+		}
+
+		// Pass 2b: if id has multiple entries, disambiguate them
+		foreach ( $map as $z ) {
+			if ( count( $z ) <= 1 ) {
+				// Already unique nothing to do
+				continue;
+			}
+
+			foreach ( $z as $index => $i ) {
+				// Assume there is never more than three :E
+				$entries[$i]['id'] .=  ' ' . str_repeat( 'I', $index + 1 );
+			}
+		}
+
+		return $entries;
 	}
 
-
-	public function getTitle( $entry ) {
-		return Title::newFromText( 'Lud:' . $entry['id'] );
+	public function getTitle( string $page ) : Title {
+		return Title::newFromText( 'Lud:' . $page );
 	}
 
-	public function formatEntry( $entry ) {
+	public function formatEntry( array $entry ) : string {
 		if ( $entry['type'] === 'disambiguation' ) {
 			$out = "{{INT:sanat-da}}\n";
 			foreach ( $entry['pages'] as $subentry ) {
-				$target = $this->getTitle( $subentry )->getPrefixedText();
+				$target = $this->getTitle( $subentry[ 'id' ] )->getPrefixedText();
 				$out .= "* [[$target]]\n";
 			}
 			return $out;
@@ -90,14 +122,8 @@ class LyydiFormatter {
 		}
 
 		if ( $entry['type'] === 'entry-example' ) {
-			$out = "{{Example\n";
+			$out = "{{Example\n|entries=";
 			foreach ( $entry['example'] as $lang => $text ) {
-				if ( $lang === 'literature' ) {
-					$text = $text ? 'Y' : 'N';
-					$out .= "|literature=$text\n|entries=";
-					continue;
-				}
-
 				$out .= "{{Example-entry|language=$lang\n|text=$text\n}}";
 
 			}
@@ -106,7 +132,6 @@ class LyydiFormatter {
 			return $out;
 		}
 
-		$pos = $entry['properties']['pos'];
 		$props = $entry['properties'];
 
 		$out = "{{Word\n";

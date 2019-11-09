@@ -1,0 +1,7 @@
+rm -rf output-2019/*
+php LudImport.php --wiki=sanat.nikerabb.it --textfile=LyE_verz24.9.2019.txt --tabfile=Nettisanat_lyE_19.9.csv --kirjalyydi=LyKK_verz17.10.2019.txt output-2019
+php ListPages.php output-2019 --wiki=sanat.nikerabb.it > todelete.txt
+cd ../..
+php extensions/Sanat/SanatImport.php extensions/Lud/output-2019 --wiki=sanat.nikerabb.it
+php maintenance/deleteBatch.php extensions/Lud/todelete.txt  --wiki=sanat.nikerabb.it
+

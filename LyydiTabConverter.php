@@ -60,7 +60,6 @@ class LyydiTabConverter {
 			if ( !$x[ $i ] ) continue;
 
 			$examples[] = [
-				'literature' => false,
 				'lud-x-south' => $x[ $i ],
 				'ru' => $x[ $i + 1 ],
 				'fi' => $x[ $i + 2 ],

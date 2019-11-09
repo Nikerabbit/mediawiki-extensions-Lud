@@ -14,6 +14,7 @@ require_once "$IP/maintenance/Maintenance.php";
 require_once __DIR__ . '/LyydiConverter.php';
 require_once __DIR__ . '/LyydiTabConverter.php';
 require_once __DIR__ . '/LyydiFormatter.php';
+require_once __DIR__ . '/KirjaLyydiConverter.php';
 
 class LudImport extends Maintenance {
 	public function __construct() {
@@ -21,6 +22,7 @@ class LudImport extends Maintenance {
 		$this->mDescription = 'Imports Lyydi word articles';
 		$this->addOption( 'textfile', 'Text file to import' );
 		$this->addOption( 'tabfile', 'Tabular file to import' );
+		$this->addOption( 'kirjalyydi', 'Text file' );
 		$this->addArg( 'out', 'Dir to place wiki pages' );
 	}
 
@@ -39,13 +41,25 @@ class LudImport extends Maintenance {
 
 		$out = $this->merge( array_merge( $textout, $tabout ) );
 
+
+		$kirjafile = $this->getOption( 'kirjalyydi' );
+		$kirjain = file_get_contents( $kirjafile );
+		$kirjac = new KirjaLyydiConverter();
+		$kirjaout = $kirjac->parse( $kirjain );
+
+		$out = $this->mergeKirjaLyydi( $out, $kirjaout );
+
 		$f = new LyydiFormatter();
 		$out = $f->getEntries( $out );
 
 		foreach ( $out as $struct ) {
-			$title = $f->getTitle( $struct );
-			if ( !$title ) {
-				$this->error( "Invalid title: {$struct['id']}" );
+			try {
+				$title = $f->getTitle( $struct['id'] );
+			} catch ( TypeError $e ) {
+				echo "Unable to make title for:\n";
+				echo json_encode( $struct, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) ."\n";
+				echo $e;
+				continue;
 			}
 
 			$text = $f->formatEntry( $struct );
@@ -55,7 +69,7 @@ class LudImport extends Maintenance {
 		}
 	}
 
-	protected function merge( $entries ) {
+	protected function merge( array $entries ) : array {
 		$dedup = [];
 		foreach ( $entries as $b ) {
 			if ( $b[ 'type' ] !== 'entry' ) {
@@ -124,7 +138,57 @@ class LudImport extends Maintenance {
 			'properties' => $a[ 'properties' ],
 			'examples' => array_merge( $a[ 'examples' ], $b[ 'examples' ] ),
 			'translations' => array_merge_recursive( $a[ 'translations' ], $b[ 'translations' ] ),
-			'links' => array_merge( $a[ 'links' ], $b[ 'links' ] ),
+			'links' => array_unique( array_merge( $a[ 'links' ], $b[ 'links' ] ) ),
+		];
+
+		foreach ( $new[ 'translations' ] as $lang => $v ) {
+			$new[ 'translations'][ $lang ] = array_unique( $v );
+		}
+
+		return $new;
+	}
+
+	private function mergeKirjaLyydi( array $south, array $kirja ) : array {
+		$new = [];
+
+		foreach ( $kirja as $entry ) {
+			$id = $entry['id'];
+
+			$cands = [];
+			foreach ( $south as $i => $a ) {
+				if ( $a['id'] === $id ) {
+					$cands[] = $i;
+				}
+			}
+
+			$c = count( $cands );
+			if ( $c !== 1 ) {
+				if ( $c > 1 ) {
+					echo "Kirjalyydin hakusanalla '$id' löytyi useita etelälyydin sanoja. Lisätään erikseen\n";
+				}
+				$entry['id'] = "{$entry['id']} (KK)";
+				#echo "Adding $id as new KK entry\n";
+				$new[] = $entry;
+			} else {
+				#echo "Merging $id to south\n";
+				$south[$cands[0]] = $this->mergeKirjaLyydiItem( $south[$cands[0]], $entry );
+			}
+		}
+
+		return array_merge( $south, $new );
+	}
+
+	private function mergeKirjaLyydiItem( array $a, array $b ) : array {
+		$new = [
+			'id' => $a[ 'id' ],
+			'base' => $a[ 'base' ],
+			'type' => $a[ 'type' ],
+			'language' => $a[ 'language' ],
+			'cases' => array_merge( $a[ 'cases' ], $b[ 'cases'] ),
+			'properties' => $a[ 'properties' ],
+			'examples' => array_merge( $a[ 'examples' ], $b[ 'examples' ] ),
+			'translations' => array_merge_recursive( $a[ 'translations' ], $b[ 'translations' ] ),
+			'links' => array_unique( array_merge( $a[ 'links' ], $b[ 'links' ] ) ),
 		];
 
 		foreach ( $new[ 'translations' ] as $lang => $v ) {
