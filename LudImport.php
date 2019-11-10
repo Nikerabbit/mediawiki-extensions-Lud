@@ -166,7 +166,6 @@ class LudImport extends Maintenance {
 				if ( $c > 1 ) {
 					echo "Kirjalyydin hakusanalla '$id' löytyi useita etelälyydin sanoja. Lisätään erikseen\n";
 				}
-				$entry['id'] = "{$entry['id']} (KK)";
 				#echo "Adding $id as new KK entry\n";
 				$new[] = $entry;
 			} else {
@@ -179,12 +178,15 @@ class LudImport extends Maintenance {
 	}
 
 	private function mergeKirjaLyydiItem( array $a, array $b ) : array {
+		$cases = array_merge( $a[ 'cases' ], $b[ 'cases'] );
+		ksort( $cases );
+
 		$new = [
 			'id' => $a[ 'id' ],
 			'base' => $a[ 'base' ],
 			'type' => $a[ 'type' ],
 			'language' => $a[ 'language' ],
-			'cases' => array_merge( $a[ 'cases' ], $b[ 'cases'] ),
+			'cases' => $cases,
 			'properties' => $a[ 'properties' ],
 			'examples' => array_merge( $a[ 'examples' ], $b[ 'examples' ] ),
 			'translations' => array_merge_recursive( $a[ 'translations' ], $b[ 'translations' ] ),
@@ -193,6 +195,9 @@ class LudImport extends Maintenance {
 
 		foreach ( $new[ 'translations' ] as $lang => $v ) {
 			$new[ 'translations'][ $lang ] = array_unique( $v );
+			# ru, fi
+			krsort( $new[ 'translations'] );
+
 		}
 
 		return $new;

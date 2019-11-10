@@ -58,19 +58,20 @@ class LyydiFormatter {
 				continue;
 			}
 
-			$pages = $this->disambiguate( $entry['pages'] );
+			$pages = $this->disambiguate( $entry['pages'], $i );
 			$out[$i]['pages'] = $pages;
 
 			// Add homonyms as separate pages too
 			foreach ( $pages as $x ) {
 				$out[$x['id']] = $x;
 			}
+
 		}
 
 		return array_values( $out );
 	}
 
-	private function disambiguate( array $entries ) : array {
+	private function disambiguate( array $entries, string $disId ) : array {
 		// Pass 1: add (pos) disambig if one exists
 		foreach ( $entries as $i => $x ) {
 			if ( isset( $x['properties']['pos'] ) ) {
@@ -84,12 +85,12 @@ class LyydiFormatter {
 		$map = [];
 		foreach ( $entries as $i => $x ) {
 			$map[$x['id']] = $map[$x['id']] ?? [];
-			$map[$x['id']] = $i;
+			$map[$x['id']][] = $i;
 		}
 
 		// Pass 2b: if id has multiple entries, disambiguate them
-		foreach ( $map as $z ) {
-			if ( count( $z ) <= 1 ) {
+		foreach ( $map as $id => $z ) {
+			if ( count( $z ) <= 1 && $id !== $disId ) {
 				// Already unique nothing to do
 				continue;
 			}
