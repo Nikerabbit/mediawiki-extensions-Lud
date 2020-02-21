@@ -12,11 +12,16 @@ class LyydiFormatter {
 				continue;
 			}
 
-			foreach ( $entry['examples'] as $index => $example ) {
+			$examples = $this->sortExamples( $entry['examples'] );
+			foreach ( $examples as $index => $examples ) {
+				$literature = $examples['literature'] ?? false;
+				unset( $examples['literature'] );
+
 				$list[] = [
+					'literature' => $literature,
 					'id' => "{$entry['id']}/$index",
 					'type' => 'entry-example',
-					'example' => $example,
+					'example' => $examples,
 				];
 				unset( $entry['examples'] );
 			}
@@ -90,14 +95,22 @@ class LyydiFormatter {
 
 		// Pass 2b: if id has multiple entries, disambiguate them
 		foreach ( $map as $id => $z ) {
-			if ( count( $z ) <= 1 && $id !== $disId ) {
+			$c = count( $z );
+
+			if ( $c <= 1 && $id !== $disId ) {
 				// Already unique nothing to do
 				continue;
 			}
 
+			if ( $c === 1 ) {
+				$entries[$z[0]]['id'] .= ' (KK)';
+				continue;
+			}
+
+			echo "Sanalle $id löytyi $c eri yhdistämätöntä artikkelia. Ohitetaan.\n";
+
 			foreach ( $z as $index => $i ) {
-				// Assume there is never more than three :E
-				$entries[$i]['id'] .=  ' ' . str_repeat( 'I', $index + 1 );
+				unset( $entries[$id] );
 			}
 		}
 
@@ -123,7 +136,8 @@ class LyydiFormatter {
 		}
 
 		if ( $entry['type'] === 'entry-example' ) {
-			$out = "{{Example\n|entries=";
+			$lit = $entry['literature'] ? "|literature=Y\n" : '';
+			$out = "{{Example\n$lit|entries=";
 			foreach ( $entry['example'] as $lang => $text ) {
 				$out .= "{{Example-entry|language=$lang\n|text=$text\n}}";
 
@@ -149,7 +163,8 @@ class LyydiFormatter {
 
 
 		$out .= "=={{INT:sanat-entry-translations}}==\n";
-		foreach ( $entry['translations'] as $lang => $values ) {
+		$translations = $this->sortTranslations( $entry['translations'] );
+		foreach ( $translations as $lang => $values ) {
 			foreach ( (array)$values as $value ) {
 				$out .= "{{Translation|language=$lang\n|text=$value\n}}\n";
 			}
@@ -170,5 +185,48 @@ class LyydiFormatter {
 		}
 
 		return $out;
+	}
+
+	private function sortTranslations( array $ts ): array {
+		// literature is a hack for now, pass it through
+		$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi', 'literature' ];
+		$sorted = [];
+		foreach ( $order as $o ) {
+			if ( isset( $ts[$o] ) ) {
+				$sorted[$o] = $ts[$o];
+				unset( $ts[$o] );
+			}
+		}
+
+		if ( count( $ts ) ) {
+			echo "Unknown language codes:\n";
+			var_dump( $ts );
+		}
+
+		return $sorted;
+	}
+
+	private function sortExamples( array $es ): array {
+		uasort( $es, function ( $a, $b ) {
+			// kirjalyydi, etelälyydi, keskilyydi, pohjoislyydi, venäjä, suomi
+			$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi' ];
+			foreach ( $order as $o ) {
+				$aa = isset( $a['example'][$o] ) ? 1 : -1;
+				$bb = isset( $b['example'][$o] ) ? 1 : -1;
+				$cmp = ( $aa ) <=> ( $bb );
+				if ( $cmp !== 0 ) {
+					return -$cmp;
+				}
+			}
+		} );
+
+		foreach ( $es as $i => $e ) {
+			if ( !is_array( $e ) ) {
+				var_dump( $es );
+			}
+			$es[$i] = $this->sortTranslations( $e );
+		}
+
+		return $es;
 	}
 }

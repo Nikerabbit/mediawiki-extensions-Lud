@@ -104,7 +104,7 @@ class LyydiConverter {
 
 		// Normal entries
 		$wcs = implode( '|', array_map( 'preg_quote', $this->pos ) );
-		$regexp = "/^([^. ]+)\s+(($wcs)+)\s+([^.]+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
+		$regexp = "/^([^. ]+(?: [I]+)?)\s+(($wcs)+)\s+([^.]+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
 			throw new Exception( 'Riviltä puuttuu "—"' );
@@ -165,16 +165,18 @@ class LyydiConverter {
 		$ret = [];
 		$re = '~^([^/]+) [‘’]([^/]+)’ / [‘’]([^/]+)’(?:\. )??~uU';
 		while ( preg_match( $re, $string, $match ) ) {
+			$literature = false;
 			$code = 'lud-x-south';
 			if ( preg_match( '~kirj\.$~', $match[1] ) ) {
-				$code = 'lud';
+				$literature = true;
 				$match[1] = preg_replace( '~kirj\.$~', '', $match[1] );
 			}
 
 			$ret[] = [
 				$code => $match[1],
-				'fi' => $match[2],
 				'ru' => $match[3],
+				'fi' => $match[2],
+				'literature' => $literature,
 			];
 
 			$string = substr( $string, strlen( $match[0] ) );

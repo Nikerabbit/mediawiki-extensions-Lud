@@ -1,9 +1,10 @@
 WIKI=sanat.csc.fi
 WIKI=sanat.nikerabb.it
-rm -rf output-2019/
-mkdir output-2019
-php LudImport.php --wiki=$WIKI --textfile=LyE_verz24.9.2019.txt --tabfile=Nettisanat_lyE_19.9.csv --kirjalyydi=LyKK_verz10.11.2019.txt output-2019
-php ListPages.php output-2019 --wiki=$WIKI > todelete.txt
+OUTPUT=output-2020-02-21
+rm -rf "$OUTPUT"
+mkdir "$OUTPUT"
+php LudImport.php --wiki=$WIKI --textfile=LyE_verz16.1.2020.txt --tabfile=Nettisanat_lyE_19.9.csv --kirjalyydi=LyKK_verz10.11.2019.txt "$OUTPUT"
+php ListPages.php "$OUTPUT" --wiki=$WIKI > todelete.txt
 cd ../..
-php extensions/Sanat/SanatImport.php extensions/Lud/output-2019 --wiki=$WIKI
+php extensions/Sanat/SanatImport.php extensions/Lud/"$OUTPUT" --wiki=$WIKI
 php maintenance/deleteBatch.php extensions/Lud/todelete.txt  --wiki=$WIKI

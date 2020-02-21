@@ -1,1 +1,1 @@
-*<span id="{{{text}}}"></span> {{langname|{{{language}}}|{{{langdesc|}}}}} {{L|language={{{language}}}|text={{{text}}}}} {{#subobject:{{{text}}}|Language={{{language}}}|Value={{{text}}}|parent={{FULLPAGENAME}}}}
+*<span id="{{{text}}}"></span> {{langname|{{{language}}}|{{{langdesc|}}}}} {{L|language={{{language}}}|text={{{text}}}}} {{#subobject:{{{text}}}|Language={{{language}}}|Value={{{text}}}|parent={{FULLPAGENAME}}|sortkey={{lc:{{{text}}}}}}}

@@ -1,7 +1,10 @@
 {{#set:parent={{#titleparts:{{FULLPAGENAME}}|-1}}}}
 {{#set:wikitext=
 <div class="mw-sanat-example-block">
-{{#ifeq:{{{literature}}}|Y|''{{INT:sanat-entry-lit}}''<br>}}
+{{#switch: {{{literature|}}}
+| Y
+| Kyllä = ''{{INT:sanat-entry-lit}}''<br>
+}}
 {{{entries}}}
 </div>
 }}<includeonly>

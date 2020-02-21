@@ -1,4 +1,6 @@
+* [[:Category:Lud|lüüdi (kirjalyydi)]]
 * [[Lud/fi|{{INT:sanat-lc-fi}} -> {{INT:sanat-lc-lud}}]]
 * [[Lud/ru|{{INT:sanat-lc-ru}} -> {{INT:sanat-lc-lud}}]]
 
-Lista kaikista sana-artikkeleista löytyy luokasta [[:Category:Lud|Lud]].
+== Sanojen lisäys ja muokkaus ==
+{{#forminput:form=Word|button text=Muokkaa|autocomplete on category=Lud|query string=namespace=Lud}}
