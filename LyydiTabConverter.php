@@ -2,20 +2,34 @@
 
 /**
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  */
 class LyydiTabConverter {
 	public function parse( $filepath ) {
-		$in = array_map( function ( $line ) {
-			return str_getcsv( $line, "|" );
-		}, file( $filepath ) );
+		$in = [];
+
+		// There are some accidental newlines in the data.
+		// We can detect them by checking if There is " following
+		// | or at the start of the line. In this case we join the
+		// next line to the current line.
+		$full = '';
+		foreach ( file( $filepath ) as $line ) {
+			$full .= $line;
+
+			if ( preg_match( '/(^|\|)"[^|]+$/', $full ) ) {
+				continue;
+			}
+
+			// Normalize newlines to space after comma, or none otherwise
+			$full = preg_replace( '/,\n/', ' ', $full );
+			$full = preg_replace( '/\n/', '', $full );
+			$in[] = str_getcsv( $full, '|' );
+			$full = '';
+		}
 
 		$out = [];
 		$prev = [];
 		foreach ( $in as $line ) {
-			if ( $line[ 1 ] === 'Hakusana' ) {
-				continue;
-			}
 
 			if ( $line[ 0 ] === '' && $line[ 1 ] === $prev[ 1 ] ) {
 				// fill in missing values ('') from the previous lines.
@@ -32,7 +46,7 @@ class LyydiTabConverter {
 				$out[] = $this->parseLine( $line );
 				$prev = $line;
 			} catch ( Exception $e ) {
-				$fmt =  json_encode( $line, JSON_UNESCAPED_UNICODE );
+				$fmt = json_encode( $line, JSON_UNESCAPED_UNICODE );
 				echo $e->getMessage() . "\nRivi: $fmt\n\n";
 			}
 		}
@@ -57,7 +71,8 @@ class LyydiTabConverter {
 
 		$examples = [];
 		foreach ( [ 5, 8 ] as $i ) {
-			if ( !$x[ $i ] ) continue;
+			if ( !$x[ $i ] ) { continue;
+			}
 
 			$examples[] = [
 				'lud-x-south' => $x[ $i ],

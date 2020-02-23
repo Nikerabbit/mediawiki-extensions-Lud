@@ -4,10 +4,15 @@
 	"sanat-entry-lit": "This example is from literature.",
 	"sanat-entry-seealso": "See also",
 	"sanat-entry-translations": "Translations",
+	"sanat-entry-forms": "Forms",
 	"sanat-entryform-baseform": "Base form:",
 	"sanat-entryform-lit": "This example is from literature",
 	"sanat-entryform-pos": "Part of speech:",
 	"sanat-entryform-langdesc": "Dialect description",
+	"sanat-entryform-formsdesc": "Inflections",
+	"sanat-entryform-addform": "Add form",
+	"sanat-entryform-addtranslation": "Add translation",
+	"sanat-entryform-addexample": "Add example",
 	"sanat-lc-en": "English",
 	"sanat-lc-fi": "Finnish",
 	"sanat-lc-lud": "Literature Ludic",
@@ -15,9 +20,5 @@
 	"sanat-lc-lud-x-north": "Northern Ludic",
 	"sanat-lc-lud-x-south": "Southern Ludic",
 	"sanat-lc-ru": "Russian",
-	"sanat-lc-und": "Unknown language",
-	"sanat-examplepage": "Go to the [[$1|term page]] to see this example.",
-	"sanat-inlinetools-add-example": "Add example",
-	"sanat-inlinetools-delete-example": "Delete example",
-	"sanat-inlinetools-edit-example": "Edit example"
+	"sanat-lc-und": "Unknown language"
 }

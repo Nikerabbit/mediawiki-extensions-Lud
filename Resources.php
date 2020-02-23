@@ -1,22 +1,22 @@
 <?php
 /**
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  */
 
 global $wgResourceModules;
 
-$resourcePaths = array(
+$resourcePaths = [
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'Sanat'
-);
+];
 
-$wgResourceModules['ext.sanat.styles'] = array(
+$wgResourceModules['ext.sanat.styles'] = [
 	'styles' => 'resources/ext.sanat.less',
-) + $resourcePaths;
+] + $resourcePaths;
 
-$wgResourceModules['ext.sanat'] = array(
+$wgResourceModules['ext.sanat'] = [
 	'scripts' => 'resources/ext.sanat.js',
 	'dependencies' => 'mediawiki.util',
 	'messages' => 'sanat-inlinetools-delete-example',
-) + $resourcePaths;
+] + $resourcePaths;

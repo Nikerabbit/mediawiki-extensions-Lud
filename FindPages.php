@@ -1,7 +1,7 @@
 <?php
 /**
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  * @file
  */
 
@@ -9,7 +9,6 @@ $IP = getenv( 'MW_INSTALL_PATH' ) ?: '.';
 require_once "$IP/maintenance/Maintenance.php";
 require_once __DIR__ . '/LyydiConverter.php';
 require_once __DIR__ . '/LyydiFormatter.php';
-
 
 class FindPages extends Maintenance {
 	public function __construct() {
@@ -20,16 +19,16 @@ class FindPages extends Maintenance {
 public function execute() {
 		$target = $this->getArg( 0 );
 
-		$db = wfGetDB( DB_SLAVE );
+		$db = wfGetDB( DB_REPLICA );
 		$res = $db->select(
-			array( 'page' ),
+			[ 'page' ],
 			Revision::selectPageFields(),
-			array(
-				'page_namespace' => array(
+			[
+				'page_namespace' => [
 					NS_MAIN,
 					NS_LUD,
-				)
-			),
+				]
+			],
 			__METHOD__
 		);
 
@@ -39,7 +38,7 @@ public function execute() {
 				echo $title->getPrefixedText() . "\n";
 			}
 		}
-	}
+}
 }
 
 $maintClass = 'FindPages';

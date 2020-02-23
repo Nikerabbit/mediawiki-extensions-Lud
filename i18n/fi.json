@@ -4,10 +4,15 @@
 	"sanat-entry-lit": "Tämä esimerkki on kirjallisuudesta.",
 	"sanat-entry-seealso": "Katso myös",
 	"sanat-entry-translations": "Käännökset",
+	"sanat-entry-forms": "Muodot",
 	"sanat-entryform-baseform": "Perusmuoto:",
 	"sanat-entryform-lit": "Tämä esimerkki on kirjallisuudesta",
 	"sanat-entryform-pos": "Sanaluokka:",
 	"sanat-entryform-langdesc": "Murrekuvaus",
+	"sanat-entryform-formsdesc": "Taivutusmuodot",
+	"sanat-entryform-addform": "Lisää muoto",
+	"sanat-entryform-addtranslation": "Lisää käännös",
+	"sanat-entryform-addexample": "Lisää esimerkki",
 	"sanat-lc-en": "englanti",
 	"sanat-lc-fi": "suomi",
 	"sanat-lc-lud": "kirjalyydi",
@@ -15,9 +20,5 @@
 	"sanat-lc-lud-x-north": "pohjoislyydi",
 	"sanat-lc-lud-x-south": "etelälyydi",
 	"sanat-lc-ru": "venäjä",
-	"sanat-lc-und": "tuntematon kieli",
-	"sanat-examplepage": "Voit nähdä tämän esimerkin [[$1|käsitesivulla]].",
-	"sanat-inlinetools-add-example": "Lisää esimerkki",
-	"sanat-inlinetools-delete-example": "Poista esimerkki",
-	"sanat-inlinetools-edit-example": "Muokkaa esimerkkiä"
+	"sanat-lc-und": "tuntematon kieli"
 }

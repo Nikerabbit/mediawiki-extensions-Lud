@@ -2,7 +2,7 @@
 
 /**
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  */
 class KirjaLyydiConverter {
 	public function parse( string $content ) : array {
@@ -10,11 +10,13 @@ class KirjaLyydiConverter {
 		$lines = explode( PHP_EOL, $content );
 
 		// Remove empty lines
-		$lines = array_filter( $lines, function ( $x ) { return $x !== ''; } );
+		$lines = array_filter( $lines, function ( $x ) { return $x !== '';
+  } );
 
 		// Remove beginning
 		foreach ( $lines as $i => $line ) {
-			if ( $line === 'A' ) break;
+			if ( $line === 'A' ) { break;
+			}
 			unset( $lines[$i] );
 		}
 
@@ -23,6 +25,10 @@ class KirjaLyydiConverter {
 			if ( $this->isHeader( $line ) ) {
 				continue;
 			}
+
+			// Convert tabs to spaces, except remove before comma
+			$line = preg_replace( '/\t,/', '', $line );
+			$line = preg_replace( '/\t/', ' ', $line );
 
 			try {
 				$out[] = $this->parseLine( $line );
@@ -37,13 +43,13 @@ class KirjaLyydiConverter {
 	public function parseLine( $line ) {
 		// References to other words
 		$links = [];
-		if ( preg_match( "~, ср\. (.+)$~u", $line, $match ) ) {
+		if ( preg_match( "~, ?ср\. (.+)$~u", $line, $match ) ) {
 			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
 			$line = substr( $line, 0, -strlen( $match[0] ) );
 		}
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
-			throw new Exception( 'Riviltä puuttuu "—"' );
+			throw new Exception( 'Riviltä puuttuu "—" (LyKK):' );
 		}
 
 		$regexp = "/^(.+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
@@ -53,7 +59,7 @@ class KirjaLyydiConverter {
 			$translations = $this->splitTranslations( $trans );
 			$examples = $this->splitExamples( $examples );
 
-			list( $base, $rest ) = explode( ',', $word, 2 );
+			list( $base, ) = explode( ',', $word, 2 );
 			$base = str_replace( '/', '', $base );
 
 			return [
@@ -69,16 +75,24 @@ class KirjaLyydiConverter {
 			];
 		}
 
-		throw new Exception( 'Rivin jäsentäminen epäonnistui' );
+		throw new Exception( 'Rivin jäsentäminen epäonnistui (LyKK)' );
 	}
 
 	public function isHeader( $line ) {
-		return strpos( $line, '.' ) === false && mb_strlen( $line, 'UTF-8' ) <= 4;
+		if ( strpos( $line, '.' ) === false && mb_strlen( $line, 'UTF-8' ) <= 4 ) {
+			return true;
+		}
+
+		if ( strpos( $line, 'VÄLIOTSIKKO' ) !== false ) {
+			return true;
+		}
+
+		return false;
 	}
 
 	public function splitTranslations( $string ) {
 		return [
-			'ru' => array_map( 'trim', preg_split( '/[,;]/', $string ) ),
+			'ru' => KeskiLyydiTabConverter::splitTranslations( $string ),
 		];
 	}
 

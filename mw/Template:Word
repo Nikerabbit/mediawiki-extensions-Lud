@@ -1,3 +1,3 @@
 '''{{{baseform}}}''' ({{{pos|}}})
 {{{variants}}}
-{{#set:POS={{{pos}}}}} [[Category:{{NAMESPACE}}]] __NOEDITSECTION__
+{{#set:POS={{{pos|}}}}} [[Category:{{NAMESPACE}}]] __NOEDITSECTION__

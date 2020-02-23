@@ -1,13 +1,11 @@
-{{#set:parent={{#titleparts:{{FULLPAGENAME}}|-1}}}}
-{{#set:wikitext=
-<div class="mw-sanat-example-block">
-{{#switch: {{{literature|}}}
+<div class="mw-sanat-example-block">{{
+#switch: {{{literature|}}}
 | Y
 | Kyllä = ''{{INT:sanat-entry-lit}}''<br>
-}}
-{{{entries}}}
-</div>
-}}<includeonly>
-{{INT:sanat-examplepage|{{#titleparts:{{FULLPAGENAME}}|-1}}}}
-[[Category:Example]] __NOINDEX__
-</includeonly>
+}}{{#if:{{{lud|}}}         |{{Example-entry|language=lud         |text={{{lud}}}          }}
+}}{{#if:{{{lud-x-south|}}} |{{Example-entry|language=lud-x-south |text={{{lud-x-south}}}  }}
+}}{{#if:{{{lud-x-middle|}}}|{{Example-entry|language=lud-x-middle|text={{{lud-x-middle}}} }}
+}}{{#if:{{{lud-x-north|}}} |{{Example-entry|language=lud-x-north |text={{{lud-x-north}}}  }}
+}}{{#if:{{{ru|}}}          |{{Example-entry|language=ru          |text={{{ru}}}           }}
+}}{{#if:{{{fi|}}}          |{{Example-entry|language=fi          |text={{{fi}}}           }}
+}}</div>

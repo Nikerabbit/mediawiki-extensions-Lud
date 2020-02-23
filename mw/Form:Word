@@ -2,34 +2,64 @@
 {{#forminput:form=Word}}
 </noinclude><includeonly>
 <div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
-__NOEDITSECTION__
+__NOEDITSECTION____NOTOC__
 {{{for template|Word}}}
 {| class="formtable"
 ! {{INT:sanat-entryform-baseform}}
 | {{{field|baseform|mandatory|property=Baseform}}}
 |-
 ! {{INT:sanat-entryform-pos}}
-| {{{field|pos|mandatory|input type=combobox|values from property=POS}}}
+| {{{field|pos|input type=combobox|values from property=POS}}}
 |}
+
+=={{INT:sanat-entry-forms}}==
 {{{field|variants|holds template}}}
 {{{end template}}}
-{{{for template|Variant|multiple|embed in field=Word[variants]}}}
-{{{field|language|mandatory|property=Language|input type=dropdown}}}
-{{{field|text}}}
+{{{for template|Variant|multiple|embed in field=Word[variants]|add button text={{INT:sanat-entryform-addform}} }}}
+{| class="lud-entry-form"
+| {{{field|language|mandatory|property=Language|input type=dropdown|mapping template=Lang-i18n|values=lud,lud-x-south,lud-x-middle,lud-x-north}}}
+| {{{field|langdesc|property=Language description|placeholder={{INT:sanat-entryform-langdesc}} }}}
+| {{{field|text}}}
+|}
 {{{end template}}}
 
 =={{INT:sanat-entry-translations}}==
 {{{section|{{INT:sanat-entry-translations}}|level=2|hidden}}}
-{{{for template|Translation|multiple}}}
-{{{field|language|mandatory|property=Language|input type=dropdown}}}
-{{{field|langdesc|property=Language description|placeholder={{INT:sanat-entryform-langdesc}} }}}
-{{{field|text}}}
+{{{for template|Translation|multiple|add button text={{INT:sanat-entryform-addtranslation}} }}}
+{| class="lud-entry-form"
+| {{{field|language|mandatory|property=Language|input type=dropdown|mapping template=Lang-i18n|values=ru,fi}}}
+| {{{field|text}}}
+|}
 {{{end template}}}
 
+=={{INT:sanat-entry-examples}}==
 {{{section|{{INT:sanat-entry-examples}}|level=2|hidden}}}
+{{{for template|Example|multiple|add button text={{INT:sanat-entryform-addexample}} }}}
+{| class="lud-entry-form"
+| colspan=2 | {{{field|literature|input type=checkbox}}} {{INT:sanat-entryform-lit}}
+|-
+| {{Lang-i18n|lud}}
+| {{{field|lud         |input type=textarea|autogrow|rows=1}}}
+|-
+| {{Lang-i18n|lud-x-south}}
+| {{{field|lud-x-south |input type=textarea|autogrow|rows=1}}}
+|-
+| {{Lang-i18n|lud-x-middle}}
+| {{{field|lud-x-middle|input type=textarea|autogrow|rows=1}}}
+|-
+| {{Lang-i18n|lud-x-north}}
+| {{{field|lud-x-north |input type=textarea|autogrow|rows=1}}}
+|-
+| {{Lang-i18n|ru}}
+| {{{field|ru          |input type=textarea|autogrow|rows=1}}}
+|-
+| {{Lang-i18n|fi}}
+| {{{field|fi          |input type=textarea|autogrow|rows=1}}}
+|}
+{{{end template}}}
 
 =={{INT:sanat-entry-seealso}}==
-{{{section|{{INT:sanat-entry-seealso}}|level=2|autogrow}}}
+{{{section|{{INT:sanat-entry-seealso}}|level=2|autogrow|hide if empty}}}
 
 {{{standard input|summary}}}
 

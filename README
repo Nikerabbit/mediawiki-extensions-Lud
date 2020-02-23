@@ -1,9 +1,16 @@
+# LyE (lud-x-south): docx -> txt with copy-paste
+# Nettisanat_LyE (lud-x-south): ods -> csv with export using | as delimiter
+# LyKK(-ven) (lud): docx -> txt with copy-paste
+# LyK (lud-x-middle): ods -> csv with export using | as delimiter
+# LyKK-SU: docx -> ods with copy paste -> csv with export using | as delimiter
+
+
 WIKI=sanat.csc.fi
 WIKI=sanat.nikerabb.it
 OUTPUT=output-2020-02-21
 rm -rf "$OUTPUT"
 mkdir "$OUTPUT"
-php LudImport.php --wiki=$WIKI --textfile=LyE_verz16.1.2020.txt --tabfile=Nettisanat_lyE_19.9.csv --kirjalyydi=LyKK_verz10.11.2019.txt "$OUTPUT"
+php LudImport.php --wiki=$WIKI --textfile=LyE_verz16.1.2020.txt --tabfile=Nettisanat_lyE_11.01.2020.csv --kirjalyydi=LyKK_verz16.1.2020.txt --LyK=lyK_Simonas-20.12.2019.csv --LyKK_SU=LyKK-SU_verz7.9.2019 "$OUTPUT"
 php ListPages.php "$OUTPUT" --wiki=$WIKI > todelete.txt
 cd ../..
 php extensions/Sanat/SanatImport.php extensions/Lud/"$OUTPUT" --wiki=$WIKI

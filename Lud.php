@@ -3,19 +3,19 @@
  * Special additions for Lud in sanat.csc.fi
  *
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  */
 
 if ( !defined( 'MEDIAWIKI' ) ) {
 	die();
 }
 
-$GLOBALS['wgExtensionCredits']['other'][] = array(
+$GLOBALS['wgExtensionCredits']['other'][] = [
 	'path' => __FILE__,
 	'name' => 'Lud',
 	'version' => '2016-12-17',
 	'author' => 'Niklas Laxström',
-);
+];
 
 $dir = __DIR__;
 require_once "$dir/Resources.php";

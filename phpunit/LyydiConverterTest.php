@@ -2,9 +2,9 @@
 
 /**
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  */
-class LyydiConverterTest extends PHPUnit_Framework_TestCase {
+class LyydiConverterTest extends PHPUnit\Framework\TestCase {
 	/** @dataProvider testIsHeaderProvider */
 	public function testIsHeader( $input, $expected, $comment = null ) {
 		$c = new LyydiConverter();
@@ -13,10 +13,10 @@ class LyydiConverterTest extends PHPUnit_Framework_TestCase {
 	}
 
 	public function testIsHeaderProvider() {
-		return array(
-			array( 'A', true ),
-			array( 'S, Š', true, 'Letter variants' ),
-		);
+		return [
+			[ 'A', true ],
+			[ 'S, Š', true, 'Letter variants' ],
+		];
 	}
 }
 

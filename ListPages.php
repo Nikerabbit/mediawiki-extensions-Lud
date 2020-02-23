@@ -1,13 +1,9 @@
 <?php
 /**
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  * @file
  */
-
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
 $IP = getenv( 'MW_INSTALL_PATH' ) ?: '../..';
 require_once "$IP/maintenance/Maintenance.php";

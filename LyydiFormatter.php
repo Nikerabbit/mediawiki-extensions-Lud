@@ -2,35 +2,10 @@
 
 /**
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  */
 class LyydiFormatter {
 	public function getEntries( array $list ) : array {
-		$list = $this->findHomonyms( $list );
-		foreach ( $list as $entry ) {
-			if ( $entry['type'] !== 'entry' ) {
-				continue;
-			}
-
-			$examples = $this->sortExamples( $entry['examples'] );
-			foreach ( $examples as $index => $examples ) {
-				$literature = $examples['literature'] ?? false;
-				unset( $examples['literature'] );
-
-				$list[] = [
-					'literature' => $literature,
-					'id' => "{$entry['id']}/$index",
-					'type' => 'entry-example',
-					'example' => $examples,
-				];
-				unset( $entry['examples'] );
-			}
-		}
-
-		return $list;
-	}
-
-	public function findHomonyms( array $list ) : array {
 		$out = [];
 
 		// Pass 1: collect homonyms together
@@ -46,7 +21,6 @@ class LyydiFormatter {
 				$out[$id]['pages'][] = $entry;
 				continue;
 			}
-
 
 			// Take copy of the entry we are going to replace
 			$temp = $out[$id];
@@ -107,7 +81,7 @@ class LyydiFormatter {
 				continue;
 			}
 
-			echo "Sanalle $id löytyi $c eri yhdistämätöntä artikkelia. Ohitetaan.\n";
+			echo "Sanalle $id löytyi $c eri sanaluokatonta artikkelia. Ohitetaan.\n";
 
 			foreach ( $z as $index => $i ) {
 				unset( $entries[$id] );
@@ -135,18 +109,6 @@ class LyydiFormatter {
 			return "#REDIRECT [[Lud:{$entry['target']}]]";
 		}
 
-		if ( $entry['type'] === 'entry-example' ) {
-			$lit = $entry['literature'] ? "|literature=Y\n" : '';
-			$out = "{{Example\n$lit|entries=";
-			foreach ( $entry['example'] as $lang => $text ) {
-				$out .= "{{Example-entry|language=$lang\n|text=$text\n}}";
-
-			}
-			$out .= "\n}}\n";
-
-			return $out;
-		}
-
 		$props = $entry['properties'];
 
 		$out = "{{Word\n";
@@ -156,32 +118,43 @@ class LyydiFormatter {
 			$out .= "|$key=$value\n";
 		}
 		$out .= "|variants=";
-		foreach ( $entry['cases'] as $lang => $value ) {
-			$out .= "{{Variant|language=$lang\n|text=$value\n}}\n";
+		$cases = $this->sortTranslations( $entry['cases'] );
+		foreach ( $cases as $lang => $value ) {
+			$out .= "{{Variant\n|language=$lang\n|text=$value\n}}\n";
 		}
 		$out .= "}}\n";
 
-
-		$out .= "=={{INT:sanat-entry-translations}}==\n";
+		$out .= "=={{INT:sanat-entry-translations}}==\n\n";
 		$translations = $this->sortTranslations( $entry['translations'] );
 		foreach ( $translations as $lang => $values ) {
-			foreach ( (array)$values as $value ) {
-				$out .= "{{Translation|language=$lang\n|text=$value\n}}\n";
+			foreach ( array_unique( $values ) as $value ) {
+				$out .= "{{Translation\n|language=$lang\n|text=$value\n}}\n";
 			}
 		}
 
-		$out .= "=={{INT:sanat-entry-examples}}==\n";
-		$out .= "{{Include examples}}\n\n";
+		$out .= "=={{INT:sanat-entry-examples}}==\n\n";
+		$examples = $this->sortExamples( $entry['examples'] );
+		foreach ( $examples as $example ) {
+			$out .= "{{Example\n";
+			$literature = $example['literature'] ?? false;
+			unset( $example['literature'] );
+			$out .= $literature ? "|literature=Kyllä\n" : "|literature=Ei\n";
 
-		$out .= "=={{INT:sanat-entry-seealso}}==\n";
-		foreach ( $entry['links'] as $target ) {
-			$target = (array)$target;
-			foreach ( $target as &$page ) {
-				$page = "[[Lud:$page]]";
+			$example = $this->sortTranslations( $example );
+
+			foreach ( $example as $lang => $value ) {
+				$out .= "|$lang=$value\n";
 			}
 
-			$joined = implode( '; ', $target );
-			$out .= "* $joined\n";
+			$out .= "}}\n";
+		}
+
+		if ( $entry['links'] !== [] ) {
+			$out .= "=={{INT:sanat-entry-seealso}}==\n";
+			$links = $this->sortLinks( (array)$entry['links'] );
+			foreach ( $links as $link ) {
+				$out .= "* [[Lud:$link|]]\n";
+			}
 		}
 
 		return $out;
@@ -189,7 +162,7 @@ class LyydiFormatter {
 
 	private function sortTranslations( array $ts ): array {
 		// literature is a hack for now, pass it through
-		$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi', 'literature' ];
+		$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi' ];
 		$sorted = [];
 		foreach ( $order as $o ) {
 			if ( isset( $ts[$o] ) ) {
@@ -211,8 +184,8 @@ class LyydiFormatter {
 			// kirjalyydi, etelälyydi, keskilyydi, pohjoislyydi, venäjä, suomi
 			$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi' ];
 			foreach ( $order as $o ) {
-				$aa = isset( $a['example'][$o] ) ? 1 : -1;
-				$bb = isset( $b['example'][$o] ) ? 1 : -1;
+				$aa = isset( $a[$o] ) ? 1 : -1;
+				$bb = isset( $b[$o] ) ? 1 : -1;
 				$cmp = ( $aa ) <=> ( $bb );
 				if ( $cmp !== 0 ) {
 					return -$cmp;
@@ -220,13 +193,11 @@ class LyydiFormatter {
 			}
 		} );
 
-		foreach ( $es as $i => $e ) {
-			if ( !is_array( $e ) ) {
-				var_dump( $es );
-			}
-			$es[$i] = $this->sortTranslations( $e );
-		}
-
 		return $es;
+	}
+
+	private function sortLinks( array $ls ): array {
+		sort( $ls );
+		return $ls;
 	}
 }

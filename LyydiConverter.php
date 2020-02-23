@@ -2,11 +2,12 @@
 
 /**
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  */
 class LyydiConverter {
-	protected $pos = array(
+	protected $pos = [
 		'a.',
+		'a. mod.',
 		'a. yhd.',
 		'adv.',
 		'arv.',
@@ -54,18 +55,20 @@ class LyydiConverter {
 		'yks.',
 		'yksipers.',
 		' ',
-	);
+	];
 
 	public function parse( $content ) {
 		// Break into lines, not a perf issue with our file size
 		$lines = explode( PHP_EOL, $content );
 
 		// Remove empty lines
-		$lines = array_filter( $lines, function ( $x ) { return $x !== ''; } );
+		$lines = array_filter( $lines, function ( $x ) { return $x !== '';
+  } );
 
 		// Remove beginning
 		foreach ( $lines as $i => $line ) {
-			if ( $line === 'A' ) break;
+			if ( $line === 'A' ) { break;
+			}
 			unset( $lines[$i] );
 		}
 
@@ -88,16 +91,16 @@ class LyydiConverter {
 	public function parseLine( $line ) {
 		// Redirects
 		if ( preg_match( '/^(.+) ks\. (.+)$/', $line, $match ) ) {
-			return array(
+			return [
 				'id' => $match[1],
 				'type' => 'redirect',
 				'target' => $match[2],
-			);
+			];
 		}
 
 		// References to other words
 		$links = [];
-		if ( preg_match( "~[.:] Vrt\. (.+)$~u", $line, $match ) ) {
+		if ( preg_match( "~[.:] Vrt\.\s+(.+)$~u", $line, $match ) ) {
 			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
 			$line = substr( $line, 0, -strlen( $match[0] ) );
 		}
@@ -107,7 +110,7 @@ class LyydiConverter {
 		$regexp = "/^([^. ]+(?: [I]+)?)\s+(($wcs)+)\s+([^.]+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
-			throw new Exception( 'Riviltä puuttuu "—"' );
+			throw new Exception( 'Riviltä puuttuu "—" (LyE):' );
 		}
 
 		if ( preg_match( $regexp, $line, $match ) ) {
@@ -137,7 +140,7 @@ class LyydiConverter {
 			];
 		}
 
-		throw new Exception( 'Rivin jäsentäminen epäonnistui' );
+		throw new Exception( 'Rivin jäsentäminen epäonnistui (LyE):' );
 	}
 
 	public function isHeader( $line ) {
@@ -155,8 +158,8 @@ class LyydiConverter {
 		}
 
 		return [
-			'fi' => array_map( 'trim', preg_split( '/[,;] /', $languages[0] ) ),
-			'ru' => array_map( 'trim', preg_split( '/[,;] /', $languages[1] ) ),
+			'fi' => KeskiLyydiTabConverter::splitTranslations( $languages[0] ),
+			'ru' => KeskiLyydiTabConverter::splitTranslations( $languages[1] ),
 		];
 	}
 

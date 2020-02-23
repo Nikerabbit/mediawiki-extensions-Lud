@@ -1,8 +1,9 @@
 /**
  * @author Niklas Laxström
- * @license MIT
+ * @license GPL-2.0-or-later
  */
 
+/* Used on word article pages through Template:Example */
 .mw-sanat-example-block {
 	margin-bottom: 20px;
 
@@ -11,10 +12,13 @@
 	}
 }
 
-.sanat-inlinetools {
-	display: none;
+/* Used on Form:Word */
+.lud-entry-form td:first-child {
+	/* Ensure consistent alignment of first inputs */
+	width: 10em;
 
-	form {
-		display: inline;
+	/* Make the selects max width to have equal widths in different sections */
+	#pfForm & select {
+		width: 100% !important;
 	}
 }
