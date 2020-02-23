@@ -2,7 +2,7 @@
 |?Value
 |?Parent
 |format=ul
-|limit={{{limit|500}}}
+|limit={{{limit|200}}}
 |link=subject
 |sort=Value
 |headers=show
