@@ -1,0 +1,36 @@
+{
+	"name": "Lüüdi",
+	"version": "2020-02-24",
+	"author": [
+		"Niklas Laxström"
+	],
+	"url": "https://sanat.csc.fi/wiki/L%C3%BC%C3%BCdi",
+	"descriptionmsg": "sanat-lud-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"AutoloadClasses": {
+		"LudHooks": "LudHooks.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "LudHooks::onBeforePageDisplay"
+	},
+	"MessagesDirs": {
+		"Lud": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Lud"
+	},
+	"ResourceModules": {
+		"ext.lud.styles": {
+			"styles": "resources/ext.lud.less",
+			"targets": [
+				"desktop",
+				"mobile"
+			]
+		}
+	},
+	"manifest_version": 2
+}
