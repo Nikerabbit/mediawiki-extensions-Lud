@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"YaronSh"
+		]
+	},
+	"sanat-lud-desc": "כלים למילון הלודי",
+	"sanat-da": "למילה זו יש מגוון משמעויות:",
+	"sanat-entry-examples": "דוגמאות",
+	"sanat-entry-lit": "הדוגמה הזאת היא מהספרות.",
+	"sanat-entry-seealso": "למידע נוסף",
+	"sanat-entry-translations": "תרגומים",
+	"sanat-entry-forms": "צורות",
+	"sanat-entryform-baseform": "צורת בסיס:",
+	"sanat-entryform-lit": "הדוגמה הזאת היא מהספרות",
+	"sanat-entryform-pos": "חלק דיבור:",
+	"sanat-entryform-langdesc": "תיאור הניב",
+	"sanat-entryform-formsdesc": "צורות",
+	"sanat-entryform-addform": "הוספת צורה",
+	"sanat-entryform-addtranslation": "הוספת תרגום",
+	"sanat-entryform-addexample": "הוספת דוגמה",
+	"sanat-lc-en": "אנגלית",
+	"sanat-lc-fi": "פינית",
+	"sanat-lc-lud": "לודית בכתיבה",
+	"sanat-lc-lud-x-middle": "לודית תיכונה",
+	"sanat-lc-lud-x-north": "לודית צפונית",
+	"sanat-lc-lud-x-south": "לודית דרומית",
+	"sanat-lc-ru": "רוסית",
+	"sanat-lc-und": "שפה לא ידועה"
+}

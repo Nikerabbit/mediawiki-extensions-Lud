@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"sanat-lud-desc": "Ludic sözlük için takım",
+	"sanat-da": "Bu kelimenin birden fazla anlamı vardır:",
+	"sanat-entry-examples": "Örnekler",
+	"sanat-entry-lit": "Bu örnek literatürden alınmıştır.",
+	"sanat-entry-seealso": "Ayrıca bakınız",
+	"sanat-entry-translations": "Çeviriler",
+	"sanat-entry-forms": "Formlar",
+	"sanat-entryform-baseform": "Temel form:",
+	"sanat-entryform-lit": "Bu örnek literatürden alınmıştır",
+	"sanat-entryform-pos": "Konuşmanın bölümü:",
+	"sanat-entryform-langdesc": "Ağız açıklaması",
+	"sanat-entryform-formsdesc": "Çekim ekleri",
+	"sanat-entryform-addform": "Form ekle",
+	"sanat-entryform-addtranslation": "Çeviri ekle",
+	"sanat-entryform-addexample": "Örnek ekle",
+	"sanat-lc-en": "İngilizce",
+	"sanat-lc-fi": "Fince",
+	"sanat-lc-lud": "Yazılı Ludic",
+	"sanat-lc-lud-x-middle": "Orta Ludic",
+	"sanat-lc-lud-x-north": "Kuzey Ludic",
+	"sanat-lc-lud-x-south": "Güney Ludic",
+	"sanat-lc-ru": "Rusça",
+	"sanat-lc-und": "Bilinmeyen dil"
+}

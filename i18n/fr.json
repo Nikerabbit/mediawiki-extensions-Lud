@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eneelk",
+			"Gomoko"
+		]
+	},
+	"sanat-lud-desc": "Outillage pour le dictionnaire Ludic",
+	"sanat-da": "Ce mot a plusieurs sens :",
+	"sanat-entry-examples": "Exemples",
+	"sanat-entry-lit": "Cet exemple est tiré de la littérature.",
+	"sanat-entry-seealso": "Voir aussi",
+	"sanat-entry-translations": "Traductions",
+	"sanat-entry-forms": "Formes",
+	"sanat-entryform-baseform": "Forme de base :",
+	"sanat-entryform-lit": "Cet exemple est tiré de la littérature",
+	"sanat-entryform-pos": "Nature :",
+	"sanat-entryform-langdesc": "Description du dialecte",
+	"sanat-entryform-formsdesc": "Flexions",
+	"sanat-entryform-addform": "Ajouter une forme",
+	"sanat-entryform-addtranslation": "Ajouter une traduction",
+	"sanat-entryform-addexample": "Ajouter un example",
+	"sanat-lc-en": "Anglais",
+	"sanat-lc-fi": "Finnois",
+	"sanat-lc-lud": "Lude écrit",
+	"sanat-lc-lud-x-middle": "Lude central",
+	"sanat-lc-lud-x-north": "Lude du Nord",
+	"sanat-lc-lud-x-south": "Lude du Sud",
+	"sanat-lc-ru": "Russe",
+	"sanat-lc-und": "Langue inconnue"
+}

@@ -1,4 +1,10 @@
 {
+	"@metadata": {
+		"authors": [
+			"Nike"
+		]
+	},
+	"sanat-lud-desc": "Lyydisanankirjan työkaluja",
 	"sanat-da": "Tällä sanalla on useita merkityksiä:",
 	"sanat-entry-examples": "Esimerkit",
 	"sanat-entry-lit": "Tämä esimerkki on kirjallisuudesta.",

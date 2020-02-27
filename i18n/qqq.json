@@ -1,8 +1,12 @@
 {
-	"sanat-lud-desc": "{{desc|name=Lüüdi}}",
+	"@metadata": {
+		"authors": [
+			"Nike"
+		]
+	},
+	"sanat-lud-desc": "{{desc|name=Lüüdi}}\n\nMore information about the language on Wikipedia: [[wikipedia:Ludic_language|Ludic]].",
 	"sanat-da": "Intro text for page listing alternatives sharing same dictionary form",
 	"sanat-entry-examples": "Heading for examples section",
-	"sanat-entryform-lit": "Text shown to readers",
 	"sanat-entry-seealso": "Heading for see also section",
 	"sanat-entry-translations": "Heading for translations section",
 	"sanat-entry-forms": "Form heading",

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"sanat-lud-desc": "用於盧迪茨語辭典的工具",
+	"sanat-da": "這個字有多種含意：",
+	"sanat-entry-examples": "範例",
+	"sanat-entry-lit": "此範例來自於文獻。",
+	"sanat-entry-seealso": "參見",
+	"sanat-entry-translations": "翻譯",
+	"sanat-entry-forms": "詞性",
+	"sanat-entryform-baseform": "原型：",
+	"sanat-entryform-lit": "此範例來自於文獻",
+	"sanat-entryform-pos": "詞類：",
+	"sanat-entryform-langdesc": "方言描述",
+	"sanat-entryform-formsdesc": "詞形變化",
+	"sanat-entryform-addform": "新增詞性",
+	"sanat-entryform-addtranslation": "新增翻譯",
+	"sanat-entryform-addexample": "新增範例",
+	"sanat-lc-en": "英語",
+	"sanat-lc-fi": "芬蘭語",
+	"sanat-lc-lud": "書面迪茨語",
+	"sanat-lc-lud-x-middle": "中盧迪茨語",
+	"sanat-lc-lud-x-north": "北盧迪茨語",
+	"sanat-lc-lud-x-south": "南盧迪茨語",
+	"sanat-lc-ru": "俄語",
+	"sanat-lc-und": "不明語言"
+}
