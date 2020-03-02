@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"sanat-entry-examples": "예시",
+	"sanat-entry-seealso": "같이 보기",
+	"sanat-entry-translations": "번역",
+	"sanat-entryform-addtranslation": "번역 추가",
+	"sanat-entryform-addexample": "예시 추가",
+	"sanat-lc-en": "영어",
+	"sanat-lc-fi": "핀란드어",
+	"sanat-lc-ru": "러시아어",
+	"sanat-lc-und": "알 수 없는 언어"
+}

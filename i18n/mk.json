@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"sanat-lud-desc": "Алатки за Лудискиот речник",
+	"sanat-da": "Овој збор има повеќе значења:",
+	"sanat-entry-examples": "Примери",
+	"sanat-entry-lit": "Овој пример е од книжевноста.",
+	"sanat-entry-seealso": "Поврзано",
+	"sanat-entry-translations": "Преводи",
+	"sanat-entry-forms": "Облици",
+	"sanat-entryform-baseform": "Основен облик:",
+	"sanat-entryform-lit": "Овој пример е од книжевноста.",
+	"sanat-entryform-pos": "Зборовни групи?",
+	"sanat-entryform-langdesc": "Опис на дијалектот",
+	"sanat-entryform-formsdesc": "Збороизмена",
+	"sanat-entryform-addform": "Додај облик",
+	"sanat-entryform-addtranslation": "Додај превод",
+	"sanat-entryform-addexample": "Додај пример",
+	"sanat-lc-en": "англиски",
+	"sanat-lc-fi": "фински",
+	"sanat-lc-lud": "пишан лудиски",
+	"sanat-lc-lud-x-middle": "среднолудиски",
+	"sanat-lc-lud-x-north": "севернолудиски",
+	"sanat-lc-lud-x-south": "јужнолудиски",
+	"sanat-lc-ru": "руски",
+	"sanat-lc-und": "непознат јазик"
+}

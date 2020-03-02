@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ата"
+		]
+	},
+	"sanat-entry-examples": "Приклади",
+	"sanat-entry-lit": "Цей приклад з літератури.",
+	"sanat-entry-seealso": "Див. також",
+	"sanat-entry-translations": "Переклади",
+	"sanat-entry-forms": "Форми",
+	"sanat-entryform-lit": "Цей приклад з літератури",
+	"sanat-entryform-pos": "Частина мови:",
+	"sanat-entryform-addform": "Додати форму",
+	"sanat-entryform-addtranslation": "Додати переклад",
+	"sanat-entryform-addexample": "Додати приклад",
+	"sanat-lc-fi": "Фінська",
+	"sanat-lc-ru": "Російська",
+	"sanat-lc-und": "Невідома мова"
+}

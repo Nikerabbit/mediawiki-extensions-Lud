@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Hasley"
+		]
+	},
+	"sanat-da": "Esta palabra es polisémica:",
+	"sanat-entry-examples": "Ejemplos",
+	"sanat-entry-seealso": "Véase también",
+	"sanat-entry-translations": "Traducciones",
+	"sanat-entryform-pos": "Categoría gramatical:",
+	"sanat-entryform-langdesc": "Descripción del dialecto",
+	"sanat-entryform-formsdesc": "Inflexiones",
+	"sanat-entryform-addtranslation": "Añadir traducción",
+	"sanat-entryform-addexample": "Añadir ejemplo",
+	"sanat-lc-en": "Inglés",
+	"sanat-lc-fi": "Finés",
+	"sanat-lc-ru": "Ruso",
+	"sanat-lc-und": "Idioma desconocido"
+}
