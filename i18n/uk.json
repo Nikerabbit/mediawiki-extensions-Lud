@@ -1,20 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ата"
+			"Ата",
+			"Piramidion"
 		]
 	},
+	"sanat-lud-desc": "Інструментарій для словника лудійської мови",
+	"sanat-da": "Це слово має декілька значень:",
 	"sanat-entry-examples": "Приклади",
 	"sanat-entry-lit": "Цей приклад з літератури.",
 	"sanat-entry-seealso": "Див. також",
 	"sanat-entry-translations": "Переклади",
 	"sanat-entry-forms": "Форми",
+	"sanat-entryform-baseform": "Базова форма:",
 	"sanat-entryform-lit": "Цей приклад з літератури",
 	"sanat-entryform-pos": "Частина мови:",
+	"sanat-entryform-langdesc": "Опис діалекту",
+	"sanat-entryform-formsdesc": "Словозміна",
 	"sanat-entryform-addform": "Додати форму",
 	"sanat-entryform-addtranslation": "Додати переклад",
 	"sanat-entryform-addexample": "Додати приклад",
+	"sanat-lc-en": "Англійська",
 	"sanat-lc-fi": "Фінська",
+	"sanat-lc-lud": "Письмова лудійська",
+	"sanat-lc-lud-x-middle": "Середньолудійська",
+	"sanat-lc-lud-x-north": "Північнолудійська",
+	"sanat-lc-lud-x-south": "Південнолудійська",
 	"sanat-lc-ru": "Російська",
 	"sanat-lc-und": "Невідома мова"
 }

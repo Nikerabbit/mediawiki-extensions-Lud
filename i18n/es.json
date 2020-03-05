@@ -5,17 +5,27 @@
 			"Hasley"
 		]
 	},
+	"sanat-lud-desc": "Herramientas para el diccionario ludio",
 	"sanat-da": "Esta palabra es polisémica:",
 	"sanat-entry-examples": "Ejemplos",
+	"sanat-entry-lit": "Este ejemplo proviene de fuentes literarias.",
 	"sanat-entry-seealso": "Véase también",
 	"sanat-entry-translations": "Traducciones",
+	"sanat-entry-forms": "Formas",
+	"sanat-entryform-baseform": "Forma de base:",
+	"sanat-entryform-lit": "Este ejemplo proviene de fuentes literarias",
 	"sanat-entryform-pos": "Categoría gramatical:",
 	"sanat-entryform-langdesc": "Descripción del dialecto",
 	"sanat-entryform-formsdesc": "Inflexiones",
+	"sanat-entryform-addform": "Añadir forma",
 	"sanat-entryform-addtranslation": "Añadir traducción",
 	"sanat-entryform-addexample": "Añadir ejemplo",
 	"sanat-lc-en": "Inglés",
 	"sanat-lc-fi": "Finés",
+	"sanat-lc-lud": "Ludio escrito",
+	"sanat-lc-lud-x-middle": "Ludio medio",
+	"sanat-lc-lud-x-north": "Ludio septentrional",
+	"sanat-lc-lud-x-south": "Ludio meridional",
 	"sanat-lc-ru": "Ruso",
 	"sanat-lc-und": "Idioma desconocido"
 }
