@@ -1,8 +1,5 @@
-<div class="mw-sanat-example-block">{{
-#switch: {{{literature|}}}
-| Y
-| Kyllä = ''{{INT:sanat-entry-lit}}''<br>
-}}{{#if:{{{lud|}}}         |{{Example-entry|language=lud         |text={{{lud}}}          }}
+<div class="mw-sanat-example-block">
+{{#if:{{{lud|}}}           |{{Example-entry|language=lud         |text={{{lud}}}          }}
 }}{{#if:{{{lud-x-south|}}} |{{Example-entry|language=lud-x-south |text={{{lud-x-south}}}  }}
 }}{{#if:{{{lud-x-middle|}}}|{{Example-entry|language=lud-x-middle|text={{{lud-x-middle}}} }}
 }}{{#if:{{{lud-x-north|}}} |{{Example-entry|language=lud-x-north |text={{{lud-x-north}}}  }}

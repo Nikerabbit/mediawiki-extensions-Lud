@@ -36,8 +36,6 @@ __NOEDITSECTION____NOTOC__
 {{{section|{{INT:sanat-entry-examples}}|level=2|hidden}}}
 {{{for template|Example|multiple|add button text={{INT:sanat-entryform-addexample}} }}}
 {| class="lud-entry-form"
-| colspan=2 | {{{field|literature|input type=checkbox}}} {{INT:sanat-entryform-lit}}
-|-
 | {{Lang-i18n|lud}}
 | {{{field|lud         |input type=textarea|autogrow|rows=1}}}
 |-

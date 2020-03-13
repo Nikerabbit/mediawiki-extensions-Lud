@@ -3,6 +3,7 @@
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
+ * @covers \LyydiConverter
  */
 class LyydiConverterTest extends PHPUnit\Framework\TestCase {
 	/** @dataProvider testIsHeaderProvider */

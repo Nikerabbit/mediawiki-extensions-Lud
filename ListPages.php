@@ -7,11 +7,8 @@
 
 $IP = getenv( 'MW_INSTALL_PATH' ) ?: '../..';
 require_once "$IP/maintenance/Maintenance.php";
-require_once __DIR__ . '/LyydiConverter.php';
-require_once __DIR__ . '/LyydiTabConverter.php';
-require_once __DIR__ . '/LyydiFormatter.php';
 
-class LudDelete extends Maintenance {
+class ListPages extends Maintenance {
 	public function __construct() {
 		parent::__construct();
 		$this->mDescription = 'Deletes Lyydi word articles';
@@ -59,5 +56,5 @@ class LudDelete extends Maintenance {
 	}
 }
 
-$maintClass = 'LudDelete';
+$maintClass = ListPages::class;
 require_once RUN_MAINTENANCE_IF_MAIN;

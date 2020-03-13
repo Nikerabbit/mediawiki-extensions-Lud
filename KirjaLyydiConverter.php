@@ -68,7 +68,8 @@ class KirjaLyydiConverter {
 				'type' => 'entry',
 				'language' => 'lud',
 				'cases' => [ 'lud' => $word ],
-				'properties' => [], // POS unknown
+				// POS unknown
+				'properties' => [],
 				'examples' => $examples,
 				'translations' => $translations,
 				'links' => $links,

@@ -68,7 +68,7 @@ class KirjaLyydiTabConverter {
 				continue;
 			}
 
-			# Merge translations
+			// Merge translations
 			$out[$uniqueKey]['translations'] =
 				array_merge_recursive( $out[$uniqueKey]['translations'], $entry['translations'] );
 		}

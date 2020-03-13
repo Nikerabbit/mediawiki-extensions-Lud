@@ -8,4 +8,4 @@ class LudHooks {
 	public static function onBeforePageDisplay( OutputPage $out ) {
 		$out->addModuleStyles( 'ext.lud.styles' );
 	}
-};
+}

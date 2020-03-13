@@ -136,10 +136,6 @@ class LyydiFormatter {
 		$examples = $this->sortExamples( $entry['examples'] );
 		foreach ( $examples as $example ) {
 			$out .= "{{Example\n";
-			$literature = $example['literature'] ?? false;
-			unset( $example['literature'] );
-			$out .= $literature ? "|literature=Kyllä\n" : "|literature=Ei\n";
-
 			$example = $this->sortTranslations( $example );
 
 			foreach ( $example as $lang => $value ) {
@@ -161,7 +157,6 @@ class LyydiFormatter {
 	}
 
 	private function sortTranslations( array $ts ): array {
-		// literature is a hack for now, pass it through
 		$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi' ];
 		$sorted = [];
 		foreach ( $order as $o ) {

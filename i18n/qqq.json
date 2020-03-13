@@ -12,7 +12,6 @@
 	"sanat-entry-translations": "Heading for translations section",
 	"sanat-entry-forms": "Form heading",
 	"sanat-entryform-baseform": "Label for form field",
-	"sanat-entryform-lit": "Label for checkbox",
 	"sanat-entryform-pos": "Label for form field",
 	"sanat-entryform-langdesc": "Placeholder for field where further info about the variant of the language can be given",
 	"sanat-entryform-formsdesc": "Field placeholdert",
