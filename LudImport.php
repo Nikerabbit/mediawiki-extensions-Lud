@@ -18,11 +18,11 @@ class LudImport extends Maintenance {
 	public function __construct() {
 		parent::__construct();
 		$this->mDescription = 'Imports Lyydi word articles';
-		$this->addOption( 'textfile', 'Text file to import' );
-		$this->addOption( 'tabfile', 'Tabular file to import' );
-		$this->addOption( 'kirjalyydi', 'Text file' );
-		$this->addOption( 'LyK', 'CSV file for lud-x-middle' );
-		$this->addOption( 'LyKK_SU', 'CSV file for lud' );
+		$this->addOption( 'LyE-txt', 'TXT file for LyE' );
+		$this->addOption( 'LyE-csv', 'CSV file for LyE' );
+		$this->addOption( 'LyK', 'CSV file for LyK' );
+		$this->addOption( 'LyKK-txt', 'TXT file for LyKK' );
+		$this->addOption( 'LyKK-csv', 'CSV file for LyKK' );
 		$this->addArg( 'out', 'Dir to place wiki pages' );
 	}
 
@@ -32,13 +32,13 @@ class LudImport extends Maintenance {
 		$outdir = $this->getArg( 0 );
 
 		// Master file lud-x-south
-		$textfile = $this->getOption( 'textfile' );
+		$textfile = $this->getOption( 'LyE-txt' );
 		$textin = file_get_contents( $textfile );
 		$textc = new LyydiConverter();
 		$textout = $textc->parse( $textin );
 
 		// Additional entries for lud-x-south in tabular format
-		$tabfile = $this->getOption( 'tabfile' );
+		$tabfile = $this->getOption( 'LyE-csv' );
 		$tabc = new LyydiTabConverter();
 		$tabout = $tabc->parse( $tabfile );
 		$out = $this->merge( array_merge( $textout, $tabout ) );
@@ -50,13 +50,13 @@ class LudImport extends Maintenance {
 		$out = $this->mergeKeskilyydi( $out, $LyKout );
 
 		// Parse in lud (txt)
-		$kirjafile = $this->getOption( 'kirjalyydi' );
+		$kirjafile = $this->getOption( 'LyKK-txt' );
 		$kirjain = file_get_contents( $kirjafile );
 		$kirjac = new KirjaLyydiConverter();
 		$kirjaout = $kirjac->parse( $kirjain );
 
 		// Parse in lud (csv)
-		$LyKK_SUfile = $this->getOption( 'LyKK_SU' );
+		$LyKK_SUfile = $this->getOption( 'LyKK-csv' );
 		$LyKK_SUc = new KirjaLyydiTabConverter();
 		$LyKK_SUout = $LyKK_SUc->parse( $LyKK_SUfile );
 		$kirjaout = $this->mergeKirjaLyydiTranslations( $kirjaout, $LyKK_SUout );
