@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Neptune, the Mystic"
+		]
+	},
+	"sanat-da": "Ova riječ ima više značenja:",
+	"sanat-entry-examples": "Primjeri",
+	"sanat-entry-seealso": "Vidi i",
+	"sanat-entry-translations": "Prijevodi",
+	"sanat-entry-forms": "Oblici",
+	"sanat-entryform-baseform": "Korijenski oblik:",
+	"sanat-entryform-langdesc": "Opis dijalekta",
+	"sanat-entryform-formsdesc": "Sklonidba",
+	"sanat-entryform-addform": "Dodaj oblik",
+	"sanat-entryform-addtranslation": "Dodaj prijevod",
+	"sanat-entryform-addexample": "Dodaj primjer",
+	"sanat-lc-en": "engleski",
+	"sanat-lc-fi": "finski",
+	"sanat-lc-lud": "pisani ludijski",
+	"sanat-lc-lud-x-middle": "srednjoludijski",
+	"sanat-lc-lud-x-north": "sjevernoludijski",
+	"sanat-lc-lud-x-south": "južnoludijski",
+	"sanat-lc-ru": "ruski",
+	"sanat-lc-und": "Nepoznati jezik"
+}
