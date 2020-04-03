@@ -54,6 +54,8 @@ class KirjaLyydiConverter {
 
 		$regexp = "/^(.+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
 		if ( preg_match( $regexp, $line, $match ) ) {
+			// Support PHP 7.1 without PREG_UNMATCHED_AS_NULL, trailing unmatched are not present
+			$match[3] = $match[3] ?? '';
 			list( $all, $word, $trans, $examples ) = $match;
 
 			$translations = $this->splitTranslations( $trans );
@@ -97,7 +99,7 @@ class KirjaLyydiConverter {
 		];
 	}
 
-	public function splitExamples( $string ) {
+	public function splitExamples( string $string ): array {
 		$string = ltrim( $string, ':' );
 		$string = trim( $string );
 		$ret = [];

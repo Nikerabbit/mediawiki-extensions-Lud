@@ -23,7 +23,8 @@ class LudImport extends Maintenance {
 		$this->addOption( 'LyK', 'CSV file for LyK' );
 		$this->addOption( 'LyKK-txt', 'TXT file for LyKK' );
 		$this->addOption( 'LyKK-csv', 'CSV file for LyKK' );
-		$this->addArg( 'out', 'Dir to place wiki pages' );
+		$this->addOption( 'format', 'Output format', false, true );
+		$this->addArg( 'out', 'Dir to place output files' );
 	}
 
 	public function execute() {
@@ -67,24 +68,18 @@ class LudImport extends Maintenance {
 		$f = new LyydiFormatter();
 		$out = $f->getEntries( $out );
 
-		foreach ( $out as $struct ) {
-			try {
-				$title = $f->getTitle( $struct['id'] );
-			} catch ( TypeError $e ) {
-				echo "Unable to make title for:\n";
-				echo json_encode( $struct, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) . "\n";
-				echo $e;
-				continue;
-			}
-
-			$text = $f->formatEntry( $struct );
-			$title = str_replace( '/', '_', $title->getPrefixedText() );
-
-			file_put_contents( "$outdir/$title", $text );
+		$format = $this->getOption( 'format', 'wikitext' );
+		switch ( $format ) {
+			case 'json':
+				$this->outputJson( $out, $outdir );
+				break;
+			case 'wikitext':
+			default:
+				$this->outputWikitext( $out, $f, $outdir );
 		}
 	}
 
-	protected function merge( array $entries ) : array {
+	protected function merge( array $entries ): array {
 		$dedup = [];
 		foreach ( $entries as $b ) {
 			if ( $b[ 'type' ] !== 'entry' ) {
@@ -280,6 +275,41 @@ class LudImport extends Maintenance {
 		}
 
 		return $a;
+	}
+
+	private function outputJson( array $out, string $outdir ): void {
+		$blob = [];
+		foreach ( $out as $struct ) {
+			if ( $struct['type'] === 'disambiguation' ) {
+				$struct['pages'] = array_map( function ( $x ) {
+					return $x['id'];
+				}, $struct['pages'] );
+			}
+
+			$blob[$struct['id']] = $struct;
+		}
+
+		$json = json_encode( $blob, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE );
+		file_put_contents( "$outdir/data.json", $json );
+	}
+
+	private function outputWikitext( array $out, LyydiFormatter $f, string $outdir ): void {
+		foreach ( $out as $struct ) {
+			try {
+				$title = $f->getTitle( $struct['id'] );
+			}
+			catch ( TypeError $e ) {
+				echo "Unable to make title for:\n";
+				echo json_encode( $struct, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) . "\n";
+				echo $e;
+				continue;
+			}
+
+			$text = $f->formatEntry( $struct );
+			$title = str_replace( '/', '_', $title->getPrefixedText() );
+
+			file_put_contents( "$outdir/$title", $text );
+		}
 	}
 }
 
