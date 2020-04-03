@@ -62,12 +62,17 @@ class LyydiConverter {
 		$lines = explode( PHP_EOL, $content );
 
 		// Remove empty lines
-		$lines = array_filter( $lines, function ( $x ) { return $x !== '';
-  } );
+		$lines = array_filter(
+			$lines,
+			function ( $x ) {
+				return $x !== '';
+			}
+		);
 
 		// Remove beginning
 		foreach ( $lines as $i => $line ) {
-			if ( $line === 'A' ) { break;
+			if ( $line === 'A' ) {
+				break;
 			}
 			unset( $lines[$i] );
 		}
@@ -88,6 +93,10 @@ class LyydiConverter {
 		return $out;
 	}
 
+	public function isHeader( $line ) {
+		return strpos( $line, '.' ) === false && mb_strlen( $line, 'UTF-8' ) <= 4;
+	}
+
 	public function parseLine( $line ) {
 		// Redirects
 		if ( preg_match( '/^(.+) ks\. (.+)$/', $line, $match ) ) {
@@ -102,7 +111,7 @@ class LyydiConverter {
 		$links = [];
 		if ( preg_match( "~[.:] Vrt\.\s+(.+)$~u", $line, $match ) ) {
 			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
-			$line = substr( $line, 0, -strlen( $match[0] ) );
+			$line = substr( $line, 0, - strlen( $match[0] ) );
 		}
 
 		// Normal entries
@@ -114,7 +123,7 @@ class LyydiConverter {
 		}
 
 		if ( preg_match( $regexp, $line, $match ) ) {
-			list( $all, $word, $wc, $unused, $inf, $trans ) = $match;
+			[ $all, $word, $wc, $unused, $inf, $trans ] = $match;
 
 			$props = [];
 			$props['pos'] = $wc;
@@ -141,10 +150,6 @@ class LyydiConverter {
 		}
 
 		throw new Exception( 'Rivin jäsentäminen epäonnistui (LyE):' );
-	}
-
-	public function isHeader( $line ) {
-		return strpos( $line, '.' ) === false && mb_strlen( $line, 'UTF-8' ) <= 4;
 	}
 
 	public function splitTranslations( $string ) {

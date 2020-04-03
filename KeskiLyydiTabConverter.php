@@ -15,7 +15,7 @@ class KeskiLyydiTabConverter {
 		$out = [];
 		foreach ( $in as $line ) {
 			// Skip the header, if present
-			if ( $line[ 0 ] === 'hakusana' ) {
+			if ( $line[0] === 'hakusana' ) {
 				continue;
 			}
 
@@ -44,22 +44,22 @@ class KeskiLyydiTabConverter {
 		// 8 - esim. venäjännös
 		// 9 - esim. suomennos
 
-		if ( !$x[ 0 ] ) {
+		if ( !$x[0] ) {
 			throw new RuntimeException( 'Sanaluokka puuttuu (LyK)' );
 		}
 
-		$id = $x[ 0 ];
+		$id = $x[0];
 
 		$translations = [];
-		if ( $x[ 4 ] !== '' ) {
+		if ( $x[4] !== '' ) {
 			$translations['ru'] = self::splitTranslations( $x[4] );
 		}
-		if ( $x[ 5 ] !== '' ) {
+		if ( $x[5] !== '' ) {
 			$translations['fi'] = self::splitTranslations( $x[5] );
 		}
 
 		$examples = [];
-		if ( $x[ 6 ] !== '' ) {
+		if ( $x[6] !== '' ) {
 			$examples[] = [
 				'lud-x-middle' => $x[6],
 				'ru' => $x[8],
@@ -68,7 +68,7 @@ class KeskiLyydiTabConverter {
 		}
 
 		$cases = [];
-		if ( $x[ 1 ] ) {
+		if ( $x[1] ) {
 			$cases = [ 'lud-x-middle' => $x[1] ];
 		}
 
@@ -78,7 +78,7 @@ class KeskiLyydiTabConverter {
 			'type' => 'entry',
 			'language' => 'lud-x-middle',
 			'cases' => $cases,
-			'properties' => [ 'pos' => $x[ 2 ] ],
+			'properties' => [ 'pos' => $x[2] ],
 			'examples' => $examples,
 			'translations' => $translations,
 			'links' => [],
@@ -118,7 +118,8 @@ class KeskiLyydiTabConverter {
 			}
 
 			# echo "Yhdistetään esimerkit sanalle $uniqueKey (LyK)\n";
-			$out[$uniqueKey]['examples'] = array_merge( $out[$uniqueKey]['examples'], $entry['examples'] );
+			$out[$uniqueKey]['examples'] =
+				array_merge( $out[$uniqueKey]['examples'], $entry['examples'] );
 		}
 
 		return $out;

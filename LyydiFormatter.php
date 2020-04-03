@@ -5,7 +5,7 @@
  * @license GPL-2.0-or-later
  */
 class LyydiFormatter {
-	public function getEntries( array $list ) : array {
+	public function getEntries( array $list ): array {
 		$out = [];
 
 		// Pass 1: collect homonyms together
@@ -44,13 +44,12 @@ class LyydiFormatter {
 			foreach ( $pages as $x ) {
 				$out[$x['id']] = $x;
 			}
-
 		}
 
 		return array_values( $out );
 	}
 
-	private function disambiguate( array $entries, string $disId ) : array {
+	private function disambiguate( array $entries, string $disId ): array {
 		// Pass 1: add (pos) disambig if one exists
 		foreach ( $entries as $i => $x ) {
 			if ( isset( $x['properties']['pos'] ) ) {
@@ -91,15 +90,11 @@ class LyydiFormatter {
 		return $entries;
 	}
 
-	public function getTitle( string $page ) : Title {
-		return Title::newFromText( 'Lud:' . $page );
-	}
-
-	public function formatEntry( array $entry ) : string {
+	public function formatEntry( array $entry ): string {
 		if ( $entry['type'] === 'disambiguation' ) {
 			$out = "{{INT:sanat-da}}\n";
 			foreach ( $entry['pages'] as $subentry ) {
-				$target = $this->getTitle( $subentry[ 'id' ] )->getPrefixedText();
+				$target = $this->getTitle( $subentry['id'] )->getPrefixedText();
 				$out .= "* [[$target]]\n";
 			}
 			return $out;
@@ -156,6 +151,10 @@ class LyydiFormatter {
 		return $out;
 	}
 
+	public function getTitle( string $page ): Title {
+		return Title::newFromText( 'Lud:' . $page );
+	}
+
 	private function sortTranslations( array $ts ): array {
 		$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi' ];
 		$sorted = [];
@@ -175,18 +174,21 @@ class LyydiFormatter {
 	}
 
 	private function sortExamples( array $es ): array {
-		uasort( $es, function ( $a, $b ) {
-			// kirjalyydi, etelälyydi, keskilyydi, pohjoislyydi, venäjä, suomi
-			$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi' ];
-			foreach ( $order as $o ) {
-				$aa = isset( $a[$o] ) ? 1 : -1;
-				$bb = isset( $b[$o] ) ? 1 : -1;
-				$cmp = ( $aa ) <=> ( $bb );
-				if ( $cmp !== 0 ) {
-					return -$cmp;
+		uasort(
+			$es,
+			function ( $a, $b ) {
+				// kirjalyydi, etelälyydi, keskilyydi, pohjoislyydi, venäjä, suomi
+				$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi' ];
+				foreach ( $order as $o ) {
+					$aa = isset( $a[$o] ) ? 1 : - 1;
+					$bb = isset( $b[$o] ) ? 1 : - 1;
+					$cmp = ( $aa ) <=> ( $bb );
+					if ( $cmp !== 0 ) {
+						return - $cmp;
+					}
 				}
 			}
-		} );
+		);
 
 		return $es;
 	}

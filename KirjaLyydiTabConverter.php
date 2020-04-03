@@ -15,7 +15,7 @@ class KirjaLyydiTabConverter {
 		$out = [];
 		foreach ( $in as $line ) {
 			// Skip the header, if present
-			if ( $line[ 0 ] === 'suomi' ) {
+			if ( $line[0] === 'suomi' ) {
 				continue;
 			}
 
@@ -37,7 +37,7 @@ class KirjaLyydiTabConverter {
 		// 1 - lyydi
 		// 2 - venäjä
 
-		$id = str_replace( '/', '',  trim( $x[1] ) );
+		$id = str_replace( '/', '', trim( $x[1] ) );
 
 		$translations = [];
 		$translations['ru'] = KeskiLyydiTabConverter::splitTranslations( $x[2] );

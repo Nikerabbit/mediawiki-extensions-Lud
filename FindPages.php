@@ -16,7 +16,7 @@ class FindPages extends Maintenance {
 		$this->mDescription = 'Find pages to delete';
 	}
 
-public function execute() {
+	public function execute() {
 		$target = $this->getArg( 0 );
 
 		$db = wfGetDB( DB_REPLICA );
@@ -27,7 +27,7 @@ public function execute() {
 				'page_namespace' => [
 					NS_MAIN,
 					NS_LUD,
-				]
+				],
 			],
 			__METHOD__
 		);
@@ -38,7 +38,7 @@ public function execute() {
 				echo $title->getPrefixedText() . "\n";
 			}
 		}
-}
+	}
 }
 
 $maintClass = 'FindPages';

@@ -82,20 +82,20 @@ class LudImport extends Maintenance {
 	protected function merge( array $entries ): array {
 		$dedup = [];
 		foreach ( $entries as $b ) {
-			if ( $b[ 'type' ] !== 'entry' ) {
+			if ( $b['type'] !== 'entry' ) {
 				continue;
 			}
 
-			$id = $b[ 'id' ] . ' ' . $b[ 'properties' ][ 'pos' ];
+			$id = $b['id'] . ' ' . $b['properties']['pos'];
 
-			if ( !isset( $dedup[ $id ] ) ) {
-				$dedup[ $id ] = $b;
+			if ( !isset( $dedup[$id] ) ) {
+				$dedup[$id] = $b;
 				continue;
 			}
 
 			try {
-				$x = $this->mergeItems( $dedup[ $id ], $b );
-				$dedup[ $id ] = $x;
+				$x = $this->mergeItems( $dedup[$id], $b );
+				$dedup[$id] = $x;
 			} catch ( Exception $err ) {
 				echo "Yhdistetään sanaa $id: " . $err->getMessage() . "\n";
 			}
@@ -105,56 +105,58 @@ class LudImport extends Maintenance {
 	}
 
 	protected function mergeItems( $a, $b ) {
-		$cases = $a[ 'cases' ];
+		$cases = $a['cases'];
 
-		if ( $a[ 'cases' ][ 'lud-x-south' ] !== $b[ 'cases' ][ 'lud-x-south' ] ) {
-			$ac = str_replace( '/', '', $a[ 'cases' ][ 'lud-x-south' ] );
-			$bc = str_replace( '/', '', $b[ 'cases' ][ 'lud-x-south' ] );
+		if ( $a['cases']['lud-x-south'] !== $b['cases']['lud-x-south'] ) {
+			$ac = str_replace( '/', '', $a['cases']['lud-x-south'] );
+			$bc = str_replace( '/', '', $b['cases']['lud-x-south'] );
 			if ( strlen( $ac ) > strlen( $bc ) ) {
 				[ $ac, $bc ] = [ $bc, $ac ];
 			} else {
-				$cases = $b[ 'cases' ];
+				$cases = $b['cases'];
 			}
 
 			if ( strpos( $bc, $ac ) === false ) {
-				throw new RuntimeException( json_encode(
-					[
-						$a[ 'cases' ][ 'lud-x-south' ],
-						$b[ 'cases' ][ 'lud-x-south' ]
-					],
-					JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE )
+				throw new RuntimeException(
+					json_encode(
+						[
+							$a['cases']['lud-x-south'],
+							$b['cases']['lud-x-south'],
+						],
+						JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE
+					)
 				);
 			}
 		}
 
-		if ( $a[ 'properties' ][ 'pos' ] !== $b[ 'properties' ][ 'pos' ] ) {
+		if ( $a['properties']['pos'] !== $b['properties']['pos'] ) {
 			throw new RuntimeException(
 				json_encode( [ 'properties', $a, $b ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE )
 			);
 		}
 
-		if ( $a[ 'base' ] !== $b[ 'base' ] ) {
+		if ( $a['base'] !== $b['base'] ) {
 			throw new RuntimeException(
 				json_encode( [ 'base', $a, $b ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE )
 			);
 		}
 
-		if ( $a[ 'type' ] !== $b[ 'type' ] ) {
+		if ( $a['type'] !== $b['type'] ) {
 			throw new RuntimeException(
 				json_encode( [ 'type', $a, $b ], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE )
 			);
 		}
 
 		$new = [
-			'id' => $a[ 'id' ],
-			'base' => $a[ 'base' ],
-			'type' => $a[ 'type' ],
-			'language' => $a[ 'language' ],
-			'cases' => $a[ 'cases' ],
-			'properties' => $a[ 'properties' ],
-			'examples' => array_merge( $a[ 'examples' ], $b[ 'examples' ] ),
-			'translations' => array_merge_recursive( $a[ 'translations' ], $b[ 'translations' ] ),
-			'links' => array_unique( array_merge( $a[ 'links' ], $b[ 'links' ] ) ),
+			'id' => $a['id'],
+			'base' => $a['base'],
+			'type' => $a['type'],
+			'language' => $a['language'],
+			'cases' => $a['cases'],
+			'properties' => $a['properties'],
+			'examples' => array_merge( $a['examples'], $b['examples'] ),
+			'translations' => array_merge_recursive( $a['translations'], $b['translations'] ),
+			'links' => array_unique( array_merge( $a['links'], $b['links'] ) ),
 		];
 
 		return $new;
@@ -173,7 +175,7 @@ class LudImport extends Maintenance {
 		}
 
 		foreach ( $middle as $m ) {
-		# echo "Keskilyydin sanalle {$m['id']} ({$m['properties']['pos']}) ei löytynyt vastinetta\n";
+			# echo "Keskilyydin sanalle {$m['id']} ({$m['properties']['pos']}) ei löytynyt vastinetta\n";
 			$all[] = $m;
 		}
 
@@ -186,9 +188,27 @@ class LudImport extends Maintenance {
 
 	private function mergeKeskilyydiItem( array $a, array $b ): array {
 		$a['cases'] = array_merge( $a['cases'], $b['cases'] );
-		$a['examples'] = array_merge( $a[ 'examples' ], $b[ 'examples' ] );
-		$a['translations'] = array_merge_recursive( $a[ 'translations' ], $b[ 'translations' ] );
+		$a['examples'] = array_merge( $a['examples'], $b['examples'] );
+		$a['translations'] = array_merge_recursive( $a['translations'], $b['translations'] );
 		// Can skip links (none), pos (already same)
+		return $a;
+	}
+
+	private function mergeKirjaLyydiTranslations( array $a, array $b ): array {
+		foreach ( $b as $i => $entry ) {
+			foreach ( $a as $j => $cand ) {
+				if ( $entry['id'] === $cand['id'] ) {
+					$a[$j]['translations'] =
+						array_merge_recursive( $a[$j]['translations'], $entry['translations'] );
+					unset( $b[$i] );
+				}
+			}
+		}
+
+		foreach ( $b as $entry ) {
+			$a[] = $entry;
+		}
+
 		return $a;
 	}
 
@@ -211,20 +231,24 @@ class LudImport extends Maintenance {
 					// See if we can find single match by also checking cases
 					$newcands = [];
 					foreach ( $cands as $i ) {
-						if ( $south[$i]['cases']['lud-x-south'] ?? '#' === $entry['cases']['lud'] ) {
+						if ( $south[$i]['cases']['lud-x-south'] ??
+							'#' === $entry['cases']['lud'] ) {
 							$newcands[] = $i;
 						}
 					}
 
 					if ( count( $newcands ) === 1 ) {
 						echo "Kirjalyydin sana '$id' yhdistettiin etelälyydin sanaan taivutuksen perusteella.\n";
-						$south[$newcands[0]] = $this->mergeKirjaLyydiItem( $south[$newcands[0]], $entry );
+						$south[$newcands[0]] =
+							$this->mergeKirjaLyydiItem( $south[$newcands[0]], $entry );
 						continue;
 					}
 
 					$cases = [];
 					foreach ( $cands as $i ) {
-						$name = $south[$i]['cases']['lud-x-south'] ?? $south[$i]['cases']['lud-x-middle'] ?? '#';
+						$name =
+							$south[$i]['cases']['lud-x-south'] ??
+							$south[$i]['cases']['lud-x-middle'] ?? '#';
 						$cases[] = "$name ({$south[$i]['properties']['pos']})";
 					}
 					$cases = implode( "\n", $cases );
@@ -242,48 +266,33 @@ class LudImport extends Maintenance {
 	}
 
 	private function mergeKirjaLyydiItem( array $a, array $b ): array {
-		$cases = array_merge( $a[ 'cases' ], $b[ 'cases'] );
+		$cases = array_merge( $a['cases'], $b['cases'] );
 
 		$new = [
-			'id' => $a[ 'id' ],
-			'base' => $a[ 'base' ],
-			'type' => $a[ 'type' ],
-			'language' => $a[ 'language' ],
+			'id' => $a['id'],
+			'base' => $a['base'],
+			'type' => $a['type'],
+			'language' => $a['language'],
 			'cases' => $cases,
-			'properties' => $a[ 'properties' ],
-			'examples' => array_merge( $a[ 'examples' ], $b[ 'examples' ] ),
-			'translations' => array_merge_recursive( $a[ 'translations' ], $b[ 'translations' ] ),
-			'links' => array_unique( array_merge( $a[ 'links' ], $b[ 'links' ] ) ),
+			'properties' => $a['properties'],
+			'examples' => array_merge( $a['examples'], $b['examples'] ),
+			'translations' => array_merge_recursive( $a['translations'], $b['translations'] ),
+			'links' => array_unique( array_merge( $a['links'], $b['links'] ) ),
 		];
 
 		return $new;
-	}
-
-	private function mergeKirjaLyydiTranslations( array $a, array $b ): array {
-		foreach ( $b as $i => $entry ) {
-			foreach ( $a as $j => $cand ) {
-				if ( $entry['id'] === $cand['id'] ) {
-					$a[$j]['translations'] =
-						array_merge_recursive( $a[$j]['translations'], $entry['translations'] );
-					unset( $b[$i] );
-				}
-			}
-		}
-
-		foreach ( $b as $entry ) {
-			$a[] = $entry;
-		}
-
-		return $a;
 	}
 
 	private function outputJson( array $out, string $outdir ): void {
 		$blob = [];
 		foreach ( $out as $struct ) {
 			if ( $struct['type'] === 'disambiguation' ) {
-				$struct['pages'] = array_map( function ( $x ) {
-					return $x['id'];
-				}, $struct['pages'] );
+				$struct['pages'] = array_map(
+					function ( $x ) {
+						return $x['id'];
+					},
+					$struct['pages']
+				);
 			}
 
 			$blob[$struct['id']] = $struct;
@@ -297,8 +306,7 @@ class LudImport extends Maintenance {
 		foreach ( $out as $struct ) {
 			try {
 				$title = $f->getTitle( $struct['id'] );
-			}
-			catch ( TypeError $e ) {
+			} catch ( TypeError $e ) {
 				echo "Unable to make title for:\n";
 				echo json_encode( $struct, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) . "\n";
 				echo $e;
