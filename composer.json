@@ -20,5 +20,8 @@
 		"phan": [
 			"phan -d . -p --allow-polyfill-parser"
 		]
+	},
+	"require": {
+		"ext-json": "*"
 	}
 }

@@ -98,7 +98,7 @@ class KeskiLyydiTabConverter {
 			$ph[$key] = $match[0];
 		}
 
-		$translations = array_map( 'trim', preg_split( '/[,;] /', $x ) );
+		$translations = array_map( 'trim', preg_split( '/[,;]\s+/u', $x ) );
 		foreach ( $translations as $i => $t ) {
 			$translations[$i] = str_replace( array_keys( $ph ), array_values( $ph ), $t );
 		}

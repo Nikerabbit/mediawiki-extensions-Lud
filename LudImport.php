@@ -13,6 +13,7 @@ require_once __DIR__ . '/LyydiFormatter.php';
 require_once __DIR__ . '/KeskiLyydiTabConverter.php';
 require_once __DIR__ . '/KirjaLyydiConverter.php';
 require_once __DIR__ . '/KirjaLyydiTabConverter.php';
+require_once __DIR__ . '/PohjoisLyydiTabConverter.php';
 
 class LudImport extends Maintenance {
 	public function __construct() {
@@ -48,7 +49,13 @@ class LudImport extends Maintenance {
 		$LyKfile = $this->getOption( 'LyK' );
 		$LyKc = new KeskiLyydiTabConverter();
 		$LyKout = $LyKc->parse( $LyKfile );
-		$out = $this->mergeKeskilyydi( $out, $LyKout );
+		$out = $this->mergeSimpleVariant( $out, $LyKout );
+
+		// Merge in lud-x-north
+		$LyPfile = $this->getOption( 'LyP' );
+		$LyPc = new PohjoisLyydiTabConverter();
+		$LyPout = $LyPc->parse( $LyPfile );
+		$out = $this->mergeSimpleVariant( $out, $LyPout );
 
 		// Parse in lud (txt)
 		$kirjafile = $this->getOption( 'LyKK-txt' );
@@ -162,20 +169,19 @@ class LudImport extends Maintenance {
 		return $new;
 	}
 
-	private function mergeKeskilyydi( array $all, array $middle ): array {
-		foreach ( $middle as $i => $m ) {
+	private function mergeSimpleVariant( array $all, array $new ): array {
+		foreach ( $new as $i => $m ) {
 			foreach ( $all as $j => $a ) {
 				if ( !$this->matchEntry( $m, $a ) ) {
 					continue;
 				}
 
-				$all[$j] = $this->mergeKeskilyydiItem( $a, $m );
-				unset( $middle[$i] );
+				$all[$j] = $this->mergeSimpleVariantItem( $a, $m );
+				unset( $new[$i] );
 			}
 		}
 
-		foreach ( $middle as $m ) {
-			# echo "Keskilyydin sanalle {$m['id']} ({$m['properties']['pos']}) ei löytynyt vastinetta\n";
+		foreach ( $new as $m ) {
 			$all[] = $m;
 		}
 
@@ -186,7 +192,7 @@ class LudImport extends Maintenance {
 		return $a['id'] === $b['id'] && $a['properties']['pos'] === $b['properties']['pos'];
 	}
 
-	private function mergeKeskilyydiItem( array $a, array $b ): array {
+	private function mergeSimpleVariantItem( array $a, array $b ): array {
 		$a['cases'] = array_merge( $a['cases'], $b['cases'] );
 		$a['examples'] = array_merge( $a['examples'], $b['examples'] );
 		$a['translations'] = array_merge_recursive( $a['translations'], $b['translations'] );

@@ -3,11 +3,11 @@
 # LyKK-ven (lud): docx -> txt with copy-paste
 # LyK_Simonas (lud-x-middle): ods -> csv with export using | as delimiter
 # LyKK-SU: docx -> ods with copy paste -> csv with export using | as delimiter
-
+# LyP (lud-x-north): xlsx -> csv with export using | as delimiter
 
 WIKI=sanat.csc.fi
 WIKI=sanat.nikerabb.it
-OUTPUT=output-2020-03-13
+OUTPUT=output-2020-06-05
 rm -rf "$OUTPUT"
 mkdir "$OUTPUT"
 php LudImport.php --wiki=$WIKI "$OUTPUT" \
@@ -15,7 +15,8 @@ php LudImport.php --wiki=$WIKI "$OUTPUT" \
   --LyE-csv=aineistot/Nettisanat_LyE-2020-03-12.csv \
   --LyK=aineistot/LyK_Simonas-2020-03-12.csv \
   --LyKK-txt=aineistot/LyKK-2020-03-12.txt \
-  --LyKK-csv=aineistot/LyKK-SU-2020-03-12.csv
+  --LyKK-csv=aineistot/LyKK-SU-2020-06-05.csv \
+  --LyP=aineistot/LyP-2020-06-05.csv
 php ListPages.php "$OUTPUT" --wiki=$WIKI > todelete.txt
 cd ../..
 php extensions/Sanat/SanatImport.php extensions/Lud/"$OUTPUT" --wiki=$WIKI
