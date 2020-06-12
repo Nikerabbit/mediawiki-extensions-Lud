@@ -9,7 +9,7 @@ class PohjoisLyydiTabConverter {
 		$in = [];
 
 		foreach ( file( $filepath ) as $line ) {
-			$line = strtr( $line, "'", '’' );
+			$line = strtr( $line, [ "'" => '’' ] );
 			$in[] = str_getcsv( $line, '|' );
 		}
 
