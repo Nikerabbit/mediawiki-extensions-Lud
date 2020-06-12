@@ -103,6 +103,8 @@ class KeskiLyydiTabConverter {
 			$translations[$i] = str_replace( array_keys( $ph ), array_values( $ph ), $t );
 		}
 
+		$translations = array_filter( $translations );
+
 		return $translations;
 	}
 

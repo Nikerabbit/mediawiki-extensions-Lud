@@ -61,6 +61,8 @@ class PohjoisLyydiTabConverter {
 			];
 		}
 
+		$lit = trim( $lit );
+
 		return [
 			'id' => $lit,
 			'base' => $lit,
