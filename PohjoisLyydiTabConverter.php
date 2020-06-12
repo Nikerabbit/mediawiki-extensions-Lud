@@ -37,6 +37,7 @@ class PohjoisLyydiTabConverter {
 		[ $aliases, $pos, $lit, $lud, $ru, $fi, $ex1lud, $ex1ru, $ex1fi, $ex2lud, $ex2ru, $ex2fi ]
 			= $x;
 
+		$links = KeskiLyydiTabConverter::splitTranslations( $aliases );
 
 		$translations = [];
 		$translations['ru'] = KeskiLyydiTabConverter::splitTranslations( $ru );
@@ -69,7 +70,7 @@ class PohjoisLyydiTabConverter {
 			'properties' => [ 'pos' => $pos ],
 			'examples' => $examples,
 			'translations' => $translations,
-			'links' => [],
+			'links' => $links,
 		];
 	}
 
