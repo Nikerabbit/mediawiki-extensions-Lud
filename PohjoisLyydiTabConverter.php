@@ -69,7 +69,7 @@ class PohjoisLyydiTabConverter {
 			'type' => 'entry',
 			'language' => 'lud-x-north',
 			'cases' => $cases,
-			'properties' => [ 'pos' => $pos ],
+			'properties' => [ 'pos' => trim( $pos ) ],
 			'examples' => $examples,
 			'translations' => $translations,
 			'links' => $links,
