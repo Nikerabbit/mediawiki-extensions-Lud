@@ -196,7 +196,7 @@ class LudImport extends Maintenance {
 		$a['cases'] = array_merge( $a['cases'], $b['cases'] );
 		$a['examples'] = array_merge( $a['examples'], $b['examples'] );
 		$a['translations'] = array_merge_recursive( $a['translations'], $b['translations'] );
-		// Can skip links (none), pos (already same)
+		$a['links'] = array_unique( array_merge( $a['links'], $b['links'] ) );
 		return $a;
 	}
 
