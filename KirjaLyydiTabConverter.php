@@ -14,8 +14,8 @@ class KirjaLyydiTabConverter {
 
 		$out = [];
 		foreach ( $in as $line ) {
-			// Skip the header, if present
-			if ( $line[0] === 'suomi' ) {
+			// Skip the header, if present, and empty lines
+			if ( $line[0] === 'suomi' || $line[0] === '' ) {
 				continue;
 			}
 

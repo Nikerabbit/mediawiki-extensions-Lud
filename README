@@ -13,9 +13,9 @@ mkdir "$OUTPUT"
 php LudImport.php --wiki=$WIKI "$OUTPUT" \
   --LyE-txt=aineistot/LyE-2020-06-26.txt \
   --LyE-csv=aineistot/Nettisanat_LyE-2020-06-26.csv \
-  --LyK=aineistot/LyK_Simonas-2020-03-12.csv \
-  --LyKK-txt=aineistot/LyKK-2020-03-12.txt \
-  --LyKK-csv=aineistot/LyKK-SU-2020-06-05.csv \
+  --LyK=aineistot/LyK_Simonas-2020-06-26.csv \
+  --LyKK-txt=aineistot/LyKK-2020-06-26.txt \
+  --LyKK-csv=aineistot/LyKK-SU-2020-06-26.csv \
   --LyP=aineistot/LyP-2020-06-11.csv
 php ListPages.php "$OUTPUT" --wiki=$WIKI > todelete.txt
 cd ../..
