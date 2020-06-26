@@ -14,7 +14,7 @@ class LyydiTabConverter {
 		// next line to the current line.
 		$full = '';
 		foreach ( file( $filepath ) as $line ) {
-			$full .= $line;
+			$full .= strtr( $line, [ "'" => '’' ] );
 
 			if ( preg_match( '/(^|\|)"[^|]+$/', $full ) ) {
 				continue;
@@ -30,12 +30,12 @@ class LyydiTabConverter {
 		$out = [];
 		$prev = [];
 		foreach ( $in as $line ) {
-			if ( $line[0] === '' && $line[1] === $prev[1] ) {
+			if ( $line[1] === '' && $line[2] === $prev[2] ) {
 				// fill in missing values ('') from the previous lines.
 				// Make sure empty strings are unset first so that they
 				// will be replaced.
 				foreach ( $line as $i => $v ) {
-					if ( $v === '' && $i < 3 ) {
+					if ( $v === '' && $i < 4 ) {
 						$line[$i] = $prev[$i];
 					}
 				}
@@ -54,22 +54,22 @@ class LyydiTabConverter {
 	}
 
 	public function parseLine( $x ) {
-		if ( !$x[0] ) {
+		if ( !$x[1] ) {
 			throw new RuntimeException( 'Sanaluokka puuttuu' );
 		}
 
-		$id = str_replace( '/', '', $x[1] );
+		$id = str_replace( '/', '', $x[2] );
 
 		$translations = [];
-		if ( $x[3] ) {
-			$translations['ru'] = array_map( 'trim', preg_split( '/[,;] /', $x[3] ) );
-		}
 		if ( $x[4] ) {
-			$translations['fi'] = array_map( 'trim', preg_split( '/[,;] /', $x[4] ) );
+			$translations['ru'] = array_map( 'trim', preg_split( '/[,;] /', $x[4] ) );
+		}
+		if ( $x[5] ) {
+			$translations['fi'] = array_map( 'trim', preg_split( '/[,;] /', $x[5] ) );
 		}
 
 		$examples = [];
-		foreach ( [ 5, 8 ] as $i ) {
+		foreach ( [ 6, 9 ] as $i ) {
 			if ( !$x[$i] ) {
 				continue;
 			}
@@ -86,11 +86,11 @@ class LyydiTabConverter {
 			'base' => $id,
 			'type' => 'entry',
 			'language' => 'lud',
-			'cases' => [ 'lud-x-south' => $x[2] ],
-			'properties' => [ 'pos' => $x[0] ],
+			'cases' => [ 'lud-x-south' => $x[3] ],
+			'properties' => [ 'pos' => $x[1] ],
 			'examples' => $examples,
 			'translations' => $translations,
-			'links' => [],
+			'links' => KeskiLyydiTabConverter::splitTranslations( $x[0] ),
 		];
 	}
 }
