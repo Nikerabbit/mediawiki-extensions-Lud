@@ -6,17 +6,11 @@
  */
 class PohjoisLyydiTabConverter {
 	public function parse( string $filepath ): array {
-		$in = [];
-
-		foreach ( file( $filepath ) as $line ) {
-			$line = strtr( $line, [ "'" => '’' ] );
-			$in[] = str_getcsv( $line, '|' );
-		}
-
+		$in = LyydiTabConverter::getLinesFromCsvFile( $filepath );
 		$out = [];
 		foreach ( $in as $line ) {
 			// Skip the header, if present
-			if ( $line[ 0 ] === 'Synonyymit' || $line[ 1 ] === '' ) {
+			if ( $line[ 0 ] === 'Synonyymit' ) {
 				continue;
 			}
 
@@ -37,6 +31,10 @@ class PohjoisLyydiTabConverter {
 		//Synonyymit|Määrittely|kirjalyydi|Murremuoto|Venäjännös|Suomennos|1. esim.|1. esim:n venäjännös|1. esim:n suomennos|2. esim.|2. esim:n venäjännös|2. esim:n suomennos
 		[ $aliases, $pos, $lit, $lud, $ru, $fi, $ex1lud, $ex1ru, $ex1fi, $ex2lud, $ex2ru, $ex2fi ]
 			= $x;
+		
+		if ( !$pos ) {
+			throw new RuntimeException( 'Sanaluokka puuttuu (LyP)' );
+		}
 
 		$links = KeskiLyydiTabConverter::splitTranslations( $aliases );
 

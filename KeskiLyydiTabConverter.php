@@ -6,16 +6,11 @@
  */
 class KeskiLyydiTabConverter {
 	public function parse( $filepath ) {
-		$in = [];
-
-		foreach ( file( $filepath ) as $line ) {
-			$in[] = str_getcsv( $line, '|' );
-		}
-
+		$in = LyydiTabConverter::getLinesFromCsvFile( $filepath );
 		$out = [];
 		foreach ( $in as $line ) {
 			// Skip the header, if present
-			if ( $line[0] === 'hakusana' ) {
+			if ( $line[1] === 'hakusana' ) {
 				continue;
 			}
 
@@ -33,43 +28,48 @@ class KeskiLyydiTabConverter {
 	}
 
 	public function parseLine( $x ) {
-		// 0 - hakusana
-		// 1 - keskilyydi Ph
-		// 2 - määrittely
-		// 3 - keskilyydi Ph, RKS
-		// 4 - venäjännös
-		// 5 - suomennos
-		// 6 - esimerkki
-		// 7 - sama esimerkki (RKS)
-		// 8 - esim. venäjännös
-		// 9 - esim. suomennos
+		// 0 - synonyymit
+		// 1 - hakusana
+		// 2 - keskilyydi Ph
+		// 3 - määrittely
+		// 4 - keskilyydi Ph, RKS
+		// 5 - venäjännös
+		// 6 - suomennos
+		// 7 - esimerkki
+		// 8 - sama esimerkki (RKS)
+		// 9 - esim. venäjännös
+		// 10 - esim. suomennos
 
-		if ( !$x[0] ) {
+		if ( !$x[1] ) {
+			throw new RuntimeException( 'Hakusana puuttuu (LyK)' );
+		}
+
+		if ( !$x[3] ) {
 			throw new RuntimeException( 'Sanaluokka puuttuu (LyK)' );
 		}
 
-		$id = $x[0];
+		$id = $x[1];
 
 		$translations = [];
-		if ( $x[4] !== '' ) {
-			$translations['ru'] = self::splitTranslations( $x[4] );
-		}
 		if ( $x[5] !== '' ) {
-			$translations['fi'] = self::splitTranslations( $x[5] );
+			$translations['ru'] = self::splitTranslations( $x[5] );
+		}
+		if ( $x[6] !== '' ) {
+			$translations['fi'] = self::splitTranslations( $x[6] );
 		}
 
 		$examples = [];
-		if ( $x[6] !== '' ) {
+		if ( $x[7] !== '' ) {
 			$examples[] = [
-				'lud-x-middle' => $x[6],
-				'ru' => $x[8],
-				'fi' => $x[9],
+				'lud-x-middle' => $x[7],
+				'ru' => $x[9],
+				'fi' => $x[10],
 			];
 		}
 
 		$cases = [];
-		if ( $x[1] ) {
-			$cases = [ 'lud-x-middle' => $x[1] ];
+		if ( $x[2] ) {
+			$cases = [ 'lud-x-middle' => $x[2] ];
 		}
 
 		return [
@@ -78,7 +78,7 @@ class KeskiLyydiTabConverter {
 			'type' => 'entry',
 			'language' => 'lud-x-middle',
 			'cases' => $cases,
-			'properties' => [ 'pos' => $x[2] ],
+			'properties' => [ 'pos' => $x[3] ],
 			'examples' => $examples,
 			'translations' => $translations,
 			'links' => [],

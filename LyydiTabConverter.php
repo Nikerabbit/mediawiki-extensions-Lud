@@ -5,7 +5,7 @@
  * @license GPL-2.0-or-later
  */
 class LyydiTabConverter {
-	public function parse( $filepath ) {
+	public static function getLinesFromCsvFile( string $filepath ): array {
 		$in = [];
 
 		// There are some accidental newlines in the data.
@@ -23,9 +23,20 @@ class LyydiTabConverter {
 			// Normalize newlines to space after comma, or none otherwise
 			$full = preg_replace( '/,\n/', ' ', $full );
 			$full = preg_replace( '/\n/', '', $full );
-			$in[] = str_getcsv( $full, '|' );
+
+			// Ignore fully empty lines
+			if ( trim( $full, '|' ) !== '' ) {
+				$in[] = str_getcsv( $full, '|' );
+			}
+
 			$full = '';
 		}
+
+		return $in;
+	}
+
+	public function parse( $filepath ) {
+		$in = self::getLinesFromCsvFile( $filepath );
 
 		$out = [];
 		$prev = [];
