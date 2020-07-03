@@ -41,11 +41,11 @@ class KeskiLyydiTabConverter {
 		// 10 - esim. suomennos
 
 		if ( !$x[1] ) {
-			throw new RuntimeException( 'Hakusana puuttuu (LyK)' );
+			throw new RuntimeException( '[LyK] Hakusana puuttuu' );
 		}
 
 		if ( !$x[3] ) {
-			throw new RuntimeException( 'Sanaluokka puuttuu (LyK)' );
+			throw new RuntimeException( '[LyK] Sanaluokka puuttuu' );
 		}
 
 		$id = $x[1];

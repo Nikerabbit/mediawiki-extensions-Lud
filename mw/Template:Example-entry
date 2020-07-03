@@ -1,1 +1,1 @@
-* {{langname|{{{language}}}|{{{langdesc|}}}}} {{L|language={{{language}}}|text={{{text}}}}}
+* {{langname|{{{language}}}|{{{langdesc|}}}}} {{L|language={{{language}}}|text={{#lud:{{{text}}}}}}}

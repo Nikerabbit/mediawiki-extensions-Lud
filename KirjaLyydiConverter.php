@@ -95,7 +95,7 @@ class KirjaLyydiConverter {
 			];
 		}
 
-		throw new Exception( 'Rivin jäsentäminen epäonnistui (LyKK)' );
+		throw new Exception( '[LyKK] Rivin jäsentäminen epäonnistui' );
 	}
 
 	public function splitTranslations( $string ) {

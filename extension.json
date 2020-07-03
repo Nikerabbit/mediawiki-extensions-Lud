@@ -12,12 +12,16 @@
 		"LudHooks": "LudHooks.php"
 	},
 	"Hooks": {
-		"BeforePageDisplay": "LudHooks::onBeforePageDisplay"
+		"BeforePageDisplay": "LudHooks::onBeforePageDisplay",
+		"ParserFirstCallInit": "LudHooks::onParserFirstCallInit"
 	},
 	"MessagesDirs": {
 		"Lud": [
 			"i18n"
 		]
+	},
+	"ExtensionMessagesFiles": {
+		"Lud-Magic": "MagicWords.i18n.php"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",

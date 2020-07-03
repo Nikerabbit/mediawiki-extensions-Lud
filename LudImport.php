@@ -104,7 +104,8 @@ class LudImport extends Maintenance {
 				$x = $this->mergeItems( $dedup[$id], $b );
 				$dedup[$id] = $x;
 			} catch ( Exception $err ) {
-				echo "Yhdistetään sanaa $id: " . $err->getMessage() . "\n";
+				echo "[LyE] Sanatietueiden yhdistäminen eri lähteistä epäonnistui sanalle $id. Jälkimmäinen jää pois.\n" .
+					$err->getMessage() .	"\n\n";
 			}
 		}
 
@@ -123,7 +124,7 @@ class LudImport extends Maintenance {
 				$cases = $b['cases'];
 			}
 
-			if ( strpos( $bc, $ac ) === false ) {
+			if ( $ac !== '' && strpos( $bc, $ac ) === false ) {
 				throw new RuntimeException(
 					json_encode(
 						[
@@ -159,7 +160,7 @@ class LudImport extends Maintenance {
 			'base' => $a['base'],
 			'type' => $a['type'],
 			'language' => $a['language'],
-			'cases' => $a['cases'],
+			'cases' => $cases,
 			'properties' => $a['properties'],
 			'examples' => array_merge( $a['examples'], $b['examples'] ),
 			'translations' => array_merge_recursive( $a['translations'], $b['translations'] ),
@@ -244,7 +245,7 @@ class LudImport extends Maintenance {
 					}
 
 					if ( count( $newcands ) === 1 ) {
-						echo "Kirjalyydin sana '$id' yhdistettiin etelälyydin sanaan taivutuksen perusteella.\n";
+						echo "Kirjalyydin sana '$id' yhdistettiin etelälyydin sanaan taivutuksen perusteella.\n\n";
 						$south[$newcands[0]] =
 							$this->mergeKirjaLyydiItem( $south[$newcands[0]], $entry );
 						continue;
@@ -254,12 +255,14 @@ class LudImport extends Maintenance {
 					foreach ( $cands as $i ) {
 						$name =
 							$south[$i]['cases']['lud-x-south'] ??
-							$south[$i]['cases']['lud-x-middle'] ?? '#';
+							$south[$i]['cases']['lud-x-south'] ??
+							$south[$i]['cases']['lud-x-middle'] ??
+							$south[$i]['cases']['lud-x-north'] ?? '#';
 						$cases[] = "$name ({$south[$i]['properties']['pos']})";
 					}
 					$cases = implode( "\n", $cases );
-					echo "Kirjalyydin hakusanan '$id' yhdistäminen ei onnistunut. " .
-						"Useita vaihtoehtoja. Lisätään omana artikkelinaan.\n$cases\n";
+					echo "Kirjalyydin hakusanan '$id' yhdistäminen olemassa olevaan sanatietueeseen ei onnistunut. " .
+						"Useita vaihtoehtoja. Lisätään omana artikkelinaan.\n$cases\n\n";
 				}
 				$new[] = $entry;
 				continue;
