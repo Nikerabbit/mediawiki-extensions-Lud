@@ -52,7 +52,8 @@ al|postp. yhd.|alpiä|al/piä|из-под|alta|||||||||
 |s.|arest|ar’est, -an, -ad|арест|aresti, pidätys|||||||||
 |a.|arestuittu|ar’estuitu/d, -n, -d; -in, -id (KTK)|арестованный|pidätetty|||||||||
 |s.|arkan|arkan, -an, -ad|аркан|suopunki|||||||||
-|s.|armastand|armastand, -an, -ad|ласка, любовь|hyväily, rakkaus|||||||||
+armastuz|s.|armastand|armastand, -an, -ad|ласка, любовь|hyväily, rakkaus|||||||||
+armastand|s.|armastuz|armastu/z, -sen, -st; -s'iin, -s'iid|любовь|rakkaus|||||||||
 |s.|arttel’|art'el’, -in, -id; -iin, -iid|артель, группа, толпа, орава, гурьба, стадо, компания, коллектив|artteli, joukko|||||||||
 |s.|artist|art’ist, -an, -ad|актёр, актриса|näyttelijä|||||||||
 artugad, artut’, elävhobed|s.|artug|artug, -an, -ad|ртуть|elohopea|||||||||
@@ -268,9 +269,13 @@ kierduz|s.|d’ataž|etaž, -an, -ad|этаж|kerros|||||||||
 |s.|d’auhond|d’auhond, -an, -ad|размол|jauhaminen|||||||||
 |s. yhd.|d’auhondkivi|d’auhont/kivi|жернов|käsikivet|||||||||
 |a. yhd.|d’ogakuine|d’oga/kuin’e|ежемесячный|jokakuukautinen, kuukausittainen|||||||||
+|a. yhd.|kuine|kui/n’e, -žen, -št; -žiin, -žiid|месячный|kuukautinen, kausittainen|d’ogakuine|d’ogakuin’e|ежемесячный|jokakuukautinen, kuukausittainen|||||
+|a. yhd.|nedaliine|n’edal’i/in’e, -ižen, -št; -ižiin, -ižiid|недельный|viikkoinen|d’oganedaliine|d’ogan’edal’iin’e|еженедельный|jokaviikkoinen, viikottainen|||||
 |a. yhd.|d’oganedaliine|d’oga/n’edal’iin’e|еженедельный|jokaviikkoinen, viikottainen|||||||||
+päiväine|a. yhd.|päivälline|päiväl’i/in’e, -ižen, -št; -ižiin, -ižiid|дневный|päiväinen|d’ogapäivälline|d’ogapäiväl’iin’e|каждодневный|jokapäiväinen, päivittäinen|||||
 |a. yhd.|d’ogapäivälline|d’oga/päiväl’iin’e|каждодневный|jokapäiväinen, päivittäinen|||||||||
 |a. yhd.|d’ogavuozine|d’oga/vuoz’iin’e|ежегодный|jokavuotinen, vuosittainen|||||||||
+vuodine|a. yhd.|vuozine|vuoz’i/in’e, -ižen, -št; -ižiin, -ižiid|годный|vuotinen|d’ogavuoz’iin’e|ежегодный|jokavuotinen, vuosittainen||||||
 |s. dem.|d’ogud|d’ogu/t ~ d’ogu/tt, -den, -tt|речка|pieni joki|||||||||
 |s.|d’okt’|d’okt’|дёготь|terva|||||||||
 |s.|d’uakker’|d’uaker’ ~ jakor’|якорь|ankkuri|||||||||
@@ -397,11 +402,11 @@ duuh|s. mon.|duuhud|duuhu/d, -in, -id (KTK)|духи; запахи|hajuvesi; haj
 |s. mon.|džincad|džinsi|джинсы|farkut|||||||||
 |s.|ečind|ečind, -an, -ad|поиск, поиски, розыск, обыск, иск|etsintä|||||||||
 |v. frekv.|ečitelta|ečite/l’da, -l’ob, -l’ ~ -l’ii|обыскивать, обыскать|etsiskellä|||||||||
-|a.|edahaine|edaha/an’e, -ažen, -št; -ažiin, -ažiid|далёкий, дальний|kaukainen|||||||||
+edahalaine|a.|edahaine|edaha/an’e, -ažen, -št; -ažiin, -ažiid|далёкий, дальний, отдалённый|kaukainen, syrjäinen|edahaan’e d'er’ein (KTK)|отдалённая деревня|syrjäinen kylä||||||
 |adv. yhd.|edahanpiä|edaham/piä ~ -pia (KTK)|издалека, издали|kaukaa, etäältä|||||||||
 |s. yhd.|edelpiämaksand|edelpiä/maksand|задаток|ennakkomaksu|||||||||
-|adv.|edemba|edemba|дальше|kauempana|||||||||
-|adv.|edembaks|edembaks|подальше|kauemmaksi|||||||||
+|adv. komp.|edemba|edemba|дальше|kauempana|||||||||
+|adv. komp.|edembaks|edembaks|подальше|kauemmaksi|||||||||
 |v.|edeta|ede/ta, -nob, -n’ ~ -n’ii; -taze, -t’ihe|отдалиться|loitota, etääntyä|||||||||
 |s.|efekt|effekt, -an, -ad|эффект|effekti|||||||||
 |s.|efir|efir, -an, -ad|эфир|eetteri|||||||||
@@ -642,6 +647,7 @@ haikostuda|v. refl.|haikostudakse|haikostu/dakse, -ze, -ihe(ze)|зевнуть|h
 |v.|haižuda|haišta, haižub, haižui|пахнуть; вонять |haista; lemuta pahalle|||||||||
 |s.|halat|halat, -an, -ad; -uun, -uud|халат|aamutakki|||||||||
 |s.|halg|haug, -on, -od; -uun, -uud|полено|halko|||||||||
+pino|s. yhd.|halgpino|hauk/pino|дровяная поленница| halkopino|||||||||
 halg|s. dem.|halgoine|haug/uun’e ~ -uon’e, -uužen ~ -uožen, -ošt; -uužiin ~ -uožiin; -uužiid ~ -uožiid|полешко, поленце|halko (pieni)|||||||||
 |v.|halgoda| haugu/uda ~ haugu/oda, -un  ~ -on, -ub  ~ -ob, -u  ~ -o; -utaze  ~ -otaze,  -ut'ihe  ~ -ot'ihe|||hauguu! (KTK)|коли!|käy halkomaan!||||||
 |s.|halgelmuz|haugelmu/z, -sen, -st; -s’iin, -s’iid|трещина, расщелина|halkeama|||||||||
@@ -660,7 +666,7 @@ halg|s. dem.|halgoine|haug/uun’e ~ -uon’e, -uužen ~ -uožen, -ošt; -uužii
 |v.|härhettada|härhe/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe (KTK)|хихикать|hihittää|||||||||
 |adv.|harvaižesti|harvaažest'i (PN)|реденько, пореже|harvoin|||||||||
 |adv. dem.|harvaižes|harvaažes (IL)|реденько, изредка|harvoin|||||||||
-|adv.|harvas|harvas ~ harvah (PN)|редко, изредка|harvoin|kävüda harvas|бывать изредка, захаживать|käydä harvoin|harvas keradam|редко собираем|harvoin keräämme|||
+|adv.|harvas(ti)|harvas ~ harvah (PN)|редко, изредка|harvoin|kävüda harvas|бывать изредка, захаживать|käydä harvoin|harvas keradam|редко собираем|harvoin keräämme|||
 |v.|harvendoittada|harvenduu/tta, -tab, -t’ ~ -t’ii|разрядить|harventaa|||||||||
 |adv.|hätkeks|hät’keks|надолго|pitkäksi aikaa|||||||||
 |adv.|hätkemb|hät’kemb|подольше|kauempi|||||||||
@@ -744,6 +750,10 @@ vessel'as, vessel’aižes|adv.|humalas|humalas|||||||||||
 |s.|humalnik|humal’n’ik, -an, -ad|пьяница|juoppo, juomari|||||||||
 |v.|humaloita|humaluuta|пьянствовать, кутить|juopotella|||||||||
 |v.|hünäita|hünää/ta, -dab, -ž ~ -žii; -taze, -t’ihe (KTK)|honottaa; marista|гнусавить; канючить|häin hünäädab da oman ottab (KTK)|он канючит и своё получит|hän saa omansa marisemalla||||||
+hengastuda|v.|huogastuda|huogastu/da, -n, -in; -b, -i; -taze, -t’ihe|отдыхать, отдохнуть|levätä|||||||||
+huogastuda|v.|hengastuda|hen'gastu/da, -n, -in; -b, -i; -taze, -t’ihe (KTK)|отдыхать, отдохнуть|levätä|||||||||
+hengastuda, huogastuda|v.|oddohn'ida|oddohn'i/da, -n, -in; -b, -i; -taze, -t’ihe|отдыхать, отдохнуть|levätä|||||||||
+|s.|oddoh|oddih, -an, -ad; -uun, -uud|||||||||||
 |adv.|huogehes|huoghes|дёшево|halvalla|||||||||
 |v.|huogištada|huogiš/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|удешевлять, удешевить|huojistaa, alentaa hintaa|||||||||
 |v.|huogištuda|huogištu/da, -b, -i; -taze, -t’ihe|дешеветь, подешеветь|huojistua, halventua, halveta|||||||||
@@ -772,7 +782,7 @@ vessel'as, vessel’aižes|adv.|humalas|humalas|||||||||||
 |s. mon.|huuled|huul’/ed, -iin, -iid|уста, губы|huulet|||||||||
 |s.|huulidenkruask|huul’iin/kruask|помада|huulimaali|||||||||
 |adv.|hüväižesti|hüvääžest’i|хорошенько; вежливо|kunnolla; kohteliaasti|||||||||
-|a. yhd.|hüväs’üdämelline|hüvä/s’üdämeliin’e|добродушный|hyväsydäminen|||||||||
+|a. yhd.|hüväsüdämelline|hüvä/s’üdämel'iin’e|добродушный|hyväsydäminen|||||||||
 |v.|hvuastaida|hvuasta/ada, -ab, -a; -ataze, -at’ihe|хвастать(ся)|kerskua|||||||||
 |a.|iänikaz|iän’eka/z, -han, -st; -hiin, -hiid|голосистый|äänekäs|||||||||
 |adv.|iäres|iäres (IL)|долой|pois|||||||||
@@ -782,7 +792,7 @@ vessel'as, vessel’aižes|adv.|humalas|humalas|||||||||||
 |s.|idij|id’eja, -n, -d|идея|idea, aate|||||||||
 |s.|idijal|id’eal, -an, -ad|идеал|ideaali|||||||||
 |adv. yhd.|iele-kus|iel’e/kus|негде, неоткуда|ei missään, ei mistään|||||||||
-|adv.|igaks|igaks|навек, навечно|iäkseen, iäksi|||||||||
+|adv.|igaks|igaks|навек, навечно, навсегда|iäkseen, iäksi|||||||||
 |s. yhd.|igen’oi-agen’oi|igen’uu-agan’uu (IL)|улитка|etana|||||||||
 |adv.|ihan|ihan|совершенно|ihan|||||||||
 |v. refl.|ihasteldudakse|ihastel’du/dakse, -ze, -ihe(ze)|восхищаться|ihastua|||||||||
@@ -796,6 +806,7 @@ kezakuu|s. yhd.|ijun’kuu|ijun’/kuu|июнь|kesäkuu|||||||||
 |s.|ill’uminator|il’l’uminator, -an, -ad|иллюминатор|laivanikkuna|||||||||
 |s.|ill’uzij|il’l’uz’ij, -an, -ad|иллюзия|illuusio|||||||||
 |v.|imeda|im/eda, -ob, -ii|сосать|imeä|||||||||
+|v. refl.|imedakse|im/edakse, -eze, -iihe(ze)|насосаться|imeä kyllikseen|||||||||
 |s.|imettaj|imetaj, -an, -ad|кормилица|imettäjä|||||||||
 |s.|imigrant|imigrant, -an, -ad|иммигрант|maahanmuuttaja|||||||||
 kummalline|a. yhd.|imminkummaine|immiin/kummaan’e|несуразный|sopimaton|||||||||
@@ -858,6 +869,7 @@ niärittada|v. frekv.|irvištelta|irvište/l’da, -l’ob, -l’ ~ -l’ii|гл
 |s.|izmennik|izmen’n’ik, -an, -ad|изменник|petturi, kavaltaja|||||||||
 |s.|izumrud|izumrud, -an, -ad|изумруд|smaragdi|||||||||
 |s.|izveržen’ij|izveržen'ij, -an, -ad|извержение|purkaus; purku|||||||||
+|s. mon.|itkud|it'ku/d, -in, -id|||||||||||
 |s.|d'ačeik|jačeik, -an, -ad|ячейка|solu, lokero; kenno|||||||||
 |a.|jadovitoi|jadovit/ij, -uun, -uud |ядовитый|myrkyllinen|||||||||
 |s.|d'uad|jadu, -n, -d; -in, -id|яд|myrkky|||||||||
@@ -907,7 +919,7 @@ kaks'|adv.|kahtei|kahtei|вдвоём, двое|kahden, kaksin|||||||||
 |adv. komp.|kaidemb|kaidemb|уже|kapeampi|||||||||
 |a. komp.|kaidemb|kaidemb, -an, -ad; -iin, -iid|более узкий|kapeampi|ombel’ta kaidembaks|ушить|ommella kapeammaksi||||||
 |s. yhd.|kaidocc|kaid/occ|узколобый|kapeaotsainen|||||||||
-|a.|kaik|kaik, -en, -ed; -iin, -iid|целый; всякий|koko, kokonainen; joka, kaikenlainen|kaikehe luaduhe (IL)|всячески|kaikin tavoin||||||
+kaikenmoine|a.|kaik|kaik, -en, -ed; -iin, -iid|целый; всякий|koko, kokonainen; joka, kaikenlainen|kaikehe luaduhe (IL)|на всякий лад, всячески|kaikin tavoin||||||
 kaikked|part. sup. |kaikiš|kaikiiš|самый, из всех|kaikkein, kaikista|||||||||
 kaikkid|adv.|kaikked|kaiked|всего, в целом|kaikkiaan, yhteensä|s’iga ol’ii kaiket kaks’ klassad|там (в школе) было всего два класса|siinä (koulussa) oli kaikkiaan kaksi luokkaa||||||
 kaikked|adv.|kaikkid|kaikiid|итого|kaikkiaan, yhteensä|||||||||
@@ -916,7 +928,7 @@ kaikkijal|adv.|kaikkijale|kaikijal’e|везде (куда)|kaikkialle, joka pa
 |s.|kainal|kaimal, kaimlon, kaimalt|подмышка|kainalo|kaimlon al’l’e (IL)|под мышку|kainaloon||||||
 |a.|kaivettu|kaivdu/d, -n, -d; -in, -id|вырытый; изрытый|kaivettu|||||||||
 |s.|kajahtuz|kajahtu/z, -sen, -st; -s’iin, -s’iid|эхо, отзвук|kaiku|||||||||
-zor'a|s.|kajo|kaj/o, -on, -od; -uun, -uud|зарево|kajastus, kajo|||||||||
+zor'a|s.|kajo|kaj/o, -on, -od; -uun, -uud|зарево|kajastus, kajo, koite, koitto|||||||||
 reun|s.|kajomk|kajomk, -an, -ad|каёмка|reunajuova|||||||||
 |s.|kajut|kajut, -an, -ad|каюта|hytti|||||||||
 |s.|kakav|kakao, -an, -ad|какао|kaakao|||||||||
@@ -925,9 +937,9 @@ reun|s.|kajomk|kajomk, -an, -ad|каёмка|reunajuova|||||||||
 |a. yhd.|kaks’kierdaine|kaks’/kierdaan’e|двойной|kahdenkertainen|||||||||
 |num.|kaks’kümment|kaks’/küment|двадцать|kaksilymmentä|||||||||
 |num.|kaks’sadad|kaks’/sadad|двести|kaksisataa|||||||||
-|s.|kaksinaine|kaks’ina/an’e ~ kaks’na/an’e (KTK), -ažen, -št|двойняшка, близнец|kaksonen, kaksoislapsi|||||||||
-|s. mon.|kaksinaižed|kaks’inaaž/ed ~ kaks’naaž/ed (KTK), -iin, -iid|двойня, двойняшки, близнецы|kaksoset|||||||||
-|s. mon.|kaksižed|kaks’iiž/ed, -iin, -iid (IL)|двойня, двойняшки, близнецы|kaksoset|||||||||
+kaksinaižed|s.|kaksinaine|kaks’ina/an’e ~ kaks’na/an’e (KTK), -ažen, -št|двойняшка, близнец|kaksonen, kaksoislapsi|||||||||
+kaksinaine|s. mon.|kaksinaižed|kaks’inaaž/ed ~ kaks’naaž/ed (KTK), -iin, -iid|двойня, двойняшки, близнецы|kaksoset|||||||||
+kaksinaižed|s. mon.|kaksižed|kaks’iiž/ed, -iin, -iid (IL)|двойня, двойняшки, близнецы|kaksoset|||||||||
 |s.|kaldor|kal'idor ~ kal’dor (IL), -an, -ad; -uun, -uud |коридор|käytävä|||||||||
 |s. yhd.|kalakuurnik|kala/kurn’ik (IL)|рыбник|kalakukko|||||||||
 |s.|kalastaj|kalastaj, -an, -ad|рыбак|kalastaja|||||||||
@@ -967,7 +979,8 @@ kandamuz, kandelmuz, takk|s.|takk I|takk, takan, takkad|ноша|taakka, kantamu
 |s.|kapl’|kapl’, -an, -ad|капля|pisara|||||||||
 |s.|kapot|kapot, -an, -ad|капот|kapotti|||||||||
 |s.|kapriz|kapr’iz, -an, -ad|каприз|oikku|||||||||
-|s.|kapust|kapust, -an, -ad|капуста|kaali|||||||||
+|s.|kapust|kapust, -an, -ad; ; -iin, -iid|капуста|kaali|buap paštuu piirguut kapustas (KTK)бабушка пекла пироги из капусты||mummo paistoi kaalipiirakoita||||||
+|s. yhd.|kapustkera|kapust/kera|||||||||||
 |s.|karakul’|karakul’|каракуль|karakuli|||||||||
 |s.|karamel’|karamel’|карамель|karamelli|||||||||
 |s.|karandiš|karandiš, -an, -ad|карандаш|lyijykynä|||||||||
@@ -1022,21 +1035,24 @@ kehä, kehäine, kela|s.|katušk|katušk, -an, -ad|катушка|kela|||||||||
 |s. yhd.|käveluzdorogaine|kävel’uz/dorogaan’e|дорожка|kävelypolku|||||||||
 |s. yhd.|kavičkad|kavičk/ad, -uun, -uud|кавычки|lainausmerkit|||||||||
 |s.|kävünd|kävünd ~ (Pal) kävind, -an, -ad|хождение, посещение; побывка|käynti|||||||||
-|s.|kazačih|kazačih, -an, -ad; -uun, -uud|казачка|kasakkanainen|||||||||
+|s.|kazačih||казачка|kasakkanainen|||||||||
 |s.|kazačih|kazačih, -an, -ad; -uun, -uud|наёмная работница, батрачка|palkkalainen, batrakki, piika|||||||||
 |s.|kazak|kazak, -an, -ad; -uun, -uud|наёмный работник, батрак|palkkalainen, batrakki, renki|||||||||
-|s.|kazak|kazak, -an, -ad; -uun, -uud|казак|kasakka|||||||||
+|s.|kazak||казак|kasakka|||||||||
 |s. yhd.|käziastij|käzest’ij (IL)|рукомойник, умывальник|pesulaite|||||||||
+kaži|s. yhd.|emäkaži|ema/kaži|кошка|naaraskissa|||||||||
+kaži|s. yhd.|ižakaži|iža/kaži|кот|uroskissa|||||||||
 |s. yhd.|kažinpoig|kažim/poig|котёнок|kissanpoika|||||||||
+kažinpoig|s. yhd. dem.|kažinpoigaine|kažim/poigaan'e|котёнок, котёночек|kissanpoikanen|||||||||
 |s. yhd.|käzipaik|käz’i/paik|полотенце|pyyhe|||||||||
 |s. yhd.|käzipuu|käz’i/puu|перила|käsipuu, kaide|||||||||
 |s.|kazv|kazv|рост|kasvu|pien' kazv (PN)|маленький рост|pieni kasvu||||||
 |s.|kazvatand|kazvatand, -an, -ad|воспитание|kasvatus|||||||||
 |adv. dem.|kebdäižesti|kebd’aažest’i|полёгоньку|kevyesti|||||||||
-|adv.|kebdäs|kebd’as|слегка|kevyesti|||||||||
+|adv.|kebdäs(ti)|kebd’as|слегка|kevyesti|||||||||
 |adv. komp.|kebdemb|kebd’emb|легче|kevyempi|||||||||
-|v.|kebdenzoittada|kebd’enzuutta|облегчить|keventää, helpottaa|||||||||
-|v.|kebdeta|kebd’e/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|облегчить|keventää, helpottaa|||||||||
+kebdeta|v.|kebdenzoittada|kebd’enzuutta|облегчить|keventää, helpottaa|||||||||
+kebdenzoittada|v.|kebdeta I|kebd’e/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|облегчить|keventää, helpottaa|||||||||
 |s. mon.|kedad|ked/ad, -uun, -uud|кеды|tennarit|||||||||
 |s. mon.|keglid|kegl’i/d, -in, -id|кегли|keilat|||||||||
 |a.|keitettu|keittu/d, -n, -d; -in, -id|варёный|keitetty|||||||||
@@ -1053,7 +1069,7 @@ kengida|v.|kengittada|kengi/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|о�
 |v.|kerduda|kerdu/da, -b, -i; -taze, -t’ihe|собираться, собраться|kokoontua|||||||||
 |s.|keričend|ker’ičend, -an, -ad|стрижка|leikkaus|||||||||
 leikata|v.|kerita|ker’i/ta, -čob, -č ~ -čii; -taze, -t’ihe|стричь, постричь, остригать, остричь|keritä, leikata|ker’ita lambhiid (PN)|стричь овец|keritä lampaita|pidab ker’ita lambaz (TKT)|нужно остричь овцу|pitää keritä lammas|||
-|s.|kesk|kesk, -en, -ed; -iin, -iid|середина|keski|||||||||
+|s.|kesk|kesk, -en, -ed; -iin, -iid ~ kes'k (KTK)|середина|keski, keskus, ydin|||||||||
 |s. yhd.|kesktaivaz|kesk/taivaz|зенит|keskitaivas|||||||||
 |s.|keskuč|keskuč, -an, -ad|промежуток, интервал|väli|||||||||
 |s. yhd.|kesküö|kesk/üö|полночь|keskiyö|||||||||
@@ -1141,7 +1157,7 @@ klokutuz|s.|klokutand|klokutand, -an, -ad|стук|kolkutus|||||||||
 |s.|knopk|knopk, -an, -ad|кнопка|nuppi, näppäin|||||||||
 |s.|kobr|kobr, -an, -ad|горсть, кулак|koura|||||||||
 |s. yhd.|kodavävü|koda/vävü|примак|kotivävy|||||||||
-kanankoda|s.|koda|ko/da, -dan, -dad; -d'iin, -d'iid|клетка|häkki, kanakoppi|||||||||
+kanankoda|s.|koda|ko/da, -dan, -dad; -d'iin, -d'iid|клетка, курятник|häkki, kanakoppi|||||||||
 koda|s. yhd.|kanankoda|kanan/koda|курятник, клетка для кур|kanakoppi, kanahäkki|||||||||
 |s.|kodeks|kodeks, -an, -ad|кодекс|koodeksi|||||||||
 |s. yhd.|kodiemag|kod’i/emag|домохозяйка|talonemäntä, perheenemäntä|||||||||
@@ -1158,9 +1174,9 @@ muahalgij, muanižand|s. yhd.|muaižand|mua/ižand|дух земли|maanhaltia|
 muahalgij, muaižand|s. yhd.|muanižand|muan/ižand|дух земли|maanhaltia|||||||||
 |s. yhd.|tahnanižand|tahnan/ižand|дворовой|tanhuanhaltia|||||||||
 |s. yhd.|külünižand|kül'ün/ižand|баенник|saunanhaltia|||||||||
-|s. yhd.|pertinižand|pert’in/ižand|дух избы, домовой|tuvanhaltia, kodinhaltia|||||||||
+kodinižand|s. yhd.|pertinižand|pert’in/ižand|дух избы, домовой|tuvanhaltia, kodinhaltia|||||||||
 meccahine|s. yhd.|mecanižand|mecan/ižand|дух леса, леший|metsänhaltia|||||||||
-|s. yhd.|kodinižand|kod’in/ižand|дух дома, домовой; домовладелец (IL)|kodinhaltia; talon omistaja|||||||||
+pertinižand|s. yhd.|kodinižand|kod’in/ižand|дух дома, домовой; домовладелец (IL)|kodinhaltia; talon omistaja|||||||||
 |s. yhd.|kodiruadnik|kod’i/ruadn’ik|домработница|kotiapulainen|||||||||
 |a. yhd.|kodiškudottu|kod’iš/kudotud|домотканый|kotikutoinen|||||||||
 |s. dem.|kodvaine|kodva/an’e, -ažen, -št; -ažiin, -ažiid|минутка|hetkinen, hetki (pieni)|tulda kodvaažeks|забегать|pistäytyä||||||
@@ -1235,8 +1251,8 @@ astij, laiv|s.|karabl’|korabl’, -an, -ad; -iin, -iid|корабль|laiva|||
 |s.|kordinat|kord’inat, -an, -ad|координата|koordinaatti|kord’inatad|координаты|koordinatit||||||
 |a.|korgedemb|korktemb ~ kortemb, -an, -ad|более высокий|korkeampi|||||||||
 |adv.|korgedemb|korktemb ~ kortemb ~ korgemb (IL)|выше|korkeampi|||||||||
-|a.|koivuine II|koivu/in'e, -ižen, -št; -ižiin, -ižiid|koivuinen, koivu-|берёзовый|tul'e koivuižiil kord’aažiil, l'epaažiil regučuol kansanr.|приезжай на берёзовых саночках, на ольховых салазках|tule koivuisilla korjilla, leppäisillä kelkoilla||||||
-kord'|s. dem.|kord'aine|kord'a/an'e, -ažen, -št; -ižiin, -ižiid|саночки, сани (лёгкие ездовые)|korja, ajelureki, kirkkoreki / сани (лёгкие ездовые)|tul'e koivuižiil kord’aažiil, l'epaažiil regučuol kansanr.|приезжай на берёзовых саночках, на ольховых салазках|tule koivuisilla korjilla, leppäisillä kelkoilla||||||
+|a.|koivuine II|koivu/in'e, -ižen, -št; -ižiin, -ižiid|koivuinen, koivu-|берёзовый|tul'e koivuižiil kord’aažiil, l'epaažiil regučuol laul.|приезжай на берёзовых саночках, на ольховых салазках|tule koivuisilla korjilla, leppäisillä kelkoilla||||||
+kord'|s. dem.|kord'aine|kord'a/an'e, -ažen, -št; -ižiin, -ižiid|саночки, сани (лёгкие ездовые)|korja, ajelureki, kirkkoreki / сани (лёгкие ездовые)|tul'e koivuižiil kord’aažiil, l'epaažiil regučuol laul.|приезжай на берёзовых саночках, на ольховых салазках|tule koivuisilla korjilla, leppäisillä kelkoilla||||||
 kuningaz|s.|korol’|korol’, -an, -ad; -iin, -iid |король|kuningas|||||||||
 |s.|korol'ov|korol’eva, -n, -d|королева|kuningatar|||||||||
 |s.|koron|koron, -an, -ad; -iin, -iid|корона|kruunu|||||||||
@@ -1270,10 +1286,13 @@ hurst'|s.|kour|kovr, -an, -ad|ковёр|matto|||||||||
 kouk|s.|kl’uuk|kr’uuk, -an, -ad|крюк|koukku|||||||||
 |s.|kreiser|kr'eis'er, -an, -ad|крейсер|risteilijä|||||||||
 |s.|krema|kr’em, -an, -ad|крем|kreemi|||||||||
-|s.|kreml’|kr’eml’|кремль|kreml|||||||||
+|s.|kreml’|kr’eml’, -an, -ad, -iin, -iid|кремль|kreml|||||||||
 |s.|kresl|kr’esl, -an, -ad|кресло|nojatuoli|||||||||
 pordahad|s. mon.|krilčad|kril’č/ad, -uun, -uud|крыльцо|portaat, raput|||||||||
+|s. yhd.|kurčnena|krurč/nena (KTK)|курносый|kippuranenä|||||||||
+|a. yhd.|kurčnenaine|krurč/nenaan'e (KTK)|курносый|kippuranenäinen|||||||||
 katuz|s.|krišk|krišk, -an, -ad|крышка|kansi|||||||||
+|s.|katuz|katu/z, -sen, -st; -s'iin, -s'iid (KTK)|крышка|kansi|||||||||
 |s.|kristal|kr’istal, -an, -ad|кристал|kristalli|||||||||
 |s.|krizis|kr’iz’is, -an, -ad|кризис|kriisi|||||||||
 katt, katuz, kroun', levo|s.|kroja|kroja, -n, -d|кровля, навес|katto|||||||||
@@ -1281,7 +1300,7 @@ katt, katuz, kroun', levo|s.|kroja|kroja, -n, -d|кровля, навес|katto|
 |s.|krona|krona, -n, -d|крона|kruunu|||||||||
 |s.|kross|kross, -an, -ad|кросс|murtomaajuoksu|||||||||
 sanaristak|s.|krossvord|krossvord, -an, -ad|кроссворд|sanaristikko|||||||||
-katt, katuz, kroja, levo|s.|kroun’|kroun’ ~ (Js) kr’oun’ ~ (Sj) kroin’, -an, -ad|крыша, кровля|vesikatto|(Js) jesl’i ol’iiš kr’oun’ kattud lauduol|если бы крыша была покрыта досками|jos katto olisi katettu laudoilla||||||
+katt, katuz, kroja, levo|s.|kroun’|kroun’ ~ (Js) kr’oun’ ~ (Sj) kroin’, -an, -ad; -iin, -iid|крыша, кровля|vesikatto|(Js) jesl’i ol’iiš kr’oun’ kattud lauduol|если бы крыша была покрыта досками|jos katto olisi katettu laudoilla||||||
 |s.|kruakkuda|kruak/ta, -ub, -ui; -taze, -t’ihe|каркать|raakkua|kruaktaze (KTK)|каркают|raakkuvat||||||
 |s.|kruan|kruan, -an, -ad (IL)|кран|hana|||||||||
 |a.|kruasittu|kruas’tu/d, -n, -d; -in, -id|крашеный|maalattu|||||||||
@@ -1309,7 +1328,8 @@ seibaz|s.|kuav|kuav|колышек, кол (маленький)|vaaja, tappi, nu
 |a.|kucuttu|kuctu/d, -n, -d; -in, -id|званный|kutsuttu, kutsu-|||||||||
 |s.|kudoj|kudoj, -an, -ad |ткач|kutoja|||||||||
 |a.|kudond-|kudond-|ткацкий|kutoma-|||||||||
-|s. yhd.|kudr’piä|kudr’/piä|курчавый|kähäräpää|||||||||
+kudr’ašpiä|s. yhd.|kudr’piä|kudr’/piä (IL)|курчавый|kähäräpää|||||||||
+kudr’piä|s. yhd.|kudr’ašpiä|kudr’aš/pia (KTK)|курчавый|kähäräpää|||||||||
 |s. mon.|kudrid|kudr’i/d, -in, -id|кудри|kiharat, kutrit|s’iäta kudr’id|завить волосы|kihartaa tukkansa||||||
 |s.|kudu|kudu, -n, -d; -in, -id|нерест|kutu|olda kudus|нереститься|kutea||||||
 |s.|kuhark|kuhark, -an, -ad|кухарка|ruoanlaittaja|||||||||
@@ -1324,7 +1344,7 @@ seibaz|s.|kuav|kuav|колышек, кол (маленький)|vaaja, tappi, nu
 |a.|kuivanu|kuivnu, -den, -t; -z’iin, -z’iid|засохший, высохший|kuivunut|||||||||
 |v.|kuivattada|kuiva/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|сушить, осушать, высушить, засушить|kuivattaa|||||||||
 |s.|kuivatuz|kuivatu/z, -sen, -st; -s’iin, -s’iid|засуха|kuivatus, kuivuus|||||||||
-|s.|kukl|kukl, -an, -ad|кукла|nukke|||||||||
+mučak|s.|kukl|kukl, -an, -ad|кукла|nukke|||||||||
 |s.|kukšin|kukšin, -an, -ad; -uun, -uud|кувшин|kannu|||||||||
 |s.|kukuruz|kukuruz, -an, -ad|кукуруза|maissi|||||||||
 |s.|kul’k|kul’k, -an, -ad|кулёк|paperipussi|||||||||
@@ -1338,7 +1358,7 @@ lienou|adv.|külläl|kül’l’äl|досыта, щедро, вдоволь|kyl
 kulmad|s.|kulm|kuum, -an, -ad; -iin, -iid|бровь|silmäkulma, kulmakarva|||||||||
 kulm|s. mon.|kulmad|kuum/ad, -iin, -iid|брови|silmäkulmat, kulmakarvat|||||||||
 |a.|külmänu|kül’mnu, -den, -t; -z’iin, -z’iid|мёрзлый, озябший, окоченелый|jäätynyt|||||||||
-|v.|külmähtuda|kül’mehtu/da, -b, -i; -tetaze, -tet’ihe (KTK)|застывать, застыть, коченеть, окоченеть|jäätyä|kül’mehtutaze|коченеют|jäädytään||||||
+külmähtada|v.|külmähtuda|kül’mehtu/da, -b, -i; -tetaze, -tet’ihe (KTK)|застывать, застыть, коченеть, окоченеть|jäätyä|kül’mehtutaze|коченеют|jäädytään||||||
 |s.|kulon|kulon, -an, -ad|кулон|kaulakoru|||||||||
 |v.|kuluttada|kulu/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|трепать|kuluttaa|äjäl kulutada|изнашивать|kuluttaa kovin||||||
 kumartakse|v. frekv. refl.|kumardeltakse|kumarde/l’dakse, -l’eze, -l’iihe(ze)|кланяться|kumarrella, kumartaa|||||||||
@@ -1347,7 +1367,7 @@ kumardeltakse|v. refl.|kumartakse|kumar/takse, -daze, -z’iihe(ze)|поклон
 |v. refl.|kumartakse||||kumarte! (OF)|поклонись!|kumarra!||||||
 |adv.|kumm|kumm|смешно, удивительно|ihmeellistä, naurattavaa|||||||||
 |s.|kumpas|kompas, -an, -ad|компас|kompassi|||||||||
-|s.|künäbruz|kün’ämbru/z ~ kün’ämbrü/z, -st, -sen|локоть|kyynärpää|||||||||
+|s.|künäbruz|kün’ämbru/z ~ kün’ämbrü/z, -st, -sen; -s'iin, -s'iid|локоть|kyynärpää|||||||||
 |s.|kündäj|kündaj ~ (Pal) kindaj, -an, -ad|пахарь|kyntäjä|||||||||
 |s.|kündämine|kündmi/in’e ~ kümmi/in’e, -ižen, -št; -ižiin, -ižiid|пахота, распашка|kyntäminen, kyntö|||||||||
 kündž|s. mon.|künded|kün/ded, -d’žiin, -d’žiid|ногти, когти|kynnet|||||||||
@@ -1373,18 +1393,22 @@ kuor'|s. mon.|kuored|kuored, kuor'iin, kuor'iid|шелуха|kuoret|||||||||
 |s.|kupk|kupk, -an, -ad|кубок|pokaali|||||||||
 |s. mon.|kurantad|kurant/ad, -uun, -uud|куранты|tornikello|||||||||
 |s.|kurder|kurjer, -an, -ad|курьер|kuriiri|||||||||
+|s.|kurk I|kur/k, -kan, -kad|курок||||||||||
 |s. dem.|kurkuine|(Pal) kurk/uun’e, -uužen, -ušt|горлышко|pullonkaula, pullonsuu|||||||||
-|s.|kurs|kurs, -an, -ad|курс|kurssi|||||||||
-|s. mon.|kursad|kurs/ad, -iin, -iid|курсы|kurssit|miä kävüin kursiil'e (KTK)|я ходил на курсы|minä kävin kursseilla||||||
+kursad|s.|kurs|kurs, -an, -ad; -iin, -iid|курс|kurssi|||||||||
+kurs|s. mon.|kursad|kurs/ad, -iin, -iid|курсы|kurssit|miä kävüin kursiil'e (KTK)|я ходил на курсы|minä kävin kursseilla||||||
 |s.|kurt|kurtk, -an, -ad|куртка|takki|||||||||
 |s.|kušetk|kušetk, -an, -ad|кушетка|sohva|||||||||
 |s.|kut’kutez|kut’kutu/z, -sen, -st; -s’iin, -s’iid|щекотка|kutkutus, kutittaminen|||||||||
 |v.|kütkimine|kütkemi/in’e, -ižen, -št; -ižiin, -ižiid (IL)|прополка|kitkeminen|||||||||
 |adv.|kuudei|kuudei|вшестером, шестеро|kuusin|||||||||
 |a.|kuuhine|kuuhi/in’e, -ižen, -št; -ižiin, -ižiid|месячный|kuukautinen|||||||||
-kuu|s. dem.|kuuhud|kuuhu/t, -den, -tt; -z’iin, -z’iid |||||||||||
-|adv.|küükištunu|kükuštunu, -den, -t; -z'iin, -z'iid (OF)|на корточках|kyykistyneenä|sihe i kuol' kükuštunu (OF)|там и умер сидя на корточках|siihen kuolikin kyykistyneenä||||||
-|v.|küükištuda|kükuštu/da (OF) ~ küküštu/da (IL), -b, -i|приседать, присесть, садиться на корточки |kyykistyä|||||||||
+kuu|s. dem.|kuuhud|kuuhu/t, -den, -tt; -z’iin, -z’iid |присевший на корточки|kyykistynyt|||||||||
+|a.|küükištunu|kükuštunu, -den, -t; -z'iin, -z'iid (OF)|на корточках|kyykistyneenä|||||||||
+küükiškos|adv.|küükištunu|kükuštunu (OF)|на корточках|kyykistyneenä|sihe i kuol' kükuštunu (OF)|там и умер сидя на корточках|siihen kuolikin kyykistyneenä||||||
+|v.|küükištuda|kükuštu/da (OF) ~ küküštu/da (IL), -b, -i|приседать, присесть, садиться на корточки |kyykistyä|išta kükiškos (KTK)|сидеть на корточках|istua kyykkysillään||||||
+küükiškos|s. mon.|küükiškod|kükiškod (KTK)|корточки|kyykky|||||||||
+küükiškod, küükištunu|adv.|küükiškos|kükiškos (KTK)|на корточках|kyykyssä, kyykkysillään|išta kükiškos (KTK)|сидеть на корточках|istua kyykkysillään||||||
 |a.|kuulematoi|kuul’emat/uu, -oman, -omad; -omiin, -omiid|непослушный, озорник|tottelematon|||||||||
 |s.|kuulend|kuul’end, -an, -ad|слух|kuuleminen, kuulo|heitta kuul’end|оглохнуть|tulla kuuroksi||||||
 kuuluj|a.|kuuluž|kuuluž, -an, -ad|знаменитый|kuuluisa|||||||||
@@ -1447,6 +1471,8 @@ käri|s. dem.|käriine|kär'i/in’e, -ižen, -št; -ižiin, -ižiid|повоз�
 |s.|lar’k|lar’k, -an, -ad|ларёк|kioski, putiikki|||||||||
 |prep.|läs|l’äs ~ l’äz|близ, около|lähellä|ol’en l’äs kod’id (KTK)|я недалеко от дома|olen lähellä kotia||||||
 |v.|lašketa|lašketa|облениться|laiskistua|||||||||
+|v.|laškištuda|laškištu/da, -n, -in|облениться|laiskistua|||||||||
+laškištelta|v. refl.|laškištelta|(B) laškište/lzeta, -lzou, -l'ihe|лениться, лентяйничать|laiskotella|||||||||
 |v.|laskettada|laske/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|распрягать, выпрягать; цедить|riisua valjaista; suodattaa|||||||||
 |s. yhd.|laškkond’ij|lašk/kond’ij|лодырь, лентяй, дармоед, тунеядец|laiskuri|||||||||
 |s.|laškuz|lašku/z, -sen, -st; -s’iin, -s’iid|лень, леность|laiskuus|||||||||
@@ -1470,7 +1496,7 @@ käri|s. dem.|käriine|kär'i/in’e, -ižen, -št; -ižiin, -ižiid|повоз�
 |s.|leneik|l’en’eik, -an, -ad|линейка|viivoitin|||||||||
 rihm|s.|lent|l’ent, -an, -ad|лента|nauha|||||||||
 |s.|lepöšk|l’ep’ošk, -an, -ad|лепёшка|kakkara|||||||||
-|s. dem.|lepaine I|l'epa/an'e ~ löpään'e (LMS 199), -ažen, -št; -ažiin, -ažiid|ольха (маленькая)|leppä (pieni)|tul'e koivuižiil kord’aažiil, l'epaažiil regučuol kansanr.|приезжай на берёзовых саночках, на ольховых салазках|tule koivuisilla korjilla, leppäisillä kelkoilla||||||
+|s. dem.|lepaine I|l'epa/an'e ~ löpään'e (LMS 199), -ažen, -št; -ažiin, -ažiid|ольха (маленькая)|leppä (pieni)|tul'e koivuižiil kord’aažiil, l'epaažiil regučuol laul.|приезжай на берёзовых саночках, на ольховых салазках|tule koivuisilla korjilla, leppäisillä kelkoilla||||||
 |a.|lepaine II|l'epa/an'e ~ löpään'e (LMS 199), -ažen, -št; -ažiin, -ažiid|ольховый|leppäinen|||||||||
 ongrihm, rihm, siim|s.|lesk I|l’esk, -an, -ad|леска|siima|||||||||
 |s.|leskakk|l’es’k/akk|вдова|leski (naisspuolinen)|||||||||
@@ -1533,16 +1559,16 @@ lohkan, lohkanaine|s.|lohkan|lohkan|лохань, лоханка, кадка (д
 |s. mon.|lomud|lomu/d, -in, -id|рухлядь, хлам|romu|||||||||
 |s.|löüd|l’öud/o, -on, -od; -uun, -uud (IL)|находка|löytö|||||||||
 |s.|lozung|lozung, -an, -ad|лозунг|iskulause|||||||||
-|adv.|luad|luad, -un, -ud; -uin, -uid|лад, манер, образ|laatu, tapa|kaikehe luaduhe (IL)|всячески|kaikin tavoin||||||
+taba|adv.|luad|luad, -un, -ud; -uin, -uid|лад, манер, образ, свойство|laatu, tapa|kaikehe luaduhe (IL)|всячески|kaikin tavoin|pagišta meid'en luadhu|говорить на наш манер (на нашем языке)|puhua meidän tavallamme (kieltämme)|||
 |s.|lude|lude/g, -gen, -kt; -giin, -giid|клоп|lutikka|||||||||
 |a.|lugematoi|lugemat/uu, -oman, -omad|бесчисленный, несметный, неисчислимый|lukematon, lukuisa|||||||||
 |v.|lüheta I|l’ühe/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|укоротить|lyhentää|||||||||
 |a.|lühettu|l’ühendettud (IL)|укороченный|lyhennetty|||||||||
 |a. dem.|lühüčaine|(Pal) l’ühiča/an’e, -ažen, -št; -ažiin, -ažiid|коротенький|lyhykäinen|||||||||
 |a.|lühüdaigaine|(Pal) l’ühid/aigaan’e|непродолжительный|lyhytaikainen|||||||||
-|adv.|lühüdembaks|l’ühembaks (IL)|покороче|lyhemmäksi|||||||||
+lühüdemb|adv.|lühüdembaks|l’ühembaks (IL)|покороче|lyhemmäksi|||||||||
 |a. yhd.|lühüdigaine|(Pal) lühid/igaan’e|недолговечный|lyhytikäinen|||||||||
-|v.|lujeta I|luje/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|крепить, укреплять, укрепить|lujentaa, vahvistaa|lujeta nuor (KTK)|укрепить веревку|vahvistaa nuora||||||
+|v.|lujeta I|luje/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|крепить, укреплять, укрепить|lujentaa, vahvistaa|lujeta nuor (KTK)|укрепить верёвку|vahvistaa nuora||||||
 |v.|lujeta II|luje/ta, -nob, -n’ ~ -n’ii; -taze, -t’ihe|крепнуть|lujeta, vahvistua|||||||||
 |s.|lujuz|luju/z, -sen, -st; -s’iin, -s’iid|прочность|lujuus, vahvuus|||||||||
 |s.|lükäind|l’ükkäänd, -an, -ad (IL)|метание|heitto|||||||||
@@ -1604,7 +1630,7 @@ orazkuu|s. yhd.|maijankuu|maijan/kuu|май|toukokuu|||||||||
 |s.|mandarin|mandar’in, -an, -ad|мандарин|mandariini|||||||||
 |s.|maneken|man’eken, -an, -ad|манекен|mannekiini|||||||||
 |s.|manež|man’ež, -an, -ad|манеж|maneesi|||||||||
-|s.|mängünd|mängünd, -an, -ad (IL)|вопль|parku|||||||||
+itk, vongund|s.|mängünd|mängünd, -an, -ad (IL)|вопль|parku|||||||||
 |s.|manifest|man’ifest, -an, -ad|манифест|manifesti|||||||||
 |s.|manifestancij|man’ifestancij, -an, -ad|манифестация|mielenilmaus|||||||||
 |s.|maniküür|man’ik’ur, -an, -ad|маникюр|kynsienhoito, manikyyri|||||||||
@@ -1633,7 +1659,8 @@ keväzkuu|s. yhd.|martankuu|martan/kuu|март|maaliskuu|||||||||
 |s.|matras|matras, -an, -ad|матрас|patja|||||||||
 |s.|matros|matros, -an, -ad|матрос|matruusi|||||||||
 |s.|mauzolei|mavzol’ei|мавзолей|mausoleumi, hautarakennus|||||||||
-|s.|mecansordaj|mecan/sordaj|лесоруб|metsätyöläinen|||||||||
+mecanleikkadaj|s. yhd.|mecansordaj|mecan/sordaj (IL)|лесоруб|metsätyöläinen|||||||||
+mecansordaj|s. yhd.|mecanleikkadaj|mecan/l'eiktaj (KTK)|лесоруб|metsätyöläinen|||||||||
 |s.|mecckodi|mecc/kod’i|хутор|metsäkoti|||||||||
 |s.|midal’|medal’, -in, -id; -iin, -iid|медаль|mitali|||||||||
 |s.|midalist|medal’ist, -an, -ad|медалист|mitalisti|||||||||
@@ -1671,8 +1698,8 @@ miehel|adv.|miehele|miehel’e|замуж|naimisiin (naisesta)|mända miehel’e
 |s. yhd.|mielespidand|mieles/pidand|любовь|rakkaus|||||||||
 |s. yhd.|mielespidettav|(Pal) mieles/pidatab|зазноба; ухажор|rakastettu, heila|||||||||
 |a.|mielev|miel’ev, -an, -ad|умный|viisas|||||||||
-|v.|miettida|mie/tta, -t'ib, -t’ ~ -t’ii|метить, целить|tähdätä|||||||||
-|v. refl.|miettidakse|mie/ttakse, -t'iže, -t’iihe(ze)|метиться, целиться|tähdätä, tähtäillä|||||||||
+tiähtäda|v.|miettida|mie/tta, -t'ib, -t’ ~ -t’ii|метить, целить, целиться|tähdätä|||||||||
+miettida|v. refl.|miettidakse|mie/ttakse, -t'iže, -t’iihe(ze)|метиться, целиться|tähdätä, tähtäillä|||||||||
 |s.|mikstuur|mikstur, -an, -ad|микстура|mikstuura|||||||||
 |s.|mild’on|mil’l’ion, -an, -ad|миллион|miljoona|||||||||
 |s.|milicij|mil’icij, -an, -ad|милиция; милиционер|miliisi|||||||||
@@ -1699,7 +1726,7 @@ koja|s.|moli|mol’i, -n, -d; -in, -id|моль|koi|||||||||
 |s.|moment|moment, -an, -ad|момент|momentti|||||||||
 |s.|monarhij|monarhij, -an, -ad|монархия|monarkia|||||||||
 |s.|mongol|mongol, -an, -ad|монгол|mongoli|||||||||
-|v.|möngüda|mön/kta, -gub, -gui|мычать|ammua|||||||||
+|v.|möngüda|mön/kta, -gub, -gui; -ktaze, -kt'ihe|мычать|ammua|||||||||
 |s.|monolog|monolog, -an, -ad|монолог|monologi|||||||||
 |s.|monument|monument, -an, -ad|монумент|monumentti|||||||||
 |s.|moped|moped, -an, -ad|мопед|mopedi|||||||||
@@ -1717,7 +1744,7 @@ koja|s.|moli|mol’i, -n, -d; -in, -id|моль|koi|||||||||
 |a.|muahine|muahi/in’e, -ižen, -št; -ižiin, -ižiid|земляной|maa-|||||||||
 |s.|muamindam|muamindam, -an, -ad|мачеха|äitipuoli|||||||||
 |s. yhd.|muan/ruadaj|muan/ruadaj (IL)|земледелец|maanviljelijä|||||||||
-|v. frekv.|muanitelta|muan’ite/l’da, -l’ob, -l’ ~ -l’ii|обманывать, вымогать; сманивать|pettää, petkuttaa, houkutella|||||||||
+|v. frekv.|oboz|muan’ite/l’da, -l’ob, -l’ ~ -l’ii|обманывать, вымогать; сманивать|pettää, petkuttaa, houkutella|||||||||
 |s.|muanittaj|muan’itaj, -an, -ad|обманщик|pettäjä, houkuttelija|||||||||
 |s.|muanittelij|muan’itel’ij, -an, -ad|вымогатель|pettäjä, houkuttelija|||||||||
 |s.|muanituz|muan’itu/z, -sen, -st; -s’iin, -s’iid|обман; приманка|petos|||||||||
@@ -1727,6 +1754,7 @@ koja|s.|moli|mol’i, -n, -d; -in, -id|моль|koi|||||||||
 |s.|muatkoi|muatkuu, -n, -d|свекровь, мать мужа; тёща (IL)|anoppi|||||||||
 |s.|muatnič|muatn’ič, -an, -ad|балка (над потолком)|katopalkki|||||||||
 |s.|mučak|mučak, -on, -od; -uun, -uud|кукла|nukke|||||||||
+|s.|čakk|ča/kk, -kan, -kkad; -kuun, -kuud|мошка|hyttynen, hyönteinen|||||||||
 |s.|mučkahtuz|mučkahtu/z, -sen, -st; -s’iin, -s’iid (KTK)|вывих|niukahdus, sijoiltaanmeno|||||||||
 |s.|mučkaiduz|mučkaadu/z, -sen, -st; -s’iin, -s’iid (IL)|вывих|niukahdus, sijoiltaanmeno|||||||||
 |v.|mučkaita|mučkaa/ta, -dab, -ž ~ -žii; -taze, -t’ihe|вывихнуть|niukahduttaa, nyrjähdyttää, |hüö mučkaat’ihe (KTK)|они вывихнули|he niukahduttivät||||||
@@ -1753,8 +1781,8 @@ koja|s.|moli|mol’i, -n, -d; -in, -id|моль|koi|||||||||
 |a.|müöhästunu|müöhästunu, -den, -t; -z’iin, -z’iid|запоздалый|myöhästynyt|||||||||
 |s.|müöhästuz|müöhästu/z, -sen, -st; -s’iin, -s’iid|опоздание|myöhästys|||||||||
 |adv.|müöhemba|müöhemba|позже|myöhemmin|||||||||
-|s.|müöj|müj, -an, -ad|продавец, торговец|myyjä|||||||||
-|s.|muok|muok, -an, -ad|мучение|kärsimys, kidutus|||||||||
+|s.|müöj|müj, -an, -ad; -iin, -iid|продавец, торговец|myyjä|||||||||
+|s.|muok|muok, -an, -ad; -iin, -iid|мучение|kärsimys, kidutus|||||||||
 |v.|muokita|muoki/ta,-čob, -č ~ -čii; -taze, -t’ihe|мучить, замучить, терзать, пытать|kiduttaa|||||||||
 |v. refl.|muokitakse|muoki/takse,-čeze, -čiihe(ze)|страдать, мучиться|kärsiä|||||||||
 |s.|müönd|müönd, -an, -ad|продажа, торговля|myynti|||||||||
@@ -1763,17 +1791,18 @@ koja|s.|moli|mol’i, -n, -d; -in, -id|моль|koi|||||||||
 |s.|murenduz|murendu/z, -sen, -st; -s’iin, -s’iid|поломка|rikkominen, rikko|||||||||
 |a.|murennu|murenu, -den, -t; -z’iin, -z’iid|разбитый|särkynyt|||||||||
 |v.|murginoita|murgn’uu/ta  ~ murgn’uo/ta ~ murn’uu/ta, -čob, -č ~ -čii; -taze, -t’ihe|обедать, пообедать|lounastaa, syödä päivällistä|rubeta murn’uučemha (KTK)|собираться обедать|alkaa lounastaa||||||
-|s.|muru|muru, -n, -d; -in, -id|крошка|muru|murud|крохи|murut||||||
+|s.|muru|muru, -n, -d; -in, -id|кроха, крошка|muru|murud|крохи|murut||||||
 |s. dem.|muruine|muru/in’e, -ižen, -št; -ižiin, -ižiid|крошка|murunen|(Pal) muruužiikš|на кусочки|sirpaleiksi||||||
 |v.|muroittada|muruu/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|кошить, раскрошить|murentaa|||||||||
 |s.|mušt|mušt, -on, -od; -uun, -uud|память; воспоминание|muisti; muisto|paha mušto (IL)|плохая память|huono muisti||||||
 |s.|must’ikoi|(Sj) must’ikuu, -n, -d|чёрная корова|musta lehmä|(Sj) must’ikuun kelluun’e|колокольчик чёрной коровы|mustan lehmän kello||||||
 |s.|muštand|muštand ~ muštend (IL), -an, -ad|памятка|muistaminen|||||||||
-|v. frekv.|muštelta|mušt/el'ta, -l’ob, -el’ ~ -el’ii|вспоминать, помнить|muistella|||||||||
+|v. frekv.|muštelta|mušt/el'ta, -l’ob, -el’ ~ -el’ii; -el'taze, -l't'ihe|вспоминать, поминать, помнить|muistella|||||||||
 |v.|musteta I|muste/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|чернить, делать чёрным|mustentaa, mustata|bir’b mustetaze|дратву делают чёрной|pikilanka mustataan||||||
 |v.|musteta II|muste/ta, -nob, -n’ ~ -n’ii; -taze, -t’ihe|чернеть, почернеть|musteta, mustua|||||||||
 |s. yhd.|musthard’|must/huar’|черногривый|mustaharjainen|||||||||
 |a. yhd.|mustkulmaine|must/kuumaan’e|чернобровый|mustakulmainen|||||||||
+|s. mon.|hard'od|hard'/od, -uun, -uud|лопатки|lapaluut (Kj)|||||||||
 |s. yhd.|mustmua|must/mua|чернозём|mustamulta|||||||||
 |v. frekv.|muštoitelta|muštuute/l’da, -l’ob, -l’ ~ -l’ii|вспоминать, припомнить|muistella|||||||||
 |v.|muštoittada|muštuu/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|напоминать; запомнить|johtaa mieleen|||||||||
@@ -1816,6 +1845,8 @@ n’uustada|v. frekv.|n’uustelta|n’uust/el’ta, -l’ob, -el’ ~ -l’ii; 
 |v.|nakažida|nakaži/da, -b, -i; -taze, -t’ihe|наказывать, карать; давать наказ|rangaista; käskeä|||||||||
 |a.|nakladnoi|nakladn/ij, -uun, -uud|накладная|rahtikirja|||||||||
 |v.|naladida|nalad’i/da, -b, -i; -taze, -t’ihe|налаживать, наладить, починить,  исправить, восстановить|korjata|nalad'ida t'el'eg (KTK)|починить телегу|korjata rattaat||||||
+voit, voitand|v.|pobed|pobed, -an, -ad; -uun, -uud (KTK)|победа|voitto|||||||||
+voittada|v.|pobedida|pobed’i/da, -b, -i; -taze, -t’ihe (KTK)|побеждать, победить|voittaa|||||||||
 |s. yhd.|nälgaig|n’äl’g/aig|голодовка|nälkäaika|||||||||
 |s.|nališnik|nal’išn’ik, -an, -ad|наличник|ikkunalaudat|||||||||
 |s.|nalog|nalog, -an, -ad|налог|vero|||||||||
@@ -1843,6 +1874,7 @@ armastada, l'uubida|v.|navedida|nave/d'ida ~ -t'ta, -d'in, -d'iin|любить|r
 |num. yhd.|nell’tošt|nel’/tošt|четырнадцать|neljätoista|||||||||
 |adv.|nelläikeskei|nel’l’ää/keskei|вчетвером|nelisin|||||||||
 |s.|nenan-|n’enan-|носовой|nenä-|||||||||
+ribuhine|a.|ribuikaz|ribuika/z, -han, -st; -hiin, -hiid (KTK)|ободранный, в лохмотьях, лохматый (KTK)|ryysyinen, pörörinen|||||||||
 |s.|nerokaz|n’eroka/z, -han, -st; -hiin, -hiid|гений|nero|||||||||
 |a.|nerokaz|n’eroka/z, -han, -st; -hiin, -hiid|одарённый, талантливый|lahjakas|||||||||
 |s.|nevesk|n’evesk ~ n’evestk (IL), -an, -ad|невестка, сноха|miniä|||||||||
@@ -1954,7 +1986,7 @@ siirta, tüötä|v.|olgottada|ouge/tada, -tan, -t'iin; -tab, -t’ ~ -t’ii; -t
 |s.|omlet|oml’et, -an, -ad|омлет|omeletti|||||||||
 |s.|omut|omut, -an, -ad|омут|syvänne; kurimus, syöveri|||||||||
 |s.|ong|ong, -en, -ed; -iin, -iid|удочка|onki|||||||||
-|s.|ongbarb|ongi/barb (IL)|удилище|onkivapa|||||||||
+ongruag|s.|ongbarb|ongi/barb|удилище|onkivapa|||||||||
 |v.|ongittada|ongi/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|удить, выудить|ongittaa|||||||||
 |s.|ongittaj|ongitaj, -an, -ad|удильщик|ongimies|||||||||
 |adv.|onnako|onnako|однако|kuitenki, silti|||||||||
@@ -2127,13 +2159,13 @@ painada, pečatoita|v.|pečatoida|pečatu/uda ~ -oda, -ub ~ -ob, -u ~ -o; -utaze
 |s.|pergand|pergand, -an, -ad|избиение|lyöminen|||||||||
 |s. yhd.|pergandkoht|pergant/koht|место побоев, побои|lyömäkohta|||||||||
 |s.|perin|per’in, -an, -ad|перина|höyhenpatja|||||||||
-künä|s.|pero|pero|перо|kirjoituskynä|||||||||
+künä|s.|pero|pero (KTK)|перо|kirjoituskynä|||||||||
 |a.|peskuhine|peskuhi/in’e, -ižen, -št; -ižiin, -ižiid|песчаный|hiekka-|||||||||
 |s.|peššer|peššer, -an, -ad|пещера|luola|||||||||
 |adv.|petkos|pet’kos|случайно|sattumalta|||||||||
 |s.|pietl’|petl’, -in, -id; -iin, -iid|петля|lenkki, silmukka|||||||||
 |s.|piähüd|piähu/t, -den, -tt; -z’iin, -z’iid|головка|pää (pieni)|||||||||
-|s. yhd.|piälagi|piä/lagi|макушка, темя|päälaki|||||||||
+|s. yhd.|piälagi|piä/lagi|темя, макушка (головы)|päälaki|||||||||
 |s. yhd.|piäletulend|piäl’e/tul’end|нападение, набег|hyäkkäys|||||||||
 |s.|piälik|piäl’ik|главарь|päällikkö, pomo, johtomies|||||||||
 |a.|piälimaine|piäl’im/aan’e ~ -ään'e, -aažen ~ -ääžen, -ašt ~ -äšt|верхний; главный|ylempi, yläpuolinen; pääasiallinen, pää-, keskeinen|||||||||
@@ -2306,6 +2338,7 @@ proimad|s.|proim|proim, -an, -ad; -iin, -iid (KTK)|лямка|viileke, olkahihna
 |s.|pučk|pučk, -an, -ad|пучок|nippu|||||||||
 |s.|pudr I|pudr, -an, -ad|пудра|puuteri|||||||||
 |v. mom.|puhaita|puhaa/ta, -dab, -ž ~ -žii; -taze, -t’ihe|дунуть|puhaltaa|||||||||
+peskuhine|s. yhd.|maidnedal'|maid/n'edal'|масленичная неделя, масленица|laskiaisviikko, lihaton viikko|||||||||
 |s. yhd.|maidpühälask|mait/pühä/lask|сыропустная неделя|maidoton laskiasviikko|||||||||
 |s. yhd.|lihapühälask|liha/pühä/lask|мясопустная неделя|lihaton laskiasviikko|||||||||
 |s. yhd.|Suur'pühä|suur'/pühä|Великий пост|pääsiäispasto|||||||||
@@ -2324,7 +2357,7 @@ proimad|s.|proim|proim, -an, -ad; -iin, -iid (KTK)|лямка|viileke, olkahihna
 |adv.|puoleks|puol’eks|наполовину|puoleksi|||||||||
 |v. frekv.|puolendelta|puol’ende/l’da, -l’ob, -l’ ~ -l’ii|убавлять|vähentää|||||||||
 |postp.|puoles|puol'es|за|puolesta|||||||||
-|v.|puoleta I|puol’e/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|убавлять, убавить, снижать, снизить, сбавлять, сбавить,отбавлять, отбавить |vähentää|||||||||
+|v.|puoleta I|puol’e/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|убавлять, убавить, снижать, снизить, сбавлять, сбавить, отбавлять, отбавить |vähentää|||||||||
 |s.|puoletuz|puol’etu/z, -sen, -st; -s’iin, -s’iid  (IL)|убавка|vähennys|||||||||
 |v.|puolištada|puol’iš/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|заступаться|puolustaa|||||||||
 |v.|püörittada|püör’i/tada (IL) ~ püörü/tada (KTK), -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|вертеть, вращать|pyörittää|rubeta püör’itamaha (IL)|завертеть|alkaa pyörittää|häin püörütab (KTK)|он вращает|hän pyörittää|||
@@ -2383,12 +2416,12 @@ ramk|s.|ruam|rama, -n, -d|рама|raami, kehys|||||||||
 |s.|raspisanij|raspisan'ij, -an, -ad|расписание|aikataulu|||||||||
 |s.|raspisk|raspisk, -an, -ad|расписка|kuitti|||||||||
 |s.|rastvor|rastvor, -an, -ad|раствор|liuos; laasti|||||||||
-|s. mon.|raudad|raud/ad, -uun, -uud|оковы, узда|kahleraudat, suitset|panda raudad (KTK)|взнуздать|panna suitset||||||
-|a.|raudahine|raudahi/in’e, -ižen, -št; -ižiin, -ižiid|железный|rautainen, rauta-|||||||||
+raud|s. mon.|raudad|raud/ad, -uun, -uud|оковы, удила|kahleraudat (IL), kuolaimet|panda raudad (KTK)|взнуздать|panna kuolaimet||||||
+raudaine|a.|raudahine|raudahi/in’e, -ižen, -št; -ižiin, -ižiid|железный|rautainen, rauta-|||||||||
 |s. yhd.|raudpäčiine|raut/päčiin’e|буржуйка|valurautakamiina|||||||||
 |s.|raudpada|raut/pada|чугунок|rautapata|||||||||
 |s.|raund|raund, -an, -ad|раунд|erä|||||||||
-|v.|ravišta|ravi/šta, -žob, -ž ~ -žii; -štaze, -št'ihe|реветь|kiljua|||||||||
+itkeda, mälišta, ringuda, rängüda, röngüda, ulaita, ulišta, vonguda|v.|ravišta|ravi/šta, -žob, -ž ~ -žii; -štaze, -št'ihe|реветь|kiljua|||||||||
 |s.|ravu|ravu, -n, -d; -in, -id|рёв|kiljunta|||||||||
 |s.|razboinik|razbuun'ik ~ razbaan’ik (IL), -an, -ad|разбойник|rosvo|||||||||
 |s.|razdevalk|razd’evalk, -an, -ad|раздевалка|pukuhuone|||||||||
@@ -2440,10 +2473,11 @@ ramk|s.|ruam|rama, -n, -d|рама|raami, kehys|||||||||
 |s.|riäpöi|r’iäpuu, -n, -d|ряпушка|muikku|||||||||
 |v.|ribaidoittada|ribaaduu/tta, -tab, -t’ ~ -t’ii|всыпать, засыпать|täyttää|||||||||
 ribaidoittada, ribaittada|v.|riboittada|ribuu/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|посыпать|ripottaa|||||||||
-|s.|ribu|ribu, -n, -d; -in, -id|тряпка|riepu, räsy, rätti|||||||||
-|s. mon.|ribud|ribu/d, -in, -id|тряпьё, лохмотья|rievut, räsyt, rätit|||||||||
-|a.|ribuhine|ribuhi/in’e, -ižen, -št; -ižiin, -ižiid|оборванный, разодраный|repaleinen, risainen|||||||||
-|s.|riehtil|r’ieht’il|сковорода|paistinpannu|||||||||
+ribud|s.|ribu|ribu, -n, -d; -in, -id|тряпка|riepu, räsy, rätti|||||||||
+ribu|s. mon.|ribud|ribu/d, -in, -id|тряпьё, лохмотья|rievut, räsyt, rätit|||||||||
+ribuikaz|a.|ribuhine|ribuhi/in’e, -ižen, -št; -ižiin, -ižiid|оборванный, разодраный|repaleinen, risainen|||||||||
+|s.|riehtil|r’iehtil|сковорода|paistinpannu|||||||||
+šiižm|s. yhd.|riehtilpualik|r’iehtil- ~ r'iehti/pual'ik|сковородник, съёмная ручка|riehtilän irtovarsi|r’iehtilpual'ik ottaze irdal'e|ручку отсоединяют (от сковороды)|varsi irrotetaan (riehtilästä)||||||
 |s.|rifm|r’ifm, -an, -ad|рифма|loppusointu|||||||||
 |s.|riibaiduz|r’iibaatu/z, -sen, -st; -s’iin, -s’iid  (IL)|царапина|naarmu|||||||||
 |v.|riibida|r’iipta|царапать|raapia|||||||||
@@ -2478,10 +2512,10 @@ heng, miez, ristikanz|s.|ristittu|r’ist’it, r'ist/un, -ud; -in, -id|чело
 |s.|rosčott|rosčott|расчёт|laskelma, tilitys, lopputili|||||||||
 |s.|rošš|rošš, -an, -ad|роща|lehto|||||||||
 |s.|rötk|r'öt'k ~ r'et’k (IL), -an, -ad; -uun, -uud|редька|retikka|||||||||
-|s.|rott I|rott, rotan, rottad|крыса|rotta|||||||||
+|s.|rott I|ro/tt, -tan, -ttad; -tiin, -tiid|крыса|rotta|||||||||
 |v.|roun’aida|roun’a/ada, -ab, -a; -ataze, -at’ihe|выровнять|tasoittaa|||||||||
 |s.|rousk|rousku (IL)|хрящ|rusto|||||||||
-iho, silmäd|s.|roža|roža, -n, -d|лицо, рожа|kasvot, naama|irvištel’da rožad|гримасничать|irvistellä||||||
+iho, silmäd|s.|roža|rož/a, -an, -ad; -iin, -iid|лицо, рожа|kasvot, naama|irvištel’da rožad|гримасничать|irvistellä||||||
 |s.|rozetk|roz’etk, -an, -ad|розетка|pistoke|||||||||
 |s. mon.|rozgad|rozg/ad, -uun, -uud|розги|raipat|||||||||
 |a.|rozovoi|rozov/ij, -uun, -uud |розовый; алый (KTK)|ruusunvärinen; heleänpunainen|rozovij paikaan’e (KTK)|алый платочек|heleänpunainen huivi||||||
@@ -2514,7 +2548,7 @@ repp, šalg|s.|rügzak|r’ugzak, -an, -ad|рюкзак|reppu|||||||||
 |s.|rupikaz|rupika/z, -han, -st; -hiin, -hiid|морщинистый|ryppyinen|||||||||
 |s.|rupištada|rupiš/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|морщить|rypistää|||||||||
 |s. yhd.|ruskedbard|rusked/bard|рыжебородый|punapartainen|||||||||
-|v.|rusketa|rusk/eta ~ rusk/ota (IL), -nob, -en' ~ -on'|краснеть, покраснеть, раскраснеться|punastua, tulla punaiseksi|nahk t’äma rusknob|кожа эта сделается красной|tämä nahka tulee punaiseksi||||||
+|v.|rusketa II|rusk/eta ~ rusk/ota (IL), -nob, -en' ~ -on'; -etaze, -et'ihe|краснеть, покраснеть, раскраснеться|punastua, tulla punaiseksi|nahk t’äma rusknob|кожа эта сделается красной|tämä nahka tulee punaiseksi||||||
 pihl', pihild'|s.|räbin|räbin, -an, -ad; -uun, -uud|рябина|pihlajanmarja; pihlaja|käpš räbinan|гроздь рябины|pihlajan terttu||||||
 |s. yhd.|räbinankäpš|räbinan/käpš|рябиновая гроздь|pihlajan terttu|||||||||
 |s.|sabl’|sabl’|сабля|saapeli|||||||||
@@ -2601,8 +2635,10 @@ sard'|s.|serij|s’er’ij, -an, -ad|серия|sarja|||||||||
 |s.|sessij|s’es’s’ij, -an, -ad|сессия|sessio|||||||||
 |s.|siečk|s’iečk, -an, -ad|сечка|hakkuu; hakkuurauta; silppu; rouhe|||||||||
 |s.|siegl|s’iegl, -an, -ad; -uun, -uud|сито|seula|||||||||
-düvä|s.|siemen|s’iemen’, s'iemn'/en, s'iement; -iin, -iid|семя|siemen|||||||||
-|s. mon.|siemened|s’iemn’/ed, -iin, -iid|семена|siemenet|||||||||
+düvä; siemened|s.|siemen|s’iemen’, s'iemn'/en, s'iement; -iin, -iid|семя|siemen|||||||||
+siemen|s. mon.|siemened|s’iemn’/ed, -iin, -iid|семена|siemenet|||||||||
+huogam, nenahuogam; nenasiemened|s. yhd.|nenasiemen|nena/s’iemen (KTK)|ноздря|sierain|||||||||
+huogamed,  nenahuogamed; nenasiemen|s. yhd. mon.|nenasiemened|nena/s’iemn'ed (KTK)|ноздри|sieraimet|||||||||
 diezdad, saraidiezd, saraipordahad, saraisiezdahad, siezdahad, saraisild|s. mon.|siezdad|s'iezd/ad, -uun, -uud|заезд на сеновал, пандус|sarajan silta, navetan parven silta, tallin ylisen portaat|s'iezduud müöt'i hebo nouzob regen ke|по пандусу лошадь поднимается с возом|sarajan portaita (ylös) hevonen nousee rekineen||||||
 diezdad, saraidiezd, saraipordahad, saraisiezdahad, saraisild, siezdad|s. mon.|siezdahad|(Pal) s'iezdh/ad, -uud|заезд на сеновал, пандус|sarajan silta, navetan parven silta, tallin ylisen portaat|(Pal) s'iezdhuud müöt'i|по пандусу|sarajan portaita (ylös)||||||
 diezdad, saraidiezd, saraipordahad,  saraisild, siezdad, siezdahad|s. yhd. mon.|siezdpordahad|s'iest/pordahad|заезд на сеновал, пандус|sarajan silta, navetan parven silta, tallin ylisen portaat|||||||||
@@ -2725,9 +2761,9 @@ spagaatti"|||||||||
 |s. mon.|trusad|tru/sad, -s'iin, -s'iid|трусы|alushousut|üks'iiš trus'iiš|в одних трусах|vain alushousut päällä||||||
 |s.|štang|štang, -an, -ad|штанга|tanko|||||||||
 |s. mon.|stankad|stank/ad, -uun, -uud|козлы|pukki|||||||||
-|s.|starik|star’ik, -an, -ad|старик|vahnus, vanha mies|||||||||
-|s.|starin|starin, -an, -ad|сказание|tarina|||||||||
-|s.|staršin|staršina, -n, -d|старшина|vanhin|||||||||
+vahnuz|s.|starik|star’ik, -an, -ad; -uun, -uud|старик|vahnus, vanha mies|||||||||
+|s.|starin|starin, -an, -ad; -uun, -uud|сказание (IL)|tarina|||||||||
+|s.|staršin|staršina, -n, -d; -uun, -uud|старшина|vanhin|||||||||
 |s.|statuj|statuj, -an, -ad|статуя|patsas|||||||||
 |s.|stelk|st’el’k, -an, -ad|стелька|pohjallinen|||||||||
 |s.|štempel’|štempel’|штемпель|leima|||||||||
@@ -2776,14 +2812,14 @@ pala|s.|štuuk|štuuk, -an, -ad|штука|kappale|||||||||
 |s.|suappugansiär’|suapkan/s’iär’|голенище|saapasvarsi, saappaanvarsi|||||||||
 |s. yhd.|suappugoidenombelij|suapkuun/ombl’ij|сапожник|suutari|||||||||
 |s.|suatand|suatand, -an, -ad|проводы|saatto|||||||||
-|a.|südämelline|s’üdamel’i/in’e, -ižen, -št; -ižiin, -ižiid|сердечный, задушевный|sydämellinen|||||||||
+|a.|südämelline I|s’üdamel’i/in’e, -ižen, -št; -ižiin, -ižiid|сердечный, задушевный|sydämellinen|||||||||
 |s.|sudd’|sud’d’, -an, -ad|судья|tuomari|||||||||
 |v.|südida|s’üd’i/da, -b, -i; -taze, -t’ihe|тыкать|sysiä, pistellä|||||||||
 |adv.|sudre|sudro (IL)|зря|turhaan, hukkaan|||||||||
 |s.|suga|suga, -n, -d|гребёнка, расчёска|kampa|||||||||
-|s. mon.|sugahad|sugah/ad, -iin, -iid|щетина|harjakset, sänki|nousta sugahad (IL)|ощетиниться|nostaa harjakset||||||
+|s. mon.|sugahad|sugah/ad, -iin, -iid|щетина; лучи|harjakset, sänki; säteet|nousta sugahad (IL)|ощетиниться|nostaa harjakset||||||
 |s.|higostunu|higostunu, -den, -t; -z’iin, -z’iid|запотелый|hiostunut|higostunu st'okkol (KTK)|запотелое стекло|hiostunut lasi||||||
-|s.|sugaz|suga/z, -han, -st|щетинка; луч|harjas; säde|nousta sugahad|ощетиниться|nostaa harjakset||||||
+|s.|sugaz|suga/z, -han, -st; -iin, -iid|щетинка; луч|harjas; säde|nousta sugahad|ощетиниться|nostaa harjakset||||||
 |v.|sugida|sugi/da, -b, -i; -taze, -t’ihe|причесать|kammata|||||||||
 |a.|sugimatoi|sugimat/uu, -oman, -omad|нечесаный|kampaamaton|||||||||
 |s.|sügüz-|s'ügüz'- ~ (Pal) s’ügiz’-|осенний|syys-|||||||||
@@ -2854,7 +2890,7 @@ kego|s.|suov|suov, -an, -ad; -iin, -iid|стог (LP); заколено сена
 |a.|svettij|cvet’t’ij, -an, -ad|цветущий|kukkiva|||||||||
 |s.|sviet|sviet, -an, -ad|свет|valo, ilma|||||||||
 |s.|svinč|svinč, -an, -ad|свинец|lyijy|||||||||
-|adv.|suatuikš|suatuikš|свататься|kosimaan, kosijoiksi|suatuikš tuloba |придут свататься|tulevat kosimaan|žen’ih tulop suatuikš|жених придёт свататься|sulhanen tulee kosimaan|||
+sulhaižiks, sulhoikš|adv.|suatuikš|suatuikš|свататься|kosimaan, kosijoiksi|suatuikš tuloba |придут свататься|tulevat kosimaan|žen’ih tulop suatuikš|жених придёт свататься|sulhanen tulee kosimaan|||
 |s.|suat II|svuat ~ suat, -un, -ud; -uin, -uid|сват, сватающий|kosija|tul’d'ihe minun svuatud laul.|пришли мои сваты|tulivat kosijani|l’ähtoba ajamaha suatuil’e|поедут к сватам|lähtevät ajamalla kosijoille|||
 |s.|svuat|svuat, -un, -ud; -uin, -uid|сват|vävyn isä, miniän isä|||||||||
 |s.|svuat’|svuat’, -an, -ad|сватья|vävyn äiti, miniän äiti|||||||||
@@ -2877,6 +2913,7 @@ lötöinhein, staganhein|s. yhd.|säigend’alg|säigen/d’aug|папоротн
 |s. yhd|tagaverai|taga/veraa|задворки, задний двор|takapiha|||||||||
 |adv. yhd.|tähesai|t’äha/saa|доныне|tähän asti|||||||||
 |v.|tahkota|tahkata|точить|tahkota, teroittaa|||||||||
+tahkota, tereta|v.|terata|t'era/ta, -dab, -z’ ~ -z’ii; -taze, -t’ihe|наточить, навострить|teroittaa|||||||||
 |a.|tahkottu|tahkatu/d, -n, -d; -in, -id|точёный|teroitettu|||||||||
 |s. yhd.|taiginanmuigoitez|(Pal) taiginam/muigetuz|опара|taikinan juuri, taikinan alus|||||||||
 |s.|taim|taim, -an, -ad|тайм|puoliaika|||||||||
@@ -2908,7 +2945,7 @@ lötöinhein, staganhein|s. yhd.|säigend’alg|säigen/d’aug|папоротн
 |a.|tarttuj|tartuj, -an, -ad|липкий, цепкий; инфекционный|tarttuva|||||||||
 |s.|tartund|tartund, -an, -ad|инфекция|tartunta|||||||||
 |v. frekv. refl.|tartuteltakse|tartute/l’dakse, -l’eze, -l’iihe(ze) (IL)|приставать|tartutella|||||||||
-|v.|täüttäda|t’äi/tta, -tab, -t’ ~ -t’ii; -ttaze, -t't'ihe|наполнять, наполнить, заполнять, заполнить,  дополнять, дополнить, набивать, набить|täyttää, täydentää|t'äittaze (KTK)|(они) заполняют|täytetään|t'äit't'ihe (KTK)|(они) заполнили|täytettiin|häin t'äit'ii (KTK)|он дополнил|hän täydensi
+|v.|täüttäda|t’äi/tta ~ -ttä (KTK), -tab, -t’ ~ -t’ii; -ttaze, -t't'ihe|наполнять, наполнить, заполнять, заполнить,  дополнять, дополнить, набивать, набить|täyttää, täydentää|t'äittaze (KTK)|(они) заполняют|täytetään|t'äit't'ihe (KTK)|(они) заполнили|täytettiin|häin t'äit'ii (KTK)|он дополнил|hän täydensi
 |s.|tavar|tavar, -an, -ad|товар|tavara|||||||||
 |adv.|tazaižesti|tazaažest’i|плавно|tasaisesti|||||||||
 |s.|teem|t’eema, -n, -d (IL)|тема|teema|||||||||
@@ -2961,6 +2998,7 @@ kird’utezleht’, tedrad'|s.|tetratk|t’etratk, -an, -ad|тетрадь|vihko
 |s.|tikv|tikv, -an, -ad|тыква|kurpitsa|||||||||
 |v.|tipaškoittada|t’ipaškuu/tta, -tab, -t’ ~ -t’ii|капнуть|tiputtaa|||||||||
 |v.|tippuda|t’ip/ta, -pub, -pui; -taze, -t’ihe|капать|tippua|||||||||
+tipp|s. dem.|tipuine|t'ipu/in’e, -ižen, -št; -ižiin, -ižiid (KTK)|крапинка|täplä (pieni), pilkku (pieni)|||||||||
 |s.|tira|t’ira, -n, -d|тир|ampumahalli|||||||||
 |s.|tiraž|t’iraž, -an, -ad|тираж|painosmäärä|||||||||
 |s.|tirpand|t’irpand, -an, -ad|терпение|kärsivällisyys|||||||||
@@ -3039,7 +3077,7 @@ kuor'|s.|tuoh|tuoh, -en, -t; -iin, -iid|берёста|tuohi|||||||||
 |s.|tuohuz|tuohu/z, -sen, -st; -s’iin, -s’iid|свеча|tuohus, kynttilä|||||||||
 |s.|tuomik|(Yl) tuumik, -on, -od; -uun, -uud|черёмушник|tuomisto|||||||||
 |s.|tuomižik|(Pal) tuomižik, -on, -od; -uun, -uud|черёмушник|tuomisto|||||||||
-|v.|tüötä|t’üö/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|отправлять, отправить, посылать, послать, присылать, прислать, высылать, выслать |lähettää|||||||||
+|v.|tüötä|t’üö/ta ~ -tä (KTK), -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|отправлять, отправить, посылать, послать, присылать, прислать, направлять, направить, высылать, выслать |lähettää|||||||||
 |s. yhd.|turbaaz|tur/baza, -n, -d|турбаза|turistiasema|||||||||
 |s.|turbin|turbin, -an, -ad|турбина|turbiini|||||||||
 |v.|turbota|turvota (IL)|разбухать|turvota|||||||||
@@ -3047,7 +3085,7 @@ kuor'|s.|tuoh|tuoh, -en, -t; -iin, -iid|берёста|tuohi|||||||||
 |s.|türm|t’ür’m, -an, -ad|тюрьма|vankila, tyrmä|||||||||
 |a.|türömšik|t’üromšik ~ t’ür’emšik, -an, -ad|заключёный, узник|vanki, tyrmäläinen|||||||||
 |s.|tušš|tuš, -in, -id; -iin, -iid|тушь|tussi|||||||||
-kokk, muna|s.|tütt|t’ütt, t’üt’t’ün, t’üt't'üd (SV)|член (мужской)|penis|ištub Van’a iknal, s'üötap tüt’t’üt taukunal kansanr.|сидит Ваня на окне, кормит член толокном|istuu Vanja ikkunalla, syöttää p-sta talkkunalla||||||
+kokk, muna|s.|tütt|t’ütt, t’üt’t’ün, t’üt't'üd (SV)|член (мужской)|penis|ištub Van’a iknal, s'üötap tüt’t’üt taukunal hum.|сидит Ваня на окне, кормит член толокном|istuu Vanja ikkunalla, syöttää p-sta talkkunalla||||||
 |s.|tuulatand|tuulatand, -an, -ad|веяние|viskuu|||||||||
 |s. yhd.|tuulatandmašin|tuulatand/mašin|веялка|viskuri, viskuukone|||||||||
 |v.|tuulattada|tuula/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|веять|viskata|||||||||
@@ -3074,15 +3112,17 @@ opastaj|s.|učitel’|učit’el’, -an, -ad|учитель, педагог|ope
 |s.|ujund|ujund, -an, -ad|плавание, купание|uinti|||||||||
 |s.|ukol|ukol, -an, -ad|укол|pistos|||||||||
 |s.|ukrop|ukrop, -an, -ad|укроп|tilli|||||||||
+|a. yhd.|käzine|käz’i/in’e, -ižen, -št; -ižiin, -ižiid|рукий|kätinen|üks’käz’iin’e|однорукий|yksikätinen||||||
 |a. yhd.|üks’käzine|üks’/käz’iin’e|однорукий|yksikätinen|||||||||
+|a. yhd.|päiväine II|päivä/än’e, -äžen, -št; -äžiin, -äžiid|дневный|päivän|üks’päivään’e|однодневный|yhden päivän||||||
 |a. yhd.|üks’päiväine|üks’/päivään’e|однодневный|yhden päivän|||||||||
 |num. yhd.|üks’tošt|üks’/tošt|одиннадцать|yksitoista|||||||||
 |a.|üksinaine|üks’ina/an’e, -ažen, -št; -ažiin, -ažiid|одинокий, уединенный|yksinäinen|||||||||
 |s. yhd.|üksinpajattaj|üks’iim/pajataj|солист, запевала|solisti|||||||||
 |s.|uksus|uksus, -an, -ad|уксус|etikka|||||||||
 |adv. yhd.|ülähakssai|ül’ähaks/sua (IL)|доверху|ylös asti|||||||||
-|v.|ulišta|ul’i/šta, -žob, -ž ~ -žii; -štaze, -št'ihe|выть; рыдать|ulvoa|rubeta ul’ižmaha|завывать|alkaa ulvoa||||||
-|s.|uližend|ul’ižend, -an, -ad|вой|ulvonta; itku|||||||||
+ravišta, ulaita, ulvada, ulvoda, vonguda|v.|ulišta|ul’i/šta, -žob, -ž ~ -žii; -štaze, -št'ihe|выть; рыдать|ulvoa|rubeta ul’ižmaha|завывать|alkaa ulvoa||||||
+vongund|s.|uližend|ul’ižend, -an, -ad|вой|ulvonta; itku|||||||||
 |adv.|umbeh|umbehe|наглухо|umpeen|||||||||
 salbata; ühtištada|v.|umbištada|umbiš/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|закрывать, смыкать|ummistaa, sulkea; rypyttää piirakan reunoja (Kj)|||||||||
 |a.|uneksine|uines’i/in’e, -ižen, -št; -ižiin, -ižiid (IL)|заспанный|uninen|||||||||
@@ -3128,7 +3168,7 @@ kotk|s.|uzl|uzl, -an, -ad|узел, свёрток|nyytti, käärö, mytty||||||
 vahalaukoi, omasien'|s. yhd.|vahalauk|vaha- ~ baha/lauk, -laukun, -laukud; -laukuin, -laukuid|волнушка|karvalaukku, karvarousku|||||||||
 venän-|a.|venälaine|ven’ala/an’e, -ažen, -št; -ažiin, -ažiid|русский|venäläinen|s’iga om ezmaan’e ven’alaan’e d’er’ein’|там находится первая русская деревня|siellä sijaitsee ensimmäinen venäläinen kylä||||||
 Venä|pn. yhd.|Venänmua|Ven'am/mua|Россия, Русская земля|Venäjä, Venäjänmaa|d’ogi t’äma mänob Ven’ammual’e|река эта течёт в Россию|tämä joki virtaa Venäjälle||||||
-Venänmua|pn.|Venä|Ven'a, -l, -l'e|Россия|Venäjä|||||||||
+Venänmua|pn.|Venä|Ven'a, -l, -l'e|Россия|Venäjä|Sagil-se kuului t’äha d’o, Ven’am puol’el’e|Согиницы ведь уже относились сюда, к русской стороне| Sakilahan kuului jo tähän, Venäjän puolelle||||||
 venälaine|s.|venän-|ven'an-|русский, российский|venäjän-, venäläis-, venäläinen|||||||||
 |s. yhd.|venänpajo|ven'am/pajo|русская песня|venäläinen, venäjän|müö zavod’iim ezmai muga pajatada n’ämiid ven’ampajuud |мы начали сперва просто петь эти русские песни|me aloitimme ensin muuten vain laulaa näitä venäläislauluja||||||
 |adv.|vägeh|vägehe (IL)|насилу|vaivoin|||||||||
@@ -3180,16 +3220,17 @@ laged|a.|väll’|väl’l’, -än, -äd|просторный|väljä|||||||||
 |v. refl.|vard’oitakse|vard’uutakse ~ vard’uotakse ~ (Pal) vard'uudakse|беречься, уберечься, остерегаться|olla varovainen, varoa|vard’uote! ~ vard’uude! (IL)|берегись!|varo!||||||
 |s.|varend’|varend’, -an, -ad|варенье|hillo|||||||||
 kiškoda|v.|vargastada|vargas/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|воровать, обворовать, красть, украсть, похищать, похитить, грабить, ограбить, разграбить, угонять, угнать|varastaa|||||||||
-|s.|vargastand|vargastand, -an, -ad|воровство, кража|varkaus|||||||||
+vargastuz|s.|vargastand|vargastand, -an, -ad|воровство, кража|varkaus|||||||||
 |a.|vargastettu|(Pal) vargastadu/d, -n, -d; -in, -id|краденный|varastettu|||||||||
-|s.|varz|varz, -an, -ad|жерёбенок|varsa|||||||||
+vargastand|s.|vargastuz|vargastu/z, -ksen, -st; -s'iin, -s'iid|кража|varkaus|||||||||
+varzaine|s.|varz|varz, -an, -ad; -uun, -uud|жерёбенок|varsa|||||||||
 varz|s. dem.|varzaine|varza/an’e, -ažen, -št; -ažiin, -ažiid|жеребёнок, жеребёночек, жеребчик|varsa (pieni)|||||||||
 |s.|vastaduz|vastavu/z, -sen, -st; -s’iin, -s’iid  (IL)|отпор|vastustus|||||||||
 |adv.|vastal|vastal|против|vastapäätä|||||||||
 |adv. yhd.|vastalpiä|vastal/piä|напротив|vastapäätä|||||||||
 |s.|vastand|vastand, -an, -ad|ответ|vastaus|||||||||
 |a. yhd.|vasterodittu|vaste/rod’itud ~ (Pal) vaste/rod’idud|новорождённый|vastasyntynyt|||||||||
-|s.|vastuz|vastu/z, -sen, -st; -s’iin, -s’iid|встреча; ответ; преграда, препятствие|vastaanotto; vastaus; este|||||||||
+|s.|vastuz|vastu/z, -sen, -st; -s’iin, -s’iid|встреча; ответ; преграда, препятствие|vastaanotto; vastaus; este|häin sanui vastusen (KTK)|он дал ответ|hän antoi vastauksen||||||
 |s.|vuaz|vaza, -n, -d|ваза|maljakko|||||||||
 |s.|vazanliha|vazan/l’iha|телятина|vasikanliha|||||||||
 |adv.|važnoi|važn/ij, -uun, -uud |важный|tärkeä|||||||||
@@ -3201,7 +3242,8 @@ varz|s. dem.|varzaine|varza/an’e, -ažen, -št; -ažiin, -ažiid|жеребё�
 |s. yhd.|vedennouzend|veden/nouzend|наводнение|tulva|||||||||
 |s. yhd.|vedenvedaj|veden/vedaj|водовоз|vedenkuljettaja|||||||||
 |s.|veksel’|veksel’|вексель|vekseli|||||||||
-|s.|velg|velg, -an, -ad|долг, задолженность, недоимка, кредит, налог|velka, laina, luotto, vero, rästimaksu|(Pal) anta velgaha|дать в долг, одолжить|antaa lainaksi|(Pal) otta velgaha|брать в долг, занимать, заимствовать|lainata|||
+|s.|velg|velg, -an, -ad|долг, задолженность, недоимка, кредит, налог|velka, laina, luotto, vero, rästimaksu|anta velg (KTK)|отдать долг|maksaa velka|(Pal) otta velgaha|брать в долг, занимать, заимствовать|lainata|||
+|s.|velg||||(Pal) anta velgaha|дать в долг, одолжить|antaa lainaksi||||||
 |adv.|velgah|velgha ~ (Pal) velgaha|в долг, взаймы, заимообразно|lainaksi|(Pal) anta velgaha|дать в долг, одолжить|antaa lainaksi|(Pal) otta velgaha|брать в долг, занимать, заимствовать|lainata|||
 |s.|velgnik|velgn’ik, -an, -ad|должник|velallinen|||||||||
 |s.|veloseped|velos'eped, -an, -ad|велосипед|polkupyörä|||||||||
@@ -3429,15 +3471,21 @@ hebo, orihsälg, orihvarz, ubeh|s. yhd.|orihhebo|or'h/hebo (KTK)|конь|ratsu,
 Ouči|hn.|Oučoi|Oučuu ~ Oučuo, -n, -d|Евдокия|Outi, Eudokia|(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Huorarin vaimon nimi oli Outi||||||
 |hn.|Obram|Obram, -an, -ad|Абрам, Авраам, Аврамий|Abraham, Abramios |Obraman Fed’uu|Фёдор Абрамович|Abrahamin poika Huotari||||||
 |hn.|Obram||||Obraman kod’i|дом Абрама|Abrahamin talo||||||
-||||||||||||||
+|hn.|Obram||||Obramam pol'ankad|Абрамовы поля|Abrahamin pellot||||||
+halmeh|s.|pol'ank|pol'ank, -an, -ad; -uun, -uud|||Obramam pol'ankad|поля Обрама|Obramin pellot||||||
 Oučoi|hn.|Ouči|Ouči, -n, -d|Евдокия|Outi, Eudokia|(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Huorarin vaimon nimi oli Outi||||||
 |hn.|Ouči||||D’eis’ijam Pekkon Ouči|Евдокия Петровна внучка Евсея|Eusebioksen Pekon tytär Outi||||||
 |hn.|Pekko|Pekko, -n, -d|Пётр|Pekko, Pekka|D’eis’ijam Pekko ol’ii izvesnij kaikel s’iga D’ogensuuz da Kujärvel pol’esn’ik|Пётр Евсеевич был известный всем там в Устье и в Михайловскои известный охотник|Eusebioksen poika Pekko oli Joensuuun ja koko Kuujärven kuuluisin metsäsätäjä||||||
 |hn.|Pekko|Pekko, -n, -d|Пётр|Pekko, Pekka|D’eis’ijam Pekkoks hänt sand’ihe|Пётром Евсеевичем его называли|Eusebioksen pojaksi Pekoksi häntä kutsuttiin||||||
 |hn.|Deisij|D’eis’ij, -an, -ad; -uun, -uud|Евсей, Евсевий|Eusebios|D’eis’ijam Pekkoks hänt sand’ihe|Пётром Евсеевичем его называли|Eusebioksen pojaksi Pekoksi häntä kutsuttiin||||||
+|hn.|Deisij||||D’eis’ijan kaiv|Евсеев колодец|Eusebioksen kaivo||||||
 |hn.|Deisij||||da, D’eis’ijad hän ol’ii |да, она была из рода Евсея|kyllä, hän oli Eusebioksen suvusta||||||
-därv|pn. yhd.|Kujärv|Ku/jär'v ~ Ku/järv, -järves ~ -järvel, -järvehe  ~ -järvel'e|Михайловское, Лояницы (село)|Kuujärvi (pitäjä)|D’eis’ijam Pekko ol’ii izvesnij kaikel s’iga D’ogensuuz da Kujärvel pol’esn’ik|Пётр Евсеевич был известный всем там в Устье и в Михайловскои известный охотник|Eusebioksen poika Pekko oli Joensuuun ja koko Kuujärven kuuluisin metsäsätäjä||||||
+|pn. yhd.|Korbdärv|Kor/d'är'v|Корбозеро|Korpijärvi|t’äma ol’ii Kord’är’f, d’ärvud muguon’e|это было Корбозеро, озерко такое|se oli Korpijärvi, sellainen pieni järvi||||||
+därv|pn. yhd.|Kujärv|Ku/jär'v ~ Ku/järv, -järves ~ -järvel, -järvehe  ~ -järvel'e|Михайловское, Лояницы (село)|Kuujärvi (pitäjä)|ende voinad miä en el’änu t’äs Kujärves|ennen sotaa minä en asuinut tässä Kuujärvellä|до войны я не жила здесь в Михайловском||||||
+|pn. yhd.|Kujärv||||D’eis’ijam Pekko ol’ii izvesnij kaikel s’iga D’ogensuuz da Kujärvel pol’esn’ik|Пётр Евсеевич был известный всем там в Устье и в Михайловскои известный охотник|Eusebioksen poika Pekko oli Joensuuun ja koko Kuujärven kuuluisin metsäsätäjä||||||
+|s.|kaiv||||D’eis’ijan kaiv|Евсеев колодец|Eusebioksen kaivo||||||
 d'ogensuu|pn. yhd.|D'ogensuu I|D’ogen/suu ~ -suo, -suus ~ -suuš ~ -suoš; -suuhu ~ -suuhe|Устье (деревня)|Joensuu (kylä)|D’eis’ijam Pekko ol’ii izvesnij kaikel s’iga D’ogensuuz da Kujärvel pol’esn’ik|Пётр Евсеевич был известный всем там в Устье и в Михайловскои известный охотник|Eusebioksen poika Pekko oli Joensuuun ja koko Kuujärven kuuluisin metsäsätäjä||||||
+|pn. yhd.|D'ogensuu I||||häin el’äp tože D’ogensuun d’er’ein’as|он тоже живет в деревне Устье|hänkin asuu Joensuun kylässä||||||
 |hn.|Miikul|Miikulan ~ Miiklan, Miikulad ~ Miiklad|Николай|Miikkula, Nikolaos|(Js) s’iid el’ii koume vel’l’ed – Ondr’ij, T’imuo, Miikul|там жили три брата – Андрей, Тимофей, Николай|siinä (talossa) asui kolme veljeä – Andreas, Timo, Miikkula||||||
 |hn.|Iivan|Iivan, Iivanan ~ Iinan, Iivanad ~ Iinad|Иван|Iivana, Johannes|Iivanan L'id’a|Лидия Ивановна|Iivanan tytär Lyydia||||||
 |hn.|Lid'a|L'id’a, -n, -d|Лидия|Lyydia|Iivanan L'id’a|Лидия Ивановна|Iivanan tytär Lyydia||||||
@@ -3461,3 +3509,553 @@ suomen-|a.|suomelaine|suomela/an’e, -ažen, -št; -ažiin, -ažiid|финск�
 |s.|suomelaine|suomela/an’e, -ažen, -št; -ažiin, -ažiid|финн|suomalainen|||||||||
 suomalaine|s.|suomen-|suomen-|финский|suomen-, suomalainen, suomalaisten|suomenaiga|в финское время|suomalaisten aikana||||||
 |s.|komunist|komun'ist, -an, -ad; -uun, -uud (KTK)|коммунист|kommunisti|||||||||
+|s.|pogost|pogost, -an, -ad; -uun, -uud|||||||||||
+|s.|pagast|pagast|||||||||||
+ühtes|adv.|talgohol|taughol (OF)|миром, вместе, сообща, общими силами, совместными усилиями|talkoovoimin, yhteisvoimin|||||||||
+|s. yhd.|päčinpohd'|päčim/pohd' (KTK)|под (печи)|uuninarina|||||||||
+|s.|liedehm|l'iedehm|очаг|tulisija,tulipesä|||||||||
+|v.|potkida|po/tta, -tkib, -tk ~ -tkii; -ttaze, -t't'ihe|лягать, пинать|potkia|||||||||
+|v. mom.|potkaita|potkaa/ta, -dab, -ž ~ -žii; -taze, -t’ihe|||||||||||
+reiž; reižeged|s.|reiže|rei/ž, -šken, -žet; -škiin, -škiid|бедро, ляжка|reisi|||||||||
+reided; reiže|s. mon.|reided|rei/šked, -škiin, -škiid|бедра, ляжки|reidet|||||||||
+|v.|luoda|lu/oda, -on, -in; -daze, -d'ihe|||luoda hein (KTK)|метать сено|luoda heinää||||||
+|s.|hein||||luoda hein (KTK)|метать сено|luoda heinää||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||||||||||||||
+||klietnik||||||||||||

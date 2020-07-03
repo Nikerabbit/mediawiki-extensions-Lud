@@ -238,14 +238,15 @@ class LudImport extends Maintenance {
 					// See if we can find single match by also checking cases
 					$newcands = [];
 					foreach ( $cands as $i ) {
-						if ( $south[$i]['cases']['lud-x-south'] ??
-							'#' === $entry['cases']['lud'] ) {
+						if ( ( $south[$i]['cases']['lud-x-south'] ??
+							'#' ) === $entry['cases']['lud'] ) {
 							$newcands[] = $i;
 						}
 					}
 
 					if ( count( $newcands ) === 1 ) {
-						echo "Kirjalyydin sana '$id' yhdistettiin etelälyydin sanaan taivutuksen perusteella.\n\n";
+						#echo "Kirjalyydin sana '$id' yhdistettiin etelälyydin sanaan taivutuksen
+						# perusteella.\n\n";
 						$south[$newcands[0]] =
 							$this->mergeKirjaLyydiItem( $south[$newcands[0]], $entry );
 						continue;

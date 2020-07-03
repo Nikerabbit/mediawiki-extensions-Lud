@@ -7,16 +7,16 @@
 
 WIKI=sanat.csc.fi
 WIKI=sanat.nikerabb.it
-OUTPUT=output-2020-06-26
+OUTPUT=output-2020-07-03
 rm -rf "$OUTPUT"
 mkdir "$OUTPUT"
 php LudImport.php --wiki=$WIKI "$OUTPUT" \
-  --LyE-txt=aineistot/LyE-2020-06-26.txt \
-  --LyE-csv=aineistot/Nettisanat_LyE-2020-06-26.csv \
-  --LyK=aineistot/LyK_Simonas-2020-06-26.csv \
-  --LyKK-txt=aineistot/LyKK-2020-06-26.txt \
-  --LyKK-csv=aineistot/LyKK-SU-2020-06-26.csv \
-  --LyP=aineistot/LyP-2020-06-26.csv
+  --LyE-txt=aineistot/LyE.txt \
+  --LyE-csv=aineistot/Nettisanat_LyE.csv \
+  --LyK=aineistot/LyK_Simonas.csv \
+  --LyKK-txt=aineistot/LyKK.txt \
+  --LyKK-csv=aineistot/LyKK-SU.csv \
+  --LyP=aineistot/LyP.csv
 php ListPages.php "$OUTPUT" --wiki=$WIKI > todelete.txt
 cd ../..
 #php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/mw --wiki=$WIKI

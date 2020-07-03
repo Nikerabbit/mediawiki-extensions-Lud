@@ -103,7 +103,7 @@ kansanusko|rahvahan/usk|народное верование
 kanta; korko|kand|основание; каблук
 kapitalistinen|kapitalistahine|капиталистический
 aate|idij|идея
-kaskiviljelys|kasken/vierd|подсечно-огневое земледелие
+kaskiviljelys|kasken/ajo|подсечное земледелие
 kastaa|ristida|крестить
 kastaa, ristiä; kastella|valattada|крестить; обливать
 kaste, ristiminen; kastelu|valatuz|крещение; обливание
@@ -156,10 +156,11 @@ kontakti|kontakt|контакт
 kotoperäinen|kodoilaine|отечественный, местный
 kristillinen|ristalline|христианский
 kristillinen|ristan/vierolline|христианский
+kristinusko|ristan/usk|христианство
 kristinusko|ristan/vier|христианство
 kulttuurinvaihto|kultuur/vajehtuz|культурный обмен
 kulttuuriperintö|kultuur/perimuz|культурная традиция, культурное наследие
-kunnia|kundij|слава
+kunnia|kundiv|слава
 kuolinitku|kuolijan/virz’|плач по покойнику
 kuvalehti|kuva/leht’|журнал
 käsityö; askartelu, askare|käzi/ruad|ручная работа; рукоделие
@@ -202,7 +203,7 @@ museo, museosali|mušt/zual|музей, зал памяти
 muisti; muisto|mušt|память
 muisto|mušt’|память
 muisti; muisto|puamät’|память
-muusa|muuz, -an, -ad|муза
+muusa|muuz|муза
 musiikki|muuzik|музыка
 musiikkimuoto|muuzik/luad|музыкальная форма
 muuttuminen, muutos|muutund|изменение
@@ -216,7 +217,7 @@ myös|mugažo|также
 myös|sežo|тоже
 neuvoa|nevvoda|советовать
 näkökohta, näkökulma|kacund/koht|точка зрения, угол зрения
-näytenumero|ozutuz/numer|пробный номер
+näytenumero|ozutez/numer|пробный номер
 olosuhteet|olod|условия
 olosuhteet|olo/sideged|обстоятельства, условия
 olo|olo|состояние
@@ -227,8 +228,11 @@ oppikirja|opastund/kniig|учебник
 osoite|adrest|адрес
 pakanallinen|paganalline |языческий
 pakana|kiel’nik|язычник
-osa : suuremmaksi osaksi, paljolti|vuit’ : suurembaks vuitikš|часть : большей частью 
-johtaja : pankinjohtaja|ohd’adaj : bankan ohd’adaj|управляющий, руководитель, директор : директор банка
+osa|vuit’|часть
+suuremmaksi osaksi, paljolti|suurembaks vuitikš|большей частью 
+johtaja|ohd’adaj|управляющий, руководитель, директор
+työnjohtaja, toimitusjohtaja|ruadon/ohd’adaj|исполнительный директор
+pankinjohtaja|bankan/ohd’adaj|директор банка
 pankki|bank|банк
 pankkikortti|bank/kart|банковская карта
 painostus, paine; paino, julkaiseminen|painand|давление; вес, издательство
@@ -239,10 +243,11 @@ jääkenttä|diäpeld|ледяное поле, каток
 tanner, kenttä|tander|площадка, поле, утоптанное место
 pelto; kenttä|peld|
 perinnöllinen|perindahine|наследственный
-puukiekko (leikkikalu)|kukerk, -on, -kod; -od, -oid |диск, шайба
-kiekko; pyörä (ajoneuvon) |kiek, -on, -kod; -od, -oid |диск, шайба; колесо (транспортного средства)
+puukiekko (leikkikalu)|kukerk (-on, -kod)|диск, шайба
+kiekko; pyörä (ajoneuvon) |kiek |диск, шайба; колесо (транспортного средства)
 perintö; perinnöllisyys|perind|наследие; наследственность
-pohja, perusta; pohjoinen : perustaa|pohd’ : panda pohd’ale|дно, основание; север: основать
+perustaa|panda pohd’ale|основать
+pohja, perusta; pohjoinen|pohd’e|дно, основание; север
 periä|perida|наследовать
 periytyä|peridakse|наследоваться
 perusta|fundament|фундамент
@@ -261,7 +266,7 @@ päätoimittaja|piä/toimittaj|главный редактор
 rakennus, asunto|huonuz|здание, жильё
 ratifioida|ratificiiruita|ратифицировать
 ratifiointi|ratificiiruind|ратификация
-rekryytti|rekrut|рекрут
+rekryytti|nekrut|рекрут
 ristiminen; ristiäiset|ristind|крещение; крестины
 ristiä|ristida |крестить
 rituaali|ridual|ритуал
@@ -315,11 +320,11 @@ kapitalisti|kapitalist |капиталист
 sosialismi|socializm|социализм
 kapitalismi|kapitalizm|капитализм
 pääoma, kapitaali |kapital|капитал
-kommuuni|kommun|коммуна
-kommunismi|kommunizm|коммунизм
-kommunisti|kommunist |коммунист
-kommunistinen|kommunistahine|коммунистический
-kommuuni-|kommunahine|коммунальный
+||
+kommunismi|komunizm|коммунизм
+||
+kommunistinen|komunistahine|коммунистический
+kommuuni-|komunahine|коммунальный
 side, suhde|side|связь, отношение
 nähden, -sta, -stä|nähte|относительно, в сравнении
 varten; nähden|niškoi|для
@@ -327,13 +332,14 @@ sukupolvi|sugu/polv|поколение
 suomalais-ugrilaisuus|suomelaž-ugrilaižuz|финно-угорскость
 suomalais-ugrilainen|suomelaž-ugrilaine|финно-угр; финно-угорский
 taka-, syrjä-|taga-|задний, дальний
-kärsivällisyys; suvaitsevaisuus|tirpand|терпение; терпимость
+kärsivällisyys|tirpand|терпение
+suvaitsevaisuus|toižen/kestand|терпимость
 syrjäkylä|taga/kylä|глухая деревня
 syväriläinen|syvärilaine|житель Свири; свирский
 rivi; järjestys; säe|riäd|ряд, порядок; строка, стих
 säe; pieni rivi|riädüine|строчка; рядок
 sähköposti|elektro/pošt|электронная почта
-sävel, sävelmä|melodij|мелодия, мотив
+melodia, sävelmä|melodij|мелодия
 sääntö|siändüz|правило
 tahto, toivomus|tahtond|желание, пожелание
 talous|talohuz|хозяйство; экономика
@@ -362,7 +368,7 @@ usko; uskonto|usk|вера; религия
 uskominen; uskonto; luottamus|uskond|верование, вера; религия; доверие
 uskominen; uskomus|uskomine|верование, поверье
 uskonnollinen|vierolline|религиозный 
-uskonnollisuus|vierolližus|религиозность
+uskonnollisuus|vierolližuz|религиозность
 uskovainen |vierolaine|верующий
 uudistaa|verestada|обновлять
 uudistus|verestuz|обновление
@@ -375,16 +381,16 @@ vaihtaa|vajehtada|менять
 vaihto|vaijehtuz|смена
 vaikka|hot|хотя, хоть
 valtakunta, valtio|vald/kund|государство, держава
-valtio|valdij|государство
+valtio|valdiv|государство
 valtiollinen|vald/kundalline|государственный
-valtiollinen|valdijahine|государственный
+valtiollinen|valdivolline|государственный
 vanhausko|staro/vier|староверие, старообрядство
 vanhauskoinen|staro/vierolaine|старовер, старообрядец
 varatuomari|vara/suudij|запасной судья
 tuomio|suud|суд
 tuomio|suudind|суд, судебный процесс
 tuomita|suudida|судить
-vatja|vadd’|водский язык; водь
+vatja|vadd’ II|водский язык; водь
 venäjä|venä|русский, русский язык
 vepsä|veps|вепский язык; весь
 verkkojulkaisu|nuot/kird’utuz|электронная публикация
@@ -399,9 +405,9 @@ vähemmistökieli|vähembišt/kiel’|язык меньшинства
 vähemmistö|vähembišt|меньшинство
 yhteistoiminta|ühtes/ruadand|взаимодействие, стотрудничество
 yhteistyö|ühtes/ruad|стотрудничество
-yhteisöllinen|arttelline|артельный, коллективный
+yhteisöllinen|artelline|артельный, коллективный
 artteli; yhteisö|arttel’|артель, коллектив
-yhteisöllisyys|arttelližuz|артельность, коллективность
+yhteisöllisyys|artelližuz|артельность, коллективность
 yhteys; yhteisyys|ühtüz|связь; единство; общность
 side, yhteys|side|связь, контакт
 yhteystiedot|ühtüz/tiedod|контактные данные
@@ -409,13 +415,152 @@ yleensä, yleisesti|üleheze|вообще
 yhteensä|ühteheze|всего
 yhteensä|kaikked|всего
 yli-insinööri|piä/inžiner|главный инженер
-insinööri|inžiner, -an, -ad|инженер
+insinööri|inžiner|инженер
 ylläpitäminen|elos/pidand|содержание
 ylläpitäminen|hengiš/pidand|содержание
 ym. (ynnä muut, ynnä muuta)|jm. (ja muud)|и др. (и другие); и пр. (и прочее)
 ym. (ynnä muut, ynnä muuta)|dm. (da muud)|и др. (и другие); и пр. (и прочее)
 ja|ja|и
 yritys|firm|фирма
-ääninäyte|iänen/ozutuz|звуковой образец
-kielennäyte|kielen/ozutuz|образец речи
-näytös, näyte; näyttely|ozutuz|показ
+ääninäyte|iänen/ozutez|звуковой образец
+kielennäyte|kielen/ozutez|образец речи
+näyte|ozutez|образец
+näytös, näyttely|ozutuz|показ
+||
+asema|stancij|станция
+status, asema|statuz|статус, положение
+oleskelu, sijainti; asema, status|olend|положение, статус
+ostoskori|ostuz/virš|корзина для покупок
+kori|virš|корзина
+evakko|evakoi|эвакуированный
+evakuoida|evakoita|эвакуировать
+pakolainen|pagolaine|беженец; беглец
+materia, aine|materij|материя
+materiaali, aines, aineisto|materijal|материал
+ilmestyä|diävidakse|являться, появляться
+palvelus|sluužb|служба
+ehtoopalvelus|ehtagolline|вечерня
+ehtoopalvelus|eht/sluužb|вечерня, вечерняя служба
+palvella|sluužida|служить
+pappismunkki|manah/papp|иеромонах
+uskollinen|uskolline|верный, преданный
+omaperäinen|oreginalline|оригинальный
+alkuperäinen|oreginalahine|подлинный
+originaali|oreginal|оригинал, подлинник
+lisensiaatti|licenzijat |лицензиат, кандидат
+lisenssi|licenzij|лицензия
+lisensiaatintyö|ličenzijat/ruad|лицензиатская диссертация
+väitöskirja|dohtur/ruad|докторская диссертация
+askel|hašmuz|шаг
+kuuluisa|kuuluž|знаменитый
+pitkäaikainen|pitk/aigaine|долговременный
+toimittaa|toimittada|доставлять, редактировать
+variantti|variant|вариант
+variaatio|variacij|вариация
+versio|verzij|версия
+virsi; hymni|virz’|песнопение, гимн
+itkuvirsi|itkend/virz’|плач, причитание
+mukaan; myöten |müöti|с собой
+lehtimies|leht’/miez|жерналист
+lehti; lehtinen, lehdykkä|lehtuk|лист; брошюра, листовка; листочек
+||
+julkistamistilaisuus|prezentacij|презентация
+vuotias, vuotinen|vuodine|летний; годний
+jokin|ku-mi|кое-что
+ortodoksikirkko|pravo/sluav/kirik|православная церковь
+kirkko|kirik|церковь
+kirkko|cerkov|церковь
+ortodoksi|pravo/sluav|православный, православие, православная вера
+ortodoksinen|pravo/sluavaine|православный
+ortodoksisuus|pravo/sluavuz|православие
+Ortodoksi-Karjala|Pravosluav-Kard’al|Православная Карелия
+vastaanotto|vastah/otand|приём; ресепшен
+vastaanotto|recepcij|ресепшен
+pitäjä|pagast|погост, приход 
+yhteisö; seurakunta|siebr/kund|товарищество, сообщество; приход, прихожане
+pitäjä; seurakunta|prihod|приход, погост; прихожане
+ortodoksi, ortodoksinen|pravo/slaunoi|православный
+erityisesti; ensisijaisesti |ezi/sijas|в особенности; в первую очередь 
+ensi vuorossa|ezi/vuoros|в первую очередь
+niminen|nimine|именуемый, называемый, по имени (такой-то)
+aktiivi|aktiv|актив
+aktiivine|aktivaine|активный
+aktiivisuus|aktivuz|активность
+musiikkikerho|muuzik/kruug|музыкальный кружок
+musiikkikerho|muuzik/kruugaine|музыкальный кружок
+muskari|muuz/kera|музкружок
+yliopisto|universtet|университет
+professuuri|professuur|профессура
+professori|professor|профессор
+ilmoittaa|ilmoittada|объявить; уведомить
+ilmoitus|ilmoituz|объявление; уведомление
+vero|vedo|налог
+julkaisu; painos|painuz|издание; печать
+aakkosto|asišt|алфавит
+aakkoset; alkeet|asad|алфавит; азы, основы
+aakkosto|alfabet|алфавит
+filosofi|filosof|философ
+filosofia|filosofij|философия
+kyrillinen|kirilahine|кириллический
+kirjain|bukv|буква
+aakkosto|ABC|алфавит, азбука
+edellinen; entinen|edelline|предыдущий, предшествующий; прежний
+näppäimistö|nüblišt|клавиатура
+näppäimistö|klaviatuur|клавиатура
+nappi|nübl’|пуговица
+latinalainen|ladinalaine|латинский
+latina|ladin|латынь, латинский язык
+kaksikerroksinen|kaks’/kierduksine, |двухэтажный
+kaksikerroksinen|kaks’/d’atažahine|двухэтажный
+monimuotoinen|moni/formaine|многообразный
+monimuotoinen, moninainen|moni/luaduine|многообразный
+kielellinen|kielehine|языковой
+-kerroksinen|-kierduksine|-этажный
+-kerroksinen|-d’atažahine|-этажный
+adjektiivi|addektiv|прилагательное
+adjektiivi|luad/sana|прилагательное
+konjunktio|kond’unkt|союз
+konjunktio|side/sana|союз
+substanssi|supstancij|субстанция
+substantiivi|nimi/sana|существительное
+substantiivi|supstantiv|существительное
+verbi|verb|глагол
+verbi|ruadand/sana|глагол
+nimi; nomini|nimi|имя, название; имя (часть речи)
+nomini|nomin|имя (часть речи)
+numeraali|lugu/sana|числительное
+numeraali|numeral|числительное
+pronomini|pro/nimi|местоимение
+pronomini|pro/nomin|местоимение
+vesistönimi|vezi/nimi|гидроним
+hydronyymi|hidro/nimi|гидроним
+monikerroksinen|moni/kierduksine |многоэтажный
+monikerroksinen|moni/d’atažahine|многоэтажный
+kaksivuotinen|kaks’/vuodine|двухлетний; двухгодичный
+todeksi|todeks|в жизнь 
+toteuttaa|azuda todeks|осуществлять
+toteutua|tulda todeks|осуществляться
+-kielinen|-kieline|-язычный
+monikielinen |moni/kieline|многоязычный
+kaksikielinen|kaks’/kieline |двуязычный
+nyymi|nimi II|ним
+synonyymi|sino/nimi|синоним
+antonyymi|anto/nimi|антоним
+paikannimi, toponyymi|topo/nimi|топоним
+paikannimi|kohtan/nimi|название места, топоним
+miljoona|mild’on|миллион
+miljonääri|mild’onšik|миллионер
+miljardi|mill’art|милиард
+maamuurain, mesimarja (rubus arcticus)|mua/muuroi|княженика, поляника
+avaus, alku|avaiduz|открытие
+stipendi, apuraha|stipendij|стипендия
+bibliografia |bibliografij|библиография
+elämäkerta, biografia|biografij|биография
+omaelämäkerta,autobiografia|auto/biografij |автобиография
+motiivi, sävel|motiv|мотив
+kirkkoslaavi|kirikon/sluav|церковно-славянский (язык)
+refrengi|toštandriäd|рефрен, повтор
+konservatiivi|konservator|консерватор
+valistusliike|valgištuz/liikund|просветительское движение
+näytenumero|ozutez/numer|пробный номер
+lukutupa|lugend/pert’|изба-читальня
