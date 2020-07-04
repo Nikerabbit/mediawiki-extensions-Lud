@@ -1,16 +1,22 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use Exception;
+use RuntimeException;
 
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
  */
-class PohjoisLyydiTabConverter {
+class LyPTabConverter {
 	public function parse( string $filepath ): array {
-		$in = LyydiTabConverter::getLinesFromCsvFile( $filepath );
+		$in = LyETabConverter::getLinesFromCsvFile( $filepath );
 		$out = [];
 		foreach ( $in as $line ) {
 			// Skip the header, if present
-			if ( $line[ 0 ] === 'Synonyymit' ) {
+			if ( $line[0] === 'Synonyymit' ) {
 				continue;
 			}
 
@@ -28,19 +34,25 @@ class PohjoisLyydiTabConverter {
 	}
 
 	public function parseLine( array $x ): array {
-		//Synonyymit|Määrittely|kirjalyydi|Murremuoto|Venäjännös|Suomennos|1. esim.|1. esim:n venäjännös|1. esim:n suomennos|2. esim.|2. esim:n venäjännös|2. esim:n suomennos
-		[ $aliases, $pos, $lit, $lud, $ru, $fi, $ex1lud, $ex1ru, $ex1fi, $ex2lud, $ex2ru, $ex2fi ]
-			= $x;
-		
+		// Synonyymit|Määrittely|kirjalyydi|Murremuoto|Venäjännös|Suomennos|
+		// 1. esim.|1. esim:n venäjännös|1. esim:n suomennos|
+		// 2. esim.|2. esim:n venäjännös|2. esim:n suomennos
+		[ $aliases, $pos, $lit, $lud, $ru, $fi, $ex1lud, $ex1ru, $ex1fi, $ex2lud, $ex2ru, $ex2fi ] =
+			$x;
+
 		if ( !$pos ) {
-			throw new RuntimeException( 'Sanaluokka puuttuu (LyP)' );
+			throw new RuntimeException( '[LyP] Sanaluokka puuttuu' );
 		}
 
-		$links = KeskiLyydiTabConverter::splitTranslations( $aliases );
+		if ( preg_match( '/[~,]/', $lit ) === 1 ) {
+			throw new RuntimeException( '[LyP] Odottamattomia merkkejä kentässä kirjalyydi' );
+		}
+
+		$links = LyKTabConverter::splitTranslations( $aliases );
 
 		$translations = [];
-		$translations['ru'] = KeskiLyydiTabConverter::splitTranslations( $ru );
-		$translations['fi'] = KeskiLyydiTabConverter::splitTranslations( $fi );
+		$translations['ru'] = LyKTabConverter::splitTranslations( $ru );
+		$translations['fi'] = LyKTabConverter::splitTranslations( $fi );
 		$cases = [ 'lud-x-north' => trim( $lud ) ];
 
 		$examples = [];
@@ -101,7 +113,6 @@ class PohjoisLyydiTabConverter {
 				array_merge_recursive( $base['examples'], $entry['examples'] );
 			$out[$uniqueKey]['translations'] =
 				array_merge_recursive( $base['translations'], $entry['translations'] );
-
 		}
 
 		return $out;

@@ -1,10 +1,16 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use Exception;
+use RuntimeException;
 
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
  */
-class LyydiTabConverter {
+class LyETabConverter {
 	public static function getLinesFromCsvFile( string $filepath ): array {
 		$in = [];
 
@@ -66,7 +72,7 @@ class LyydiTabConverter {
 
 	public function parseLine( $x ) {
 		if ( !$x[1] ) {
-			throw new RuntimeException( 'Sanaluokka puuttuu' );
+			throw new RuntimeException( '[LyE] Sanaluokka puuttuu' );
 		}
 
 		$id = str_replace( '/', '', $x[2] );
@@ -101,7 +107,7 @@ class LyydiTabConverter {
 			'properties' => [ 'pos' => $x[1] ],
 			'examples' => $examples,
 			'translations' => $translations,
-			'links' => KeskiLyydiTabConverter::splitTranslations( $x[0] ),
+			'links' => LyKTabConverter::splitTranslations( $x[0] ),
 		];
 	}
 }

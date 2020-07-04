@@ -10,14 +10,14 @@ WIKI=sanat.nikerabb.it
 OUTPUT=output-2020-07-03
 rm -rf "$OUTPUT"
 mkdir "$OUTPUT"
-php LudImport.php --wiki=$WIKI "$OUTPUT" \
+php import.php --wiki=$WIKI "$OUTPUT" \
   --LyE-txt=aineistot/LyE.txt \
   --LyE-csv=aineistot/Nettisanat_LyE.csv \
   --LyK=aineistot/LyK_Simonas.csv \
   --LyKK-txt=aineistot/LyKK.txt \
   --LyKK-csv=aineistot/LyKK-SU.csv \
   --LyP=aineistot/LyP.csv
-php ListPages.php "$OUTPUT" --wiki=$WIKI > todelete.txt
+php list-pages-to-delete.php "$OUTPUT" --wiki=$WIKI > todelete.txt
 cd ../..
 php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/mw --wiki=$WIKI
 php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/"$OUTPUT" --wiki=$WIKI

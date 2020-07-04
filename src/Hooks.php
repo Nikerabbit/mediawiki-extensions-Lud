@@ -1,14 +1,21 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use ContentHandler;
+use Html;
+use MediaWiki\MediaWikiServices;
+// use MediaWiki\Storage\SlotRecord;
+use OutputPage;
+use Parser;
+use Title;
+
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
  */
-
-use MediaWiki\MediaWikiServices;
-//use MediaWiki\Revision\SlotRecord;
-use MediaWiki\Storage\SlotRecord; // BC
-
-class LudHooks {
+class Hooks {
 	public static function onBeforePageDisplay( OutputPage $out ) {
 		$out->addModuleStyles( 'ext.lud.styles' );
 	}
@@ -47,8 +54,11 @@ class LudHooks {
 		$store = MediaWikiServices::getInstance()->getRevisionStore();
 		$revision = $store->getRevisionByTitle( $source );
 		if ( $revision !== null ) {
-			$contents = ContentHandler::getContentText( $revision->getContent(
-				/*SlotRecord::MAIN*/'main' ) );
+			$contents = ContentHandler::getContentText(
+				$revision->getContent(
+				/*SlotRecord::MAIN*/ 'main'
+				)
+			);
 
 			if ( $contents ) {
 				preg_match_all( '/^(.+) = (.+):?$/m', $contents, $matches );

@@ -1,21 +1,18 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use Exception;
+use Maintenance;
+use RuntimeException;
+use TypeError;
+
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
- * @file
  */
-
-$IP = getenv( 'MW_INSTALL_PATH' ) ?: '../..';
-require_once "$IP/maintenance/Maintenance.php";
-require_once __DIR__ . '/LyydiConverter.php';
-require_once __DIR__ . '/LyydiTabConverter.php';
-require_once __DIR__ . '/LyydiFormatter.php';
-require_once __DIR__ . '/KeskiLyydiTabConverter.php';
-require_once __DIR__ . '/KirjaLyydiConverter.php';
-require_once __DIR__ . '/KirjaLyydiTabConverter.php';
-require_once __DIR__ . '/PohjoisLyydiTabConverter.php';
-
-class LudImport extends Maintenance {
+class ImportMaintenanceScript extends Maintenance {
 	public function __construct() {
 		parent::__construct();
 		$this->mDescription = 'Imports Lyydi word articles';
@@ -36,43 +33,43 @@ class LudImport extends Maintenance {
 		// Master file lud-x-south
 		$textfile = $this->getOption( 'LyE-txt' );
 		$textin = file_get_contents( $textfile );
-		$textc = new LyydiConverter();
+		$textc = new LyEConverter();
 		$textout = $textc->parse( $textin );
 
 		// Additional entries for lud-x-south in tabular format
 		$tabfile = $this->getOption( 'LyE-csv' );
-		$tabc = new LyydiTabConverter();
+		$tabc = new LyETabConverter();
 		$tabout = $tabc->parse( $tabfile );
 		$out = $this->merge( array_merge( $textout, $tabout ) );
 
 		// Merge in lud-x-middle
 		$LyKfile = $this->getOption( 'LyK' );
-		$LyKc = new KeskiLyydiTabConverter();
+		$LyKc = new LyKTabConverter();
 		$LyKout = $LyKc->parse( $LyKfile );
 		$out = $this->mergeSimpleVariant( $out, $LyKout );
 
 		// Merge in lud-x-north
 		$LyPfile = $this->getOption( 'LyP' );
-		$LyPc = new PohjoisLyydiTabConverter();
+		$LyPc = new LyPTabConverter();
 		$LyPout = $LyPc->parse( $LyPfile );
 		$out = $this->mergeSimpleVariant( $out, $LyPout );
 
 		// Parse in lud (txt)
 		$kirjafile = $this->getOption( 'LyKK-txt' );
 		$kirjain = file_get_contents( $kirjafile );
-		$kirjac = new KirjaLyydiConverter();
+		$kirjac = new LyKKConverter();
 		$kirjaout = $kirjac->parse( $kirjain );
 
 		// Parse in lud (csv)
 		$LyKK_SUfile = $this->getOption( 'LyKK-csv' );
-		$LyKK_SUc = new KirjaLyydiTabConverter();
+		$LyKK_SUc = new LyKKTabConverter();
 		$LyKK_SUout = $LyKK_SUc->parse( $LyKK_SUfile );
 		$kirjaout = $this->mergeKirjaLyydiTranslations( $kirjaout, $LyKK_SUout );
 
 		// Merge both
 		$out = $this->mergeKirjaLyydi( $out, $kirjaout );
 
-		$f = new LyydiFormatter();
+		$f = new Formatter();
 		$out = $f->getEntries( $out );
 
 		$format = $this->getOption( 'format', 'wikitext' );
@@ -104,8 +101,9 @@ class LudImport extends Maintenance {
 				$x = $this->mergeItems( $dedup[$id], $b );
 				$dedup[$id] = $x;
 			} catch ( Exception $err ) {
-				echo "[LyE] Sanatietueiden yhdistäminen eri lähteistä epäonnistui sanalle $id. Jälkimmäinen jää pois.\n" .
-					$err->getMessage() .	"\n\n";
+				echo "[LyE] Sanatietueiden yhdistäminen eri lähteistä epäonnistui sanalle $id. "
+					. "Jälkimmäinen jää pois.\n" .
+					$err->getMessage() . "\n\n";
 			}
 		}
 
@@ -238,14 +236,14 @@ class LudImport extends Maintenance {
 					// See if we can find single match by also checking cases
 					$newcands = [];
 					foreach ( $cands as $i ) {
-						if ( ( $south[$i]['cases']['lud-x-south'] ??
-							'#' ) === $entry['cases']['lud'] ) {
+						if ( ( $south[$i]['cases']['lud-x-south'] ?? '#' ) ===
+							$entry['cases']['lud'] ) {
 							$newcands[] = $i;
 						}
 					}
 
 					if ( count( $newcands ) === 1 ) {
-						#echo "Kirjalyydin sana '$id' yhdistettiin etelälyydin sanaan taivutuksen
+						# echo "Kirjalyydin sana '$id' yhdistettiin etelälyydin sanaan taivutuksen
 						# perusteella.\n\n";
 						$south[$newcands[0]] =
 							$this->mergeKirjaLyydiItem( $south[$newcands[0]], $entry );
@@ -262,7 +260,8 @@ class LudImport extends Maintenance {
 						$cases[] = "$name ({$south[$i]['properties']['pos']})";
 					}
 					$cases = implode( "\n", $cases );
-					echo "Kirjalyydin hakusanan '$id' yhdistäminen olemassa olevaan sanatietueeseen ei onnistunut. " .
+					echo "[LyKK] Kirjalyydin hakusanan '$id' yhdistäminen olemassa olevaan "
+						. "sanatietueeseen ei onnistunut. " .
 						"Useita vaihtoehtoja. Lisätään omana artikkelinaan.\n$cases\n\n";
 				}
 				$new[] = $entry;
@@ -312,7 +311,7 @@ class LudImport extends Maintenance {
 		file_put_contents( "$outdir/data.json", $json );
 	}
 
-	private function outputWikitext( array $out, LyydiFormatter $f, string $outdir ): void {
+	private function outputWikitext( array $out, Formatter $f, string $outdir ): void {
 		foreach ( $out as $struct ) {
 			try {
 				$title = $f->getTitle( $struct['id'] );
@@ -330,6 +329,3 @@ class LudImport extends Maintenance {
 		}
 	}
 }
-
-$maintClass = 'LudImport';
-require_once RUN_MAINTENANCE_IF_MAIN;

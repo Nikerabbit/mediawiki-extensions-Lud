@@ -1,18 +1,22 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use DirectoryIterator;
+use Maintenance;
+use Title;
+use UtfNormal;
+
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
- * @file
  */
-
-$IP = getenv( 'MW_INSTALL_PATH' ) ?: '../..';
-require_once "$IP/maintenance/Maintenance.php";
-
-class ListPages extends Maintenance {
+class ListPagesToDeleteMaintenanceScript extends Maintenance {
 	public function __construct() {
 		parent::__construct();
-		$this->mDescription = 'Deletes Lyydi word articles';
-		$this->addArg( 'out', 'Dir to list pages to keep' );
+		$this->mDescription = 'Makes a list of pages to delete';
+		$this->addArg( 'out', 'Dir to list of pages to keep' );
 	}
 
 	public function execute() {
@@ -55,6 +59,3 @@ class ListPages extends Maintenance {
 		echo implode( "\n", $toDelete );
 	}
 }
-
-$maintClass = ListPages::class;
-require_once RUN_MAINTENANCE_IF_MAIN;

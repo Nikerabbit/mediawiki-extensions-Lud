@@ -1,10 +1,15 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use Title;
 
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
  */
-class LyydiFormatter {
+class Formatter {
 	public function getEntries( array $list ): array {
 		$out = [];
 

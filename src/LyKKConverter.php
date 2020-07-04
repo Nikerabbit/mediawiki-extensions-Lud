@@ -1,10 +1,15 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use Exception;
 
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
  */
-class KirjaLyydiConverter {
+class LyKKConverter {
 	public function parse( string $content ): array {
 		// Break into lines, not a perf issue with our file size
 		$lines = explode( PHP_EOL, $content );
@@ -60,13 +65,13 @@ class KirjaLyydiConverter {
 	public function parseLine( $line ) {
 		// References to other words
 		$links = [];
-		if ( preg_match( "~, ?ср\. (.+)$~u", $line, $match ) ) {
+		if ( preg_match( "~, ?ср\. ?(.+)$~u", $line, $match ) ) {
 			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
 			$line = substr( $line, 0, - strlen( $match[0] ) );
 		}
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
-			throw new Exception( 'Riviltä puuttuu "—" (LyKK):' );
+			throw new Exception( '[LyKK] Riviltä puuttuu "—"' );
 		}
 
 		$regexp = "/^(.+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
@@ -100,7 +105,7 @@ class KirjaLyydiConverter {
 
 	public function splitTranslations( $string ) {
 		return [
-			'ru' => KeskiLyydiTabConverter::splitTranslations( $string ),
+			'ru' => LyKTabConverter::splitTranslations( $string ),
 		];
 	}
 

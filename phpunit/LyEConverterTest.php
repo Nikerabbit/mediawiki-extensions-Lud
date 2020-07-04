@@ -1,14 +1,16 @@
 <?php
 
+namespace MediaWiki\Extensions\Lud;
+
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
- * @covers \LyydiConverter
+ * @covers \MediaWiki\Extensions\Lud\LyEConverter
  */
-class LyydiConverterTest extends PHPUnit\Framework\TestCase {
+class LyEConverterTest extends PHPUnit\Framework\TestCase {
 	/** @dataProvider testIsHeaderProvider */
 	public function testIsHeader( $input, $expected, $comment = null ) {
-		$c = new LyydiConverter();
+		$c = new LyEConverter();
 		$output = $c->isHeader( $input );
 		$this->assertEquals( $expected, $output, $comment );
 	}
@@ -20,5 +22,3 @@ class LyydiConverterTest extends PHPUnit\Framework\TestCase {
 		];
 	}
 }
-
-require_once __DIR__ . '/../LyydiConverter.php';

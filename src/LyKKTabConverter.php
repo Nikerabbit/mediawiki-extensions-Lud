@@ -1,10 +1,15 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use Exception;
 
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
  */
-class KirjaLyydiTabConverter {
+class LyKKTabConverter {
 	public function parse( string $filepath ): array {
 		$in = [];
 
@@ -40,8 +45,8 @@ class KirjaLyydiTabConverter {
 		$id = str_replace( '/', '', trim( $x[1] ) );
 
 		$translations = [];
-		$translations['ru'] = KeskiLyydiTabConverter::splitTranslations( $x[2] );
-		$translations['fi'] = KeskiLyydiTabConverter::splitTranslations( $x[0] );
+		$translations['ru'] = LyKTabConverter::splitTranslations( $x[2] );
+		$translations['fi'] = LyKTabConverter::splitTranslations( $x[0] );
 		$cases = [ 'lud' => trim( $x[1] ) ];
 
 		return [

@@ -1,10 +1,15 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use Exception;
 
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
  */
-class LyydiConverter {
+class LyEConverter {
 	protected $pos = [
 		'a.',
 		'a. mod.',
@@ -119,7 +124,7 @@ class LyydiConverter {
 		$regexp = "/^([^. ]+(?: [I]+)?)\s+(($wcs)+)\s+([^.]+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
-			throw new Exception( 'Riviltä puuttuu "—" (LyE):' );
+			throw new Exception( '[LyE] Riviltä puuttuu "—":' );
 		}
 
 		if ( preg_match( $regexp, $line, $match ) ) {
@@ -149,22 +154,22 @@ class LyydiConverter {
 			];
 		}
 
-		throw new Exception( 'Rivin jäsentäminen epäonnistui (LyE):' );
+		throw new Exception( '[LyE] Rivin jäsentäminen epäonnistui:' );
 	}
 
 	public function splitTranslations( $string ) {
 		if ( strpos( $string, ' / ' ) === false ) {
-			throw new Exception( "Käännöksissä häikkää: *$string*" );
+			throw new Exception( "[LyE] Käännöksissä häikkää: *$string*" );
 		}
 
 		$languages = array_filter( array_map( 'trim', explode( ' / ', $string ) ) );
 		if ( count( $languages ) !== 2 ) {
-			throw new Exception( "Käännöksissä häikkää: *$string*" );
+			throw new Exception( "[LyE] Käännöksissä häikkää: *$string*" );
 		}
 
 		return [
-			'fi' => KeskiLyydiTabConverter::splitTranslations( $languages[0] ),
-			'ru' => KeskiLyydiTabConverter::splitTranslations( $languages[1] ),
+			'fi' => LyKTabConverter::splitTranslations( $languages[0] ),
+			'ru' => LyKTabConverter::splitTranslations( $languages[1] ),
 		];
 	}
 

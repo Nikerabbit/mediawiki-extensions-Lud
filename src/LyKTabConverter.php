@@ -1,12 +1,18 @@
 <?php
+declare( strict_types = 1 );
+
+namespace MediaWiki\Extensions\Lud;
+
+use Exception;
+use RuntimeException;
 
 /**
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
  */
-class KeskiLyydiTabConverter {
+class LyKTabConverter {
 	public function parse( $filepath ) {
-		$in = LyydiTabConverter::getLinesFromCsvFile( $filepath );
+		$in = LyETabConverter::getLinesFromCsvFile( $filepath );
 		$out = [];
 		foreach ( $in as $line ) {
 			// Skip the header, if present
@@ -81,7 +87,7 @@ class KeskiLyydiTabConverter {
 			'properties' => [ 'pos' => $x[3] ],
 			'examples' => $examples,
 			'translations' => $translations,
-			'links' => KeskiLyydiTabConverter::splitTranslations( $x[0] ),
+			'links' => self::splitTranslations( $x[0] ),
 		];
 	}
 

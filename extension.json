@@ -1,6 +1,6 @@
 {
 	"name": "Lüüdi",
-	"version": "2020-02-24",
+	"version": "2020-07-04",
 	"author": [
 		"Niklas Laxström"
 	],
@@ -8,12 +8,15 @@
 	"descriptionmsg": "sanat-lud-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
-	"AutoloadClasses": {
-		"LudHooks": "LudHooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extensions\\Lud\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extensions\\Lud\\": "phpunit/"
 	},
 	"Hooks": {
-		"BeforePageDisplay": "LudHooks::onBeforePageDisplay",
-		"ParserFirstCallInit": "LudHooks::onParserFirstCallInit"
+		"BeforePageDisplay": "MediaWiki\\Extensions\\Lud\\Hooks::onBeforePageDisplay",
+		"ParserFirstCallInit": "MediaWiki\\Extensions\\Lud\\Hooks::onParserFirstCallInit"
 	},
 	"MessagesDirs": {
 		"Lud": [
