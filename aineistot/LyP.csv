@@ -128,7 +128,7 @@ artug, artugad|s.|artut'|(B) artut’, -in|ртуть|elohopea||||||
 |s.|arvanduz|arvandu/z, -ksen, -st; -kšid |загадка|arvoitus||||||
 |v.|arvata|arva/ta, -dan, -žin; -tau|угадывать|arvata, ennustaa||||||
 |s.|arššin|aršin, -an, -ad; -noid|аршин|arssina||||||
-|a.|arg I|arg, -an, -ad; -oiden, -oid|робкий|arka||||||
+|a.|arg I|arg, -an, -ad; -oiden, -oid|робкий, боязливый, пугливый|arka|d'än'iž on arg|заяц – пугливый|jänis on arka|||
 |s.|arv|arv, -on, -od|цена, стоимость|hinta, arvo||||||
 |s.|as|as, asan, assad; asoid|аз|aakkonen||||||
 |adv.|astudi|astud'i|пешком|astuen, jalkaisin, jalan||||||
@@ -374,7 +374,8 @@ batog, kang, kepp, kurik|s.|dubin|dubin, -an, -ad; -oid|дубина|keppi, nuij
 |s.|d'und|d'und, -an, -ad, -ad, -iden, -id|цепочка, вереница; ряд, шеренга; поезд|jata, verkkojono, rysänaitajono||||||
 |v.|d'uohtuttada|d'uohtu/ttada, -tan, -t'in|напоминать|johduttaa, johtaa mieleen, muistuttaa||||||
 |adv.|d'uoksul|d'uoksul|бегом|juoksulla, juosten; kiimoillaan||||||
-|v.|d'uobuda|d'uobu/da, -n, -in; -u, -i; -tau|упасть в обморок|pyörtyä, mennä pyörryksiin||||||
+|v.|d'uobuda|d'uobu/da, -n, -in; -u, -i; -tau|лишаться чувств|pyörtyä, mennä pyörryksiin||||||
+|v.|d'uobuttada|(B, Td) d'uobu/t(t)ada, -ttau|кружить голову, лишать чувств|pyörryttää (häkä), tainnuttaa, huumata (lyömällä)|(B) čihv d’uobuttau |угар кружит голову|häkä pyörryttää|(Td) külüs on čihv, d'uobuttau| в бане чадно, кружит голову|saunassa on kitku, pyörryttää
 |v.|d'uohtuda|d'uohtu/da, -u, -i|приходить на ум|juohtua, tulla mieleen|d'uohtui sana mielee|пришло слово на ум|juohtui sana mieleen|||
 |v. frekv.|d'uoksendelta|d'uoksende/lda, -len, -l'in|бегать|juoksennella|en d'uoksendelnu|я не бегал|en juoksennellut|||
 |s.|d'uomoi|d'uomo/i, -in, -id; -loiden, -loid|голубика|juolukka||||||
@@ -401,7 +402,7 @@ munaine|s.|däič|d'äi/čč, -čän, -ččäd; -čöid|яйцо|muna||||||
 |prep.|dälgele|d'älgele|после|jälkeen|d'älgele mindai|после меня|minun jälkeeni|||
 |adv.|dälgimai|d'älgimäi|наконец|viimein||||||
 |v.|dälgittada|d'älgi/ttädä, -tän, -t'in; -tettää|подражать, имитировать, обезьянить|matkia, jäljitellä||||||
-|s.|däniž|d'än'i/ž, -kšen, -št; -kšiden, -kšid|заяц|jänis||||||
+dänöi|s.|däniž|d'än'i/ž, -kšen, -št; -kšiden, -kšid|заяц|jänis|d'än'iž on arg|заяц – пугливый|jänis on arka|||
 sanged|a.|däred|d'äred, -än, -äd; -d'iden, -d'id|массивный, толстый|järeä, paksu, vankka, pyylevä||||||
 däred|a.|däredattav|d'äredättä/u, -vän, -väd; -vid|толстоватый|paksuhko||||||
 |s.|däritez|d'ärite/z, -ksen, -st; -kšid|месиво|silppu, ape, silpukset||||||
@@ -1330,7 +1331,8 @@ külmähtuda|v.|külmähtada|külmäh/tädä, -täu, -t'|застывать, з�
 |v.|külmäta|külmä/tä, -dän, -žin; -däu, -ž; -täu|морозить, заморозить, холодить|jäähdyttää, kylmittää, jäädyttää, palelluttaa||||||
 |s.|külä|kü/lä, -län, -läd; -l'iden, -l'id|деревня|kylä|d’ärventaguin’e külä|деревня за озером|järventakainen kylä|||
 |s.|külälaine|külälä/in'e, -ižen, -št; -ižiden, -ižid; (N, B) külala/ine, -ižen, -št; -iži(i)d|деревенский, житель деревни|kyläläinen|t'ämän küläläin'e|житель этой деревни|tämän kylän asukas|||
-|s.|külü|külü, -n, -d; -id|баня|sauna, kyly|(B) kn'agin on d’o külüü taluttu |невеста уже свожена в баню|morsian on jo saunassa käytetty|||
+|s.|külü|külü, -n, -d; -id|баня|sauna, kyly|(Td) külüs on čihv, d'uobuttau| в бане чадно, кружит голову|saunassa on kitku, pyörryttää|||
+|s.|külü||||(B) kn'agin on d’o külüü taluttu |невеста уже свожена в баню|morsian on jo saunassa käytetty|||
 |v.|külbeda|külb/edä, -en, -in; -öu; -edäu, -ed'ii |мыться, париться, купаться|kylpeä, vihtoa, uida||||||
 |v.|külmäda|külm/ädä, -än, -in; -äu; -et't'ii|простудиться, замёрзнуть|kylmettyä, vilustua, palella, jäätyä||||||
 |num.|kümmenendž|kümmenež, kümmenenden, kümmenet;  kümmenenžid|десятый|kymmenes||||||
@@ -1463,7 +1465,7 @@ längpuu|s. yhd. mon.|längpuud|länk/puud|деревянные части хо�
 |s.|mänö|mänö, ill. -ö||meno||||||
 mändä|v.|lähtä|lä/hta, -hten, -kšin; -htöu, -kš; -htäu, -ht'ii|пойти, отпраляться, уходить|lähteä|(M) lähtä kiukkää|пойти играть в городки|mennä pelaamaan kyykkää|||
 |v.|lähtä||||(N) lähten mina kaz'onnijai bankai |пойду я в казённый банк|lähden minä valtionpankkiin|(Td) lähtäu vencai cerkovai|пойдут венчаться в церковь|lähtevät vihille kirkkoon
-|v.|lähtä||||(Td) kon'd'ii läkš kaikked muailmad müöi kulgemai|отправился медведь слоняться по всему свету|kontio lähti koko maailmaa pitkin kulkemaan|||
+|v.|lähtä||||(Td) kon'd'ii läkš kaikked muailmad müöi kulgemai|отправился медведь слоняться по всему свету|kontio lähti koko maailmaa pitkin kulkemaan|(N) läht' čuraižei i šeižuu|отошёл в сторонку и стоит|siirtyi vähän syrjään ja seisoo
 |v.|lähtä||||(N) läht' ajamai lagedai nurmei|он поехал в широкое поле|lähti ajamaan aukealle niitylle|lähte rindall iäree!|уходи отсюда прочь!|mene pois vierestäni!
 |v.|lähtä||||(N) lähtii viiden kesken|отправились впятером|lähtivät yhdessä kaikki viisi|||
 |v.|lähtä||||läkkä kod'ii!|пойдём домой!|lähtekäämme kotiin!|||
@@ -1905,7 +1907,7 @@ pera|s. yhd.|perzepuol'|perze/puol'|задница, ягодица|pylly, takapu
 |s. yhd.|perahalg|perä/halg|полено для дранки (лучины)|pärepuulohko, pärehalko||||||
 |s. yhd.|pera/tell'|perä/t'el'l'|кормовая банка, кормовое сиденье в лодке|peräteljo, perätuhto (veneen)||||||
 |s.|pern'au|pern'a/u, -van, -vad; -void|трещина (во льде)|railo (jäässä)||||||
-|s.|pert'|per/t' ~ -t't', -t'in, -t't'id; -t'iid|изба|pirtti, tupa|šildankorvass om pert'|в конце моста есть изба|sillankorvassa on pirtti|||
+|s.|pert'|per/t' ~ -t't', -t'in, -t't'id; -t'iid|изба|pirtti, tupa|šildankorvass om pert'|в конце моста есть изба|sillankorvassa on pirtti|(Td) čihver' on pert'is| в избе угарно|häkä on tuvassa
 |s. dem.|pert'iin'e|pert'i/in'e, -ižen, -št; -ižiden, -ižid|избушка|pirtti (pieni), mökki, metsämökki||||||
 |s.|petkel|pet'kel' ~ petkel', -in, -id; -iid|пест (в ступе)|petkel (huhmaren)||||||
 |s.|pečurk|pečur/k ~ -kk, -kan, -kkad; -koid|печурка|uuninkomero, kuutiomainen syvennys uunin kyljessä, kolo uunin syrjässä||||||
@@ -2255,7 +2257,7 @@ rips|s. mon.|ripsud|ripšu/d, -id|ресницы|silmäripset||||||
 ristaheze, ristas|adv.|ristakkai|ristakkai|крест-накрест, крестообразно|ristikkäin, ristissä||||||
 |s.|ristak|(Td) ristakk||ristikko||||||
 ristaheze, ristakkai|adv.|ristas|ristas|крест-накрест, крестообразно|ristissä||||||
-|s. yhd.|ristleib|rist/leib|просфора|ristileipä||||||
+sündünleib|s. yhd.|ristleib|rist/leib|просфора|ristileipä||||||
 |s. yhd.|ristrihm|rist/rihm|гойтан, шнурок для креста, цепочка для креста|kaularistin kannatinnauha, kaularistin ketju||||||
 kiškoda, nühtida|v.|riuhtoda|riuhto/da, -n, -in; -tau, -t't'ii|дёргать (с силой), рвать, выдёргивать|riuhtoa, tempoa||||||
 |s.|rizink|rizink, -än, -äd; -öid|резинка|kumi, kumikangas, kuminauha||||||
@@ -2407,7 +2409,7 @@ sadahine|num.|sadandž|(Td, Kn) sada/n'd'ž, -nden, -t|сотый|sadas||||||
 |s.|saivar|saiva/r', -ren, -rd; -r'id|гнида|saivar||||||
 |s.|saldat|salda/t ~ (N) sauda/t, -tan, -tad; -toid|||saldat tul'i voinal piäi|солдат вернулся с войны|sotamies tuli sodasta|||
 |s.|samvar|samavar, -an, -ad; -oid|самовар|samovaari, teekeittiö|||||menivät naimisiin venäläisten kanssa|
-|s.|salm I|samal, -on, -od; -oid|угол (внешний), угловое соединение брёвен|nurkka (tuvan ulkopuolinen), rakennuksen nurkka||||||
+|s.|salm I|samal, -on, -od; -oid|угол (внешний), угловое соединение брёвен|nurkka, ulkonurkka, rakennuksen nurkka||||||
 |v.|sambuttada|sambu/ttada, -tan, -t'in|тушить|sammuttaa||||||
 |v.|sambuda|sambu/da, -u, -i; -tau, -t't'ii|тухнуть|sammua||||||
 starinoita|v. frekv.|sanelta|sane/lda, -len, -l'in; -ldau|рассказывать, болтать|kertoa, jutella||||||
@@ -2616,7 +2618,7 @@ piihted|s. mon.|snimčad|sn'imc/ad, -oid|снимцы|hiilipihdit; kynttilän ni
 |s.|suu|suu, -n, -d; suid|рот, уста|suu||||||
 rikkoda|v.|suudida|suud'i/da, -n, -in|судить|tuomita, ratkaista; panetella; turmella, vahingoittaa noitumisella (häissä)||||||
 |v. frekv. refl.|suurendeltakse|suurende/lzetta, -lzen, -lžin|капризничать; гордиться|kiukkuilla; ylpeillä||||||
-siändüda, verduda|v.|suureta II|suure/ta, -nou, -n'in; -tau, -t'tii|увеличиваться; сердиться|suureta; suuttua||||||
+siändüda, verduda|v.|suureta II|suure/ta, -nou, -n'in; -tau, -t'tii|увеличиваться; сердиться|suureta; suuttua (Sn)||||||
 |s.|suurim|suuri/m, -men ~ -man, -nd ~ (B) -nt, -mekš; (N) suuri/m, -men, -md ~ - mt  ~ - mte|крупа|suurima, ryyni, ohraryyni||||||
 |v.|suurta|suur/ta, -dan, -žin; -tau|делать крупу|ryynittää, tehdä suurimoita, rouhia ryyneiksi||||||
 |s. yhd.|suur'barbaz|suur'/barbaz|боьшой палец ноги|ukkovarvas, isovarvas||||||
@@ -2832,7 +2834,10 @@ sluav|s.|čest'|(Kn) čes't', -in, -id|честь|kunnia||||||
 |s.|čidžoi|čid'žo/i, -in, -id; -loid|старшая сестра (сестрица)|sisko; vanhemman siskon puhuttelunimi||||||
 |s.|čiep|(B, Ks, Lh) čie/pp, -pin, -ppid; -piid||||||||
 vezik, vezihiir'|s.|čihk|čihk, -an, -ad; -oid|норка (животное)|tuhkuri, vesikko; hylje||||||
-|s.|čihv|čihv, -an, -ad|угар, чад|häkä, kisu, höyry||||||
+čihv, čihver', haiker, hidžv, kuačk|s.|hädžv|(Td) häd'žv, -än, -äd|угар|häkä||||||
+čihv, hädžv|s.|hiidžv|(N) hid'žv/(e) ~ hiidžv, -an, -ad|угар, чад|kitku, tiku, häkä|(N) hid'žvän las'k|стало угарно|häkä laskeutui|||
+čihver', haiker, hiidžv, hädžv, kuačk|s.|čihv|čihv, -an, -ad|угар, чад|häkä, kitku,  kisu, höyry|(B) čihv d’uobuttau |угар кружит голову|häkä pyörryttää|(Td) külüs on čihv, d'uobuttau| в бане чадно, кружит голову|saunassa on kitku, pyörryttää
+čihv, haiker, hädžv, kuačk|s.|čihver'|(Td) čihver', -in, -id|угар|häkä, kisu|(Td) čihver' on pert'is| в избе угарно|häkä on tuvassa|||
 dänižpeit, dänöikäpp|s.|čimčuk|čimču/k, -kan, -kkad|жмурки (игра)|sokkoleikki|čimčukkaa|в жмурки|sokkosilla|||
 |v.|čipettada|čipe/ttädä, -ttäu, -t't'|накрапывать, моросить (о дожде)|pisaroida, tuhuttaa (sataa)|čipettäu vihmuu|моросит и дождит|sataa tuhuttaa|||
 čipčad|s.|čipč|čipč, -an, -ad; -oid|прищепка (для берестяного ковшика)|pihti, halkaistu vitsa (joka pitää kiinni tuohta), näpistin, lipin varsi||||||
@@ -2863,10 +2868,16 @@ raud|s.|čugun|čugun, -ad|чугун|valurauta, malmi||||||
 čukelduda|v.|čukelzuda|čukelzu/da, -n, -in|нырнуть, окунуться|sukeltaa (veteen)||||||
 lükäita|v.|čumuttada|čumu/ttada, -tan, -t'in|забросить, метнуть|heittää korkealle||||||
 ülähaks(piä)|adv.|čumuh|čumuu|ввысь, вверх, кверху|korkealle, ilmaan||||||
-|s.|čupp|ču/pp, -pun, -ppud; -uid|угол (внутренний)|soppi, nurkka (tuvan, sisäpuolinen); rysän suippopää, rysän peräpohja, nuotan peräsikko||||||
+|s.|čupp|ču/pp, -pun, -ppud; -uid|угол (внутренний)|soppi, nurkka, sisänurkka; rysän suippopää, rysän peräpohja, nuotan peräsikko (LyP)||||||
 čupp|s. dem.|čupuine|čupu/in'e, -ižen, -št; -ižiden, -ižid|уголок; остаток льна (на прялке)|soppi (pieni), nurkka (pieni); loppupellavat kuoselissa, pellavain jäännös, rohtimien jäännös||||||
 bokk, külg, puol’|s.|čura|čur/a, -an, -ad; -id|сторона, направление|puoli, syrjä, vieri, sivu, suunta; puolue (pelissä)|edin'e čura|передняя часть|etupuoli|||
+siiriči|adv.|čurači|čurači|стороной, мимо|ohitse, sivutse||||||
 čurukell, helü, kell|s.|čuru|čuru, -n, -d; -id|бубенец|kulkunen, tiuku||||||
+tulendahine, vieraz|s.|čuralaine|čurala/in'e, -ižen, -št; -ižiden, -ižid|посторонний, чужак|kuokkavieras, vierapaikkakuntalainen||||||
+čuraine, vieraz|a.|čuralaine|čurala/in'e, -ižen, -št; -ižiden, -ižid|посторонний, чужой|syrjäinen, asiaankuulumaton||||||
+čura|s. dem.|čuraine|(N) čura/ine, -ižen, -št|сторонка|syrjä, vieri, sivu||||||
+bokkah; čuraine|adv. dem.|čuraižeh|(N) čuraižei|в сторонку|syrjään, vähän syrjään, sivuun|(N) läht' čuraižei i šeižuu|отошёл в сторонку и стоит|siirtyi vähän syrjään ja seisoo|||
+čuralaine, edahaline, edahaine|a.|čuraine|(N) čura/ine, -ižen, -št|глухой, далёкий|syrjäinen||||||
 čuru, čurukelloine, kelloine|s. dem.|čuruine|čuru/in'e, -ižen, -št; -ižiden, -ižid|бубенчик|kulkunen (pieni)||||||
 čiraita, čirišta, čoraita, čorišta, čurčettada|v.|čurišta|(N) čuri/šta, -žou|журчать|liristä, lorista||||||
 pulčuk|s.|čurk|čur/kk, -kan, -kkad; -kkid|чурка, чурбан|pölkky, hirrenpätkä, kangastukki||||||
@@ -3022,7 +3033,7 @@ venän-|a.|venälaine|ven'ala/in'e, -ižen, -št; -ižiden, -ižid|русски�
 Venä|pn. yhd.|Venänmua|(B, Td) Ven'am/moa ~ (N) -muo|Россия, Русская земля|Venäjä, Venäjänmaa||||||
 venälaine|s.|venän-|ven'an-|русский, российский|venäjän-, venäläis-, venäläinen||||||
 |v.|venčaita|ven'čai/da, -čen, -čin; -u, -i; -dau|венчать|vihkiä (avioliittoon)||||||
-lähtä venččah|v. refl.|venčaitakse|ven'čai/zetta, -zen, -me|венчаться|vihkiytyä||||||
+venččah (lähtä)|v. refl.|venčaitakse|ven'čai/zetta, -zen, -me|венчаться|vihkiytyä||||||
 vesselduda|v.|vesselzuda|ves'elzü/dä, -n, -in; -u, -i|повеселеть, развеселиться|ilostua, tulla iloiselle tuulelle, päihtyä||||||
 |a.|vessel'|ves's'el', -än, -äd; -iid|весёлый|iloinen, hauska||||||
 ilo|s.|vessel'|(N) vessel'|весёлье|iloinen mieliala, hilpeä mieleiala||||||
@@ -3345,7 +3356,9 @@ seište|adv.|seižadi|šeižad'i|стоя|seisoallaan, seisoalleen||||||
 azettuda, seištuda|v.|seižattuda|šeiža/ttuda, -tun, -tuin|остановиться|seisattua, asettua seisomaan, seisahtua, pysähtyä||||||
 |a.|seižuj|šeižu/i, -jan, -jad; -jid|стоящий, стоячий|seisova||||||
 |s.|sein|šein', -än, -äd; -id|стена|seinä|išken šein'äd vaste|ударю по стене|lyön seinään|pit'ut šein'ää|вдоль стены|seinää pitkin
-maksada; seišta|v.|seižuda|šeižu/da, -n, -in; -tau, -t't'ii|стоять; стоить|seisoa; maksaa, olla arvoinen|d'ogez veži šeižuu laimoil'l'ai vihman edel|в реке вода стоит спокойно перед дождём|joessa vesi seisoo tyynesti ennen sadetta|rindakkai šeižotau|рядышком стоят|rinnakkain seisovat
+maksada; seišta|v.|seižuda|šeižu/da, -n, -in; -tau, -t't'ii|стоять; стоить|seisoa; maksaa, olla arvoinen|d'ogez veži šeižuu laimoil'l'ai vihman edel|в реке вода стоит спокойно перед дождём|joessa vesi seisoo tyynesti ennen sadetta|||
+|v.|seižuda||||(N) läht' čuraižei i šeižuu|отошёл в сторонку и стоит|siirtyi vähän syrjään ja seisoo|||
+|v.|seižuda||||rindakkai šeižotau|рядышком стоят|rinnakkain seisovat|||
 |num.|seiččeme|šei/ččeme, -ččemen, -čend|семь|seitsemän||||||
 |s.|seld'|(Kn) sel'gi, -n|сельдь, селёдка|silli||||||
 balk, selgparz'|s.|selg|šelg, -än, -äd; -id|спина; сельга; балка|selkä; selänne, harju; järven selkä; kannatinhirsi (sillan), kattoparru, selkäpuu (patsaskiikun)||||||
@@ -3577,7 +3590,7 @@ ald|s.|lainiž|lai/n'iž ~ lai/neh, -nehen, -n'išt ~ -neht; -nehiden, -nehid|в
 |s.|lagi|lag/i, -en, -ed; -id|потолок|välikatto, sisäkatto, laki||||||
 |s.|lapp|la/pp, -pan, -ppad; -poid|пряжка, застёжка, брошка; петля|solki (remmissä, pätsissä); silmu, silmukka|(B) remen'is on lapp|у ремня есть пряжка|nahkavyössä on solki|||
 |v.|laskeda|la/skeda, -sken, -škin; -skou, -šk; -skedau |кататься (с горки)|laskea|mäged laskeda|кататься с горки|laskea mäkeä|||
-|v.|laskeda||||(B) mukkud laskou|он кувыркается|heittää kuperkeikkaa|||
+|v.|laskeda||||(B) mukkud laskou|он кувыркается|heittää kuperkeikkaa|(N) hid'žvän las'k|стало угарно|häkä laskeutui
 |v.|laskeda||||mäne d'ärvembi laske verkod!|иди дальше от берега спусти сети!|mene järvemmälle (selälle kauemmas) laske verkot!|||
 vierda|v. refl.|laskedakse|(B) laskezeta, laskezou, laškiihe; (Td) laskedaze, laskezou, laškiihe|опускаться, ложиться|laskeutua, laskea||||||
 lava|s.|lattij|la/t't'ii ~  (Td) la/t'e, -t't'an, -t't'ad; -t't'oid|пол|lattia||||||
@@ -3932,7 +3945,7 @@ o, oi|interj.|voi II |(Td) voi|ой (восклицание), как, жаль| 
 |v.|viihtada|viih/tädä, -tän, -tin; (B, Kn) viih/tada, -tan, (B) -t'in ~ (Kn) -t'iin||||||||
 avaiduda|v. refl.|zavodidakse|(Td) zavod'i/zetta, -zen, -ime|начинаться, заводиться|alkaa, käynnistyä||||||
 da, ja|konj.|i I|i|и, да|ja, sekä, -kin|zor'at'iäht' paštau ildal i huonduksel|утренняя звезда светит вечером и утром|kointähti loistaa illalla sekä aamulla|(B) kived i ruoppahad peldol häküt'etau|камни и груды на поле мешают|kivet ja kivikasat pellolla ovat esteenä
-|konj.|i I||||(N) d'ien mina hüvä, t'erveh i s'ida mina sille tahton|я остаюсь в добром зравии и того же я желаю тебе (в конце письма)|minä jään hyvänä, terveenä ja sitä sinulle toivon (kirjeen lopussa)|||
+|konj.|i I||||(N) d'ien mina hüvä, t'erveh i s'ida mina sille tahton|я остаюсь в добром зравии и того же я желаю тебе (в конце письма)|minä jään hyvänä, terveenä ja sitä sinulle toivon (kirjeen lopussa)|(N) läht' čuraižei i šeižuu|отошёл в сторонку и стоит|siirtyi vähän syrjään ja seisoo
 da, i|konj.|ja|(B, Td) ja|и|ja||||||
 |adv.|äij|äij|много|paljon||||||
 mi, äij, äijän|adv. yhd. |äijgo|äigi|сколько, много ли|paljonko, montako, kuinka paljon|äigi last on kod'is?|сколько детей дома?|montako lasta kotona on?|||
@@ -4067,3 +4080,4 @@ huogastuda, lebaududa, lebauzuda|v.|huogauzuda|(N) huogauzu/da, -n, -in|отды
 tiähtäda|v.|tiähtita|(Hj) t'iäht'i/ta, -dan,  -žin (LT4 107)|||(Hj) kaiken kod'in t'iäht'ižimme|мы пометили брёвна всего дома|merkitsimme koko talon (hirret)|||
 tora, toraduz|s.|torado|(Hj) torado (LT4 107)|драка|tappelu||||||
 |adv.|tiähtel|(Hj) t'iäht'el (LT4 107)|на учёте|tallella, luetteloissa|(Hj) l'ienougi kai lugu s'illai t'iäht'el?|будет ли всё количество у тебя на учёте?|lieneekö koko määrä sinulla tallella?|||
+|s. yhd.|argvoi|(B, Pl, Td) ar’g/voi||||||||

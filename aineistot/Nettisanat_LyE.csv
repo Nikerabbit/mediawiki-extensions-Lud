@@ -282,7 +282,7 @@ vuodine|a. yhd.|vuozine|vuoz’i/in’e, -ižen, -št; -ižiin, -ižiid|годн
 |s.|d’uam|d’uam, -an, -ad|шоссе|maantie, valtatie|||||||||
 |s.|d’umalan-|d’umalan-|божий|jumalan-|||||||||
 |s. mon.|d’unad|d’unad|дюны|hiekkakinokset, dyynit|||||||||
-|v.|d’uobuda|d’uob/da, -ub, -ui|угорать|saada häkämyrkytys; vähentyä sulaessa, vähentyä palaessa|||||||||
+|v.|d’uobuda|d’uob/da ~ däuob/uda, -ub, -ui|угорать|saada häkämyrkytys|d'uobuin ištes tänäbää mia t'eil (KTK) |угорел я сидя сегодня у вас|minä sain teillä istuessani tänään häkämyrkytyksen||||||
 |v. refl.|d’uodakse|d’uodakse, d'uoze, d'uihe(ze)|напиваться|juoda kyllikseen, juoda itsensä humalaan |||||||||
 |v. frekv.|d’uoksendelta|d’uoksende/l’da, -l’ob, -l’ ~ -l’ii|бегать|juoksennella|||||||||
 |s.|d’uokseteluz|d’uoksetel’u/z, -sen, -st; -s’iin, -s’iid|бег|juoksu|||||||||
@@ -402,7 +402,7 @@ duuh|s. mon.|duuhud|duuhu/d, -in, -id (KTK)|духи; запахи|hajuvesi; haj
 |s. mon.|džincad|džinsi|джинсы|farkut|||||||||
 |s.|ečind|ečind, -an, -ad|поиск, поиски, розыск, обыск, иск|etsintä|||||||||
 |v. frekv.|ečitelta|ečite/l’da, -l’ob, -l’ ~ -l’ii|обыскивать, обыскать|etsiskellä|||||||||
-edahalaine|a.|edahaine|edaha/an’e, -ažen, -št; -ažiin, -ažiid|далёкий, дальний, отдалённый|kaukainen, syrjäinen|edahaan’e d'er’ein (KTK)|отдалённая деревня|syrjäinen kylä||||||
+čuraine, edahalaine|a.|edahaine|edaha/an’e, -ažen, -št; -ažiin, -ažiid|далёкий, дальний, отдалённый|kaukainen, syrjäinen|edahaan’e d'er’ein (KTK)|отдалённая деревня|syrjäinen kylä||||||
 |adv. yhd.|edahanpiä|edaham/piä ~ -pia (KTK)|издалека, издали|kaukaa, etäältä|||||||||
 |s. yhd.|edelpiämaksand|edelpiä/maksand|задаток|ennakkomaksu|||||||||
 |adv. komp.|edemba|edemba|дальше|kauempana|||||||||
@@ -1307,14 +1307,15 @@ katt, katuz, kroja, levo|s.|kroun’|kroun’ ~ (Js) kr’oun’ ~ (Sj) kroin’
 |s.|kruask|kruask, -an, -ad|краска|maali|||||||||
 |s.|kruassij|kruas’ij, -an, -ad|маляр|maalari|||||||||
 |s.|kruiz|kruiz, -an, -ad|круиз|risteily|||||||||
-|s.|krupp|krupp|крупа|ryyni, suurimo|||||||||
+suurim|s.|krupp|krupp|крупа|suurima, ryyni|||||||||
+|s.|suurim|suur'im|крупа|suurima, suurimo, ryyni|||||||||
 dürk|a.|krutij|krutij|||krutij mägi |крутая гора|jyrkkä mäki||||||
 |s.|kruušk|krušk, -an, -ad|кружка|muki|||||||||
 kruug|s. dem.|kruugaine|kruuga/an’e, -ažen, -št; -ažiin, -ažiid|||||||||||
 |v. refl.|kruužidakse|kruuštakse, kruužiže,  kruužiihe(ze) |кружиться|pyöriä|||||||||
 |v.|kruužituttada|kružitu/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|кружить|pyörittää|piän kružitutab|голову кружит|päätä pyörittää||||||
 |s.|kružev|kružev, -an, -ad|кружево|pitsi|||||||||
-|s.|kuačk|kuačk|угар|häkä|||||||||
+čihv, čihver', haiker, hädžv|s.|kuačk|kuačk|угар|häkä|||||||||
 |v.|kualada|kual/da, -an|идти вброд|kahlata|||||||||
 |v.|kuarzida|kuar’sta, kuarz'in, kuarz'ii; kuar'staze, kuar'st'ihe|обрубать|karsia|||||||||
 |s.|kuaš|kuaš, -an, -ad; -uun, -uud|каша|puuro|kuaš panem piäl'e (PN)|кашу кладём сверху|puuroa panemme päälle||||||
@@ -1444,6 +1445,7 @@ käri|s. dem.|käriine|kär'i/in’e, -ižen, -št; -ižiin, -ižiid|повоз�
 |s.|lageduz|lagedu/z, -sen, -st; -s’iin, -s’iid|равнина|lakeus, tasanko|||||||||
 |adv.|lähel|l’ähel|поблизости|lähellä|||||||||
 |v.|läheta I|l’ähe/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|приближать, сближать|lähentää|||||||||
+|v.|suureta I|suure/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe (KTK)|увеличивать, увеличить|suurentaa|||||||||
 |s.|lähtäm|l’äht/am, -man, -mad ~ (Yl) l'äht/äm, -män, -mäd|тёлка, нетель|hieho|||||||||
 |a.|laih|laih, -an, -ad|тощий, худой, худощавый, сухощавый|laiha|||||||||
 |a. dem.|laihaine|laiha/an’e, -ažen, -št; -ažiin, -ažiid|тощенький, худенький; щуплый (IL)|laiha|||||||||
