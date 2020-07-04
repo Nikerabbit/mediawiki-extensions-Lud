@@ -81,7 +81,7 @@ class KeskiLyydiTabConverter {
 			'properties' => [ 'pos' => $x[3] ],
 			'examples' => $examples,
 			'translations' => $translations,
-			'links' => [],
+			'links' => KeskiLyydiTabConverter::splitTranslations( $x[0] ),
 		];
 	}
 
