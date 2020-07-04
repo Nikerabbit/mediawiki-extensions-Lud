@@ -1,3 +1,15 @@
+Lisätietoja sanastosta löytyy näiltä sivuilta:
+* [[{{PAGENAME}}/Johdanto|Johdanto]]
+* [[{{PAGENAME}}/Liitteet ja lyhenteet|Liitteet ja lyhenteet]]
+
+== Haku ==
+<inputbox>
+type=fulltext
+namespaces=Lud**
+</inputbox>
+
+== Sanaluettelot ==
+
 * [[:Category:Lud|lüüdi ({{Lang-i18n|lud}})]]
 * [[{{PAGENAME}}/fi|{{INT:sanat-lc-fi}} → {{Lang-i18n|lud}}]]
 * [[{{PAGENAME}}/ru|{{INT:sanat-lc-ru}} → {{Lang-i18n|lud}}]]

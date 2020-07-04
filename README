@@ -19,6 +19,6 @@ php LudImport.php --wiki=$WIKI "$OUTPUT" \
   --LyP=aineistot/LyP.csv
 php ListPages.php "$OUTPUT" --wiki=$WIKI > todelete.txt
 cd ../..
-#php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/mw --wiki=$WIKI
+php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/mw --wiki=$WIKI
 php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/"$OUTPUT" --wiki=$WIKI
 php maintenance/deleteBatch.php extensions/Lud/todelete.txt  --wiki=$WIKI
