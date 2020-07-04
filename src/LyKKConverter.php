@@ -1,5 +1,5 @@
 <?php
-declare( strict_types = 1 );
+declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
@@ -78,7 +78,7 @@ class LyKKConverter {
 		if ( preg_match( $regexp, $line, $match ) ) {
 			// Support PHP 7.1 without PREG_UNMATCHED_AS_NULL, trailing unmatched are not present
 			$match[3] = $match[3] ?? '';
-			[ $all, $word, $trans, $examples ] = $match;
+			[ , $word, $trans, $examples ] = $match;
 
 			$translations = $this->splitTranslations( $trans );
 			$examples = $this->splitExamples( $examples );

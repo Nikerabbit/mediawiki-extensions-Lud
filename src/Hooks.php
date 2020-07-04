@@ -1,15 +1,16 @@
 <?php
-declare( strict_types = 1 );
+declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
 use ContentHandler;
 use Html;
 use MediaWiki\MediaWikiServices;
-// use MediaWiki\Storage\SlotRecord;
 use OutputPage;
 use Parser;
 use Title;
+
+// use MediaWiki\Storage\SlotRecord;
 
 /**
  * @author Niklas Laxström

@@ -1,5 +1,5 @@
 <?php
-declare( strict_types = 1 );
+declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
@@ -128,7 +128,7 @@ class LyEConverter {
 		}
 
 		if ( preg_match( $regexp, $line, $match ) ) {
-			[ $all, $word, $wc, $unused, $inf, $trans ] = $match;
+			[ , $word, $wc, , $inf, $trans ] = $match;
 
 			$props = [];
 			$props['pos'] = $wc;

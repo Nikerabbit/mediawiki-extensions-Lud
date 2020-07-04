@@ -1,5 +1,5 @@
 <?php
-declare( strict_types = 1 );
+declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
@@ -11,6 +11,35 @@ use RuntimeException;
  * @license GPL-2.0-or-later
  */
 class LyETabConverter {
+	public function parse( $filepath ) {
+		$in = self::getLinesFromCsvFile( $filepath );
+
+		$out = [];
+		$prev = [];
+		foreach ( $in as $line ) {
+			if ( $line[1] === '' && $line[2] === $prev[2] ) {
+				// fill in missing values ('') from the previous lines.
+				// Make sure empty strings are unset first so that they
+				// will be replaced.
+				foreach ( $line as $i => $v ) {
+					if ( $v === '' && $i < 4 ) {
+						$line[$i] = $prev[$i];
+					}
+				}
+			}
+
+			try {
+				$out[] = $this->parseLine( $line );
+				$prev = $line;
+			} catch ( Exception $e ) {
+				$fmt = json_encode( $line, JSON_UNESCAPED_UNICODE );
+				echo $e->getMessage() . "\nRivi: $fmt\n\n";
+			}
+		}
+
+		return $out;
+	}
+
 	public static function getLinesFromCsvFile( string $filepath ): array {
 		$in = [];
 
@@ -39,35 +68,6 @@ class LyETabConverter {
 		}
 
 		return $in;
-	}
-
-	public function parse( $filepath ) {
-		$in = self::getLinesFromCsvFile( $filepath );
-
-		$out = [];
-		$prev = [];
-		foreach ( $in as $line ) {
-			if ( $line[1] === '' && $line[2] === $prev[2] ) {
-				// fill in missing values ('') from the previous lines.
-				// Make sure empty strings are unset first so that they
-				// will be replaced.
-				foreach ( $line as $i => $v ) {
-					if ( $v === '' && $i < 4 ) {
-						$line[$i] = $prev[$i];
-					}
-				}
-			}
-
-			try {
-				$out[] = $this->parseLine( $line );
-				$prev = $line;
-			} catch ( Exception $e ) {
-				$fmt = json_encode( $line, JSON_UNESCAPED_UNICODE );
-				echo $e->getMessage() . "\nRivi: $fmt\n\n";
-			}
-		}
-
-		return $out;
 	}
 
 	public function parseLine( $x ) {

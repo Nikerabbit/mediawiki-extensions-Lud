@@ -1,5 +1,5 @@
 <?php
-declare( strict_types = 1 );
+declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
@@ -101,9 +101,8 @@ class ImportMaintenanceScript extends Maintenance {
 				$x = $this->mergeItems( $dedup[$id], $b );
 				$dedup[$id] = $x;
 			} catch ( Exception $err ) {
-				echo "[LyE] Sanatietueiden yhdistäminen eri lähteistä epäonnistui sanalle $id. "
-					. "Jälkimmäinen jää pois.\n" .
-					$err->getMessage() . "\n\n";
+				echo "[LyE] Sanatietueiden yhdistäminen eri lähteistä epäonnistui sanalle $id. " .
+					"Jälkimmäinen jää pois.\n" . $err->getMessage() . "\n\n";
 			}
 		}
 
@@ -153,7 +152,7 @@ class ImportMaintenanceScript extends Maintenance {
 			);
 		}
 
-		$new = [
+		return [
 			'id' => $a['id'],
 			'base' => $a['base'],
 			'type' => $a['type'],
@@ -164,8 +163,6 @@ class ImportMaintenanceScript extends Maintenance {
 			'translations' => array_merge_recursive( $a['translations'], $b['translations'] ),
 			'links' => array_unique( array_merge( $a['links'], $b['links'] ) ),
 		];
-
-		return $new;
 	}
 
 	private function mergeSimpleVariant( array $all, array $new ): array {
@@ -260,8 +257,8 @@ class ImportMaintenanceScript extends Maintenance {
 						$cases[] = "$name ({$south[$i]['properties']['pos']})";
 					}
 					$cases = implode( "\n", $cases );
-					echo "[LyKK] Kirjalyydin hakusanan '$id' yhdistäminen olemassa olevaan "
-						. "sanatietueeseen ei onnistunut. " .
+					echo "[LyKK] Kirjalyydin hakusanan '$id' yhdistäminen olemassa olevaan " .
+						"sanatietueeseen ei onnistunut. " .
 						"Useita vaihtoehtoja. Lisätään omana artikkelinaan.\n$cases\n\n";
 				}
 				$new[] = $entry;
@@ -277,7 +274,7 @@ class ImportMaintenanceScript extends Maintenance {
 	private function mergeKirjaLyydiItem( array $a, array $b ): array {
 		$cases = array_merge( $a['cases'], $b['cases'] );
 
-		$new = [
+		return [
 			'id' => $a['id'],
 			'base' => $a['base'],
 			'type' => $a['type'],
@@ -288,8 +285,6 @@ class ImportMaintenanceScript extends Maintenance {
 			'translations' => array_merge_recursive( $a['translations'], $b['translations'] ),
 			'links' => array_unique( array_merge( $a['links'], $b['links'] ) ),
 		];
-
-		return $new;
 	}
 
 	private function outputJson( array $out, string $outdir ): void {
