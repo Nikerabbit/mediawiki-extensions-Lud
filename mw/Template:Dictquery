@@ -4,7 +4,7 @@
 |format=ul
 |limit={{{limit|200}}}
 |link=subject
-|sort=Value
+|sort=Sortkey
 |headers=show
 |mainlabel=-
 |template=dictlist
