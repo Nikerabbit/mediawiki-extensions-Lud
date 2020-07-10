@@ -36,7 +36,19 @@ class Formatter {
 			];
 		}
 
-		// Pass 2: make honomyns have unique page names
+		// Pass 2: add KK as POS to entries missing it
+		foreach( $out as $id => $x ) {
+			if ( $entry['type'] === 'disambiguation' ) {
+				continue;
+			}
+
+			$cases = $x['cases'] ?? [];
+			if ( count( $cases ) === 1 && isset( $cases['lud'] ) && $x['properties'] === [] ) {
+				$out[$id]['properties']['pos'] = 'KK';
+			}
+		}
+
+		// Pass 3: make honomyns have unique page names
 		foreach ( $out as $i => $entry ) {
 			if ( $entry['type'] !== 'disambiguation' ) {
 				continue;
@@ -62,7 +74,7 @@ class Formatter {
 			}
 		}
 
-		// Pass 2: add "roman" numerals as last resort
+		// Pass 2: add "roman" numerals or KK as last resort
 
 		// Pass 2a: build id => entries map
 		$map = [];

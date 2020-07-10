@@ -114,7 +114,7 @@ class LyEConverter {
 
 		// References to other words
 		$links = [];
-		if ( preg_match( "~[.:] Vrt\.\s+(.+)$~u", $line, $match ) ) {
+		if ( preg_match( "~[.:] ?Vrt\.\s+(.+)$~u", $line, $match ) ) {
 			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
 			$line = substr( $line, 0, - strlen( $match[0] ) );
 		}
@@ -176,15 +176,29 @@ class LyEConverter {
 	public function splitExamples( $string ) {
 		$string = trim( $string );
 		$ret = [];
-		$re = '~^([^/]+) [‘’]([^/]+)’ / [‘’]([^/]+)’(?:\. )??~uU';
+		$re =
+<<<'REGEXP'
+~
+(?(DEFINE)(?'c'[^/]))
+(?(DEFINE)(?'l'[^/\p{Cyrillic}]))
+(?(DEFINE)(?'q'[‘'’]))
+
+((?&l)+) (?:\s* / \s* | \s ) (?&q)((?&l)+)(?&q) \s* / \s* (?&q)((?&c)+)(?&q) (?:[.,;]\s*?|$)
+~xuU
+REGEXP;
+
 		while ( preg_match( $re, $string, $match ) ) {
 			$ret[] = [
-				'lud-x-south' => $match[1],
-				'ru' => $match[3],
-				'fi' => $match[2],
+				'lud-x-south' => $match[4],
+				'ru' => $match[6],
+				'fi' => $match[5],
 			];
 
-			$string = substr( $string, strlen( $match[0] ) );
+			$string = strtr( $string, [ $match[0] => '' ] );
+		}
+
+		if ( $string !== '' ) {
+			throw new Exception( "[LyE] Esimerkeissä häikkää: *$string*" );
 		}
 
 		return $ret;
