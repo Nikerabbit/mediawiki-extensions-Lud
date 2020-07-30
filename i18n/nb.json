@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"sanat-lud-desc": "Verktøy for Ludic-ordbok",
+	"sanat-da": "Dette ordet har flere betydninger:",
+	"sanat-entry-examples": "Eksempler",
+	"sanat-entry-seealso": "Se også",
+	"sanat-entry-translations": "Oversettelser",
+	"sanat-entry-forms": "Former",
+	"sanat-entryform-baseform": "Grunnform:",
+	"sanat-entryform-pos": "Ordklasse:",
+	"sanat-entryform-langdesc": "Dialektbeskrivelse",
+	"sanat-entryform-formsdesc": "Bøyninger",
+	"sanat-entryform-addform": "Legg til form",
+	"sanat-entryform-addtranslation": "Legg til oversettelse",
+	"sanat-entryform-addexample": "Legg til eksempel",
+	"sanat-lc-en": "Engelsk",
+	"sanat-lc-fi": "Finsk",
+	"sanat-lc-lud": "Skrevet ludisk",
+	"sanat-lc-lud-x-middle": "Mellomludisk",
+	"sanat-lc-lud-x-north": "Nordludisk",
+	"sanat-lc-lud-x-south": "Sørludisk",
+	"sanat-lc-ru": "Russisk",
+	"sanat-lc-und": "Ukjent språk"
+}
