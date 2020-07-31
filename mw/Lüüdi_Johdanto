@@ -1,9 +1,19 @@
 {{DISPLAYTITLE:Lyydin digitaalinen sanakirja ja murresanakirja}}
+
+<div style="display:flex;justify-content:flex-end;"><div style="font-style:italic;margin:2em">
+Obraman Fed’uun Lil’an, Maijan<br>
+da Iivanan Lid’an<br>
+muštole
+
+”Oma kiel’ pibab sohran’ida!”<br>
+(Iivanan Lid’a)
+</div></div>
+
 == Lyydin sanakirjaprojekti ==
 
 Lyydin digitaalinen sanakirja ja murresanakirja -hanke käynnistyi vuonna 2013 Koneen Säätiöltä saadun avustuksen turvin Lyydiläisen Seuran vuokraamassa Kotimaisten kielten keskuksen (Kotus) työpisteessä. Hanke on suunniteltu pitkäaikaiseksi, ja sen keskeisenä tavoitteena on lyydiläismurteiden dokumentointi ja lyydin revitalisaatioon suunnattu kielenhuolto. Wikipedian käyttämälle Wiki-teknologialle rakentuva sanakirjan järjestelmä mahdollistaa sen jatkuvan päivittämisen. Tähän mennessä sanakirjaan on koottu noin 12 000 sana-artikkelia, jotka sisältävät pääosan lyydin sanavarastoa.
 
-Projektin ohjausryhmään kuuluvat professorit Riho Grünthal, Pirkko Nuolijärvi, Simo Parpola, Kimmo Koskenniemi ja aineistoasiantuntija Toni Suutari. Hanke toteutetaan Lyydiläisen Seuran, Karjalan tiedekeskuksen (KTK), Kotuksen, Helsingin yliopiston ja Karjalan tasavallassa toimivien lyydiläisten järjestöjen välisenä yhteistyönä. Lyydiläinen Seura ja KTK ovat tehneet virallisen yhteistyösopimuksen.
+Projektin ohjausryhmään kuuluvat professorit Riho Grünthal, Irma Mullonen, Pirkko Nuolijärvi, Simo Parpola, Kimmo Koskenniemi ja aineistoasiantuntija Toni Suutari. Hanke toteutetaan Lyydiläisen Seuran, Karjalan tiedekeskuksen (KTK), Kotuksen, Helsingin yliopiston ja Karjalan tasavallassa toimivien lyydiläisten järjestöjen välisenä yhteistyönä. Lyydiläinen Seura ja KTK ovat tehneet virallisen yhteistyösopimuksen.
 
 Sanakirjahan työryhmään kuuluvat Lyydiläisen Seuran puheenjohtaja Herman Hakala, KTK:n tutkija Svetlana Kovaleva, KTK:n tutkija Aleksandra Rodionova sekä sanakirjan päätöimittaja Miikul Pahomov. Työryhmän toimintaa ovat teknisesti tukeneet Niko Partanen, Viola Pekkanen, Simonas Noreikis, Sergei Minvalejev sekä järjestelmän ylläpitäjä Niklas Laxström. Osa heistä teki vapaaehtoistyötä. Heille kaikille kuuluu kaunis kiitos.
 
@@ -19,7 +29,9 @@ Projekti edistää lyydin murresanaston kartoitusta sekä siihen perustuvan kirj
 
 Sana-artikkelit, joita on lukumäärältään noin 12 000 sanaa, alkavat hakusanoilla, jotka edustavat lyydiläiseen kaunokirjallisuuteen pohjautuvaa kirjakieltä. Kirjalyydiä esitetään myös omana varieteettinaan taivutusmuotoineen ja käyttöesimerkkeineen.
 
-Hakusanan perään tulee kieliopillinen määrittely, esim. a. = adjektiivi, s. mon. = monikollinen substantiivi (ks. Liite 2. Yleiset lyhenteet). Näitä seuraa murteellinen sana alkumuodossaan sekä murresanan taivutusmuodot, jotka paljastavat sananvartaloita. Tällaisia taivutusmuotoja ovat yleensä nominien osalta yksikön sekä/tai monikon genetiivi ja partitiivi, verbien osalta aktiivin indikatiivin preesensin ja imperfektin yksikön ja monikon 3. persoona sekä/tai yksikön 1. persoona. Paikannimien osalta mainitaan taas olosija (inessiivi tai adessiivi) ja tulosija (illatiivi tai allatiivi). Harvinaisissa tapauksissa sanakirjassa on käytetty muita taivutusmuotoja. Eri sanaluokkiin kuuluvien nominien tapauksessa kirjakielinen vastine ei välttämättä käy murresanojen kanssa yhteen. Tällaisissa tapauksissa, joita sanakirjassa on ehkä pari sataa, kirjakielinen lekseemi annetaan omana artikkelina, joka on varustettu KK-merkinnällä = kirjakieli. Sana-artikkeli sisältää myös sanan venäjännöksen ja suomennoksen sekä usein käyttöesimerkkejä, joita on käännetty venäjäksi ja suomeksi.
+Hakusanan perään tulee kieliopillinen määrittely, esim. a. = adjektiivi, s. mon. = monikollinen substantiivi (ks. [[Lüüdi/Liitteet ja lyhenteet|Liite 2. Yleiset lyhenteet]]). Näitä seuraa murteellinen sana alkumuodossaan sekä murresanan taivutusmuodot, jotka paljastavat sananvartaloita. Tällaisia taivutusmuotoja ovat yleensä nominien osalta yksikön sekä/tai monikon genetiivi ja partitiivi, verbien osalta aktiivin indikatiivin preesensin ja imperfektin yksikön ja monikon 3. persoona sekä/tai yksikön 1. persoona. Paikannimien osalta mainitaan taas olosija (inessiivi tai adessiivi) ja tulosija (illatiivi tai allatiivi). Harvinaisissa tapauksissa sanakirjassa on käytetty muita taivutusmuotoja. Sana-artikkeli sisältää myös sanan venäjännöksen ja suomennoksen sekä usein käyttöesimerkkejä, joita on käännetty venäjäksi ja suomeksi. Artikkelin lopussa luetaan manuaalisesti poimitut synonyymit.
+
+Paronyymit eli äänteellisesti samankaltaiset, mutta erimerkitykset sanat osoitetaan roomalaisilla numeroilla, esim. kangaz I ’kangasmaa’ ja kangaz II ’kangas (kudottu)’. Eri sanaluokkiin kuuluvien nominien ja apusanojen tapauksessa kirjakielinen vastine ei välttämättä käy murresanojen kanssa yhteen. Tällaisissa tapauksissa, joita sanakirjassa on ehkä pari sataa, noin sata, kirjakielinen lekseemi annetaan omana artikkelina, joka on varustettu KK-merkinnällä = kirjakieli. Sana-artikkeli sisältää myös sanan venäjännöksen ja suomennoksen sekä usein käyttöesimerkkejä, joita on käännetty venäjäksi Oman sana-artikkelinsa muodostavat yhdyssanojen loppuosat ja suomeksi. sanan loppuun liitettävät partikkelit varustetaan tähdellä [*], esim. *-igaine ’-ikäinen’, *-gi I ’-kin, myös’. Samoin osoitetaan myös näiden käännöksiä.
 
 Sanakirjassa ovat mukana kaikki lyydiläismurteet: etelä-, keski- ja pohjoislyydi alamurteineen. Käytännöllisyyden vuoksi - maantieteellisesti sekä yhteispiirteiden perusteella - näihin päämurteisiin sanakirjassa on kytketty Järventakuisen, Saavan Prääsän, Lohmojan ja Koikarin erillismurteet, joita muutoin on tapana käsitellä erikseen. Lyydin päämurteita sanakirjassa edustavat Kuujärvi (etelälyydi), Pyhäjärvi (keskilyydi) ja Sununsuu (pohjoislyydi). Muista murteista poiketen näistä ei yleensä käytetä erillisiä lyhennemerkintöjä. Muiden murteiden sanat ja käyttöesimerkit varustetaan taas lyhenteillä, joita on käytetty myös varsinaisten murteiden alaisista alamurteista, esim. Jt = Järventakuinen (etelälyydiä), Bar = ''Barduoin’iemi'', Pyhäjärven murrealueella sijaitsevan Partaniemen kylämurre (keskilyydiä). Ks. Liite 3. Lyydin alueet ja varieteetit.
 
@@ -35,7 +47,9 @@ Pohjoislyydin pääedustajana murresanakirjassa on Sununsuun murre. Sununsuun l�
 
 Sanakirjan toimitus kiittää sydämellisesti kaikkia lyydiläisiä, jotka ovat avustaneen sen tekemistä antamalla arvokkaita tietoja kotiseutunsa murteista. Teknisistä syistä vain harvat heidän joukostaan tulivat mainituiksi kieliopasluettelossa (ks. Liite 5. Mainitut kielenoppaat).
 
-Sanakirjatyön kartoitetun lähdeaineiston laajuus antaa myös hyvät mahdollisuudet kehittää tätä projektia lyydiläismurteiden digitaalisen muoto-opin arkiston aikaansaamiseksi, mikä olisi seuraava askel uhanlaiseen lyydin kieleen kohdistuvassa revitalisaatiotoiminnassa.
+Kuujärven tyttäret Lilja ja Maija Pahomovat sekä Lidia Potašova keräsivät uhrautuvaisesti lyydin sanoja unelmoiden äidinkielensä sanakirjasta. Elämänsä loppuvuosina 1961–1964 kemian insinööri Lilja Pahomova kirjoitti Kuujärven sanakirjaa (A–K -kirjaimet), joka hänen kuolemansa jälkeen vahingoksi katosi. Tämä sanakirjaprojekti on jatkoa heidän elämäntyölleen ja se omistetaan heidän valoisalle muistolleen.
+
+Sanakirjatyön kartoitetun lähdeaineiston laajuus antaa hyvät mahdollisuudet kehittää tätä projektia lyydiläismurteiden digitaalisen muoto-opin arkiston aikaansaamiseksi, mikä olisi seuraava askel uhanlaiseen lyydin kieleen kohdistuvassa revitalisaatiotoiminnassa.
 
 ''Helsingissä Pedrunpäivänä 2020''
 

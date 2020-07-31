@@ -81,7 +81,7 @@ jne. (ja niin edelleen)|dme. (da muga edelleh) |и т. д. (и так далее
 jne. (ja niin edelleen)|jme. (ja muga edelleh)|и т. д. (и так далее)
 joiku|d’oig|йоку, саамский напев
 joko – tai|segi – segi|или – или
-jonkinlainen|erahan/luaduine|
+jonkinlainen|erahan/luaduine|некоторый, своего рода
 joutua|puuttuda|попасть
 julkaisutoiminta|kird’oin/painamine|издательская деятельность
 juutalainen|deurij|еврей
@@ -150,7 +150,7 @@ kokous|kogoduz|собрание
 kokous|kerag|собрание
 kolminkertainen|kolme/kierdaine|тройной, трёхкратный, трёхразовый
 konteksti|kontekst|контекст
-teksti|tekst|текст
+||
 ahdas, tiukka|kinded|тесный
 kontakti|kontakt|контакт
 kotoperäinen|kodoilaine|отечественный, местный
@@ -211,10 +211,10 @@ muuttuminen; taivutus|muuttumine|склонение, спряжение
 muutos|muutuz|изменение
 muuttua; taipua|muuttuda|склоняться, спрягаться
 muuttaa; taivuttaa|muuttada|склонять, спрягать
-myös|-gi |а также
-myös|i|и
-myös|mugažo|также
-myös|sežo|тоже
+||
+||
+||
+||
 neuvoa|nevvoda|советовать
 näkökohta, näkökulma|kacund/koht|точка зрения, угол зрения
 näytenumero|ozutez/numer|пробный номер
@@ -320,7 +320,7 @@ kapitalisti|kapitalist |капиталист
 sosialismi|socializm|социализм
 kapitalismi|kapitalizm|капитализм
 pääoma, kapitaali |kapital|капитал
-||
+ukontulikukka|ukontuli|коровяк (цветок)
 kommunismi|komunizm|коммунизм
 ||
 kommunistinen|komunistahine|коммунистический
@@ -465,7 +465,7 @@ lehtimies|leht’/miez|жерналист
 lehti; lehtinen, lehdykkä|lehtuk|лист; брошюра, листовка; листочек
 ||
 julkistamistilaisuus|prezentacij|презентация
-vuotias, vuotinen|vuodine|летний; годний
+*-vuotias, *-vuotinen|*-vuodine|*-летний; *-годний
 jokin|ku-mi|кое-что
 ortodoksikirkko|pravo/sluav/kirik|православная церковь
 kirkko|kirik|церковь
@@ -510,13 +510,13 @@ näppäimistö|klaviatuur|клавиатура
 nappi|nübl’|пуговица
 latinalainen|ladinalaine|латинский
 latina|ladin|латынь, латинский язык
-kaksikerroksinen|kaks’/kierduksine, |двухэтажный
+kaksikerroksinen|kaks’/kierduksine|двухэтажный
 kaksikerroksinen|kaks’/d’atažahine|двухэтажный
 monimuotoinen|moni/formaine|многообразный
 monimuotoinen, moninainen|moni/luaduine|многообразный
 kielellinen|kielehine|языковой
--kerroksinen|-kierduksine|-этажный
--kerroksinen|-d’atažahine|-этажный
+*-kerroksinen|*-kierduksine|*-этажный
+||
 adjektiivi|addektiv|прилагательное
 adjektiivi|luad/sana|прилагательное
 konjunktio|kond’unkt|союз
@@ -540,10 +540,10 @@ kaksivuotinen|kaks’/vuodine|двухлетний; двухгодичный
 todeksi|todeks|в жизнь 
 toteuttaa|azuda todeks|осуществлять
 toteutua|tulda todeks|осуществляться
--kielinen|-kieline|-язычный
+*-kielinen|*-kieline|*-язычный
 monikielinen |moni/kieline|многоязычный
 kaksikielinen|kaks’/kieline |двуязычный
-nyymi|nimi II|ним
+*-nyymi|nimi|*-ним
 synonyymi|sino/nimi|синоним
 antonyymi|anto/nimi|антоним
 paikannimi, toponyymi|topo/nimi|топоним
@@ -564,3 +564,9 @@ konservatiivi|konservator|консерватор
 valistusliike|valgištuz/liikund|просветительское движение
 näytenumero|ozutez/numer|пробный номер
 lukutupa|lugend/pert’|изба-читальня
+*-päiväinen|*-päiväine|*-дневный
+hyvänlaatuinen|hüvän/luaduine|
+*-laatuinen|*-luaduine|
+hyväsydäminen|hüvä/südämine|
+*-paikkainen|*-sijaine|*-местный
+kaksipaikkainen, kahden hengen|kaks'/sijaine|двухместный
