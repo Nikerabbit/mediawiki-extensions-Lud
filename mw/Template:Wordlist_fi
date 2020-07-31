@@ -1,32 +1,32 @@
 <includeonly>
-{{dictquery|query={{{query}}} [[Sortkey::<a]]                |intro=<h2>#</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>a]] [[Sortkey::<b]]|intro=<h2>a</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>b]] [[Sortkey::<c]]|intro=<h2>b</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>c]] [[Sortkey::<d]]|intro=<h2>c</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>d]] [[Sortkey::<e]]|intro=<h2>d</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>e]] [[Sortkey::<f]]|intro=<h2>e</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>f]] [[Sortkey::<g]]|intro=<h2>f</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>g]] [[Sortkey::<h]]|intro=<h2>g</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>h]] [[Sortkey::<i]]|intro=<h2>h</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>i]] [[Sortkey::<j]]|intro=<h2>i</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>j]] [[Sortkey::<k]]|intro=<h2>j</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>k]] [[Sortkey::<l]]|intro=<h2>k</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>l]] [[Sortkey::<m]]|intro=<h2>l</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>m]] [[Sortkey::<n]]|intro=<h2>m</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>n]] [[Sortkey::<o]]|intro=<h2>n</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>o]] [[Sortkey::<p]]|intro=<h2>o</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>p]] [[Sortkey::<q]]|intro=<h2>p</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>q]] [[Sortkey::<r]]|intro=<h2>q</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>r]] [[Sortkey::<s]]|intro=<h2>r</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>s]] [[Sortkey::<t]]|intro=<h2>s</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>t]] [[Sortkey::<u]]|intro=<h2>t</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>u]] [[Sortkey::<v]]|intro=<h2>u</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>v]] [[Sortkey::<w]]|intro=<h2>v</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>w]] [[Sortkey::<x]]|intro=<h2>w</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>x]] [[Sortkey::<y]]|intro=<h2>x</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>y]] [[Sortkey::<z]]|intro=<h2>y</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>z]] [[Sortkey::<å]]|intro=<h2>z</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>å]] [[Sortkey::<ä]]|intro=<h2>å</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ä]] [[Sortkey::<ö]]|intro=<h2>ä</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ö]]                |intro=<h2>ö</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::<<a||>>š]] [[Sortkey::!~š*]] |intro=<h2>#</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~a*]]|intro=<h2>a</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~b*]]|intro=<h2>b</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~c*]]|intro=<h2>c</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~d*]]|intro=<h2>d</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~e*]]|intro=<h2>e</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~f*]]|intro=<h2>f</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~g*]]|intro=<h2>g</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~h*]]|intro=<h2>h</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~i*]]|intro=<h2>i</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~j*]]|intro=<h2>j</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~k*]]|intro=<h2>k</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~l*]]|intro=<h2>l</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~m*]]|intro=<h2>m</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~n*]]|intro=<h2>n</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~o*]]|intro=<h2>o</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~p*]]|intro=<h2>p</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~q*]]|intro=<h2>q</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~r*]]|intro=<h2>r</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~s*||~š*]]|intro=<h2>s</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~t*]]|intro=<h2>t</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~u*]]|intro=<h2>u</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~v*]]|intro=<h2>v</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~w*]]|intro=<h2>w</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~x*]]|intro=<h2>x</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~y*]]|intro=<h2>y</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~z*]]|intro=<h2>z</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~å*]]|intro=<h2>å</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ä*]]|intro=<h2>ä</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ö*]]|intro=<h2>ö</h2>}}
 </includeonly>

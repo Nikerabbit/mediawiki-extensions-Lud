@@ -1,34 +1,34 @@
 <includeonly>
-{{dictquery|query={{{query}}} [[Sortkey::<а]]                |intro=<h2>#</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>а]] [[Sortkey::<б]]|intro=<h2>а</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>б]] [[Sortkey::<в]]|intro=<h2>б</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>в]] [[Sortkey::<г]]|intro=<h2>в</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>г]] [[Sortkey::<д]]|intro=<h2>г</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>д]] [[Sortkey::<е]]|intro=<h2>д</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>е]] [[Sortkey::<ё]]|intro=<h2>е</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ё]] [[Sortkey::<ж]]|intro=<h2>ё</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ж]] [[Sortkey::<з]]|intro=<h2>ж</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>з]] [[Sortkey::<и]]|intro=<h2>з</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>и]] [[Sortkey::<й]]|intro=<h2>и</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>й]] [[Sortkey::<к]]|intro=<h2>й</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>к]] [[Sortkey::<л]]|intro=<h2>к</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>л]] [[Sortkey::<м]]|intro=<h2>л</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>м]] [[Sortkey::<н]]|intro=<h2>м</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>н]] [[Sortkey::<о]]|intro=<h2>н</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>о]] [[Sortkey::<п]]|intro=<h2>о</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>п]] [[Sortkey::<р]]|intro=<h2>п</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>р]] [[Sortkey::<с]]|intro=<h2>р</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>с]] [[Sortkey::<т]]|intro=<h2>с</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>т]] [[Sortkey::<у]]|intro=<h2>т</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>у]] [[Sortkey::<ф]]|intro=<h2>у</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ф]] [[Sortkey::<х]]|intro=<h2>ф</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>х]] [[Sortkey::<ц]]|intro=<h2>х</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ц]] [[Sortkey::<ч]]|intro=<h2>ц</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ч]] [[Sortkey::<ш]]|intro=<h2>ч</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ш]] [[Sortkey::<щ]]|intro=<h2>ш</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>щ]] [[Sortkey::<ы]]|intro=<h2>щ</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ы]] [[Sortkey::<э]]|intro=<h2>ы</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>э]] [[Sortkey::<ю]]|intro=<h2>э</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>ю]] [[Sortkey::<я]]|intro=<h2>ю</h2>}}
-{{dictquery|query={{{query}}} [[Sortkey::>я]]                |intro=<h2>я</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::<<а||>>ё]] [[Sortkey::!~ё*]]|intro=<h2>#</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~а*]]|intro=<h2>а</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~б*]]|intro=<h2>б</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~в*]]|intro=<h2>в</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~г*]]|intro=<h2>г</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~д*]]|intro=<h2>д</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~е*]]|intro=<h2>е</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ё*]]|intro=<h2>ё</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ж*]]|intro=<h2>ж</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~з*]]|intro=<h2>з</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~и*]]|intro=<h2>и</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~й*]]|intro=<h2>й</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~к*]]|intro=<h2>к</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~л*]]|intro=<h2>л</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~м*]]|intro=<h2>м</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~н*]]|intro=<h2>н</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~о*]]|intro=<h2>о</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~п*]]|intro=<h2>п</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~р*]]|intro=<h2>р</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~с*]]|intro=<h2>с</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~т*]]|intro=<h2>т</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~у*]]|intro=<h2>у</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ф*]]|intro=<h2>ф</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~х*]]|intro=<h2>х</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ц*]]|intro=<h2>ц</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ч*]]|intro=<h2>ч</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ш*]]|intro=<h2>ш</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~щ*]]|intro=<h2>щ</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ы*]]|intro=<h2>ы</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~э*]]|intro=<h2>э</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~ю*]]|intro=<h2>ю</h2>}}
+{{dictquery|query={{{query}}} [[Sortkey::~я*]]|intro=<h2>я</h2>}}
 </includeonly>

@@ -17,6 +17,11 @@ class LyETabConverter {
 		$out = [];
 		$prev = [];
 		foreach ( $in as $line ) {
+			// Skip the header, if present
+			if ( $line[0] === 'synonyymit' ) {
+				continue;
+			}
+
 			if ( $line[1] === '' && $line[2] === $prev[2] ) {
 				// fill in missing values ('') from the previous lines.
 				// Make sure empty strings are unset first so that they
