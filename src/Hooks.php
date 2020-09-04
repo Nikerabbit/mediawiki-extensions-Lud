@@ -9,6 +9,7 @@ use MediaWiki\MediaWikiServices;
 use OutputPage;
 use Parser;
 use Title;
+use const PREG_SET_ORDER;
 
 // use MediaWiki\Storage\SlotRecord;
 
@@ -44,7 +45,7 @@ class Hooks {
 
 	public static function getAbbreviations() {
 		$cache = wfGetCache( CACHE_ANYTHING );
-		$key = 'lud-abbs';
+		$key = 'lud-abbs-v2';
 		$data = $cache->get( $key );
 		if ( is_array( $data ) ) {
 			return $data;
@@ -62,8 +63,14 @@ class Hooks {
 			);
 
 			if ( $contents ) {
-				preg_match_all( '/^(.+) = (.+):?$/m', $contents, $matches );
-				$data = array_combine( $matches[1], $matches[2] );
+				preg_match_all( '/^(.+) = (.+):?$/m', $contents, $matches, PREG_SET_ORDER );
+				foreach ( $matches as $m ) {
+					if ( isset( $data[$m[1]] ) ) {
+						$data[$m[1]] .= "\n" . $m[2];
+					} else {
+						$data[$m[1]] = $m[2];
+					}
+				}
 			}
 		}
 

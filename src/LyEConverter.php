@@ -35,7 +35,7 @@ class LyEConverter {
 		'ks.',
 		'kuv.',
 		'laul.',
-		'liitepart.',
+		'liitep.',
 		'loits.',
 		'mom.',
 		'mon.',
@@ -58,7 +58,7 @@ class LyEConverter {
 		'v.',
 		'yhd.',
 		'yks.',
-		'yksipers.',
+		'yksip.',
 		' ',
 	];
 
