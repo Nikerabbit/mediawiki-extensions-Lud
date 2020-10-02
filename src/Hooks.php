@@ -32,7 +32,7 @@ class Hooks {
 		foreach ( $abbs as $abb => $title ) {
 			$patterns[] = preg_quote( $abb, '/' );
 		}
-		$pattern = '/(?<= |\(|^)(' . implode( '|', $patterns ) . ')(?= |\)|,|$)/um';
+		$pattern = '/(?<=[ (-]|^)(' . implode( '|', $patterns ) . ')(?=[ ),-]|$)/um';
 
 		$cb = function ( $m ) use ( $abbs ) {
 			return Html::element( 'abbr', [ 'title' => $abbs[$m[1]] ], $m[1] );
