@@ -19,6 +19,7 @@ class ImportMaintenanceScript extends Maintenance {
 		$this->addOption( 'LyE-txt', 'TXT file for LyE' );
 		$this->addOption( 'LyE-csv', 'CSV file for LyE' );
 		$this->addOption( 'LyK', 'CSV file for LyK' );
+		$this->addOption( 'LyP', 'CSV file for LyP' );
 		$this->addOption( 'LyKK-txt', 'TXT file for LyKK' );
 		$this->addOption( 'LyKK-csv', 'CSV file for LyKK' );
 		$this->addOption( 'format', 'Output format', false, true );

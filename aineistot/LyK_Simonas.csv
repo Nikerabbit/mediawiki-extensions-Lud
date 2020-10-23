@@ -1760,8 +1760,7 @@ pask|sitt|šitte ~ šittu (RKS, LMS 389) |s.|шиттэ ~ шитту|кал; г�
 |sizar|siza/r ~ (V) siza/r', -ren, -rte|s.|сизар|сестра|sisar|minun sizarele (RKS)||моей сетре|minun sisarelleni|||||||||||
 |šiželik|šiželihhe (RKS) ~ šiželihk/ö, -ön, -öd; -üöid (LMS 389); (V) šiželihk/o, -on, -od; -uoid |s.|шижэлиххэ|ящерица|sisilisko|||||||||||||||
 tark|skuup|(TP) skuu/ppe, -pan|a.||скупой|saita|||||||||||||||
-selg, sivud|sivu|(V) sivu, -n, -d; -id|s.||поясница, спина|selkä, vyöräiset selkärangan molemmin puolin|||||||||||||||
-selg, sivu|sivu|sivu/d, -id|s. mon.||поясница, спина|selkä, vyöräiset selkärangan molemmin puolin|||||||||||||||
+selg, sivud|sivu|(V) sivu|s.||||||||||||||||||
 |siä|(TP) siä|s.||||||||||||||||||
 losnida|šiäjida||v.||||šiäjiu (RKS)|шяиу|сияет|loistaa|||||||||||
 šlejad|šleja|šleja, -n, -d|s.|шлея|шлея|mäkivyö|||||||||||||||
@@ -2573,7 +2572,7 @@ kartofei, kartofel', kartofk|kapp II|ka/ppu, -pun, -ppud; -puid (TTV)|s.||кар
 |kapust|kapust/e, -an, -ad|s.||капуста|kaali|||||||||||||||
 |kapustkera|(V) kapust/kera|s. yhd.||кочан капусты|kaalinkerä|||||||||||||||
 |sanged|sange/i, -dan, -dad; -d'id|a.||толстый, полный, крупный|paksu, tukeva, isokokoinen|sangedad kapud||крупные картофелины|isokokoiset perunat|||||||||||
-|suur'|suu/ri  ~ (V, SP) suu/r'i, -ren, -rte ~ (V) -rd; -rid ~ (V) -r'id  ~ (TP, SP) -rii|a.||большой, великий|suuri, iso|suuri pruazn'ikke||великий праздник|suuri juhla|||||||||||
+|suur'|suu/ri  ~ (V, SP) suu/r'i, -ren, -rte ~ (V) -rd ~ (SP) -rdu; -rid ~ (V) -r'id  ~ (TP, SP) -rii|a.||большой, великий|suuri, iso|suuri pruazn'ikke||великий праздник|suuri juhla|||||||||||
 |suur'||a.||||suured ikkunat (RKS)||большие окна|isot ikkunat|||||||||||
 |suur'||a.||||suured kapud||большие картофелины|isot perunat|||||||||||
 |suur'||a.||||suured mötüd||большие медведи|isot karhut|||||||||||
@@ -2887,7 +2886,7 @@ nuodiv|nuod'oi|(Lm) nuod'uoi|s.||костёр|nuotio, rakovalkea|||||||||||||||
 |lohkaita|(V) lohkai/ta, -dan, -z'in|v. mom.||промоина|veden syövyttämä kohta|||||||||||||||
 |uutatez|(Lm) uutates|s.||||||||||||||||||
 |trässida|(V) träs's'i/da, -u|v.||||||||||||||||||
-|särižuttada|(SP) särizü/ttiä, -ttäu|v. yksip. ||||(SP) särizüttäu vilus||трясёт от холода|värisyttää kylmästä|||||||||||
+|särižuttada|(SP) särizü/ttiä, -ttäu|v. yksip.||||(SP) särizüttäu vilus||трясёт от холода|värisyttää kylmästä|||||||||||
 |raun|(Lm) rauhn/e, -an, -ad|s.||||||||||||||||||
 |paik I|pai/kke, -kan, -kkad; -kuoid|s.||||||||||||||||||
 |paikaine|paika/ine, -ižen, -šte; -ižid|s. dem.||||||||||||||||||
@@ -3015,7 +3014,7 @@ saivar|čaivoi II|čaiv/uoi ~ -oi (RKS)|s.||гнида|saivar|||||||||||||||
 čakk, tihi|mödžöi|möd'žüöi|s.||мошка, мошкара|mäkäräinen|||||||||||||||
 |ehtpäiv|(Lm) ehte/päive|s. yhd.||вторая половина дня|iltapäivä|||||||||||||||
 |ehttiäht'|(V) ehte/t'iähti|s. yhd.||вечерняя звезда|iltatähti|||||||||||||||
-|elostada|eloš/tai, -tan|s.||||||||||||||||||
+|elostada|eloš/tai, -tan|v.||||||||||||||||||
 stualiine, teraksine|stalihine|stal'ihi/ne, -žen, -šte; -žid (RKS)|a.||стальной|teräksinen|||||||||||||||
 bronzaine|bronzovoi|bronzovoi (RKS)|a.||бронзовый|pronssinen, pronssi-|||||||||||||||
 |tumbakovoi|tumpakovoi (RKS)|a.||томпаковый|tombakki-, punametalli-|||||||||||||||
@@ -3037,7 +3036,8 @@ däred, sanged|dämed|d'ämed, -än, -äd; -id|a.||толстый|paksu|||||||||
 |piäle|piäle|adv.-adp.||||||||||||||||||
 |piäliči|piäliči ~ (V, SP) piäl'iči ~ (V) piäl(i)č(i) ~ (TP) piäl'či|adv.-adp.||||||||||||||||||
 |siiriči|siiriči ~ (SP) s'iiriči|adv.-adp.||||||||||||||||||
-|tagaperin|(AV) tagaperin|adv.-postp. yhd. |||takaperin|||||||||||||||
+|tagaperin|(AV) taga/perin|adv.-postp. yhd.|||takaperin|||||||||||||||
 |taga|taga|adv.-postp.||||||||||||||||||
 |enamb|enämb/i, -än, -äd|adv.-a. komp.||||||||||||||||||
 |vähäine|vähä/ine, -ižen, -šte|adv.-a. dem.||||||||||||||||||
+|suuremb|suuremb (LMS 411) ~ (Lm) suurembe ~ (SP) suurembi|a. komp.||||||||||||||||||

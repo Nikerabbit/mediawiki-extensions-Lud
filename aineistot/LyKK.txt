@@ -4901,7 +4901,7 @@ soittaj, -an, -ad — музыкант
 šokk, šokan, šokkad — щека: šokad ’щёки’, ср. ihopiä, posk
 šokk/luu — скула: šokkluud ’скулы’, ср. ihopiä
 šokk/piel' — челюсть
-šokk/pieled, -pieliden, -pielid ’челюсти’
+šokk/pieled, -pieliden, -pielid — челюсти
 solm, -en, -ed — узел: kinded solm ’тугой узел’
 sordaj, -an, -ad — вальщик; угнетатель
 sordu/da, -u, -i — сваливаться, валиться, падать, ср. kirbota, langeta, pakkuda

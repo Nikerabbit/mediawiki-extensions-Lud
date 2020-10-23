@@ -18,7 +18,6 @@ ahtahuz|a.|ahtaz|aht/az, -han, -ast; -hiin, -hiid|тесный; теснота; 
 |s. yhd.|äijäl/borččuj|äjal/borčuj (IL)|многоборец|moniottelija|||||||||
 |a. yhd.|äijänkierdaine|äjan/kierdaan’e|многократный|monikertainen|||||||||
 tiedaj|s. yhd.|äijäntiedaj|äjan/t’iedaj (IL)|эрудит|laajatietoinen|||||||||
-|s. yhd.|Äijäpäiv|äja/päiv|Пасха|pääsiäinen|||||||||
 |s.|ailaz|ail/az, -han, -ast; -hiin, -hiid|||ailhad panob (KTK)|чувствуются колики|tuntuu pistävä kipu||||||
 ainag|a. taipum.|aino|aino|единственный|ainoa, ainut|aino poigaan'e|единственный сыночек|ainoa poika||||||
 matkalaine|s.|ajaj|ajaj, -an, -ad|ездок; пассажир|ajaja; matkustaja|||||||||
@@ -270,8 +269,8 @@ d'agarduz|s.|d’agard|d’agard|пробор|jakaus (päässä)|||||||||
 |s.|d’ago|d’ag/o, -on, -od; -uun, -uud|разделение|jako|||||||||
 |s.|d’alg-|d’aug-|ножной|jalka-|||||||||
 |s. yhd.|d’alganpohd’|d’augam/pohd’|стопа|jalanpohja|||||||||
-d’armankad|s.|d’armank|d’armark ~ jarmark (IL), -an, -ad|ярмарка|markkinat|s'ügüz'il ol'd'ihe ül'en suured d'armankad (OF)|осенью были очень большие ярмарки|syksyllä olivat hyvin suuret markkinat||||||
-d’armank|s.|d’armank|d’armarkad (OF)|ярмарки|markkinat|s'ügüz'il ol'd'ihe ül'en suured d'armankad (OF)|осенью были очень большие ярмарки|syksyllä olivat hyvin suuret markkinat||||||
+d’armankad|s.|d’armank|d’armark ~ jarmark (IL), -an, -ad|ярмарка|markkina(t)|s'ügüz'il ol'd'ihe ül'en suured d'armankad (OF)|осенью были очень большие ярмарки|syksyllä olivat hyvin suuret markkinat||||||
+d’armank|s. mon.|d’armankad|d’armarkad (OF)|ярмарки|markkinat|s'ügüz'il ol'd'ihe ül'en suured d'armankad (OF)|осенью были очень большие ярмарки|syksyllä olivat hyvin suuret markkinat||||||
 lipaz, vakk|s.|d’aššik|d’aššik, -an, -ad; -uun, -uud|ящик; кузов (в телеге)|laatikko, kori (vankkurissa)|||||||||
 vakk|s.|korob|korob, -an, -ad; -uun, -uud (KTK)|короб, кузов (в телеге)|koppa, kori (vankkurissa)|||||||||
 vakk|s.|kuzov|kuzov, -an, -ad; -uun, -uud (KTK)|кузов (в машине)|koppa, kori (autossa)|||||||||
@@ -1241,7 +1240,8 @@ kolme|adv.|kolmei|koumei|втроём, трое|kolmisin|||||||||
 |num. yhd.|kolmesadad|koume/sadad|триста|kolmesataa|||||||||
 |s.|kolonij|kolon'ij, -an, -ad|колония|kolonia|||||||||
 |s.|kolonk|kolonk, -an, -ad|колонка|vesipiste|||||||||
-|s.|kološ|kološ, -an, -ad|галоша|kalossi|||||||||
+kološad|s.|kološ|kološ, -an, -ad; -iin, -iid|галоша, калоша|kalossi, päällyskenkä|||||||||
+kološ; kološid|s. mon.|kološad|kološ/ad, -iin, -iid|галоши, калоши|kalossit, päällyskengät|||||||||
 |v. refl.|kolotidakse|kolot’i/dakse, -že, -ihe(ze)|стучаться, постучать|kolkuttaa (oveen)|||||||||
 |s.|kombain|kombain, -an, -ad|комбайн|kombaini|||||||||
 |s.|kombinat|kombinat, -an, -ad|комбинат|kombinaatti|||||||||
@@ -2532,7 +2532,7 @@ vastahotand |s.|registratuur|r’egistratur, -an, -ad|регистратура|k
 |s.|reklam|r’eklama, -n, -d|реклама|mainos|||||||||
 |s.|rekord|r’ekord, -an, -ad|рекорд|rekordi, ennätys|||||||||
 |s.|rektor|r’ektor, -an, -ad|ректор|rehtori|||||||||
-|s.|religij|r’el’igij, -an, -ad|религия|uskonto|||||||||
+uskond|s.|religij|r’el’igij, -an, -ad|религия|uskonto|||||||||
 |s. mon.|relsad|r’el’s/ad, -uun, -uud|рельсы|kiskot|||||||||
 |s. dem.|remenine|r’emen’i/in’e, -ižen, -št; -ižiin, -ižiid|ремешок|nahkavyö (pieni)|||||||||
 |s.|remont|r’emont, -an, -ad|ремонт|remontti|||||||||
@@ -2600,7 +2600,7 @@ tapand|s.|rikond|rikond, -an, -ad|убийство|tappo, murha|||||||||
 heng, miez, ristikanz|s.|ristittu|r’ist’it, r'ist/un, -ud; -in, -id|человек; крещёный, христианин|ihminen, kristitty|armhad r'istud! (IL)|уважаемая публика!|hyvä yleisö!||||||
 |s.|ritm|r’itm, -an, -ad|ритм|rytmi|||||||||
 rusked|a.|rižoi|riž/ij, -uun, -uud |рыжий|ruskea, punatukkainen|||||||||
-|prep.|dälges||||d’äl’gez minun rod’indad|после моего рождения|minun syntymäni jälkeen||||||
+|adv.-prep.|dälges||||d’äl’gez minun rod’indad|после моего рождения|minun syntymäni jälkeen||||||
 |s.|rizink|r’iz’ink, -an, -ad|резинка|kumi|||||||||
 sündünd|s.|rodind|rod’ind, -an, -ad|рождение|syntyminen, syntymä|d’äl’gez minun rod’indad|после моего рождения|minun syntymäni jälkeen||||||
 |s. yhd.|rodindaig|rod’ind/aig|время рождения, дата рождения|syntymäaika|||||||||
@@ -2949,7 +2949,6 @@ sugahad|s.|sugaz|suga/z, -han, -st; -hiin, -hiid|щетинка; луч|harjas; 
 |s.|suitand|suitand, -an, -ad|накопление|säästäminen|||||||||
 |v.|suittada|sui/tta, -tab, -t’ ~ -t’ii; -ttaze, -t't'ihe|копить, скопить, накопить, накапливать|säästää|||||||||
 siästädä, suittada|v.|skoppida|sko/pta, -ppib, -pii; -ptaze, -pt’ihe |копить, скопить, накопить|säästää|||||||||
-|s.|sukad|suk/ad, -iin, -iid|чулки|sukat|||||||||
 |s.|sukkulaine|(Pal) sukl/uun’e, -uužen, -ošt; -uužiin, -uužiid|челнок (ткацкий)|sukkula, syöstävä|||||||||
 |s.|suksnik|suksn’ik, -an, -ad|лыжник|hiihtäjä|||||||||
 |s.|sulamine|sulami/in’e, -ižen, -št; -ižiin, -ižiid|таяние|sulaminen|||||||||
