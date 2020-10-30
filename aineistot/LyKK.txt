@@ -1045,7 +1045,7 @@ higo/kaz, -kkahan, -kast — потный
 hiidžv, -an, -ad — чад: hiidžv on pertiš ’в избе стоит чад’, ср. čihv
 hiihn, -an, -ad — ремень (технический)
 hiiht/ada, -au, -i — ходить на лыжах: häin hiihtau toižele randale ’он идёт на лыжах на другой берег’
-hiihtaj, -an, -ad — лыжник: Kard'alan hiihtajad 'лыжники из Карелии'
+hiihtaj, -an, -ad — лыжник: Kard'alan hiihtajad 'лыжники из Карелии', ср. suksnik
 hiihtand, -an, -ad — ходьба на лыжах; лыжный спорт: mina intresuimoi hiihtandal ’я увлекаюсь лыжным спортом’
 hiihtand/kiišt — лыжное соревнование: suobattan meil oldah hiihtandkiištad ’в субботу у нас лыжные соревнования’
 hiihtel/ta, -ou, -i — ездить на лыжах, кататься на лыжах: talvel kaik meiden pereh hiihtelou ’зимой вся наша семья катается на лыжах’
@@ -4653,7 +4653,7 @@ satatt/ada, -au, -i — досадить, ушибить, ранить
 satattеlu/z, -ksen, -st — увечье
 satatu/z, -ksen, -st — ушиб, ранение
 saun, -an, -ad — сауна, финская баня, ср. külü
-savak, -on, -kod — палка, лыжная палка, посох, трость, ср. batog, kepp, pualik
+savak, -on, -kod — палка, посох, трость, ср. batog, kepp, pualik
 savak/käveluz — ходьба с палками
 saven/karvaine — тёмносерый
 sav/i, -en, -ed — глина
@@ -5023,7 +5023,10 @@ sukk/niegl — спица для вязания, ср. sukkpuik
 sukk/puik — спица для вязания: sukkpuikod ’спицы для вязания’, ср. sukkniegl
 sukkul, -on, -od — челнок (ткацкий): panda kiäm sukkulah ’вставить катушку в челнок!’
 sukkulo/ine, -ižen, -št — челночек
-suks’, suksen, sust — лыжа; ткацкая лыжа: vahnad puižed suksed ’старые деревянные лыжи’, Mit’oi hurgui suksil ’Митя катался на лыжах’, niided sidotah suksihe ’нитчетки привязывают к ткацким лыжам’
+suks’, suksen, sust — лыжа; ткацкая лыжа: vahnad puižed suksed ’старые деревянные лыжи’
+suks/ed, -iden, -id — лыжи: Mit’oi hurgui suksil ’Митя катался на лыжах’, niided sidotah suksihe ’нитчетки привязывают к ткацким лыжам’
+suksnik, -an, -kad — лыжник, ср. hiihtaj
+suks’/savak — лыжная палка
 sula, -n, -d — талый; нежный: sula koht 'растаявшее место, проталина'
 sul/ada, -au, -i — таять, расплавляться: lumi sulau 'снег тает'
 sulaim, -en, -t — полынья

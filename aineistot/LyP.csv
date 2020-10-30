@@ -2584,7 +2584,7 @@ tiäi|s.|satik|sat'i/kk, -kan, -kkad; -koid|площица, вошь|satiainen||
 |a.|saur|saur, -an, -ad; -oid|чалый (конь, лошадь)|kimo (hevonen)||||||
 |v.|zauhtrokoita|zauhtrokoi/da, -čen, -čin|завтракать|syödä aamiaista||||||
 |a.|sauras|saura/s, -sun, -ssud; -suid|саврасый (лошадь)|liinakko (hevonen)||||||
-batog, kepp, pualik, seibaz|s.|savak|sava/kk, -kon, -kkod; -koid|палка, лыжная палка, посох, трость|sauva, suksisauva, keppi||||||
+batog, kepp, pualik, seibaz|s.|savak|sava/kk ~ -k, -kon, -kkod; -koid|палка, лыжная палка, посох, трость|sauva, suksisauva, keppi||||||
 |s.|savi|sav/i, -en, -ed|глина|savi||||||
 |a.|savine|savi/n'e, -žen, -št; -židen, -žid|глиняный|savinen, savi-||||||
 |s.|savu|savu, -n, -d; -id|дым|savu||||||
@@ -2773,13 +2773,15 @@ sulg|s. dem.|sulgaine|(B) sulgaine|перышко|sulka (pieni), höyhen||||||
 |s.|suga|sug/a, -an, -ad; -id|расчёска|kampa; hevossuka (Lm)||||||
 |s.|sukk|su/kk, -kan, -kkad; -kkiden, -kkid|носок|sukka||||||
 |s. mon.|sukad|su/kad, -kkiden, -kkid||||||||
-verai|s.|uks'|u/kš, -ksen, -st; -kšid|дверь|ovi; sulkuportti (vesimyllyn padon, B)|(Td) ukš, puu kridžižöu|дверь, дерево скрипит|ovi, puu narisee|(M) uksen tagapiäi|из-за двери|oven takaa
-|s.|suks'|su/kš, -ksen, -st; -kšid|лыжа|suksi; poljin (kangaspuissa), kangaspuiden suksi||||||
+verai|s.|uks'|u/kš, -ksen, -st; -kšid ~ (Ks) -kšiid; (Kn, N) su/ks', -ksen, -st; (Kn) -ks'iid|дверь|ovi; sulkuportti (vesimyllyn padon, B)|(Td) ukš, puu kridžižöu|дверь, дерево скрипит|ovi, puu narisee|(M) uksen tagapiäi|из-за двери|oven takaa
+suksed|s.|suks'|su/kš, -ksen, -st; -kšid ~ (Ks, Kn) -kšiid; (N) suks'|лыжа|suksi; poljin (kangaspuissa), kangaspuiden suksi||||||
+suks'|s. mon.|suksed|su/ksed, -kšid;  ~ (Ks, Kn) -kšiid|лыжи|sukset; polkimet (kangaspuissa)||||||
+ladu|s. yhd.|suks'ladu|(B, Td) sukš/ladu|лыжня|suksenlatu||||||
+suks'ladu|s.|ladu|(B, Td) ladu, -n, -d; -id|лыжня|latu||||||
 |s.|suvi|suv/i, -en, -ed|юг|etelä||||||
 armaz|a.|sula|sul/a, -an, -ad; -id|талый; милый|sula; armas, rakas||||||
 |v.|sulada|sul/ada, -au, -i|таять|sulaa||||||
 ora|s.|sverl|sverl, -an, -ad; -oid|сверло, бурав, буравчик|pora, kaira, napakaira, näveri (Td)|sverlal kaivetau loukkud|сверлом сверлят дырку|poralla porataan reikää|||
-|||||||||||
 |s.|svieč|svie/čč, -čan, -ččad; -čoid|светец|pärepihti||||||
 tina|s.|svinč|(B, Kn) svin'č ~ (Td) svinc, -an, -ad|свинец|lyijy; tina (lyP)||||||
 |s.|svoda|svod/a, -an, -ad; -id|основание печи|uuninalusta||||||
@@ -4629,5 +4631,5 @@ d'umalanbembel|s. yhd.|ukonbembel|(B) ukom/bembel ~ (N) -bömböl|радуга|s
 |s.|d'uam|(N) d'uome||||||||
 |adv.-adp.|läbi|läbi ~ (B) l'äbi ~ (N) läbü|||(B) tuulou l'äbi šeinäs|дует сквозь стену|tuulee seinän lävitse|||
 müöti, pitkin|adv.-postp.|müödäh|müödää ~ (N) müödäi|в направлении, вдоль, по, вдоль по|suuntaan, pitkin|(M) dorogam müödää|вдоль дороги|tien suuntaan, tien viertä pitkin|||
-|adv.-a. dem.|vähäine|vähä/in’e ~ (N) -ine, -ižen, -št||||||||
+|a. komp.|vähäine|vähä/in’e ~ (N) -ine, -ižen, -št||||||||
 |adv.-a.|vähä|vähä, -n, -d|||köuh vähäd ihastuu|бедный малому рад|köyhä iloitsee vähästä|||

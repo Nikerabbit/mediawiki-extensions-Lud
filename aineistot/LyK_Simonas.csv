@@ -471,7 +471,7 @@ tabata|hvataida|hvatai/da, -n, -n|v.||хватать|napata, ottaa kiinni|hvatai
 |hüvähk|(V, SP) hüvähkö|a. mod.||довольно хороший|melko hyvä, suurenpuoleinen|||||||||||||||
 |hüübij|hüubii|s.|гюуби|сова|pöllö, huuhkaja, hyypiä|||||||||||||||
 härg|häkk|hä/kki, -kin, -kkid; -kiid|s.|гякки|бык|härkä|kaksi häkkid ||два быка|kaksi härkää|||||||||||
-|häküttada||v.||||häküttäu (RKS)|гякюттау|у него грыжа|hänellä on tyrä|||||||||||
+|häküttada|häkü/ttäi, -ttäu, -tti|v.||мешать, быть помехой; надувать грыжу|hätyyttää, häiritä, olla esteenä; aiheuttaa  tyrä |häküttäu (RKS)|гякюттау|у него грыжа|hänellä on tyrä|||||||||||
 |hämähäkk|hämähäkki|s.|гямя-гякки|паук|hämähäkki|||||||||||||||
 |härg|(TP) härg ~ (V) härg/e, -än, -äd; -id|s.||||||||||||||||||
 |händ|händ/e, -än, -äd|s.|гяндэ|хвост|häntä|||||||||||||||
@@ -1696,8 +1696,8 @@ pagišta, virkkada|sanuda|san/oda, -on, -uoin; -ou, -uoi; (Ka) san/uda, -un ~ -o
 |sarahein|sora/heine (RKS)|s. yhd.|сора гэйнэ|осока|saraheinä|||||||||||||||
 |sarai|sarai, -n, -d; -luoid ~ (TP) -loid|s.|сарай|сарай|saraja; lato (LyK)|||||||||||||||
 diezdad, saraidiezd|saraipordahad|sarai/pordahad|s. yhd. mon.|сарай|заезд на сеновал, пандус|sarajan silta, navetan parven silta|||||||||||||||
-batog, kepp, pualik, ruag, seibaz|savak|sava/kko, -kon, -kkod; -kuoid|s.|савакко|клюка, палка, шест|sauva, suksisauva, keppi|pitkäd savakod moižed||длинные шесты такие|sellaiset pitkät sauvat|||||||||||
-|savak||s.||||savakol išketäh||шестом бьют|sauvalla isketään|||||||||||
+batog, kepp, pualik, ruag, seibaz, suks'savak|savak|sava/kko, -kon, -kkod; -kuoid|s.|савакко|палка, лыжная палка, клюка, шест|sauva, suksisauva, keppi|savakol išketäh||шестом бьют|sauvalla isketään|||||||||||
+|savak||s.||||pitkäd savakod moižed||длинные шесты такие|sellaiset pitkät sauvat|||||||||||
 |savi|sav/i, -en, -ed|s.|сави|глина|savi|||||||||||||||
 |savu|savu, -n, -d; -id|s.|саву|дым|savu|||||||||||||||
 |savuta|savu/ta, -dan|v.||дымить||savudan (RKS)|савудан|дымлю|savuan|||||||||||
@@ -1835,8 +1835,10 @@ hatt|šuapuk|šuapk/e, -an, -ad; -uoid; (Ka) šuapke; (AV) šuopk, -an, -ad|s.|�
 |suičed|suičed|s. mon.|суйчэд|узда|suitset|||||||||||||||
 |suittada|sui/ttada, -tan, -t'in (LMS 406)|v.||копить|säästää, koota|suitan (RKS)|суйтан|коплю|säästän|||||||||||
 sukad|sukk|su/kke, -kan, -kkad; -kkid|s.|суккэ|чулок|sukka|||||||||||||||
-sukk|sukad|su/kad, -kkid|s.|сукат|чулки|sukat|||||||||||||||
+sukk|sukad|su/kad, -kkid|s. mon.|сукат|чулки|sukat|||||||||||||||
 |suks'|su/ksi, -ksen; -ksid|s.|сукси|лыжа|suksi; poljin (kangaspuissa)|||||||||||||||
+|suksed|su/ksed, -ksid|s. mon.||||||||||||||||||
+|suks'savak|(Lm) suksi/savakko|s. yhd.||лыжная палка|suksisauva|||||||||||||||
 |sulaim|sulaime; (V) sulaim/i, -en|s.|сулаймэ|полынья|railo|||||||||||||||
 |šulk|šulku, -n (RKS)|s.|шулку|шелк|silkki|||||||||||||||
 |šulkuine|šulku/ine, -ižen, -šte; -ižid (LMS 407)|a.|шулкуйнэ|шелковый|silkkinen|||||||||||||||
@@ -2698,10 +2700,9 @@ kunna|kunne|kunne|adv.||||||||||||||||||
 abu, talgoh|abutuz|(Lm) abutus|s.||помощь|avustus, talkoo|||||||||||||||
 |valadakse|val/adakse, -amos, -uoimos|v. refl.||обливаться, полоскаться|valella itseään|valatos||обольёшься|valelet itseäsi|||||||||||
 |valuda|valu/da, -u, -i|v.||литься, течь|valua, vuotaa|||||||||||||||
-|||||||||||||||||||||
 |vahnuz I|vahnu/s, -den, -t (LMS 470)|s.||старость|vanhuus|||||||||||||||
 |vähäižel|vähäižel|adv. dem.||немножечко, немного, несильно|vähäsen, vähän, hieman|vähäižel humalas||немного во хмелю|hieman humalassa|||||||||||
-|häküttada|häkü/ttäi, -ttäu, -tti|v. ||мешать, быть помехой; надувать грыжу|hätyyttää, häiritä, olla esteenä; aiheuttaa  tyrä |||||||||||||||
+|||||||||||||||||||||
 |selgidakse|selgi/dakse, -mös, -imös|v. refl.||одеться|pukeutua|kündüksel selgitös||на пороге оденешься|kynnyksellä pukeudut|||||||||||
 |kulgeda|kulg/eda, -en, -in|v.||скитаться, слоняться, брести, двигаться|kulkea, kuljeksia, kuljeskella|lähti Ilmoi kulgemah (NFL) kansanr.||двинулся Илмаринен (дальше)|lähti Ilmarinen kulkemaan|||||||||||
 |Väinämoine|(Bar) Väinemüöi/ne, -žen|hn.||Вяйнямёйнен|Väinämöinen|vahne viizav Väinemüöine (NFL) kansanr.||старый мудрый Вяйнямёйнен|vanha viisas Väinämöinen|||||||||||
