@@ -84,7 +84,7 @@ class LyKTabConverter {
 			'type' => 'entry',
 			'language' => 'lud-x-middle',
 			'cases' => $cases,
-			'properties' => [ 'pos' => $x[3] ],
+			'properties' => [ 'pos' => trim( $x[3] ) ],
 			'examples' => $examples,
 			'translations' => $translations,
 			'links' => self::splitTranslations( $x[0] ),
