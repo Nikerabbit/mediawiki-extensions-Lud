@@ -2271,7 +2271,7 @@ puolekkahin|adv.|puolekkali|(N) puolekkal'i|пополам|kahtia (tasan)||||||
 |s.|puzu|puzu, -n, -d; -id|берестянка, туес|kukkura, kukkurapäinen säkki (Sn); tuohiastia (sylinterimäinen); teerenkaha||||||
 čurk|s.|pulčuk|pul'ču/k, -kan, -kkad; -koid|чурбан|pölkky (sahattu), hakotukki, istuinpölkky (riihessä)||||||
 |a.|puhovoi|puhovi/i, -an, -ad|пуховый|untuvainen, untuva-||||||
-|v.|pučkahtada|(B, Td) pučkah/tada, -tau, -t'|бултыхнуться, бухнуться|pulahtaa (veteen)|(B, Td) kivi vedee pučkaht'|камень бухнуться в воду|kivi pulahti veteen|||
+|v.|pučkahtada|(B, Td) pučkah/tada, -tau, -t'|бултыхнуться|pulahtaa, polskahtaa, molskahtaa|(B, Td) kivi vedee pučkaht'|камень бултыхнулся в воду|kivi pulahti veteen|||
 |s.|pull|pull, -on, -od; -oid|поплавок (для сети)|pullo (verkon), laudus, nuotankoho, verkonkoho||||||
 |v.|purda|pu/rda, -ren, -r'in; -rou, -r'i; -rdau, -r'd'ii |грызть|purra; vihloa, nipistää, koskea||||||
 |v.|puskeda|pu/skeda, -skou, -šk; -skedau, -sked'ii|бодать|puskea||||||
@@ -3209,8 +3209,9 @@ d'uro; vate|s.|sarg|(B, Td, Ks) sarg, -an, -ad|сукно (грубое); пол
 |v.|valuda|valu/da, -u, -i; -utau, -ut't'ii|литься, течь|valua, vuotaa|k'üun'äled šilmiz valutau|слёзы из глаз льются|kyynelet silmistä valuvat|||
 |s.|vedehine|vedehi/n'e, -žen, -št; -židen, -žid|водяной, дух воды|vetehinen, vedenhaltia, näkki||||||
 Vederistim|s. yhd.|Vederist|veder'ist, -än, -äd; -öid; (B, Td) veder'ist ~ (Td) vederist, -an, -ad|Крещение (6.1./19.1.)|loppiainen (6.1./19.1.)||||||
-|s.|vezi|ve/ži, -den, -tt, -dee; -žid|вода|vesi|d'ogez veži šeižuu laimoil'l'ai vihman edel|в реке вода стоит спокойно перед дождём|joessa vesi seisoo tyynesti ennen sadetta|(Td) veži t'ippuu|вода капает|vesi tippuu
-|s.|vezi||||lipičül d’uodau vett|ковшиком пьют воду|tuohilipilla juodaan vettä|(B, Td) kivi vedee pučkaht'|камень бухнуться в воду|kivi pulahti veteen
+|s.|vezi|ve/ži, -den, -tt, -dee; -žid|вода|vesi|d'ogez veži šeižuu laimoil'l'ai vihman edel|в реке вода стоит спокойно перед дождём|joessa vesi seisoo tyynesti ennen sadetta|||
+|s.|vezi||||(B, Td) veži vilustuu vähäižin|вода остывает помаленьку|vesi jäähtyy vähitellen|(Td) veži t'ippuu|вода капает|vesi tippuu
+|s.|vezi||||lipičül d’uodau vett|ковшиком пьют воду|tuohilipilla juodaan vettä|(B, Td) kivi vedee pučkaht'|камень бултыхнулся в воду|kivi pulahti veteen
 regi|s.|vedo|vedo, -n, -d; -id|налог; воз, перевозка|vero; veto (heinän), vedätys, kuljetus||||||
 |v.|vedada|ve/dädä, -dän, -d'in|тянуть, тащить, уносить; улаживать дела|vetää, viedä; hoitaa (asiat)||||||
 |v.|vedattada|(B, N) veda/ttada, -tan, -t'in|||(Ks) vedätän kädes|веду за руку|taluttaa kädestä|||
@@ -3315,7 +3316,8 @@ süttüda|v.|virita|vir'i/tä, -däu, -ž; -täu, t't'ii|загораться, �
 |a.|vilu|vilu, -n, -d; -id||kylmä||||||
 |v.|vilustoittada|vilustoi/ttada, -tan, -t'in|охлаждать, остужать; холодить, знобить|jäähdyttää; viluttaa|(Td) vilustoittau mindai|меня знобит|minua viluttaa|||
 külmättada, vilugoittada, viluškoittada, vilustoittada|v.|vilustuttada|vilustu/ttada, -tan, -t'in|охлаждать, остужать, холодить|jäähdyttää||||||
-vienduda|v.|vilustuda|vilustu/da, -n, -in|остывать, охлаждаться, холодеть|jäähtyä, kylmetä|(Ks) čai vilustui|чай остыл|tee jäähtyi|||
+vienduda|v.|vilustuda|vilustu/da, -n, -in|остывать, стыть, охлаждаться, холодеть|jäähtyä, kylmetä|(B, Td) veži vilustuu vähäižin|вода остывает помаленьку|vesi jäähtyy vähitellen|||
+|v.|vilustuda||||(Ks) čai vilustui|чай остыл|tee jäähtyi|||
 |s.|viha|vih/a, -an, -ad; -oid|ненависть|viha||||||
 pindž, vitt|s.|pitt|(Td) pi/ttu, -tun, -tud; -tuid|вульва|vulva||||||
 pindž, pitt|s.|vitt|(B) vi/tt ~ (N) vi/ttu, -tun, -ttud; -tuid|вульва|vulva||||||
@@ -4011,7 +4013,7 @@ kaikiš, kaikked, suamij|part. sup. |suamoi|(B) suamoi|самый|kaikkein, aiha
 |s.|lind|l'ind, -un, -ud; -uid|птица|lintu|kukšoi on rusked l'ind, mečäss eläu|кукша - красноватая птица, в лесу живёт|kuukkeli on punertava lintu, metsässä elää|n'uakk on must l'ind|галка – чёрная птица|naakka on musta lintu
 liipačim|s.|kurk II|kur/kk, -kun, -kkud; -kuid|курок|pyssynhana||||||
 kulmaine|a. yhd.|mustkulmaine|must/kulmain'e|чернобровый|mustakulmainen||||||
-|s.|kivi|kiv/i, -en, -ed; -id|||(B, Td) kivi vedee pučkaht'|камень бухнуться в воду|kivi pulahti veteen|||
+|s.|kivi|kiv/i, -en, -ed; -id|||(B, Td) kivi vedee pučkaht'|камень бултыхнулся в воду|kivi pulahti veteen|||
 |s.|kivi||||(B) kived i ruoppahad peldol häküt'etau|камни и груды на поле мешают|kivet ja kivikasat pellolla ovat esteenä|||
 |s.|kiim|kiim, -an, -ad|ток|kiima, soidin||||||
 |postp.|ke|ker ~ kere ~ kera ~ kerä ~ (B, Td, Lh, Pk, Kn, N) ke|с, со|kera, kanssa|kiškižiden kere tul'i haug|с ершиками попалась щука|pikku kiiskien kera tuli hauki (pyydykseen) |mužikk ussiden kerä|мужчина с усами|viiksiniekka mies
@@ -4631,5 +4633,6 @@ d'umalanbembel|s. yhd.|ukonbembel|(B) ukom/bembel ~ (N) -bömböl|радуга|s
 |s.|d'uam|(N) d'uome||||||||
 |adv.-adp.|läbi|läbi ~ (B) l'äbi ~ (N) läbü|||(B) tuulou l'äbi šeinäs|дует сквозь стену|tuulee seinän lävitse|||
 müöti, pitkin|adv.-postp.|müödäh|müödää ~ (N) müödäi|в направлении, вдоль, по, вдоль по|suuntaan, pitkin|(M) dorogam müödää|вдоль дороги|tien suuntaan, tien viertä pitkin|||
-|a. komp.|vähäine|vähä/in’e ~ (N) -ine, -ižen, -št||||||||
+|adv.-a. dem.|vähäine|vähä/in’e ~ (N) -ine, -ižen, -št||||||||
 |adv.-a.|vähä|vähä, -n, -d|||köuh vähäd ihastuu|бедный малому рад|köyhä iloitsee vähästä|||
+vähäine|adv. dem.|vähäižin|(B, Td) vähäižin||vähitellen|(B, Td) veži vilustuu vähäižin|вода остывает помаленьку|vesi jäähtyy vähitellen|||
