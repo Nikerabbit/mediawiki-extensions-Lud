@@ -6,12 +6,11 @@ namespace MediaWiki\Extensions\Lud;
 use ContentHandler;
 use Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Storage\SlotRecord;
 use OutputPage;
 use Parser;
 use Title;
 use const PREG_SET_ORDER;
-
-// use MediaWiki\Storage\SlotRecord;
 
 /**
  * @author Niklas Laxström
@@ -57,9 +56,7 @@ class Hooks {
 		$revision = $store->getRevisionByTitle( $source );
 		if ( $revision !== null ) {
 			$contents = ContentHandler::getContentText(
-				$revision->getContent(
-				/*SlotRecord::MAIN*/ 'main'
-				)
+				$revision->getContent(SlotRecord::MAIN )
 			);
 
 			if ( $contents ) {
