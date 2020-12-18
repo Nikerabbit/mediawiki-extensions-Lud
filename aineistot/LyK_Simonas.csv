@@ -292,6 +292,7 @@ ala|ei|ei, en, ed, emme, ette, ei|kieltov.||не|ei, eivät |minä en rod'inuh V
 |ei||kieltov.||||(Lm) sigä ei ole kalmižimad||там нет кладбища|siellä ei ole kalmistoa|||||||||||
 |ei||kieltov.||||hüö ei voida tulda||они не могут прийти|he eivät voi tulla|||||||||||
 |ei||kieltov.||||ei voidu eläi ühtes||не могли жить вместе|eivät voineet elää yhdessä|||||||||||
+|ei||kieltov.||||(TP) štobi ei nähtäs ni ken||что не видели никто|jottei kukaan näkisi|||||||||||
 d'ouk|ekipaž|ekipaž (RKS)|s.|экипаж|экипаж|ekipaasi, vaunut|il’l’ampäi on tošt päid elokuud||Ильин день второго августа|Elian päivä on elokuun toisena päivinä|||||||||||
 opind|ekzamen|ekzamen (RKS)|s.|экзамен|экзамен|tentti|||||||||||||||
 august|elokuu|elo/kuu|s. yhd.||август|elokuu|||||||||||||||
@@ -1162,7 +1163,7 @@ muštoittada, muštoitelta|muštelta|mušte/lta, -len, -l'in|v. frekv.||вспо
 |mužik|muži/kke, -kan, -kkad; -kuoid|s.|мужиккэ|мужик, мужчина|mies; talonpoika|t'ieduoin'ikke ol'i vahne mužikke||знахарь был старый мужчина|tietäjä oli vanha mies|||||||||||
 |müödä|müö/dä, -n, -id; -u, -i|v.||||müön (RKS)|мюён|продаю|myyn|||||||||||
 |müönd|müönd/e, -än, -äd|s.|мюёндэ|продажа|myynti|||||||||||||||
-|müöti|(Pn) müöti ~ (TP, SP) müöt'i|postp.||по, вдоль|myöten, pitkin|(Pn) müö tulimme sidä dorogad müöti (OLR 46)||мы пришли по той дороге|me tulimme sitä tietä pitkin|||||||||||
+|müöti|(Pn) müöti ~ (TP, SP) müöt'i ~ (Lm, V) müö  ~ (V) müöi|postp.||по, вдоль|myöten, pitkin|(Pn) müö tulimme sidä dorogad müöti (OLR 46)||мы пришли по той дороге|me tulimme sitä tietä pitkin|||||||||||
  lädžöttada, mädžöttada, väčürta|mäčkäida|mäčkäi/dä, -n, -n|v.||мячкать, мять; плохо работать|rutistaa, murjoa; tehdä huonosti|mäčkäin (RKS)|мячкайн|мячкаю, мну|vaivaan|||||||||||
 |mädähn|mähänd/e, -än, -äd; (V) mädähnö (LMS 253)|s.|мягяндэ|икра|mäti|mähändän piästäu||икру пускает|laskee mätiä|||||||||||
 |mädähnuz|mähändü/s, -ksen (LMS 253 )|s.||икра (ноги)|pohje|mähändüksed||икры|pohkeet|||||||||||
@@ -1258,6 +1259,7 @@ nügü, nügüde|nügöi|n'ügüöi|adv.||теперь, сейчас, ныне|n
 |nähtä|nähtä, nägen, nägin|v.||видеть|nähdä|puaksuh nägemme toine tošte||часто видим друг друга|usein tapaamme toistensa kanssa|||||||||||
 |nähtä||v.||||nägin (RKS)|нягин|я видел|näin|||||||||||
 |nähtä||v.||||nälgäd nägimme||мы голодали|nälkää näimme|||||||||||
+|nähtä||v.||||(TP) štobi ei nähtäs ni ken||что не видели никто|jottei kukaan näkisi|||||||||||
 |näivištuda|n'äivištü/dä, -u, -i|v.||дрябнуть|surkastua, lakastua|n'äivištün (RKS)|няйвиштюн|дрябну|surkastun|||||||||||
 |näivištunu|n'äivištün(n)ü (RKS)|a.|няйвиштюнну|дряблый|kirtistunut, nahistunut|||||||||||||||
 |nälg|nälg/e, -än, -äd|s.|няльгэ|голод|nälkä|nälgäd nägimme||мы голодали|nälkää näimme|||||||||||
@@ -1636,6 +1638,7 @@ iho, silmäd|roža|roža, -n, -d|s.|рожа|рожа|kasvot, naama|||||||||||||
 |ruam|ruam/e, -an, -d (RKS)|s.|руамэ|рама|kehys|||||||||||||||
 |ruan|ruan/e, -an, -d; -uoid|s.|руанэ|рана|haava|||||||||||||||
 |ruata|rua/ta, -dan, -duoin|v.||работать|työskennellä, tehdä|ruadan (RKS)|руадан|тружусь, делаю|työskentelen, teen|||||||||||
+|ruata||v.||||(TP) mide ruadad?||чего делаешь?|mitä teet?|||||||||||
 |ruata||v.||||seppe ruadau (RKS)|сэппэ руадау|кузнец работает|seppä työskentelee|||||||||||
 |ruata||v.||||Miikul ruadau traktor'istan||Мийкул работает трактористом|Miikul toimii traktoristina|||||||||||
 |ruavaz|(Lm) ruavas|a.||||||||||||||||||
@@ -2683,7 +2686,8 @@ nost|nostand|nostand, -an, -ad|s.||подъём, поднятие|nosto, nostami
 |edelleh(piä)|edelleh|adv.||дальше, далее|edelleen|||||||||||||||
 |prostida|prost/ida, -n, -iin|v.||прощать, простить, извинить|antaa anteeksi|prost'igat!||простите!|antakaa anteeksi!|||||||||||
 |ni mi|n’i mi|pron. yhd.||ничто|mikään|s'inuh ei tartu n'i mi||к тебе не пристанет ничто|sinuun mikään ei tartu|||||||||||
-ku, kut, äij, äijgo, äijän; kudam|mi|mi, min, midä|pron. ||что, который; сколько, много ли, чем|mikä, joka; kuinka paljon, miten paljon, paljonko, kuin, niin paljon kuin|s'inuh ei tartu n'i mi||к тебе не пристанет ничто|sinuun mikään ei tartu|||||||||||
+ku, kut, äij, äijgo, äijän; kudam|mi|mi, min, midä ~ (TP) mide|pron. ||что, который; сколько, много ли, чем|mikä, joka; kuinka paljon, miten paljon, paljonko, kuin, niin paljon kuin, kuinka|s'inuh ei tartu n'i mi||к тебе не пристанет ничто|sinuun mikään ei tartu|||||||||||
+|mi||pron. ||||(TP) mide ruadad?||чего делаешь?|mitä teet?|||||||||||
 |ni |n’i|part. ||ни, даже, и|edes, *-kaan, *-kään, *-kä|s'inuh ei tartu n'i mi||к тебе не пристанет ничто|sinuun mikään ei tartu|||||||||||
 |tarttuda|tar/t(t)uda, -tun, -tuin|v.||приставать|tarttua; ryhtyä, ruveta|s'inuh ei tartu n'i mi||к тебе не пристанет ничто|sinuun mikään ei tartu|||||||||||
 |puu|puu, -n, -de; -loid (LMS 341)|s.||дерево|puu|(SP) tukul läht'i puu (LMS 451)||целиком вышло дерево|juurineen lähti puu|||||||||||
@@ -2693,7 +2697,7 @@ ku, kut, äij, äijgo, äijän; kudam|mi|mi, min, midä|pron. ||что, кото
 |kursad|kurs/ad, -id|s. mon.||курсы|kurssit|kursile lähtin||я пошла на курсы|lähdin kursseille|||||||||||
 ku, sini|kuni|kun'i|konj.||пока, покуда|kunnes, siihen asti kunnes, siksi kunnes; niin kauan kun, sillä aikaa kun; ennen kuin|kun'i ujel'imme||пока мы плавали|kunnes kävimme uimassa|||||||||||
 kunne|kunna|kunna|adv.||||(Pn) kunna mändä sulhaižikse? kansanr.||куда пойти пойти свататься?|mihin mennä kosimaan?|||||||||||
-kunna|kunne|kunne|adv.||||||||||||||||||
+kunna|kunne|kunne|adv.||||(V) ken kunne||кто куда|kuka minnekin|||||||||||
 |Hospodi|hospod' i|s.||Господи|Herra, armelias Jumala|voi hospod'i, hospod'i!||ой, Господи, Господи!|oi, Herra, Herra!|||||||||||
 |voi|voi|interj.||ой|oi|voi hospod'i, hospod'i!||ой, Господи, Господи!|oi, Herra, Herra!|||||||||||
 |abuttada|abu/ttai, -tan, -t'in|v.||помогать, помочь|auttaa|d'umalaine kuldaine, abuta minule! (TTV) loits.||Боженька золотой, помоги мне!|Jumalani kultainen, auta minua!|||||||||||
@@ -3042,3 +3046,6 @@ däred, sanged|dämed|d'ämed, -än, -äd; -id|a.||толстый|paksu|||||||||
 |enamb|enämb/i, -än, -äd|adv.-a. komp.||||||||||||||||||
 |vähäine|vähä/ine, -ižen, -šte|adv.-a. dem.||||||||||||||||||
 |suuremb|suuremb (LMS 411) ~ (Lm) suurembe ~ (SP) suurembi|a. komp.||||||||||||||||||
+|ken|ken, kenen, kedä|pron.||||(V) ken kunne||кто куда|kuka minnekin|||||||||||
+|ni ken|n’i ken ~ (TP) ni ken|pron. yhd.||||(TP) štobi ei nähtäs ni ken||что не видели никто|jottei kukaan näkisi|||||||||||
+|štobi|štobi|konj.|jottei kukaan näkisi|||(TP) štobi ei nähtäs ni ken||что не видели никто|jottei kukaan näkisi|||||||||||

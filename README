@@ -1,13 +1,13 @@
 # LyE (lud-x-south): docx -> txt with copy-paste
 # Nettisanat_LyE (lud-x-south): ods -> csv with export using | as delimiter
-# LyKK-ven (lud): docx -> txt with copy-paste
 # LyK_Simonas (lud-x-middle): ods -> csv with export using | as delimiter
+# LyKK-ven (lud): docx -> txt with copy-paste
 # LyKK-SU: docx -> ods with copy paste -> csv with export using | as delimiter
 # LyP (lud-x-north): xlsx -> csv with export using | as delimiter
 
 WIKI=sanat.csc.fi
 WIKI=sanat.nikerabb.it
-OUTPUT=output-2020-11-01
+OUTPUT=output-2020-12-18
 rm -rf "$OUTPUT"
 mkdir "$OUTPUT"
 php import.php --wiki=$WIKI "$OUTPUT" \
