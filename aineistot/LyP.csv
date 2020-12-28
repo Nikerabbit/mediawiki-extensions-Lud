@@ -452,7 +452,6 @@ ala|kieltov.|ei|ei, en, ed, emme, ette, ei|не|ei, eivät |emme kiištägöi|н
 |kieltov.|ei||||nuor ei kestä n'i midä|верёвка не выдержит ничего|nuora ei kestä yhtään|šiga bobrad ei sua, a kaži kun'iččad sl.|свинья не родит бобра, а кошка куницу|sika ei synnytä majavaa eikä kissa näätää
 |kieltov.|ei||||opastajid on äij, a lapsed opastuda ei voida|учителей много, а дети научиться не могут|opettajia on paljon, mutta lapset oppia eivät voi|||
 |kieltov.|ei||||ei houkettu|(они) не сошли с ума|ei tultu hulluksi|||
-|||||||||||
 ei, olda|part. yhd.|iele|eule ~ (N) eile ~ (B, Td, N) eulo|нет|ei ole|eule d'oudod hällei|ему недосуг|hän ei jouda|eule vie lahnankudun aig|ещё не (наступило) время нереста леща|ei ole (tullut) vielä lahnankudun aika
 |part. yhd.|iele||||karkk on lambaz, kudam eule suanu vuon'id vie|ярка - овца, которая ещё не имеет ягнят|karkko on lammas, joka ei ole karitsoinut vielä|||
 |v.|elävzuttada|eläuzu/ttada, -tan, -t'in|оживлять|herättää henkiin, viroittaa henkiin||||||
@@ -1880,8 +1879,8 @@ barb|s.|oks|oks, -an, -ad; -sid|ветка, ветвь; сук|oksa|(B) hoikaine
 |a.|oma|om/a, -an, -ad; -iden, -id|свой|oma|(Pl) oma mua om man'd'žižikk, a vieraz mua om mušt'ožikk|родная земля - земляничник, а чужая земля - черничник|oma maa on mansikkapaikka, mutta vieras maa on mustikkapaikka|||
 |v.|opastada|opa/stada, -stan, -št'in|учить, направлять, указывать, советовать|opettaa, opastaa, neuvoa||||||
 |s.|opastaj|opasta/i, -jan, -jad; -jid|учитель|opettaja||||||
-|v.|opastuda|opastu/da, -n, -in; -u, -i|учиться|oppia||||||
-|s.|opastui|opastu/i, -jan, -jad; -jid|ученик|oppilas||||||
+|||||||||||
+|s.|opastuj|opastu/i, -jan, -jad; -jid|ученик|oppilas, opiskelija|t'äš školass on äij opastujid|в этой школе много учеников|tässä koulussa on paljon oppilaita|||
 opelta|v. frekv.|opitelta|(B, Td) opi/telda, -t(t)elen|пробовать, ощупывать, щупать|tunnustella, koetella, maistella||||||
 |s.|opečk|opečk, -an, -ad; -oid|опечек, опечка|uuniotsan reuna, hylly uunin otsassa||||||
 |s.|ora|or/a, -an, -ad; -id|бурав|näveri (iso), ora||||||
@@ -1917,9 +1916,10 @@ rubi|s.|ospič|ošpi/čč, -čan, -ččad; -čoid|оспа|rokko||||||
 oraz|s.|ozm|ožm, -an, -ad; -id|всход|oras, laiho||||||
 |s.|ola|ol/a, -an, -ad; -iden, -id|кремень|piikivi (tuluksissa)||||||
 |v.|olda|olda, olen, ol'in; on; oldau|быть|olla|(Lmj) ma olen l'üüd'ikoi (OFM)|я - людик|minä olen lyydiläinen|kukšoi on rusked l'ind, mečäss eläu|кукша - красноватая птица, в лесу живёт|kuukkeli on punertava lintu, metsässä elää
-|v.|olda||||(Pl) oma mua om man'd'žižikk, a vieraz mua om mušt'ožikk|родная земля - земляничник, а чужая земля - черничник|oma maa on mansikkapaikka, mutta vieras maa on mustikkapaikka|||
-|v.|olda||||haukid leibäd, kudam d'iäu palain'e, se on hambaspala|откусишь хлеба, тот кусочек, который остнается, и есть откушенный кусок|haukot leipää, se pala, joka jää, on haukkapala|(Lmj) ando t'ämä on muga! (OFM)|пусть это будет так!|olkoon tämä näin!
-|v.|olda||||t'äss on hüvä män'd'ikk|здесь хороший бор|tässä on hyvä männikkö|(Lmj) onik šilaa lapš? (OFM)|есть ли у тебя ребёнок?|onko sinulla lapsi?
+|v.|olda||||t'äss on hüvä män'd'ikk|здесь хороший бор|tässä on hyvä männikkö|t'äš školass on äij opastujid|в этой школе много учеников|tässä koulussa on paljon oppilaita
+|v.|olda||||haukid leibäd, kudam d'iäu palain'e, se on hambaspala|откусишь хлеба, тот кусочек, который остнается, и есть откушенный кусок|haukot leipää, se pala, joka jää, on haukkapala|||
+|v.|olda||||(Lmj) ando t'ämä on muga! (OFM)|пусть это будет так!|olkoon tämä näin!|(Pl) oma mua om man'd'žižikk, a vieraz mua om mušt'ožikk|родная земля - земляничник, а чужая земля - черничник|oma maa on mansikkapaikka, mutta vieras maa on mustikkapaikka
+|v.|olda||||(Lmj) onik šilaa lapš? (OFM)|есть ли у тебя ребёнок?|onko sinulla lapsi?|||
 |v.|olda||||ol'im pit'käz matkas|я был в долгой дороге|olin pitkällä matkalla (kaukana)|a mibi ol'i šillei minus pahutt?|а что же было тебе от меня плохого?|no, mitäpä pahaa minä olen tehnyt sinulle?
 |v.|olda||||(N) ol'i ed'eu mužik, pol'esn'ik|был раньше мужик, охотник|oli ennen mies, metsästäjä|||
 olgpiä|s. yhd.|olganpiä|olga/piä ~ (N) ouga/pie|плечо|olkapää||||||
@@ -3004,6 +3004,7 @@ lieta; suabuttada|v.|täüdüda|t'äudü/dä, -u, -i|исполняться, н�
 |a.|täüz'|t'äu/ž, -den, -tt; -žid|полный|täysi||||||
 tägäl, täs|adv.|tägä|t'ägä|тут, здесь (на поверхности)|täällä|(B) häkk (on) t'äuž härg |выросший бычок – полностью бык|häkki on täyskasvuinen härkä|||
 |pron.|tämä|t'ä/mä, -män, -dä, t'ähä, t'äs(s), t'äl(l) |этот|tämä|(Lmj) ando t'ämä on muga! (OFM)|пусть это будет так!|olkoon tämä näin!|t'ämän küläläin'e|житель этой деревни|tämän kylän asukas
+|pron.|tämä||||t'äš školass on äij opastujid|в этой школе много учеников|tässä koulussa on paljon oppilaita|||
 tägä; täspiä|adv.|täs|t'äss ~ täs|здесь, тут; отсюда|tässä; tästä|t'äss on hüvä män'd'ikk|здесь хороший бор|tässä on hyvä männikkö|||
 tägä, täs, tägäpiä|adv. yhd.|täspiä|t'äs/piäi|отсюда|tästä|se talo l'ähin on t'äspiäi|тот дом находится близко отсюда|se talo on lähellä täältä|||
 redustuda, töleududa|v.|töläduda|t'ölädü/dä, -n, -in|запачкаться, испачкаться, замараться, загрязниться|likaantua, tahraantua||||||
@@ -3425,7 +3426,9 @@ huondezzor'a, ehtzor'a, kajo|s.|zor'a|zor'a, -n, -d|заря|rusko, ruskotus, ko
 pahalaine|s.|zlodei|zlod'e/i, -jan, -jad; -joid|злодей|pahantekijä, konna||||||
 |v.|ägestada|äge/städä, -stän, -št'in|боронить; препятствовать, не везти|äestää; panna vastaan|ägestäv, ägestäu|не везёт и не везёт|on yhtämittaista vastoinkäymistä|||
 |s.|ägez|äge/z, -hen, -st; -hid|борона|äes, karhi, hara||||||
-|adv.-a.|äij|äij ~ äi, äijän, äijäd||paljo|šär'giss on äij ruodad|в плотве много костей|särjessä on paljon ruotoja|opastajid on äij, a lapsed opastuda ei voida|учителей много, а дети научиться не могут|opettajia on paljon, mutta lapset oppia eivät voi
+|adv.-a.|äij|äij ~ äi, äijän, äijäd||paljo|šär'giss on äij ruodad|в плотве много костей|särjessä on paljon ruotoja|||
+|adv.-a.|äij||||opastajid on äij, a lapsed opastuda ei voida|учителей много, а дети научиться не могут|opettajia on paljon, mutta lapset oppia eivät voi|||
+|adv.-a.|äij||||t'äš školass on äij opastujid|в этой школе много учеников|tässä koulussa on paljon oppilaita|||
 |adv.|äijän|äijän ~ (B) äjjän||||||||
 |s. yhd.|Äijäpäiv|äi/päiv, äijän/päivän, äijäd/päiväd, äijän/päivän ~ -pän|Пасха|pääsiäinen|(N) edev äijädpäiväd|до Пасхи|pääsiäisen edellä|||
 d’alos, ülen|adv.|äijäl|äijäl|сильно, очень|kovin, hyvin, kovasti||||||
@@ -4402,7 +4405,7 @@ kažlik|s.|kažlažik|(N) kažlažikko|камышовые заросли|kaislik
 |v.|fuknida|fukn'i/da, -n, -in; -u, -i|||(Td) fukn'ii ajoi|промчался|ajoi huristi|||
 |s.|bubark|(B, Td) bubar/k(k), -kon|бубак, букашка|hyönteinen||||||
 kird'|s.|ass|as, asan, assad; asoid|буква, аз|aakkonen, kirjain|školas lugedau asoid|в школе читают буквы|koulussa luetaan aakkosia|||
-|s.|škola|škol/a, -an, -ad; -id|школа|koulu|školas lugedau asoid|в школе читают буквы|koulussa luetaan aakkosia|||
+|s.|škola|škol/a, -an, -ad; -id|школа|koulu|školas lugedau asoid|в школе читают буквы|koulussa luetaan aakkosia|t'äš školass on äij opastujid|в этой школе много учеников|tässä koulussa on paljon oppilaita
 |s. mon.|br'uukad|(B, Lh) br’ukad||||||||
 |s.|bruja|bruj/a, -an, -ad; -id||||||||
 kiär|s.|kiäräč|(B) kiäräčč|связка, пучок|kimppu||||||
@@ -4647,5 +4650,5 @@ müöti, pitkin|adv.-postp.|müödäh|müödää ~ (N) müödäi|в направ
 |adv.-a.|vähä|vähä, -n, -d|||köuh vähäd ihastuu|бедный малому рад|köyhä iloitsee vähästä|||
 vähäine|adv. dem.|vähäižin|(B, Td) vähäižin||vähitellen|(B, Td) veži vilustuu vähäižin|вода остывает помаленьку|vesi jäähtyy vähitellen|||
 |s.|opastaj|opasta/i, -jan, -jad; -jid||opettaja|opastajid on äij, a lapsed opastuda ei voida|учителей много, а дети научиться не могут|opettajia on paljon, mutta lapset oppia eivät voi|||
-|v.|opastuda|opastu/da, -n, -in||oppia|opastajid on äij, a lapsed opastuda ei voida|учителей много, а дети научиться не могут|opettajia on paljon, mutta lapset oppia eivät voi|||
+|v.|opastuda|opastu/da, -n, -in; -u, -i|учиться|oppia|opastajid on äij, a lapsed opastuda ei voida|учителей много, а дети научиться не могут|opettajia on paljon, mutta lapset oppia eivät voi|||
 |interj. yhd.|a-voi-voi|(Td) a/voi/voi||||||||
