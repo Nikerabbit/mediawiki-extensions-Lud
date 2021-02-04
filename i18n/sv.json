@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga"
+		]
+	},
+	"sanat-lud-desc": "Verktyg för för lydiska ordboken",
+	"sanat-da": "Ordet har flera betydelser:",
+	"sanat-entry-examples": "Exempel",
+	"sanat-entry-seealso": "Se även",
+	"sanat-entry-translations": "Översättningar",
+	"sanat-entry-forms": "Former",
+	"sanat-entryform-baseform": "Grundform:",
+	"sanat-entryform-pos": "Del av tal:",
+	"sanat-entryform-langdesc": "Dialektbeskrivning",
+	"sanat-entryform-formsdesc": "Böjningar",
+	"sanat-entryform-addform": "Lägg till form",
+	"sanat-entryform-addtranslation": "Lägg till översättning",
+	"sanat-entryform-addexample": "Lägg till exempel",
+	"sanat-lc-en": "Engelska",
+	"sanat-lc-fi": "Finska",
+	"sanat-lc-lud": "Skriven lydiska",
+	"sanat-lc-lud-x-middle": "Centrallydiska",
+	"sanat-lc-lud-x-north": "Nordlydiska",
+	"sanat-lc-lud-x-south": "Sydlydiska",
+	"sanat-lc-ru": "Ryska",
+	"sanat-lc-und": "Okänt språk"
+}
