@@ -581,7 +581,7 @@ puretelta|v.|haukkida|hau/kkida, -kin, -kiin; -kitau|откусывать, пе�
 |s.|haukund|(B) haukund, -an||||||||
 |s.|havad|havad, -on, -od; -oiden, -oid|мешок|säkki||||||
 |v. refl.|havaitakse|havaičče/zetta, -zen, -žin; -žiihe|просыпаться|herätä||||||
-ižand|s.|halgij|hal'gi/i, -an, -ad; -oid|дух (природы), хозяин; владелец|haltia, haltija||||||
+ižand|s.|halgij|hal'gi/i, -an, -ad; -oid|дух (природы), хозяин; владелец|haltia, haltija|(Pl) mečän hal'gii matkai, šumu ku kuului|дух леса прошёл, потому что шум слышался|metsän haltia kulki, koska humina kuului|||
 mecanižand, meccahine|s. yhd.|mecanhalgij|(Pl) mečän/hal'gii|лесной дух, леший|metsänhaltia|(Pl) mečänhal'gii matkai, šumu ku kuului|лесной дух прошёл, потому что шум слышался|metsänhaltia kulki, koska humina kuului|||
 hangač, vilk|s.|handžak|han'd'ža/k, -kon, -kkod; -koid|вилка, двуствольное дерево, основа мотовила|haarukka, haksiraarainen puu, vyyhdinpuun varsi||||||
 |s.|hang II|hang, -en, -ed; -id|наст|hanki||||||
@@ -1306,7 +1306,8 @@ kumarduda, kumartakse|v.|kumarzuda|(N) kumarzuda|поклониться|kumartaa
 kovertakse, kumardeltakse, kumarduda, kumarzuda, painuda|v. refl.|kumartakse|(N) kum/artaze, -m(m)ardazou, -maržiizei ~ -m(m)arziizei ~ -m(m)arziižei|поклониться|kumartaa, kumartua|(N) kum(m)ardate hälle muohe suoi!|поклонись ему до земли!|kumarra hänelle maahan asti!|||
 |s.|kumak|kuma/k, -kan, -kkad; -koid|кумач|punainen paitakangas, punainen pumpulikangas||||||
 |s.|kumpas|kumpa/s, -san, -ssad; -soid|компас|kompassi||||||
-|v.|kuuluda|kuulu/da, -u, -i|слышаться|kuulua|(Pl) mečänhal'gii matkai, šumu ku kuului|лесной дух прошёл, потому что шум слышался|metsänhaltia kulki, koska humina kuului|||
+|v.|kuuluda|kuulu/da, -u, -i|слышаться|kuulua|(Td) kain'eh kuuluu mecäs|эхо слышится в лесу|kaiku kuuluu metsässä|||
+|v.|kuuluda||||(Pl) mečänhal'gii matkai, šumu ku kuului|лесной дух прошёл, потому что шум слышался|metsänhaltia kulki, koska humina kuului|||
 kuuluj|a.|kuuluž|kuuluž, -an, -ad; -oid|известный|kuuluisa||||||
 kuuluj, kuuluž|a.|kuulužij|(Ks) kuuluži/i, -an, -ad; -joid|известный|kuuluisa||||||
 kuuluj|a.|kuuluj|(Kn) kuulu/i, -jan, -jad|известный|kuuluisa||||||
@@ -1652,7 +1653,10 @@ kastuz; mehev|s.|mehi|(B, Pl) meh/i, -en|влага; влажный|kosteus, mä
 |v.|melata|(Pl, Td) mela/ta, -dan, -žin||||||||
 |v.|mellida|(Td) melli/dä, -n, -in||||||||
 |s.|mellič|mel'l'i/č ~-čč, -čän, -ččäd; -čöid|мельница|mylly||||||
-|s.|mecc|me/čč, -čän, -ččäd; -ččid|лес; брёвна; леший, чёрт (ругательное слово)|metsä; tukkipuut; hiisi, paholainen (kirosana)|kukšoi on rusked l'ind, mečäss eläu|кукша - красноватая птица, в лесу живёт|kuukkeli on punertava lintu, metsässä elää|huahmoi on zvier' mečäs|росомаха - лесной зверь|ahma on peto metsässä
+|s.|mecc|me/čč, -čän ~ (B, Pl, Kn, N, M, Pk) -čan, -ččäd  ~ (B, Kn, N, M) -ččad; -ččid ~ (Kn) -ččiid ~ (Ks) -čiid; (Td) me/cc, -cän, -ccäd; -ccid|лес; брёвна; леший, чёрт (ругательное слово)|metsä; tukkipuut; hiisi, paholainen (kirosana)|(Pl) mečän hal'gii matkai, šumu ku kuului|дух леса прошёл, потому что шум слышался|metsän haltia kulki, koska humina kuului|||
+|s.|mecc||||kukšoi on rusked l'ind, mečäss eläu|кукша - красноватая птица, в лесу живёт|kuukkeli on punertava lintu, metsässä elää|||
+|s.|mecc||||huahmoi on zvier' mečäs|росомаха - лесной зверь|ahma on peto metsässä|||
+|s.|mecc||||(Td) kain'eh kuuluu mecäs|эхо слышится в лесу|kaiku kuuluu metsässä|||
 därv, suvi|s.|meri|me/r'i, -ren, -rd; -r'id|море; юг; озеро|meri; etelä; järvi (N)|(N) Siämärvess on meri|в Сямозере есть море|Säämäjärvessä on meri|al'l'id meres piäi lettäu|морянки летят с моря|allit lentävät mereltä (suvesta)
 |s.|mezi|me/ži, -den, -tt|мёд, медовуха|mesi, hunaja, sima, mesijuoma||||||
 air|s.|mela|mel/a, -an, -ad; -oid|кормовое весло |mela, perämela||||||
@@ -2328,7 +2332,7 @@ oruž|s.|püššal'|püšša/l', -l'in, -l'id, -l'iiden, -l'iid|ружьё, пи
 |v.|pühkida|pühki/dä, -n, -in; -ttäu, -t't'ii|вытирать|pyyhkiä, lakaista||||||
 |v. refl.|pühkidakse|(B) pühkizeta||||||||
 |s.|pii|pii, -n, -d; -löiden, -löid|шип, зубец|pii, piikki (haravan, atraimen)||||||
-|s.|piirag|piirag, -an, -ad; -oid|пирог|piirakka, piiras||||||
+|s.|piirag|piirag, -an, -ad; -oid|пирог|piirakka, piiras|(Ks) piiragan šüdämüs|начинка пирога|piiraan täyte|||
 |v. frekv.|piirdelta|piirde/ldä, -len, -l'in|рисовать|piirrellä, vedellä piirtoja, tehdä veitsellä piirtoja||||||
 |s.|piirduz|piirdo/z, -ksen, -st; -kšid|рисунок|piirros, piirto (veitsen)||||||
 |v.|piirta|piir/ttä, -dän, -žin; -t(t)äu|рисовать|piirtää viiva, tehdä piirto||||||
@@ -3735,7 +3739,7 @@ südämkorman'|s. yhd.|südämkorman|šüdäin/korman|внутренний ка�
 povikorman’|s. yhd.|südämkorman'|(B) šüdäim- ~ (Td) šüdäm/korman'|внутренний карман|povitasku||||||
 čokittada, čokkida, püštäda|v.|südida|šüd'i/dä ~ (N) süd'i/da, -n, -in|совать, тыкать, колоть|sysiä, pistellä||||||
 čokaita, püštäda|v. mom.|südäita|šüdäi/tä, -dän, -žin; -t't'ii|сунуть, ткнуть, кольнуть|pistää, työntää||||||
-südäm, taguine II|s.|südämuz|(Ks) šüdämü/s, -ksen, -stäh|начинка|täyte (piiraan)||||||
+südäm, taguine II|s.|südämuz|(Ks) šüdämü/s, -ksen, -städ|начинка|täyte (piiraan)|(Ks) piiragan šüdämüs|начинка пирога|piiraan täyte|||
 südämeh(piä); südämespiä|adv.|südämes|šüdämes|внутри; изнутри|sisällä, sisässä; sisältä, sisästä||||||
 südämes|adv.|südämeh(piä)|šüdämee|внутрь|sisälle, sisään||||||
 südäm; südämmunaine|s. yhd.|südämkera|šüdäin- ~ (N) südä(i)m/kera|сердце; почка (орган)|sydän; munuainen||||||
@@ -4652,3 +4656,4 @@ vähäine|adv. dem.|vähäižin|(B, Td) vähäižin||vähitellen|(B, Td) veži v
 |s.|opastaj|opasta/i, -jan, -jad; -jid||opettaja|opastajid on äij, a lapsed opastuda ei voida|учителей много, а дети научиться не могут|opettajia on paljon, mutta lapset oppia eivät voi|||
 |v.|opastuda|opastu/da, -n, -in; -u, -i|учиться|oppia|opastajid on äij, a lapsed opastuda ei voida|учителей много, а дети научиться не могут|opettajia on paljon, mutta lapset oppia eivät voi|||
 |interj. yhd.|a-voi-voi|(Td) a/voi/voi||||||||
+|s.|kaineh|(Td) kain'eh, -t|эхо|kaiku|(Td) kain'eh kuuluu mecäs|эхо слышится в лесу|kaiku kuuluu metsässä|||
