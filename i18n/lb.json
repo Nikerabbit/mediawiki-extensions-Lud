@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Les Meloures",
 			"Robby"
 		]
 	},
@@ -11,7 +12,7 @@
 	"sanat-entry-forms": "Formulairen",
 	"sanat-entryform-baseform": "Basis-Formular:",
 	"sanat-entryform-langdesc": "Dialekt-Beschreiwung",
-	"sanat-entryform-addform": "Formular dobäisetzen",
+	"sanat-entryform-addform": "Formular derbäisetzen",
 	"sanat-entryform-addtranslation": "Iwwersetzung derbäisetzen",
 	"sanat-entryform-addexample": "Beispill derbäisetzen",
 	"sanat-lc-en": "Englesch",
