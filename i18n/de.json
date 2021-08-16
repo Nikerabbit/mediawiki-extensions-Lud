@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zabe"
+		]
+	},
+	"sanat-entry-examples": "Beispiele",
+	"sanat-entry-seealso": "Siehe auch",
+	"sanat-entry-translations": "Übersetzungen",
+	"sanat-entryform-addtranslation": "Übersetzung hinzufügen",
+	"sanat-entryform-addexample": "Beispiel hinzufügen",
+	"sanat-lc-en": "Englisch",
+	"sanat-lc-fi": "Finnisch",
+	"sanat-lc-ru": "Russisch",
+	"sanat-lc-und": "Unbekannte Sprache"
+}
