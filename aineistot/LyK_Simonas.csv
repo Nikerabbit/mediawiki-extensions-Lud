@@ -5,8 +5,8 @@ abedida, satattada|abidoita|abidui/ta, -čen, -čin|v.||||abiduičen (RKS)|аб�
 |adivoiš|(V) ad'ivuois ~ (Lm) ad'vuois|adv.||в гостях|sukulaisissaan|||||||||||||||
 |adivoihe|(Lm) ad'vuoih|adv.||в гости|sukulaisiinsa|||||||||||||||
 |adr|adr/e, -an, -ad|s.|адрэ|соха|aatra|||||||||||||||
-|agan|(Lm) agano, -n, -d|s.||высевки|akana, jyvän kuori|||||||||||||||
-|aganad|agan/od, -uoid|s. mon.|аганот|высевки, пелёва; отруби (RKS)|akanat|||||||||||||||
+|agan|(Lm) agano, -n, -d|s.||высевки|akana|||||||||||||||
+|aganad|agan/od, -uoid|s. mon.|аганот|высевки, пелёва, отруби (RKS)|akanat|||||||||||||||
 lopp, n’okk, occ, piä|agd'|agj/e, -an, -ad; -juoid (LMS 3);  (V) agd'/e, -an, -ad; -d'uoid; (Ka) agd'e|s.||конец|pää (nuoran, kylän), loppu|||||||||||||||
 |ahav|(V) ahavo ~ (SP) ahavu|s.||||||||||||||||||
 |ahven|ahve/n ~ (V) -n', -nen, -nte; -n'id |s.|агвэн|окунь|ahven|||||||||||||||
@@ -256,7 +256,7 @@ batog, kepp, pualik, savak|dubin|dubin, -an, -ad (RKS)|s.|дубин|дубин�
 |d'uosta|d'uo/sta, -ksen, -ksin|v.||||d'uoksen (RKS)|дюоксэн|бегу|juoksen|||||||||||
 |durak|dura/kke, -kan, -kkad; -kuoid|s.|дураккэ|дурак|tyhmä, hullu|||||||||||||||
 tamm|duub|duub/e, -an, -ad; -id|s.|дубэ|дуб|tammi|||||||||||||||
-|duuh|(Ph, V) duuhu|s.|духу|запах|haju|||||||||||||||
+|duuh|duuhu|s.|духу|запах|haju|||||||||||||||
 duumaida|duumaita|duumai/ta, -čen, -čin|v.||думать|ajatella, miettiä, arvella|duumaičen (RKS)|думайчен|думаю, задумываюсь|ajattelen, vaivun ajatuksiini|||||||||||
 |duumaita||v.||||duumaičin (RKS)|думайчин|я вздумал|ajattelin, mietin|||||||||||
 duumaita|duumaida|(V) duumai/da, -n, -in|v.||||||||||||||||||
@@ -616,7 +616,7 @@ keskel|kesken|kesken|adv.-adp. ||между, посреди, среди|kesken|k
 |kesk|keski|s.|||keskiosa, veneen keskiosa (Ph)|||||||||||||||
 aig|strokk|sro/kk, -kan, -kkad|s.||срок|vääräaika, määräkausi, palvelusaika|kesken srokkad||посреди срока|kesken määräaikaa|||||||||||
 |keskenah|(AV) keskenah|adv.||||||||||||||||||
-|keväz|(Ph, TP) kevä/d ~ (Lm, SP) -t ~ (V) -z'|s.|кэвять|весна|kevät|||||||||||||||
+|keväz|kevä/d ~ (Lm, SP) -t ~ (V) -z'|s.|кэвять|весна|kevät|||||||||||||||
 |keza|kezä, -n, -d|s.|кэзя|лето|kesä|||||||||||||||
 |kezal|kezäl|adv.||летом|kesällä|||||||||||||||
 kezoil, kezoile|kezoi|kezuoi, -d ~ kezuud; (TP) kezoi|s.||плавание|uinti|kezuoit külben (RKS)|кэзуойт-кюльбэн|купаюсь|olen uimassa|||||||||||
@@ -725,7 +725,7 @@ kološid|kološad|kološad|s. mon.|колошат|галоши|kalossit, pääll
 |kondijanpoig|kond'ain/poige|s. yhd.|||karhunpentu|||||||||||||||
 |konopattida|konopa/t't'ida, -t'in, -t'iin|v.||конопатить|tilkitä|konopat'in (RKS)|конопатин|конопачу|tilkitsen|||||||||||
 kon'ušn|kon'uš|(AV, Lm) kon'u/šši ~ (TP) -šš, (TP) -šin|s.||конюшня|talli|||||||||||||||
-ku|konz|(Ph) konze ~ (Pn, TP, Pv, V) kouz|adv.-konj.||когда|koska, milloin, kun, konsa|konze kuoli Pol'l'i-akke, kod'i müödih||когда умерла жена Полли, дом продали|Polli-vaimon kuoltua talo myytiin|||||||||||
+ku|konz|konze ~ (Pn, TP, Pv, V) kouz|adv.-konj.||когда|koska, milloin, kun, konsa|konze kuoli Pol'l'i-akke, kod'i müödih||когда умерла жена Полли, дом продали|Polli-vaimon kuoltua talo myytiin|||||||||||
 |konz||adv.-konj.||||(Pn) kouz lähtimme pogostal da n'umaloih mänimme  (OLR 46)||когда мы отравлялись из погоста и шли на богомолье|kun lähdimme kirkonkylästä ja menimme rukoilemaan|||||||||||
 |konz||adv.-konj.||||(TP) kouz lapsed lähtedäh kezoile (LMS 127)||когда дети пойдут купаться|kun läpset lähtevät uimaan|||||||||||
 |kopčad|kopčat (RKS)|s. mon.|копчат|копыта|kaviot|||||||||||||||
@@ -864,7 +864,7 @@ adv.|külläl|kül’l’äl|adv.||досыта, щедро, вдоволь, с 
 |küntä||v.||||kündžin (RKS)|кюнджин|я царапал|kynsin|||||||||||
 |kuav|kuav/i, -in, -id|s.||||||||||||||||||
 höühen, pero, sulg|künä|kün'ä ~ (V) kün'a|s.|кюня|перо (из крыла), писчее перо (RKS)|kynä, sulka, kirjoituskynä (Ph)|(V) l'indun küna||перо птицы|linnun kynä|||||||||||
-|künäbruz|kün'äbrüs|s.|кюнябрюс|локоть|kyynärpää|||||||||||||||
+|künäbruz|kün'äbrüs ~ (TP) künäbrüs|s.|кюнябрюс|локоть|kyynärpää|||||||||||||||
 kürzäd|kürz|kürz/e, -än, -äd; -id|s.|кюрьзэ|блин, оладья|ohut pannukakku, lettu, blini; koho-ohukas (uud.)|||||||||||||||
 kürz|kürzäd|kürz/äd ~ -ät (RKS), -id|s. mon.||блины, оладьи|ohuet pannukakut, letut, blinit; koho-ohukkaat (uud.)|||||||||||||||
 |kärz|kärz/e, -än, -äd|s.|||kärsä|||||||||||||||
@@ -1131,7 +1131,7 @@ molembin|molgei|(TP, SP) mollei|adv.||обоими, оба|molemmin, kumpikin, m
 muam|emä|em/ä, -än, -äd; -id|s.||мать|äiti, emo|||||||||||||||
 |emäkaži|(Lm) emä/kaži|s. yhd.||||||||||||||||||
 emäsiga|emäpočč|emä/bočči ~ (Lm) -počči|s. yhd.||свиноматка, свинья|emäsika, naarassika|||||||||||||||
-emä, mami, mamoi|muam|(Ph) muamo, -n, -d; (TP) muam/o, -an, -ad|s.|муамо|мать, мама|äiti|hänem muamo rod'iihez ||его мама родилась|hänen äitinsä syntyi|||||||||||
+emä, mami, mamoi|muam|muamo, -n, -d; (TP) muam/o, -an, -ad|s.|муамо|мать, мама|äiti|hänem muamo rod'iihez ||его мама родилась|hänen äitinsä syntyi|||||||||||
 |muam||s.||||muamon tuatto ||отец матери|äidin isä|||||||||||
 mamoi, muam|mami|(Ka) mami |s.||мама, мамочка|äiti, mami|||||||||||||||
 |muanittada|muan'i/ttada, -tan, -t'in|v.|pettää|обдуть|pettää, valehdella, houkutella, puijata|muan'itin (RKS)|маниттин|я обдул|petin|||||||||||
@@ -1616,7 +1616,7 @@ heng, miez, ristikanz|ristittu|rist'i/ttü, -tün, -ttüd; -tüid|s.||челов
 |riähk|riähke (LMS 56)|s.|рияхки|грех|räähkä, synti|||||||||||||||
 |riähkäduda|riähkävü/dä, -n, -in|v.||грешить, согрешить|tehdä syntiä, langeta syntiin|riähkävün (RKS)|рияхкявюн|грешу|teen syntiä|||||||||||
 |riäpöi|riäpüöi ~ (TP) riäpöi, -n, -d|s.|ряпюой|ряпушка|muikku|||||||||||||||
-tulda|rodidakse|(Ph) rod'i/dakse, rodih  ~ rod'ih (LMS 346), rodiiheze  ~ rodiheze ~ rod'iih ~ rod'ii (LMS 361)~ rod'iihez (OFM)|v. refl.||рождаться, появляться, хватать|syntyä, ilmestyä, tulla, riittää|minä rod'iimos Pühärves ||я родился в Святозере|minä synnyin Pyhäjärvellä|||||||||||
+tulda|rodidakse|rod'i/dakse, rodih  ~ rod'ih (LMS 346), rodiiheze  ~ rodiheze ~ rod'iih ~ rod'ii (LMS 361)~ rod'iihez (OFM)|v. refl.||рождаться, появляться, хватать|syntyä, ilmestyä, tulla, riittää|minä rod'iimos Pühärves ||я родился в Святозере|minä synnyin Pyhäjärvellä|||||||||||
 |rodidakse||v. refl.||||minä en rod'inuh Vield'ärves ||я родился не родился в Ведлозере|minä en ole syntynyt Vieljärvellä|||||||||||
 |rodidakse||v. refl.||||hural kädel rodih||по левую руку будет|vasemmalla puolella tulee|||||||||||
 |rodidakse||v. refl.||||rod'ih täks päiväd külläl (LMS 316)||хватит на сегодняшний день с избытком|riittää täksi päivää kylliksi|||||||||||
@@ -1648,7 +1648,8 @@ raudmua|ruda|ruda, -n, -d|s.|руда|руда|malmi, rautamuta|||||||||||||||
 |rugiž|rug/iš, -ehen, -ište; -ehid|s.|ругишь|рожь|ruis|rugiš kazvau pelduois||рожь растеёт в полях |ruis kasvaa pelloissa|||||||||||
 ruppi; rupud|rupid|rupi/d ~ -t (RKS)|s. mon.|рупит|морщины|rypyt|||||||||||||||
 rupid; rupp|ruppi|ru/ppi, -pin, -ppid|s.|руппи|морщина|ryppy|||||||||||||||
-|ruumen|ruume(n), -nen|s.|румэнъ|мякина||||||||||||||||
+|ruumen|ruumen, -nen|s.|румэнъ|мякина||||||||||||||||
+|ruume|ruume|s.||||||||||||||||||
 |rügida|rügi/dä, -n, -in|v.||||rügin (RKS)|рюгин|кашляю|yskin|||||||||||
 |rügind|rügind/e, -än|s.|рюгиндэ|кашель|yskä, rykiminen|||||||||||||||
 rind|ründäz|ründä/z ~ -s (RKS), -hän|s.|рюндяс|грудь, грудная клетка|rynnäs, rinta, rintakehä|||||||||||||||
@@ -1768,7 +1769,7 @@ selg, sivud|sivu|(V) sivu|s.||||||||||||||||||
 losnida|šiäjida||v.||||šiäjiu (RKS)|шяиу|сияет|loistaa|||||||||||
 šlejad|šleja|šleja, -n, -d|s.|шлея|шлея|mäkivyö|||||||||||||||
 šleja|šlejad|(TP) šlejad|s. mon.||шлея|mäkivyöt|||||||||||||||
-sliifkad|sliifk|(Ph) sliufke  ~ (Lm) sliuhke ~ (TP) sliifke ~ (V) slifke|s.||сливки|kerma|||||||||||||||
+sliifkad|sliifk|sliufke  ~ (Lm) sliuhke ~ (TP) sliifke ~ (V) slifke|s.||сливки|kerma|||||||||||||||
 sliifk|sliifkad|slifkat (RKS)|s. mon.|сливкат|сливки|kerma|||||||||||||||
 hatt, šuapuk|šliäp|šliä/ppe (RKS) ~ šliä/p(p) (LMS 393), -pän|s.|шлияпэ|шляпа|hattu, liierihattu|||||||||||||||
 |sluav|sluav/e, -an, -ad|s.|слуавэ|молва|maine|||||||||||||||
@@ -1980,7 +1981,7 @@ varuč|truss|trusse (RKS)|s.|труссэ|трус|pelkuri|||||||||||||||
 |träsk|träske (RKS)|s.|тряскэ|тряска|heiluminen|||||||||||||||
 |tuačk|tuačk/e, -an, -ad|s.|туачкэ|тачка|kärryt, työntökärryt (yksipyötäiset)|||||||||||||||
 tatoi, tuat|tata|(Ka) tata |s.||папа, папочка|isä, isi|||||||||||||||
-|tuat|(Ph) tua/tto, -ton ~ -tan (RKS), -ttod; -ttoluoid; (SP)tua/tto, -tan, -ttoa; -ttoloid|s.|туатто|отец|isä|minun tuatto (RKS)||мой отец|minun isäni|||||||||||
+|tuat|tua/tto, -ton ~ -tan (RKS), -ttod; -ttoluoid; (SP)tua/tto, -tan, -ttoa; -ttoloid|s.|туатто|отец|isä|minun tuatto (RKS)||мой отец|minun isäni|||||||||||
 |tuat||s.||||muamon tuatto ||отец матери|äidin isä|||||||||||
 |tuat||s.||||tuaton kod'i ||дом отца|isän talo|||||||||||
 |tuat||s.||||minun tuatale (RKS)||моему отцу|minun isälleni|||||||||||
@@ -2112,7 +2113,7 @@ vargastaj|vargaz|varga/s, -han, -ste; -hid|s.|варгас|вор|varas|||||||||
 |vaskič|(Lm) vaškičču|s.||||||||||||||||||
 |vast|vast/e, -an, -ad; -uoid|s.|вастэ|веник|vasta|vastal pergamme||веником хлещемся|vastalla hakkaamme|||||||||||
 |vastata|vasta/ta, -dan, -žin|v.||||vastadan (RKS)|вастадан|отвечаю, навстречу говорю|vastaan|||||||||||
-|vate|(Ph, V) va/te, -ttegen, -tette|s.|ватэ|сукно|sarka|||||||||||||||
+|vate|va/te, -ttegen, -tette|s.|ватэ|сукно|sarka|||||||||||||||
 vattegehine, vattegine|vattahine|vattahi/ne , -žen, -šte; -žid|a.|ваттагинэ|суконный|sarkainen, sarka-|||||||||||||||
 vattahine, vattegine|vattegehine|vattegehi/ne , -žen, -šte; -žid|a.||суконный|sarkainen, sarka-|||||||||||||||
 vatt|vuat|vua/tte, -tan, -ttad; -tuoid|s.||вата|pumpuli, vanu|||||||||||||||
@@ -2439,7 +2440,7 @@ kuolij|pokoinik|(Lm) pokoin'i/kke ~ (TP) pokoini/kke, -kan, -kkad|s.||покой
 |ozav|oza/u, -van, -vad|a.||счастливый|onnellinen|||||||||||||||
 lüüdi, lüüdikš|lüüdikiel'|l’üud’i/kiel’i (OFM)|s. yhd.||людиковский язык|lyydin kieli|||||||||||||||
 lüüdilaine|lüüdi-|l’üud’i- (OFM)|s.||людиковский|lyydin-, lyydiläis-, lyydiläinen|||||||||||||||
-lüüdikiel', lüüdikš|lüüdikš|(Ph) l’üud’ikse, (Ka) l’üud’iks (OFM); (Lm) l'üüdikse (OFM) ~ lüüdikse, (V) l’uudikse, (SP) l’üüd’ikse (LMS 221)|adv.||по-людиковски, на людиковском языке|lyydiksi, lyydiä, lyydin kielellä|(Ph) mina pagižen l’üud’ikse (OFM)||я говорю по-людиковски|mina puhun lyydiä|||||||||||
+lüüdikiel', lüüdikš|lüüdikš|l’üud’ikse, (Ka) l’üud’iks (OFM); (Lm) l'üüdikse (OFM) ~ lüüdikse, (V) l’uudikse, (SP) l’üüd’ikse (LMS 221)|adv.||по-людиковски, на людиковском языке|lyydiksi, lyydiä, lyydin kielellä|(Ph) mina pagižen l’üud’ikse (OFM)||я говорю по-людиковски|mina puhun lyydiä|||||||||||
 |lüüdikš||adv.||||(Ka) mina pagižen l’üud’iks (OFM)||я говорю по-людиковски|mina puhun lyydiä|||||||||||
 |lüüdikš||adv.||||(Lm) mina pagižen l’üüdikse (OFM)|пагижэн|я говорю по-людиковски|mina puhun lyydiä|||||||||||
 |lüüdikš||adv.||||müö pagižemme l'üud'ikse ~ (Ka) l’üud’iks (OFM)||мы говорим по-людиковски|me puhumme lyydiä|||||||||||
@@ -2623,6 +2624,8 @@ niit|durm|durm/i, -en, -ed; -id; (TP) nurm|s.||лужок, лужайка|nurmi,
 kondij, mömmö|möttü|mö/ttü, -tün, -ttüd (OFM)|s.||медведь|karhu, otsonen|suured mötüd||большие медведи|isot karhut|||||||||||
 |eriže|eriže|adv.||порознь, отдельно|erikseen, erillään, erillään|||||||||||||||
 eloaig|elaig|el/aige|s. yhd.||жизнь|elämä|anda hüväd elaigad!||дай хорошей жизни! (тост)|anna hyvää elämää! (toivomus)|||||||||||
+|elaig||s. yhd.||||papile elaige tuhmen'iškanzi||у попа жизнь стала хуже|papin elämä alkoi tulla huonoksi|||||||||||
+|tuhmeniškata|tuhmen'iška/ta, -ndou, -nzi|v.||начинать дурнеть, становиться хуже|alkaa tulla rumaksi, alkaa tulla huonoksi|papile elaige tuhmen'iškanzi||у попа жизнь стала хуже|papin elämä alkoi tulla huonoksi|||||||||||
 |sündüda|sündü/dä, -n, -in; -u, -i|v.||влезать, помещаться|mahtua|ei nämä sündütä||эти не влезуть|nämä eivät mahdu|||||||||||
 muga|ninka|nen/ga ~ (Ka) n'in/ga|adv. yhd.||так, таким образом|näin, tällä tavalla|nenga pane!||так поставь!|laita näin!|||||||||||
 |ninka||adv. yhd.||||nenga otetah||так берут|näin otetaan|||||||||||
@@ -2653,7 +2656,7 @@ noid, tiedaj|tiedoinik|t'ieduoin'i/kke ~ t'iedoin'i/kke (OFM) ~ t'ieduoinie/kke 
 |puol'|puo/l'i, -len, -lde; -l'iden, -l'id|s.||половина, сторона|puoli|veräjäle pand'ih riste pihan puolel, iraižel čural ||на воротах крест рисовали со стороны улицы, с внешней стороны|veräjälle piirrettiin risti ulkopuolelle, ulkoiselle puolelle|||||||||||
 |puol'tošt|puol'- (LMS 340) ~ puol'i/tošt (OFM)|num. yhd.||полтора|puolitoista|puol'itošt kuud||полтора месяца|puolitoista kuukautta|||||||||||
 |verai|verä/i,-jän, -jäd; -jiid|s.||ворота, калитка, уличная дверь|veräjä, ulko-ovi|veräjäle pand'ih riste pihan puolel, iraižel čural ||на воротах крест рисовали со стороны улицы, с внешней стороны|veräjälle piirrettiin risti ulkopuolelle, ulkoiselle puolelle|||||||||||
-|irdaine|(Ph, Lm) ira/ine, -ižen, -šte; -ižid|a.||внешний, уличный|ulkopuolinen, ulkoinen, ulko-|veräjäle pand'ih riste pihan puolel, iraižel čural ||на воротах крест рисовали со стороны улицы, с внешней стороны|veräjälle piirrettiin risti ulkopuolelle, ulkoiselle puolelle|||||||||||
+|irdaine|ira/ine, -ižen, -šte; -ižid|a.||внешний, уличный|ulkopuolinen, ulkoinen, ulko-|veräjäle pand'ih riste pihan puolel, iraižel čural ||на воротах крест рисовали со стороны улицы, с внешней стороны|veräjälle piirrettiin risti ulkopuolelle, ulkoiselle puolelle|||||||||||
 kuni, mi|ku|kui|konj.||когда, что, пока; как, словно, чем; если, коли, коль|kun, että, jotta, kunnes, koska; kuin, niin kuin; jos|kui tämä hiil'i lököttäu||как этот уголь полыхает|kuin tämä hiili loimuaa|||||||||||
 |ku||konj.||||kui tämä kod'i nouziž loits.||как этот дом поднялся бы|kuin tämä talo nousisi|||||||||||
 |ku||konj.||||kui tämä d'üvä puuttuu muah (TTV) loits.||как это зерно попадает в землю|kuin tämä jyvä joutuu maahan|||||||||||
@@ -2735,6 +2738,7 @@ d'ouk, grupaine, grupp|kamandaine|(TP) kamanda/ine, -zen|s. dem.||команда
 |Priäž|Pr’iäž/e, -äs, -äh |pn.||Пряжа|Prääsä|pappi eläu Pr’iäžäs||священник живёт в Пряже|pappi asuu Prääsässä|||||||||||
 |papp|pa/ppi, -pin, -ppid; -piid|s.||священник, поп|pappi|pappi eläu Pr’iäžäs||священник живёт в Пряже|pappi asuu Prääsässä|||||||||||
 |papp||s.||||(Lm) pappi valau lapsen||священник крестит ребёнка|pappi kastaa lapsen|||||||||||
+|papp||s.||||papile elaige tuhmen'iškanzi||у попа жизнь стала хуже|papin elämä alkoi tulla huonoksi|||||||||||
 rattahad|rataz|ra/tas, -ttahan; -ttahid|s.||колесо|ratas, pyörä, ajoneuvon pyörä|||||||||||||||
 rataz|rattahad|ra/ttahad, -ttahid|s. mon.||колёса|pyörät|ol'i üks rataz||было одно колесо|oli yksi pyörä|||||||||||
 |ruga|ruga, -n, -d|s.||||||||||||||||||
@@ -2810,7 +2814,8 @@ igrušk, tall'ank|soit|(SP) soi/tto, -ton, -ttuo; -ttoloi|s.||гармонь, г
 |nuotnik|huotn'i/k, -kan, -kkad; -kuoid (LMS 273)|s.||неводник, ловец неводом|nuottamies, nuotalla kalastaja|||||||||||||||
 |br'uukad|br’uukad|s. mon.||||||||||||||||||
 bruja|brujaine|brujaine|s. dem.||интрумент, инструментик; мужской орган|työkalu (pieni); kalu, penis|||||||||||||||
-kokk, muna|bruja|bruj/a, -an, -ad; -id|s.||||||||||||||||||
+brujad; kokk, muna|bruja|bruj/a, -an, -ad; -iden, -id|s. mon.||||||||||||||||||
+bruja|brujad|bruj/a, -iden, -id|s.||||||||||||||||||
 kiäräč|kiär|(Lm) kiärü, -n, -d|s.||связка, пучок|kimppu|||||||||||||||
 |liinankiär|(Lm) liinan/kiärü|s. yhd.||пучок конопли|hamppukimppu|||||||||||||||
 |pelvazkiär|(Lm) pelvas/kiärü|s. yhd.||пучок льна|pellavakimppu|||||||||||||||
@@ -3048,4 +3053,6 @@ däred, sanged|dämed|d'ämed, -än, -äd; -id|a.||толстый|paksu|||||||||
 |suuremb|suuremb (LMS 411) ~ (Lm) suurembe ~ (SP) suurembi|a. komp.||||||||||||||||||
 |ken|ken, kenen, kedä|pron.||||(V) ken kunne||кто куда|kuka minnekin|||||||||||
 |ni ken|n’i ken ~ (TP) ni ken|pron. yhd.||||(TP) štobi ei nähtäs ni ken||что не видели никто|jottei kukaan näkisi|||||||||||
-|štobi|štobi|konj.|jottei kukaan näkisi|||(TP) štobi ei nähtäs ni ken||что не видели никто|jottei kukaan näkisi|||||||||||
+|štobi|štobi|konj.||||(TP) štobi ei nähtäs ni ken||что не видели никто|jottei kukaan näkisi|||||||||||
+|čolli|(Lm) čol'l'i, -n, -d|s.|||imusarven pehmeä suupala|||||||||||||||
+|sarv|sa/rvi ~ (V) sa/r'vi, -rven, -rved; -rvid ~ (V) -r'viid|||||||||||||||||||
