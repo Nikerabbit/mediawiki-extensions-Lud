@@ -1,4 +1,4 @@
-Verzij 3.7.2021
+Verzij 18.9.2021
 Lüüdi-venän sananik — Людиковско-русский словарь
 
 A
@@ -2674,7 +2674,7 @@ lugoitel/ta, -ou, -i — причитывать: lugoitelta itkendvirt ’исп
 lugoitt/ada, -au, -i — причитывать: itkettaj lugoittau sanoid ’плакальщица причитывает словами’, ср. itkettada, lugoitelta
 lugoitu/z, -ksen, -st — причитание, ср. itketuz
 lugu, -n, -d — число, количество; счёт, ср. lugemine
-*-lugu/ine, -ižen, -št — *-численный: vähäluguižed ’малочисленные’
+*-lugu/ine, -ižen, -št — *-численный: vähäluguine rahvaz ‘малочисленный народ’
 lugun/vedaj — бухгалтер, счетовод
 lugu/sana — числительное, ср. numeral
 luht, -an, -ad — лужа: kus ei ole luhtad, siga ojadgi ei ole ’где нет лужи, там и ручья нет’, süväd luhtad ’глубокие лужи’
@@ -6315,7 +6315,7 @@ vähäd — едва, чуть: vähäd enamb ’чуть больше’, häin
 vähä/ine, -ižen, -št — малость, чуть-чуть, чуточку; небольшой, маленький, незначительный, недостаточный: da salagad vähäine ’и салаки малость’, vähäšt enamb kilometrad ’чуть-чуть больше километра’, ср. hubaine, pien’, vähä, vähäd
 vähäižel — маленько, немного, несильно: rusketa vähäižel ’немного покраснеть’
 vähäižin — помаленьку, понемногу, мало-помалу, постепенно: vezi vilustuu vähäižin ’вода остывает помаленьку’
-*-lugu/ine, -ižen, -št — *-численный: vähälugune rahvaz ‘малочисленный народ’
+vähä/luguine — малочисленный: vähäluguižed rahvahad ‘малочисленные народы’
 vähä/sanaine — немногословный: vähäsanaine ristikanz ’немногословный человек’
 vähä/vägine — малосильный, маломощный
 väll’, vällän, välläd — свободный, вольный, просторный; просторно, ср. d’oudav; välläs(ti)

@@ -1133,7 +1133,7 @@ tiineh|a.|kohtuine|kohtu/in'e, -ižen, -št; -ižid|тяжёлый, береме
 nahk|s.|koib|(B) koib, -en, -ed|шкура на ноге (медведя, коровы)|koipinahka (karhulla, lehmällä)||||||
 |s. dem.|koiraine|(B) koira/in'e, -ižen, -št||||||||
 |v.|koirastada|koira/stada, -stan, (Td) -ščin|облаять|haukkua (sanoin)||||||
-|s. yhd.|koirannänn'|koiran'/n'än'n'i|ячмень (в глазе)|naarannäppylä (silmäluomessa)||||||
+|s. yhd.|koirannänn'|koiran'/n'än'n'i ~ (B, Td) koiran/nän'n' ~ (Pk) koiran/n'än'|ячмень (в глазе)|naarannappi (silmäluomessa), naarannäppylä||||||
 |s.|koivik|koivi/kk, -kon, -kkod; -koid|березняк|koivikko||||||
 |a.|koivuine II|koivu/in'e, -ižen, -št; -ižid|берёзовый|koivuinen, koivu-||||||
 kotk, kotkoi|s.|kokoi|kok/oi, -oin, -oid; -koloid|орёл; кокач|kotka (LyP), kokko; soikea piirakka||||||
@@ -2861,7 +2861,8 @@ sorz|s.|tavi|tavi, -n, -d; -id; (N) tav/i, -en|чирок|tavi (sorsalaji)||||||
 |s.|talv|ta/l'v, -lven, -lved; -l'vid|зима|talvi||||||
 tahkota, terata|v.|tereta I|(B) t'ere/ta, -ndän, -n'd'in; (Td) t'ere/tä, -ndän, -nd'žin|точить, оттачивать, заострять|teroittaa||||||
 |s.|terenduz|t'erendü/s ~ (B, N) t'erendu/s, -ksen, -st|заострение стены (под крышей)|päätyseinän kolmiomainen yläosa (katon kohdalla)||||||
-|s.|tervehuz|t'ervehü/z, -den, -t ~ -tt; -žid|здоровье; привет, поклон|terveys; terveiset|sanu t'ervehüt!|передай привет!|kerro terveisiä!|||
+|s.|tervehuz|t'erveh/üz ~ (B, M) -uz ~ (Td) terveh/üz, -üden ~ (B, M) -uden, -üt ~ -ütt ~ (B, M) -ut ; -üžid ~ (Ks) -üžiid|здоровье; привет, поклон|terveys; terveiset|sanu t'ervehüt!|передай привет!|kerro terveisiä!|||
+tervehuz|s.|tervuhuz|(N) t'ervuhu/ž, -den, -ut|здоровье; привет, поклон|terveys; terveiset||||||
 tervehuz|interj.|tervehut|t'ervehüt ~ -tt|привет, здоровья|terveisiä, terveyttä|sanu t'ervehüt!|передай привет!|kerro terveisiä!|||
 |s.|tihi|t'ihu, -n, -d; -id; (Pl) t’ih/i, -en, -ed|мошка, мошкара|pienen pieni hyttynen, mäkärä, mäkäräinen|(B) t'ihud šüödau|мошкара заедает|mäkäräiset purevat|||
 |adv.|todes|todes|вправду, в самом деле|totta, todella, tosissaan, täyttä totta, totta tosiaan|todezgi sanud?|ты вправду говоришь?|oletko tosissasi?|||
@@ -3263,7 +3264,6 @@ vesselduda|v.|vesselzuda|ves'elzü/dä, -n, -in; -u, -i|повеселеть, р
 ilo, vesselduz|a.|vessel'|ves's'el', -än, -äd; -iid; (B) ves's'el', -an, -ad; -oid; (Td) ves's'el, -än, -äd; -id; (N) vessel'|весёлый; весёлье|iloinen, hauska; iloinen mieliala, hilpeä mieliala||||||
 humalas|s.|vessel'as|(N) vessel'as|навеселе|iloisella tuulella, humalassa||||||
 čihk, vezik|s. yhd.|vezihiir'|(B) vez'i/hiir'||||||||
-korend|s. yhd.|vezikorend|veži/korend||||||||
 |s. yhd.|vezilind|veži/l'ind|водоплавающая птица; трясогузка|vesilintu; västäräkki||||||
 |s.|velg|velg, -an, -ad; -oid|долг|velka||||||
 velgnik|a.|velgahine|velgahi/n'e, -žen, -št; -židen, -žid|обязанный, задолжавший, должник|velallinen, velkainen, velkaantunut|(Td) velgahin'e talo|задолжавший дом|velkaantunut talo|||
@@ -4422,7 +4422,7 @@ kird'|s.|ass|as, asan, assad; asoid|буква, аз|aakkonen, kirjain|školas l
 |s.|škola|škol/a, -an, -ad; -id|школа|koulu|školas lugedau asoid|в школе читают буквы|koulussa luetaan aakkosia|t'äš školass on äij opastujid|в этой школе много учеников|tässä koulussa on paljon oppilaita
 |s. mon.|br'uukad|(B, Lh) br’ukad||||||||
 brujad|s.|bruja|bruj/a, -an, -ad; -id|||(Td) naižluadud pidetäu hienoid brujid |женщины используют инструменты небольшого размера|naisväki käyttää pieniä työkaluja|||
-bruja|s. mon.|brujad|bruj/a, -id|||(Td) naižluadud pidetäu hienoid brujid |женщины используют инструменты небольшого размера|naisväki käyttää pieniä työkaluja|||
+bruja|s. mon.|brujad|bruj/ad, -id|||(Td) naižluadud pidetäu hienoid brujid |женщины используют инструменты небольшого размера|naisväki käyttää pieniä työkaluja|||
 kiär|s.|kiäräč|(B) kiäräčč|связка, пучок|kimppu||||||
 |s.|ümbärišt|(Hj) ümbär’ištö (LT4 219)||ympäristö||||||
 |s.|Sifke|(Td, N) Sifke|Сивка, кличка сивой лошади|tummanharmaan hevosen puhuttelunimi||||||
@@ -4670,8 +4670,8 @@ vähäine|adv. dem.|vähäižin|(B, Td) vähäižin||vähitellen|(B, Td) veži v
 |s.|kaineh|(Td) kain'eh, -t|эхо|kaiku|(Td) kain'eh kuuluu mecäs|эхо слышится в лесу|kaiku kuuluu metsässä|||
 |v.|hubeta I|(B) hube/ta, -ndan||pienentää||||||
 |v.|hubeta II|(Td, N) hube/ta, -nou, -n'||vähetä, pienetä|(N) huben' künabraksei suoi|убавилось до локтя|pieneni kyynärvarren suuruiseksi|||
-aganad|s.|aganad|agan, -an, -ad||akana, jyvän kuori (ohran, kauran)||||||
-agan|s. mon.|aganad|agan/ad, -oid||akanat||||||
+aganad|s.|agan|agan, -an, -ad||akana, jyvän kuori (ohran, kauran)||||||
+agan, aganod|s. mon.|aganad|agan/ad, -oid||akanat||||||
 aganad|s. mon.|aganod|(B, Pk) agano/d, -id|высевки, остатки при просеивании|akanat||||||
 |a.|anukselaine|(Hj) anukšilain'e (LT4 11) ~ (N) anuks'ilaine||aunukselainen||||||
 *-därvelaine|a. yhd.|kendärvelaine|(Hj) ken'/d'är'vilain'e (LT4 35)|кончезерский, кончеозерский; кончезерец, житель Кончезера|kenjärveläinen, Kenjärven||||||
