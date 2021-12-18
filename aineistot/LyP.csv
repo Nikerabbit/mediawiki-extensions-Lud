@@ -459,7 +459,7 @@ ala|kieltov.|ei|ei, en, ed, emme, ette, ei|не|ei, eivät |emme kiištägöi|н
 ei, olda|part. yhd.|iele|eule ~ (N) eile ~ (B, Td, N) eulo|нет|ei ole|eule d'oudod hällei|ему недосуг|hän ei jouda|eule vie lahnankudun aig|ещё не (наступило) время нереста леща|ei ole (tullut) vielä lahnankudun aika
 |part. yhd.|iele||||karkk on lambaz, kudam eule suanu vuon'id vie|ярка - овца, которая ещё не имеет ягнят|karkko on lammas, joka ei ole karitsoinut vielä|||
 |v.|elävzuttada|eläuzu/ttada, -tan, -t'in|оживлять|herättää henkiin, viroittaa henkiin||||||
-muanitelta|s.|emindam|emin'd'im, -än, -äd; -id; (B, Pk, K, Nn) emindam, -an, -ad; (B) -oid|мачеха|emintimä, äitipuoli||||||
+muahine|s.|emindam|emin'd'im, -än, -äd; -id; (B, Pk, K, Nn) emindam, -an, -ad; (B) -oid|мачеха|emintimä, äitipuoli||||||
 |s.|emust|emust, -an, -ad; -oiden,-oid|нижняя часть женской рубахи|naisen paidan alaosa||||||
 emäč, emäpuu, muam|s.|emä|em/ä, -än, -äd; -iden, -id|мать, родительница; самка; киль|äiti, emo; naaras; emäpuu (veneen), köli (LyK)||||||
 emäsiga|s. yhd.|emäpočč|(B) ema/počč ~ emä/počči||||||||
@@ -2518,11 +2518,10 @@ pihk, terv|s.|ruga|ruga, -n, -d|смола (сухая)|kuusenpihka (kuiva)|||||
 ruoč, suomelaine|s.|ruočak|(Td) ruoča/kk, -kon, -kkod; -koid|финка, лютеранка|suomalainen nainen, luterilainen nainen||||||
 |s.|ruozme|ruozme, -gen, -tt; -gid|ржавчина, ржа|ruoste; ruosteinen vesi||||||
 kiviruopaz|s.|ruopaz|ruo/paz, -ppahan, -past; -ppahid|груда, каменная куча, куча камней (на поле)|röykkiö, kiviröykkiö, kivikasa (pellolla)||||||
-rupid|s. mon.|rupud|(Td, Pk, N) rupud|морщины|rypyt||||||
-ruppi|s.|rupp II|(Td, Pk, N) ru/ppu, -pun, -ppud|морщина|ryppy||||||
-selgruod|s.|rupp I|(B, N) ru/ppu, -pun, -ppud|спинной плавник|selkäevä (pistävä, LyP)||||||
-|s. mon.|rupid|(B) rupid|морщины|rypyt||||||
-|s.|ruppi|(B) ru/ppi, -pin, -ppid|морщина|ryppy||||||
+rupp I; rupid|s. mon.|rupud|(Td, Pk, N) rupud|морщины|rypyt||||||
+|s.|rupp I|(B) ru/ppi, -pin, -ppid; (Td, Pk, N) ru/ppu, -pun, -ppud|морщина|ryppy||||||
+selgruod|s.|rupp II|(B, N) ru/ppu, -pun, -ppud|спинной плавник|selkäevä (pistävä, LyP)||||||
+rupp I|s. mon.|rupid|(B) rupid|морщины|rypyt||||||
 rusked|a.|rusap|rusa/pp, -pan, -ppad; -poid|красноватый, коричневатый, светло-коричневый, русак|punertava, ruskeahtava, vaaleanruskea||||||
 |a.|rusked|ruske/d, -dan, -dad; -d'iden, -d'id|красный; коричневый; рыжий|punainen, punakka, punertava, ruskea|kukšoi on rusked l'ind, mečäss eläu|кукша - красноватая птица, в лесу живёт|kuukkeli on punertava lintu, metsässä elää|||
 |a.|rusked||||must, rusked čiihoi |чёрная, красная смородина|musta-, punaherukka|must'in l'ibo rusked'iden kird'oiden ker lentočk|ленточка с чёрным или красным узором|mustan- tahi ruskeankirjava nauha
@@ -3047,7 +3046,7 @@ sluav|s.|čest'|(Kn) čes't', -in, -id|честь|kunnia||||||
 |s.|šiželik|čid'žel'iusk ~ čid'žil'iusk, -un, -ud; -uid|ящерица|sisilisko||||||
 |s.|čidžoi|čid'žo/i, -in, -id; -loid|старшая сестра (сестрица)|sisko; vanhemman siskon puhuttelunimi||||||
 |s.|čiep|(B, Ks, Lh) čie/pp, -pin, -ppid; -piid||||||||
-vezik, vezihiir'|s.|čihk|čihk, -an, -ad; -oid|норка (животное)|tuhkuri, vesikko; hylje||||||
+vezik I, vezihiir'|s.|čihk|čihk, -an, -ad; -oid|норка (животное)|tuhkuri, vesikko; hylje||||||
 čihv, čihver', haiker, hidžv, kuačk|s.|hädžv|(Td) häd'žv, -än, -äd|угар|häkä||||||
 čihv, hädžv|s.|hiidžv|(N) hid'žv/(e) ~ hiidžv, -an, -ad|угар, чад|kitku, tiku, häkä|(N) hid'žvän las'k|стало угарно|häkä laskeutui|||
 čihver', haiker, hiidžv, hädžv, kuačk|s.|čihv|čihv, -an, -ad|угар, чад|häkä, kitku,  kisu, höyry|(B) čihv d’uobuttau |угар кружит голову|häkä pyörryttää|(Td) külüs on čihv, d'uobuttau| в бане чадно, кружит голову|saunassa on kitku, pyörryttää
@@ -3263,7 +3262,7 @@ venččah (lähtä)|v. refl.|venčaitakse|ven'čai/zetta, -zen, -me|венчат
 vesselduda|v.|vesselzuda|ves'elzü/dä, -n, -in; -u, -i|повеселеть, развеселиться|ilostua, tulla iloiselle tuulelle, päihtyä||||||
 ilo, vesselduz|a.|vessel'|ves's'el', -än, -äd; -iid; (B) ves's'el', -an, -ad; -oid; (Td) ves's'el, -än, -äd; -id; (N) vessel'|весёлый; весёлье|iloinen, hauska; iloinen mieliala, hilpeä mieliala||||||
 humalas|s.|vessel'as|(N) vessel'as|навеселе|iloisella tuulella, humalassa||||||
-čihk, vezik|s. yhd.|vezihiir'|(B) vez'i/hiir'||||||||
+čihk, vezik I|s. yhd.|vezihiir'|(B) vez'i/hiir'||||||||
 |s. yhd.|vezilind|veži/l'ind|водоплавающая птица; трясогузка|vesilintu; västäräkki||||||
 |s.|velg|velg, -an, -ad; -oid|долг|velka||||||
 velgnik|a.|velgahine|velgahi/n'e, -žen, -št; -židen, -žid|обязанный, задолжавший, должник|velallinen, velkainen, velkaantunut|(Td) velgahin'e talo|задолжавший дом|velkaantunut talo|||
@@ -4682,3 +4681,4 @@ peskumua|s.|liettežik|(Hj) liettežikko (LT4 133)|пески, песчаная 
 liettežik|s. yhd.|peskmua|(Hj) pesku/mua (LT4 133)|пески, песчаная почва|hiekkamaa||||||
 hongik, mändik, pedajik, pedaižik|s.|pedajik|(Hj) pedajikko (LT4 179)|сосняк|petäjikkö|(Hj) heil ol'i pedajikkod da l'iettežikkod (LT3 394)|у них был сосняк и песчаная почва|heillä oli petäjikköä ja hietamaata|||
 korend|s. yhd.|vezikorend|veži/korend ~ (Kn) vezi/korendo|стрекоза; коромысло|sudenkorento; korento||||||
+|s.|zvoda|(B) zvod, -an, -ad|взвод|plutoona|(B) zvodad|взвода|plutoonat|||

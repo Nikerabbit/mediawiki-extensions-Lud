@@ -7,7 +7,7 @@
 
 WIKI=sanat.csc.fi
 WIKI=sanat.nikerabb.it
-OUTPUT=output-2021-09-24
+OUTPUT=output-2021-12-27
 rm -rf "$OUTPUT"
 mkdir "$OUTPUT"
 php import.php --wiki=$WIKI "$OUTPUT" \
