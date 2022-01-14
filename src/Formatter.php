@@ -21,7 +21,7 @@ class Formatter {
 				continue;
 			}
 
-			// We already have place holder, append to it
+			// We already have placeholder, append to it
 			if ( $out[$id]['type'] === 'disambiguation' ) {
 				$out[$id]['pages'][] = $entry;
 				continue;
@@ -38,7 +38,7 @@ class Formatter {
 
 		// Pass 2: add KK as POS to entries missing it
 		foreach( $out as $id => $x ) {
-			if ( $entry['type'] === 'disambiguation' ) {
+			if ( $x['type'] === 'disambiguation' ) {
 				continue;
 			}
 
@@ -48,7 +48,7 @@ class Formatter {
 			}
 		}
 
-		// Pass 3: make honomyns have unique page names
+		// Pass 3: make homonyms have unique page names
 		foreach ( $out as $i => $entry ) {
 			if ( $entry['type'] !== 'disambiguation' ) {
 				continue;
@@ -98,10 +98,7 @@ class Formatter {
 			}
 
 			echo "Sanalle $id löytyi $c eri sanaluokatonta artikkelia. Ohitetaan.\n";
-
-			foreach ( $z as $index => $i ) {
-				unset( $entries[$id] );
-			}
+			unset( $entries[$id] );
 		}
 
 		return $entries;
@@ -201,7 +198,7 @@ class Formatter {
 					$bb = isset( $b[$o] ) ? 1 : - 1;
 					$cmp = ( $aa ) <=> ( $bb );
 					if ( $cmp !== 0 ) {
-						return - $cmp;
+						return -$cmp;
 					}
 				}
 			}

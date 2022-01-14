@@ -110,7 +110,7 @@ class ImportMaintenanceScript extends Maintenance {
 		return $dedup;
 	}
 
-	protected function mergeItems( $a, $b ) {
+	protected function mergeItems( $a, $b ): array {
 		$cases = $a['cases'];
 
 		if ( $a['cases']['lud-x-south'] !== $b['cases']['lud-x-south'] ) {

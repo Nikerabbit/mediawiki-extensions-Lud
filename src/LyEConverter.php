@@ -68,7 +68,7 @@ class LyEConverter {
 		' ',
 	];
 
-	public function parse( $content ) {
+	public function parse( $content ): array {
 		// Break into lines, not a perf issue with our file size
 		$lines = explode( PHP_EOL, $content );
 
@@ -89,7 +89,7 @@ class LyEConverter {
 		}
 
 		$out = [];
-		foreach ( $lines as $i => $line ) {
+		foreach ( $lines as $line ) {
 			if ( $this->isHeader( $line ) ) {
 				continue;
 			}
@@ -104,11 +104,11 @@ class LyEConverter {
 		return $out;
 	}
 
-	public function isHeader( $line ) {
+	public function isHeader( $line ): bool {
 		return strpos( $line, '.' ) === false && mb_strlen( $line, 'UTF-8' ) <= 4;
 	}
 
-	public function parseLine( $line ) {
+	public function parseLine( $line ): array {
 		// Redirects
 		if ( preg_match( '/^(.+) ks\. (.+)$/', $line, $match ) ) {
 			return [
@@ -163,7 +163,7 @@ class LyEConverter {
 		throw new Exception( '[LyE] Rivin jäsentäminen epäonnistui:' );
 	}
 
-	public function splitTranslations( $string ) {
+	public function splitTranslations( $string ): array {
 		if ( strpos( $string, ' / ' ) === false ) {
 			throw new Exception( "[LyE] Käännöksissä häikkää: *$string*" );
 		}
@@ -179,7 +179,7 @@ class LyEConverter {
 		];
 	}
 
-	public function splitExamples( $string ) {
+	public function splitExamples( $string ): array {
 		$string = trim( $string );
 		$ret = [];
 		$re =

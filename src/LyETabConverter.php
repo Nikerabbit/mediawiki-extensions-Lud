@@ -11,7 +11,7 @@ use RuntimeException;
  * @license GPL-2.0-or-later
  */
 class LyETabConverter {
-	public function parse( $filepath ) {
+	public function parse( $filepath ): array {
 		$in = self::getLinesFromCsvFile( $filepath );
 
 		$out = [];
@@ -75,7 +75,7 @@ class LyETabConverter {
 		return $in;
 	}
 
-	public function parseLine( $x ) {
+	public function parseLine( $x ): array {
 		if ( !$x[1] ) {
 			throw new RuntimeException( '[LyE] Sanaluokka puuttuu' );
 		}

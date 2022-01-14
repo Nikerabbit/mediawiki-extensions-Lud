@@ -32,9 +32,7 @@ class LyKKTabConverter {
 			}
 		}
 
-		$out = $this->mergeDuplicates( $out );
-
-		return $out;
+		return $this->mergeDuplicates( $out );
 	}
 
 	public function parseLine( array $x ): array {

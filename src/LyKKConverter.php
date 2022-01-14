@@ -31,7 +31,7 @@ class LyKKConverter {
 		}
 
 		$out = [];
-		foreach ( $lines as $i => $line ) {
+		foreach ( $lines as $line ) {
 			if ( $this->isHeader( $line ) ) {
 				continue;
 			}
@@ -50,7 +50,7 @@ class LyKKConverter {
 		return $out;
 	}
 
-	public function isHeader( $line ) {
+	public function isHeader( $line ): bool {
 		if ( strpos( $line, '.' ) === false && mb_strlen( $line, 'UTF-8' ) <= 4 ) {
 			return true;
 		}
@@ -62,7 +62,7 @@ class LyKKConverter {
 		return false;
 	}
 
-	public function parseLine( $line ) {
+	public function parseLine( $line ): array {
 		// References to other words
 		$links = [];
 		if ( preg_match( "~, ?ср\. ?(.+)$~u", $line, $match ) ) {
@@ -103,7 +103,7 @@ class LyKKConverter {
 		throw new Exception( '[LyKK] Rivin jäsentäminen epäonnistui' );
 	}
 
-	public function splitTranslations( $string ) {
+	public function splitTranslations( $string ): array {
 		return [
 			'ru' => LyKTabConverter::splitTranslations( $string ),
 		];

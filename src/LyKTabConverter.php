@@ -11,7 +11,7 @@ use RuntimeException;
  * @license GPL-2.0-or-later
  */
 class LyKTabConverter {
-	public function parse( $filepath ) {
+	public function parse( $filepath ): array {
 		$in = LyETabConverter::getLinesFromCsvFile( $filepath );
 		$out = [];
 		foreach ( $in as $line ) {
@@ -28,12 +28,10 @@ class LyKTabConverter {
 			}
 		}
 
-		$out = $this->mergeDuplicates( $out );
-
-		return $out;
+		return $this->mergeDuplicates( $out );
 	}
 
-	public function parseLine( $x ) {
+	public function parseLine( $x ): array {
 		// 0 - synonyymit
 		// 1 - hakusana
 		// 2 - keskilyydi Ph
@@ -109,9 +107,7 @@ class LyKTabConverter {
 			$translations[$i] = str_replace( array_keys( $ph ), array_values( $ph ), $t );
 		}
 
-		$translations = array_filter( $translations );
-
-		return $translations;
+		return array_filter( $translations );
 	}
 
 	private function mergeDuplicates( array $x ): array {

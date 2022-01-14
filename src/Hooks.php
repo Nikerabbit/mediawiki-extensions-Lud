@@ -7,6 +7,7 @@ use ContentHandler;
 use Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Storage\SlotRecord;
+use ObjectCache;
 use OutputPage;
 use Parser;
 use Title;
@@ -37,13 +38,11 @@ class Hooks {
 			return Html::element( 'abbr', [ 'title' => $abbs[$m[1]] ], $m[1] );
 		};
 
-		$text = preg_replace_callback( $pattern, $cb, $text );
-
-		return $text;
+		return preg_replace_callback( $pattern, $cb, $text );
 	}
 
 	public static function getAbbreviations() {
-		$cache = wfGetCache( CACHE_ANYTHING );
+		$cache = ObjectCache::getInstance( CACHE_ANYTHING );
 		$key = 'lud-abbs-v2';
 		$data = $cache->get( $key );
 		if ( is_array( $data ) ) {
