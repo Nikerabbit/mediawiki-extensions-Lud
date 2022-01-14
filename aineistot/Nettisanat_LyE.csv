@@ -405,10 +405,10 @@ kuakištada, tupehtuttada|v.|duavida|duav/da, -ib, -ii|давить, душит�
 |s.|dupl’or|dupl’or, -an, -ad|дублёр|varanäyttelijä, vuorottelija|||||||||
 turbiž|s.|durm|dur’m ~ nur'm (KTK), -en, -ed; -iin, -iid|дёрн; лужайка, газон|nurmi, nurmikko|||||||||
 |s.|dušš|duš, -an, -ad|душ|suihku|||||||||
-duuh|s. mon.|duuhud|duuhu/d, -in, -id (KTK)|духи; запахи|hajuvesi; hajut|||||||||
-|s.|duuh II|duuh, -un, -ud; -uin, -uid|дух, запах|haju|||||||||
+duuh II|s. mon.|duuhud|duuhu/d, -in, -id (KTK)|духи; запахи|hajuvesi; hajut|||||||||
+duuh I|s.|duuh II|duuh, -un, -ud; -uin, -uid|дух, запах|haju, henki|no tulob aig, i tul’ii d’o, konz ist’innuud kumardajad rubetaze kumardamahakse Tuatal’e duuhul ist’innuul (ND) kirj.|но настанет время, и настало уже, когда истинные поклонники будут поклоняться Отцу в духе и истине (в истинном духе)|tulee aika – ja se on jo nyt – jolloin oikeat rukoilijat rukoilevat Isää hengessä ja totuudessa (totuuden hengessä)||||||
 |a.|duuhukaz|duhuka/z, -han, -st; -hiin, -hiid (IL)|душистый|tuoksuva|||||||||
-|s.|duuh I|duuh, -an, -ad|дух|henki|||||||||
+duuh II|s.|duuh I|duuh, -an, -ad|дух|henki|||||||||
 |s.|dvigatel’|dvigat’el’|двигатель|moottori, kone|||||||||
 |s.|dvoik|dvoik, -an, -ad|двойка|kakkonen|||||||||
 |s.|dvorč|dvorc, -an, -ad|дворец|palatsi|||||||||
@@ -1819,7 +1819,8 @@ muna|s. mon.|munavad|munavad (PN)|яйчки (у барана)|kivekset, munat (
 |a.|müödäine|müöda/an’e, -ažen, -št; -ažiin, -ažiid|попутный|myötäinen|||||||||
 |adv.|müöhä|müöhä ~ müöhää (KTK)|поздно|myöhään|||||||||
 |a.|müöhäine|müöhä/än’e, -äžen, -št; -äžiin, -äžiid|поздний|myöhäinen|||||||||
-|v.|müöhästuda|müöhästu/da, -b, -i; -taze, -t’ihe|опаздывать, опоздать, запоздать, прозевать|myöhästyä|žiäl’, ku miä müöhästuin|жаль, что я опоздал|sääli, että minä myöhästyin|müöhästut'ihe (KTK)|(они) опоздали|myöhästyttiin|||
+|v.|müöhästuda|müöhästu/da, -b, -i; -taze, -t’ihe|опаздывать, опоздать, запоздать, прозевать|myöhästyä|žiäl’, ku miä müöhästuin|жаль, что я опоздал|sääli, että minä myöhästyin||||||
+|v.|müöhästuda||||müöhästut'ihe (KTK)|(они) опоздали|myöhästyttiin||||||
 |v. frekv.|müöhästelta|müöhästü/l’da, -l’ob, -l’ ~ -l’ii (KTK)|опаздывать, запаздывать|myöhästellä|||||||||
 |a.|müöhästunu|müöhästunu, -den, -t; -z’iin, -z’iid|запоздалый|myöhästynyt|||||||||
 |s.|müöhästuz|müöhästu/z, -sen, -st; -s’iin, -s’iid|опоздание|myöhästys|||||||||
@@ -3195,7 +3196,7 @@ tühdäle|adv.|tühdäks|t'ühd'aks (KTK)|попусту|turhaan|||||||||
 purg|s.|tuhu|tuhu, -n, -d; -in, -id|метель, буран, вьюга|lumipyry, pyry, lumimyrsky|||||||||
 |a.|tüün'|t'üün' ~ t'üin' (KTK)|тихо (о погоде)|tyyni|||||||||
 |v.|tükita|t’ükita|конопатить|tilkitä, rivetä|||||||||
-|s.|tukk|tukk, tukun, tukkud; tukuin, tukuid (IL)|кипа|tukku, pinkka|||||||||
+|s.|tukk II|tukk, tukun, tukkud; tukuin, tukuid (IL)|кипа|tukku, pinkka|||||||||
 |adv.|tukul|tukul (IL)|оптом, гуртом|tukussa, kokonaan|||||||||
 |a.|tülč|t’ül’č, -an, -ad|тупой|tylsä|||||||||
 |v.|tülčeta|t’ül’če/ta, -nob, -n’ ~ -n’ii; -taze, -t’ihe|тупеть, отупеть|tylsyä|||||||||
@@ -3227,17 +3228,17 @@ pilv, purg, tuhu|s.|tuuč|tuuč, -an, -ad; -iin, -iid|метель, грозов
 kogota, ottada (irdale), puhtastada|v.|uberida|uber’i/da, -b, -i; -taze, -t’ihe|убирать, убрать, прибирать, прибрать|korjata, siivota, siistiä, korjata pois, koota korjuuseen, viedä tieltä, viedä pois, viedä talteen |||||||||
 puhtastada|v. refl.|uberidakse|uber’i/dakse, -že, -ihe(ze)|убираться|sivota, tehdä siivous|||||||||
 puhtastuz|s.|uberind|uber’ind, -an, -ad|уборка|keruu; siivous|hein’än uber’indan aiga|во время уборки сена|heinän korjuun aikana||||||
-puhtastuz, uberind|s.|ubork|ubork, -an, -ad|уборка|siivous|||||||||
-puhtastaj|s.|uboršic|uboršic, -an, -ad|уборщица|siivooja|||||||||
-paust|s.|učastk|učastk, -an, -ad|участок|palsta|||||||||
+puhtastuz, uberind|s.|ubork|ubork, -an, -ad; -uun, -uud|уборка|siivous|||||||||
+puhtastaj|s.|uboršic|uboršic, -an, -ad; -uun, -uud|уборщица|siivooja|||||||||
+paust|s.|učastk|učastk, -an, -ad; -uun, -uud|участок|palsta|||||||||
 opastada, opastuda|v.|uččida|učta, uččib, učii; uč(i)taze, uč(i)t'ihe|учить, научить, обучать, обучить|oppia, opettaa|(Pal) l’iid’ikš učtaze|учат на людиковском|lyydin kielellä opetetaan||||||
-opastundkird'|s.|učebnik|učebn’ik, -an, -ad|учебник|oppikirja|||||||||
-opastuj|s.|učenik|učen’ik, -an, -ad|ученик|oppilas|||||||||
-opastaj|s.|učitel’|učit’el’, -an, -ad|учитель, педагог|opettaja, pedagogi|||||||||
-oza|s.|udaač|uddač  (KTK) ~ udaač (IL) , -an, -ad|удача|lykky, onni, menestys|||||||||
+opastundkird'|s.|učebnik|učebn’ik, -an, -ad; -uun, -uud|учебник|oppikirja|||||||||
+opastuj|s.|učenik|učen’ik, -an, -ad; -uun, -uud|ученик|oppilas, opetuslapsi|(Pal) učen'ikad hänen l'äht'ihe l'idnaha osmaha süömišt (ND) kirj.|ученики его отлучились в город купить пищи|hänen opetuslapsensa ovat menneet kaupunkiin ostamaan ruokaa||||||
+opastaj|s.|učitel’|učit’el’, -an, -ad; -uun, -uud|учитель, педагог|opettaja, pedagogi|učitel’an ol'ii Zout'ikouv (OF) kirj.|учителем был Зотиков|opettajana oli Zotikov||||||
+oza|s.|udaač|uddač  (KTK) ~ udaač (IL), -an, -ad; -uun, -uud|удача|lykky, onni, menestys|||||||||
 |s.|udar|udar|"вымя
 "|utaret|||||||||
-|s.|uhab|uhab, -an, -ad|ухабина|kuoppa|||||||||
+haud|s.|uhab|uhab, -an, -ad; -uun, -uud|ухабина|kuoppa|||||||||
 |num. yhd.|üheksatošt|ühesa/tošt|девятнадцать|yhdeksäntoista|||||||||
 |num. yhd.|üheksakümment|ühesa/küment|девяносто|yhdeksänkymmentä|||||||||
 |num. yhd.|üheksasadad|ühesa/sadad|девятьсот|yhdeksänsataa|||||||||
@@ -3321,7 +3322,8 @@ vägeh|adv.|väges|väges (KTK)|насилу|vaivoin|||||||||
 |a. yhd.|*-vezine|*-vez'i/in’e, -ižen, -št; -ižiin, -ižiid|*-водный|*-vetinen|vähävez’iin’e|маловодный|vähävetinen||||||
 |v.|väheta I|vähe/ta, -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|уменьшать, уменьшить, сокращать, сократить|vähentää|||||||||
 |v.|väheta II|vähe/ta ~ vähä/ta, -nob, -n’ ~ -n’ii; -taze, -t’ihe|уменьшаться, уменьшиться, сокращаться, сократиться, становиться меньше|vähetä, vähentyä, pienetä|l'üüdïkuud d'oga vuoden vähenob (IL) kirj.|людиков каждый год становится меньше|joka vuosi lyydiläisten määrä vähenee||||||
-|v.|väheta II||||n’ügüö kalad om vähenu| теперь рыбы стало меньше |nyt kaloja on vähennyt|l’ehman pidand om vähänu|содержание коров сократилось|lehmien pitäminen on vähentynyt|||
+|v.|väheta II||||n’ügüö kalad om vähenu| теперь рыбы стало меньше |nyt kaloja on vähennyt||||||
+|v.|väheta II||||l’ehman pidand om vähänu|содержание коров сократилось|lehmien pitäminen on vähentynyt||||||
 |s.|vuoz'||||l'üüdïkuud d'oga vuoden vähenob (IL) kirj.|людиков каждый год становится меньше|joka vuosi lyydiläisten määrä vähenee||||||
 |pron. taipum.|d'oga||||l'üüdïkuud d'oga vuoden vähenob (IL) kirj.|людиков каждый год становится меньше|joka vuosi lyydiläisten määrä vähenee||||||
 |s.|lüüdikoi||||l'üüdïkuud d'oga vuoden vähenob (IL) kirj.|людиков каждый год становится меньше|joka vuosi lyydiläisten määrä vähenee||||||
@@ -3916,7 +3918,7 @@ elgeta|v.|smekaida|smeka/ada, -ab, -a; -ataze, -at’ihe (KTK)|смекать|ho
 |s.|stali|stal', -in, -id (KTK)|сталь|teräs|||||||||
 |s.|stuan|stuan, -an, -ad; -uun, -uud|||magat’ihe stuanal|ночевали в становище |metsämajassa nukuttiin||||||
 |v.|magata||||magat’ihe stuanal|ночевали в становище |metsämajassa nukuttiin||||||
-lüödä, pergada|v.|st'ogaida|st'oga/ada, -ab, -a; -ataze, -at’ihe (KTK)|стегать|piestä, ruoskia, piiskata|||||||||
+lüödä, pergada|v.|stögaida|st'oga/ada, -ab, -a; -ataze, -at’ihe (KTK)|стегать|piestä, ruoskia, piiskata|||||||||
 suovpuud|s. yhd.|suovpuu|suu- ~ suov(a)/puu (KTK)|стожар|heinäsuovan salko, heinäsuovan pystypuu|||||||||
 suovpuu|s.|stožar|stožar, -an, -ad (KTK)|стожар|heinäsuovan salko, heinäsuovan pystypuu|||||||||
 lieta, lienou; tabata|s.|hvuattida|hvua/t'ta ~ -tta (KTK), -t'ib, -t'ii; -t'taze, -t't'ihe|хватать, схватить; хватить|siepata, ottaa kiinni|||||||||
@@ -3969,3 +3971,9 @@ todištuz|s. yhd.|sviditel’an/olendad|sviditel’an/olend (ND)|свидете�
 |pron. yhd.|ni ken||||i n'i ken ei priimi hänen svid’it’el’an ol'endad (ND) kirj.|и никто не принимает свидетельства его|mutta kukaan ei ota vastaan hänen todistustaan||||||
 |a.|muahine|muahi/in’e, -ižen, -št; -ižiin, -ižiid|земной|maallinen, maasta oleva|i sanub kutt ol'ij muahiin'e  (ND) kirj.|и говорит как сущий от земли|ja puhuu kuin maasta oleva||||||
 |a.|olij|ol'ij, -an, -ad|сущий|oleva|i sanub kutt ol'ij muahiin'e  (ND) kirj.|и говорит как сущий от земли|ja puhuu kuin maasta oleva||||||
+|hn.|Zotikov|Zot'iko/u ~ Zout'iko/uv (OF), -van, -vad; -uun, -uud|Зотиков|Zotikov|učitel’an ol'ii Zout'ikouv (OF) kirj.|учителем был Зотиков|opettajana oli Zotikov||||||
+oiged, todehine|a.|istinnoi|ist'inn/ij, -uun, -uud|истинный|oikea, todellinen, totinen|no tulob aig, i tul’ii d’o, konz ist’innuud kumardajad rubetaze kumardamahakse Tuatal’e duuhul ist’innuul (ND) kirj.|но настанет время, и настало уже, когда истинные поклонники будут поклоняться Отцу в духе и истине (в истинном духе)|tulee aika – ja se on jo nyt – jolloin oikeat rukoilijat rukoilevat Isää hengessä ja totuudessa (totuuden hengessä)||||||
+|a.|kumardaj|kumardaj, -an, -ad|кланяющийся, поклонник|kumartava, palvova, palvoja|no tulob aig, i tul’ii d’o, konz ist’innuud kumardajad rubetaze kumardamahakse Tuatal’e duuhul ist’innuul (ND) kirj.|но настанет время, и настало уже, когда истинные поклонники будут поклоняться Отцу в духе и истине (в истинном духе)|tulee aika – ja se on jo nyt – jolloin oikeat rukoilijat rukoilevat Isää hengessä ja totuudessa (totuuden hengessä)||||||
+Sünd|hn.|Iisus|Iisus, -an, -ad|Иисус|Jeesus|Iisus sanui hänel’e vastaha (ND) kirj.|Иисус сказал ей в ответ|Jeesus vastasi hänelle||||||
+|s.|D’ovanhelij|Evangel'ij (ND)|Евангелие|evankeliumi|Evangel'ij Ioannad müöt'i (ND) kirj.|Евангелие от Иоанна|Evankeliumi Johanneksen mukaan||||||
+Iivan|hn.|Ioann|Ioann, -an, -ad|Иоанн|Johannes|Evangel'ij Ioannad müöt'i (ND) kirj.|Евангелие от Иоанна|Evankeliumi Johanneksen mukaan||||||
