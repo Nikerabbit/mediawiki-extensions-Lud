@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pacha Tchernof"
+		]
+	},
+	"sanat-lud-desc": "Инструментарий для словаря людиковского языка",
+	"sanat-da": "У этого слова есть несколько значений:",
+	"sanat-entry-examples": "Примеры",
+	"sanat-entry-seealso": "Посмотрите также",
+	"sanat-entry-translations": "Переводы",
+	"sanat-entry-forms": "Формы",
+	"sanat-entryform-baseform": "Основная форма:",
+	"sanat-entryform-pos": "Часть речи:",
+	"sanat-entryform-langdesc": "Описание диалекта",
+	"sanat-entryform-formsdesc": "Флексии",
+	"sanat-entryform-addform": "Добавить форму",
+	"sanat-entryform-addtranslation": "Добавить перевод",
+	"sanat-entryform-addexample": "Добавить пример",
+	"sanat-lc-en": "Английский",
+	"sanat-lc-fi": "Финский",
+	"sanat-lc-lud": "Письменный людиковский",
+	"sanat-lc-lud-x-middle": "Средней людиковский",
+	"sanat-lc-lud-x-north": "Северный людиковский",
+	"sanat-lc-lud-x-south": "Южный людиковский",
+	"sanat-lc-ru": "Русский",
+	"sanat-lc-und": "Неизвестный язык"
+}
