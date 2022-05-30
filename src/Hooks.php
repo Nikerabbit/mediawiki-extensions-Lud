@@ -6,7 +6,7 @@ namespace MediaWiki\Extensions\Lud;
 use ContentHandler;
 use Html;
 use MediaWiki\MediaWikiServices;
-use MediaWiki\Storage\SlotRecord;
+use MediaWiki\Revision\SlotRecord;
 use ObjectCache;
 use OutputPage;
 use Parser;
@@ -55,7 +55,7 @@ class Hooks {
 		$revision = $store->getRevisionByTitle( $source );
 		if ( $revision !== null ) {
 			$contents = ContentHandler::getContentText(
-				$revision->getContent(SlotRecord::MAIN )
+				$revision->getContent( SlotRecord::MAIN )
 			);
 
 			if ( $contents ) {
