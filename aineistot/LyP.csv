@@ -352,8 +352,8 @@ d'alo, d'alos(ti)|adv.|d'aloli|d'aloli|очень, сильно|kovin, kovasti|t
 |s.|d'alg||||(Lmo) jaugas on kengad (AT 181)|на ногах сапоги|jalassa on kengät|d'algad vägi pit'käd|ноги довольно длинные|melko pitkät jalat
 |s.|deneral|d'eneral, -an, -ad; -oid|генерал|kenraali||||||
 |s.|deretnik|d'eret'n'i/k ~ -kk, -kän, -kkäd; -köiden, -köid|деретник|lurjus (haukkumasana)||||||
-deng, raha|s.|deng|d'eng, -an, -ad; -oiden, -oid|деньга, деньги|raha||||||
-|s. mon.|dengad|d'eng/ad, -oiden, -oid|деньги|raha||||||
+deng, raha|s.|deng|d'eng, -an, -ad; -oiden, -oid; (Kn, N) d'en'g, -an, -ad; -oid|деньга, деньги|raha|(N) heng on kallehemb d'en'gad|жизнь дороже денег|elämä on kalliimpi rahaa|||
+|s. mon.|dengad|d'eng/ad, -oiden, -oid; (Kn, N) d'en'g/ad, -oid|деньги|raha||||||
 sudre, tühdäle|adv.|dielota|d'ielottai|зря, без дела|turhaan||||||
 |s.|died|d'ied/o, -an, -ad; -doiden, -doid; (B, Pk) d'ied; (Td) d'ied'|дед|isoisä||||||
 died, dedoi, did'oi|s. dem.|diedoi|(B) d'iedoi|дед, дедушка|isoisä, ukki||||||
@@ -459,13 +459,13 @@ ala|kieltov.|ei|ei, en, ed, emme, ette, ei|не|ei, eivät |emme kiištägöi|н
 ei, olda|part. yhd.|iele|eule ~ (N) eile ~ (B, Td, N) eulo|нет|ei ole|eule d'oudod hällei|ему недосуг|hän ei jouda|eule vie lahnankudun aig|ещё не (наступило) время нереста леща|ei ole (tullut) vielä lahnankudun aika
 |part. yhd.|iele||||karkk on lambaz, kudam eule suanu vuon'id vie|ярка - овца, которая ещё не имеет ягнят|karkko on lammas, joka ei ole karitsoinut vielä|||
 |v.|elävzuttada|eläuzu/ttada, -tan, -t'in|оживлять|herättää henkiin, viroittaa henkiin||||||
-mramor|s.|emindam|emin'd'im, -än, -äd; -id; (B, Pk, K, Nn) emindam, -an, -ad; (B) -oid|мачеха|emintimä, äitipuoli||||||
+muahine|s.|emindam|emin'd'im, -än, -äd; -id; (B, Pk, K, Nn) emindam, -an, -ad; (B) -oid|мачеха|emintimä, äitipuoli||||||
 |s.|emust|emust, -an, -ad; -oiden,-oid|нижняя часть женской рубахи|naisen paidan alaosa||||||
 emäč, emäpuu, muam|s.|emä|em/ä, -än, -äd; -iden, -id|мать, родительница; самка; киль|äiti, emo; naaras; emäpuu (veneen), köli (LyK)||||||
 emäsiga|s. yhd.|emäpočč|(B) ema/počč ~ emä/počči||||||||
-|s.|emandoičuz|emändöičü/z, -st|хозяйничание|emännyys, emännöiminen||||||
-|v.|emandoita|emändöi/dä, -čen, -čin; -ččöu|хозяйничать|emännöidä||||||
-|s.|emand|emänd, -än, -äd; -öiden, -öid ~ -id|хозяйка|emäntä||||||
+|s.|emändoičuz|emändöičü/z, -st|хозяйничание|emännyys, emännöiminen||||||
+|v.|emändoita|emändöi/dä, -čen, -čin; -ččöu|хозяйничать|emännöidä||||||
+|s.|emänd|emänd, -än, -äd; -öiden, -öid ~ -id|хозяйка|emäntä||||||
 emä|s. yhd.|emäpuu|emä/puu|киль|emäpuu (veneen), köli||||||
 emä, emävö|s.|emäč|emä/č, -čün, -ččüd; -čüiden, -čüid|самка; подхвостница |naaras, imisä, narttu; synnytinreikä (lehmän)||||||
 |adv. yhd.|ende-egläi|end/egläi|позавчера|toissapäivänä||||||
@@ -625,7 +625,9 @@ loppida|v.|heittada|hei/t't'ädä, -t'än, -t'in; -t't'äu|опускать, б�
 |v.|helišta|(Td) heli/šta, -žöu, -ž||helistä||||||
 hellida|v.|hellittada|hel'l'i/ttädä, -tän, -t'in; -ttäu|забрасывать монету в ямку (играть)|saada raha kuoppaan (heittämällä rahapelissä)||||||
 ruumen|s.|helbe|hel'be, -gen, -tt; -gid|мякина (овсяная), семенная оболочка, пелева|helve (kauran)||||||
-südäm, südämkera|s.|heng|heng, -en, -ed; -iden, -id|душа; сердце|henki, sielu; sydän|(N) t'ükkäu heng|бъётся сердце|sykkii sydän|heng t'ükettäu ründähis|сердце бъётся в груди|sydän sykkii rinnassa
+elo; südäm, südämkera|s.|heng|heng, -en, -ed; -iden, -id|душа, жизнь; сердце|henki, sielu, elämä; sydän|heng t'ükettäu ründähis|сердце бъётся в груди|sydän sykkii rinnassa|||
+|s.|heng||||(N) t'ükkäu heng|бъётся сердце|sykkii sydän|||
+|s.|heng||||(N) heng on kallehemb d'en'gad|жизнь дороже денег|elämä on kalliimpi rahaa|||
 |v.|hengittada|(B) hengi/ttada, -tan, -t'in||||||||
 |s.|hengituz|(N) hengitus|дыхание|hengitys, hengittäminen||||||
 hengahtelta, hengästeltakse|s.|hengida|(N) hengi/da, -u|вздыхать, вздохнуть|huoata, huokaista|(N) pitkahaze hengiu|тяжело вздыхает|syvään huokaisee|||
@@ -1454,8 +1456,8 @@ sulg|s.|künä|(Td) kün'ä||||||||
 |v.|kiimida|kiimi/dä, -n, -in; -täu, -t't'ii|быть в гоне|kiimailla, olla kiimoillaan; olla vallaton||||||
 huolitand, huolituz|s.|kiireh|kiireh, -en, -t|спешка|kiire||||||
 huolittada|v.|kiirehtada|kiireh/tädä, -tän, -t'in; -tettau|спешить, торопиться; торопить, ускорять|kiirehtiä, kiiruhtaa||||||
-kiišk, d'oršiine|s. dem.|kiiškine|kiški/n'e, -žen, -št; -židen, -žid|ёршик|kiiski (pieni)|kiškižiden kere tul'i haug|с ершиками попалась щука|pikku kiiskien kera tuli hauki (pyydykseen) |||
-kiišk|s. mon.|kiiškad|kiišk/ad, -oid|кишки|suolet, sisälmykset||||||
+kiišk II, d'oršiine|s. dem.|kiiškine|kiški/n'e, -žen, -št; -židen, -žid|ёршик|kiiski (pieni)|kiškižiden kere tul'i haug|с ершиками попалась щука|pikku kiiskien kera tuli hauki (pyydykseen) |||
+kiišk I|s. mon.|kiiškad|kiišk/ad, -oid|кишки|suolet, sisälmykset||||||
 |adv.|kiištah|kiištaa|соревноваться|kilpaa||||||
 |s.|kiišt|kiišt, -an, -tad; -toid|спор|kiista, kina, riita, kilpa||||||
 |v.|kiittada|kii/t't'ädä, -t'än, -t'in; -t'etäu, -t'et't'ii|благодарить, хвалить, величать|kiittää, kehua, ylistää||||||
@@ -1668,7 +1670,7 @@ därv, suvi|s.|meri|me/r'i, -ren, -rd; -r'id|море; юг; озеро|meri; et
 air|s.|mela|mel/a, -an, -ad; -oid|кормовое весло |mela, perämela||||||
 |v.|mielduda|miel'du/da, -n, -in; -u, -i|полюбить, влюбиться|mieltyä, rakastua; tulla järkiinsä, viisastua|mielduin šinuu|я влюдился в тебя|rakastuin sinuun|||
 |a. kar.|mieletoi|miele/töin'e, -ttömän, -töšt; -ttömid|безумный, сумасшедший|mieletön, hullu, järjetön||||||
-muailm|s.|mier|mier, -on, -od|мир, свет|miero, maailma||||||
+miir, muailm|s.|mier|mier, -on, -od|мир, свет|miero, maailma||||||
 tarkas(ti)|adv.|mietko|mietko|точно|tarkasti||||||
 |a.|mielev|miel'o/u ~ miel'e/u, -van, -vad; -void, -vembi|умный|mielevä, järkevä, älykäs, viisas||||||
 |v.|miettida|mie/t't'idä, -t'in, -t'iin; -t't'iu; -t'it't'ii|целиться, прицеливаться|tähdätä||||||
@@ -4682,3 +4684,4 @@ liettežik|s. yhd.|peskmua|(Hj) pesku/mua (LT4 133)|пески, песчаная
 hongik, mändik, pedajik, pedaižik|s.|pedajik|(Hj) pedajikko (LT4 179)|сосняк|petäjikkö|(Hj) heil ol'i pedajikkod da l'iettežikkod (LT3 394)|у них был сосняк и песчаная почва|heillä oli petäjikköä ja hietamaata|||
 korend|s. yhd.|vezikorend|veži/korend ~ (Kn) vezi/korendo|стрекоза; коромысло|sudenkorento; korento||||||
 |s.|zvoda|(B) zvod, -an, -ad|взвод|plutoona|(B) zvodad|взвода|plutoonat|||
+|a. komp.|kallehemb|kallehembi ~ (Lh, N) kallehemb|||(N) heng on kallehemb d'en'gad|жизнь дороже денег|elämä on kalliimpi rahaa|||

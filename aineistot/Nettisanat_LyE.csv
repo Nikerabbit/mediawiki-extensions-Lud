@@ -72,7 +72,7 @@ matktavarad|s.|bagaž|bagaž, -an, -ad; -uun, -uud|багаж|pakaasi, matkatava
 pardenajo, pera, splava|s.|lesnoi|(Js) l'esnuo, -n, -d|лесосплав, сплав леса|puutavaran uitto, puutavara|(Js) kevädel ajet'ihe l'esnuod (OF)|весной сплавляют лес|keväällä uitettiin puutavaraa||||||
 |s.|lesnoi||||bagruul l'esnuod ajataze (KTK)|баграми лес гонят|hakoja käytetään puutavaran uitossa||||||
 |s.|lesnoi||||(Js) minun bratan kävel' l'esnuohe kaševaraks (OF)|мой двоюродный брат ходил на сплав леса кашеваром|minun serkkuni kävi puutavaran uitossa puuronkeittäjänä||||||
-|adv.|kevädel||||(Js) kevädel ajet'ihe l'esnuod (OF)|весной сплавляют лес|keväällä uitettiin puutavaraa||||||
+keväz|adv.|kevädel||||(Js) kevädel ajet'ihe l'esnuod (OF)|весной сплавляют лес|keväällä uitettiin puutavaraa||||||
 |v.|ajada||||(Js) kevädel ajet'ihe l'esnuod (OF)|весной сплавляют лес|keväällä uitettiin puutavaraa||||||
 |v.|ajada||||bagruul l'esnuod ajataze (KTK)|баграми лес гонят|hakoja käytetään puutavaran uitossa||||||
 |s.|bratan|bratan, -an, -ad; -uun, -uud|двоюродный брат |serkku, miesserkku|(Js) minun bratan kävel' l'esnuohe kaševaraks (OF)|мой двоюродный брат ходил на сплав леса кашеваром|minun serkkuni kävi puutavaran uitossa puuronkeittäjänä||||||
@@ -466,7 +466,9 @@ eländkoht|s. yhd.|eländsija|el’änt/s’ija|местожительство, 
 |a.|eläv||||häin andaaž sil’ii el’äbad vett (ND) kirj.|он дал бы тебе живой воды |hän antaisi sinulle elävää vettä||||||
 elävaze|adv.|elävalleh|el’äbal'eze|заживо|elävältä|||||||||
 elävalleh|adv.|elävaze|el’äbaze|живьём, заживо|elävältä|||||||||
-kuonduda, virgota|v.|elävduda|el’äbdu/da, -b, -i; -taze, -t’ihe|оживать, ожить, выживать, выжить, воскресать, воскреснуть; выздороветь|elpyä, parantua; herätä henkiin, nousta kuolleista|häin el'äbdub (KTK)|он выздоровеет|hän parantuu|hüö el'äbdutaze (KTK)|они выздоровеют|he parantuvat|||
+kuonduda, virgota|v.|elävduda|el’äbdu/da, -b, -i; -taze, -t’ihe|оживать, ожить, выживать, выжить, воскресать, воскреснуть; выздороветь|elpyä, parantua; herätä henkiin, nousta kuolleista|häin el'äbdub (KTK)|он выздоровеет|hän parantuu||||||
+|v.|elävduda||||hüö el'äbdutaze (KTK)|они выздоровеют|he parantuvat||||||
+|v.|elävduda||||kuol'ijad el'äbdutaze (ND) kirj.|мёртвые оживут|kuolleet saavat elää||||||
 |s.|električk|el’ektr’ičk, -an, -ad; -uun, -uud|электричка|sähköjuna|||||||||
 |s.|elektrikoi|el’ektr’ik, -an, -ad; -uun, -uud|электрик|sähkömies|||||||||
 |s. yhd.|elektrobritv|el’ektro/br’itv|электробритва|sähköpartakone|||||||||
@@ -967,7 +969,7 @@ kaksinaižed|s. mon.|kaksižed|kaks’iiž/ed, -iin, -iid (IL)|двойня, д�
 |s.|kalbas|kalbas, -an, -ad|колбаса|makkara|||||||||
 |s.|kalek|kal’ek, -an, -ad|калека|rampa|||||||||
 |s.|kalendar’|kal’endar’|календарь|kalenteri|||||||||
-|adv.|kallehemb|kal’hemb|дороже|kalliimpi|||||||||
+|a. komp.|kallehemb|kal’hemb, -an, -ad; -iin, -iid|дороже|kalliimpi|||||||||
 |adv.|kallehes|kal’hes|дорого|kalliilla, kalliisti|||||||||
 |v.|kallištuda|kal’l’ištu/da, -b, -i; -taze, -t’ihe|дорожать, подорожать|kallistua|||||||||
 piälik|s.|kamander|komand’ir, -an, -ad; -uun, -uud (KTK)|командир|päällikkö, komentaja|||||||||
@@ -1058,7 +1060,7 @@ kehä, kehäine, kela|s.|katušk|katušk, -an, -ad|катушка|kela|||||||||
 |s.|kävünd|kävünd ~ (Pal) kävind, -an, -ad|хождение, посещение; побывка|käynti|||||||||
 |s.|kazačih||казачка|kasakkanainen|||||||||
 |s.|kazačih|kazačih, -an, -ad; -uun, -uud|наёмная работница, батрачка|palkkalainen, batrakki, piika|||||||||
-|s.|kazak|kazak, -an, -ad; -uun, -uud|наёмный работник, батрак|palkkalainen, batrakki, renki|(Js) torgovuon poig kazakan (OF)|сын торговца в батраках|kauppamiehen poika (on) renkinä||||||
+|s.|kazak|kazak, -an, -ad; -uun, -uud|наёмный работник, батрак|palkkalainen, batrakki, renki|(Js) torgovuon poig kazakan (OF) kirj.|сын торговца в батраках|kauppamiehen poika (on) renkinä||||||
 |s.|kazak||казак|kasakka|||||||||
 |s. yhd.|käziastij|käzest’ij (IL)|рукомойник, умывальник|pesulaite|||||||||
 kaži|s. yhd.|emäkaži|ema/kaži|кошка|naaraskissa|||||||||
@@ -1550,8 +1552,7 @@ ongrihm, rihm, siim|s.|lesk I|l’esk, -an, -ad|леска|siima|||||||||
 |s.|lespromhoz|l’espromhoz, -an, -ad|леспромхоз|metsäteollisuuspiiri|||||||||
 |s.|ležank|ležank, -an, -ad; -uun, -uud|||||||||||
 |s.|leug|l’eig, -an, -ad|подбородок|leuka|l'eigan al (LMS 225)|под подбородоком|leuan alla||||||
-|a. komp.|levedemb|l’evedemb, -an, -ad|шире, более широкий|leveämpi|||||||||
-|adv. komp.|levedemb|l’evedemb|шире|leveämpi|||||||||
+|a. komp.|levedemb|l’evedemb, -an, -ad; -iin, -iid|более широкий; шире|leveämpi|||||||||
 |s. yhd.|levednena|l’eved/n’ena|широконосый|leveänenäinen|||||||||
 |s. yhd.|levedocc|l’eved/occ|широколобный|leveäotsainen|||||||||
 |s. yhd.|levedroža|l’eved/roža|широколицый|leveäkasvoinen|||||||||
@@ -1937,12 +1938,14 @@ ribuhine|a.|ribuikaz|ribuika/z, -han, -st; -hiin, -hiid (KTK)|ободранны
 |adv. yhd.|ni kunne|n’i kune|никуда|minnekään, mihinkään|ando meid’em pajuužed ei n’i kune häjekuu! laul.|пусть наши песенки никуда не исчезнут!|älkööt meidän laulumme minnekään kadotko!||||||
 |adv. yhd.|ni konz|n’i konz|никогда|konsanaan, koskaan, milloinkaan |kävel’ob s’inne-t’änne, ei viäzu n’i konz (uks’). arv. |ходит туда-сюда, не устаёт никогда (дверь)|kävelee sinne-tänne, ei koskaan väsy (ovi)||||||
 |pron. yhd.|ni ken|n’i ken|никто|kukaan|n’i kenen|ничей|ei (ole) kenenkään||||||
+ni ken, ni mi|pron. yhd.|ni kudam|n’i kudamb ~ kudam|никоторый, ни один|kukaan, mikään|i n’i kudam ei sannu (ND) kirj.|и ни один не сказал|mutta kukaan ei sanonut||||||
 |s. yhd.|ni kenen|n’i kenen (IL)|ничья|tasapeli|||||||||
 |adv. yhd.|ni kus|n’i kus|нигде, негде|missään|||||||||
 |adv. yhd.|ni kuspiä|n’i kus/piä|ниоткуда, неоткуда|mistään, ei ole mistä|||||||||
 |adv. yhd.|ni kut|n’i kutt|никак|mitenkään|||||||||
 |pron. yhd.|ni mi|n’i mii|ничто|mikään|||||||||
-|adv. yhd.|ni mida|n’i mida|ничего, нисколько|mitään, yhtään|n’i mida ei maksa (IL)|ничего не стоит, грош цена|ei maksa mitään|očkiita buab n’i mida ei n’äge|без очков бабушка ничего не видит|ilman laseja mummo ei näe mitään|||
+|adv. yhd.|ni mida|n’i mida|ничего, нисколько|mitään, yhtään|n’i mida ei maksa (IL)|ничего не стоит, грош цена|ei maksa mitään|ei n’i mida häjotada (ND) kirj.|ничего не погубить|ettei mitään hävitettäisi|||
+|adv. yhd.|ni mida||||očkiita buab n’i mida ei n’äge (IL) kirj.|без очков бабушка ничего не видит|ilman laseja mummo ei näe mitään||||||
 |pron. yhd.|ni mitte|n’i mit’t’e|никакой|mikään|||||||||
 |adv. yhd.|ni vähäšt|n’i vähäšt|ничуть|vähääkään|||||||||
 irvištelta|v.|niärittada|n’iär’i/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|дразнить, передразнивать|kiusata, pilkata, ärsyttää, pitää pilkkanaan|||||||||
@@ -2653,7 +2656,8 @@ repp, šalg|s.|rügzak|r’ugzak, -an, -ad|рюкзак|reppu|||||||||
 |v.|ruostuda|ruostu/da, -b, -i; -taze, -t’ihe|ржаветь, заржаветь|ruostua|veič ruostui (KTK)|нож заржавел|veitsi ruostui||||||
 |s.|ruostunduz|ruostundu/z, -sen, -st; -s’iin, -s’iid (IL)|ржавение|ruostuminen|||||||||
 |a.|ruostunu|ruostunu, -den, -t; -z’iin, -z’iid|ржавый|ruostunut|||||||||
-|s.|ruozme|ruozme, -n, -t|ржавчина|ruoste|ruozme ištuihe raudal'e|ржавчина села на железо|rauta ruostui|raud om ruozmes|железо заржавело, железо покрылось ржавчиной|rauta on ruostunut|||
+|s.|ruozme|ruozme, -n, -t|ржавчина|ruoste|ruozme ištuihe raudal'e|ржавчина села на железо|rauta ruostui||||||
+|s.|ruozme||||raud om ruozmes|железо заржавело, железо покрылось ржавчиной|rauta on ruostunut||||||
 |s.|rupp I|rupi (IL)|морщина; складка|ryppy|||||||||
 |s.|rupikaz|rupika/z, -han, -st; -hiin, -hiid|морщинистый|ryppyinen|||||||||
 |s.|rupištada|rupiš/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|морщить|rypistää|||||||||
@@ -2985,7 +2989,8 @@ hämästuz|s.|sürpriz|s’urpr’i/s, -zan, -zad (IL)|сюрприз|yllätys||
 |s.|šurup|šurup, -an, -ad|шуруп|ruuvi|||||||||
 |s. dem.|šurupaine|šurupa/an’e, -ažen, -št; -ažiin, -ažiid|шурупчик|ruuvi (pieni)|||||||||
 |v.|sütüttada|s’üt’ü/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe|зажечь, воспламенить|sytyttää|||||||||
-|s.|suud|suud|суд|tuomio|||||||||
+|s.|suud|suud, -an, -ad|суд|tuomio, oikeudenkäynti|anduu hänel'e pidada suudan (ND) kirj.|дал ему производить суд|antoi hänelle tuomiovallan||||||
+|s.|suud||||suadaze igaan'e elo i suudaha ei tulguu (ND) kirj.|имеют вечную жизнь и на суд не приходят|(he) saavat ikuisen elämän eivätkä joudu tuomittaviksi||||||
 |s.|suuhud|suuhu/t, -den, -t|ротик|suu (pieni)|||||||||
 |s. yhd.|suulagi|suu/lagi|нёбо|kitalaki|||||||||
 |s.|suup|suup, -an, -ad; -iin, -iid|суп|keitto, soppa|||||||||
@@ -2994,7 +2999,8 @@ hämästuz|s.|sürpriz|s’urpr’i/s, -zan, -zad (IL)|сюрприз|yllätys||
 |s.|šuurin|šuur’in, -an, -ad|шурин|lanko|||||||||
 |s.|šuutk|šuutk, -an, -ad; -iin, -iid|шутка|vitsi|||||||||
 üöpäiv|s. mon.|suutkad|sutk/ad ~  suutk/ad, -iin, -iid|сутки|vuorokausi|ühtet sutkad ruaduon (KTK)|я работал одни сутки|vuorokauden työskentelin||||||
-üks'|num.-pron. mon.|ühted|ühted, üks'iin, üks'iid|одни|yhdet|ühtet sutkad ruaduon (KTK)|я работал одни сутки|vuorokauden työskentelin|üks'iiš trus'iiš|в одних трусах|vain alushousut päällä|||
+üks'|num.-pron. mon.|ühted|ühted, üks'iin, üks'iid|одни|yhdet|ühtet sutkad ruaduon (KTK)|я работал одни сутки|vuorokauden työskentelin||||||
+|num.-pron. mon.|ühted||||üks'iiš trus'iiš|в одних трусах|vain alushousut päällä||||||
 |v.|šuuttida|šuu/tta, -t'ib, -t'ii; -ttaze, -t't'ihe|шутить|laskeä leikkiä, tehdä pilaa|||||||||
 verduda|v. refl.|suuttudakse|suutu/dakse, -ze, -ihe(ze) (IL)|разозлиться|suuttua|||||||||
 verduttada|v.|suututtada|suutu/tada, -tab, -t’ ~ -t’ii; -tetaze, -tet’ihe (IL)|злить|suututtaa|||||||||
@@ -3070,7 +3076,8 @@ tänäpäine|a.|tänämbäine|(Yl) t’änänbä/än’e, -äžen, -št; -äžii
 |a.|tarttuj|tartuj, -an, -ad|липкий, цепкий; инфекционный|tarttuva|||||||||
 |s.|tartund|tartund, -an, -ad|инфекция|tartunta|||||||||
 |v. frekv. refl.|tartuteltakse|tartute/l’dakse, -l’eze, -l’iihe(ze) (IL)|приставать|tartutella|||||||||
-|v.|täüttäda|t’äi/tta ~ -ttä (KTK), -tan, -t'iin; -tab, -t’ ~ -t’ii; -ttaze, -t't'ihe|наполнять, наполнить, заполнять, заполнить,  дополнять, дополнить, пополнять, пополнить,  набивать, набить|täyttää, täydentää|t'äittaze (KTK)|(они) заполняют|täytetään|t'äit't'ihe (KTK)|(они) заполнили|täytettiin|häin t'äit'ii (KTK)|он дополнил|hän täydensi
+|v.|täüttäda|t’äi/tta ~ -ttä (KTK), -tan, -t'iin; -tab, -t’ ~ -t’ii; -ttaze, -t't'ihe|наполнять, наполнить, заполнять, заполнить,  дополнять, дополнить, пополнять, пополнить,  набивать, набить|täyttää, täydentää|t'äittaze (KTK)|(они) заполняют|täytetään|t'äit't'ihe (KTK)|(они) заполнили|täytettiin|||
+|v.|täüttäda||||häin t'äit'ii (KTK)|он дополнил|hän täydensi||||||
 |s.|tavar|tavar, -an, -ad; -uun, -uud|товар|tavara|pošt s’igapiä tuod’ihe, tavar laukuuhe|почту привозили оттуда, товар для лавок|postia sieltä kuljetettiin, tavaroita puoteihin||||||
 |adv.|tazaižesti|tazaažest’i|плавно|tasaisesti|||||||||
 |s.|teem|t’eema, -n, -d (IL)|тема|teema|||||||||
@@ -3149,7 +3156,7 @@ kestada|v.|tirppada|t’irp/ta, -ab; -taze, -t’ihe|терпеть|kestää, k�
 |s.|torg|torg, -un, -ud|торг, торговля|kauppa, kaupankäynti, kaupanpito|(Js) tul’el’t’ihe hebuol tauvel torgun ke|приезжали на лошадях зимой торговать (с торгом)|kävivät hevosilla talvella kauppaamassa (kaupan kanssa)||||||
 torguita|v.|torguida|torgu/ida, -ib, -i; -itaze, -it'ihe|торговать, продавать|harjoittaa kauppaa, käydä kauppaa, myydä|tauvel torguitaze |зимой торгуют|talvella käyvät kauppaa||||||
 torg|s.|torguind|torguind, -an, -ad (KTK)|торговля|kauppaaminen, kaupankäynti, kaupanpito|||||||||
-torguiččij, torgouč|s.|torgovoi|(Js) torgovuo, -n, -d|торговец|kauppamies|(Js) torgovuon poig kazakan (OF)|сын торговца в батраках|kauppamiehen poika (on) renkinä||||||
+torguiččij, torgouč|s.|torgovoi|(Js) torgovuo, -n, -d|торговец|kauppamies|(Js) torgovuon poig kazakan (OF) kirj.|сын торговца в батраках|kauppamiehen poika (on) renkinä||||||
 |s.|törk|t’örk, -an, -ad|тёрка|raastinrauta|||||||||
 |v.|törkita|t’örkita|тереть, натереть, тёркать|raastaa|||||||||
 |s. mon.|torosad|torosad|торосы|ahtojäät|||||||||
@@ -3196,7 +3203,6 @@ tühdäle|adv.|tühdäks|t'ühd'aks (KTK)|попусту|turhaan|||||||||
 purg|s.|tuhu|tuhu, -n, -d; -in, -id|метель, буран, вьюга|lumipyry, pyry, lumimyrsky|||||||||
 |a.|tüün'|t'üün' ~ t'üin' (KTK)|тихо (о погоде)|tyyni|||||||||
 |v.|tükita|t’ükita|конопатить|tilkitä, rivetä|||||||||
-|s.|tukk II|tukk, tukun, tukkud; tukuin, tukuid (IL)|кипа|tukku, pinkka|||||||||
 |adv.|tukul|tukul (IL)|оптом, гуртом|tukussa, kokonaan|||||||||
 |a.|tülč|t’ül’č, -an, -ad|тупой|tylsä|||||||||
 |v.|tülčeta|t’ül’če/ta, -nob, -n’ ~ -n’ii; -taze, -t’ihe|тупеть, отупеть|tylsyä|||||||||
@@ -3211,9 +3217,9 @@ kuor'|s.|tuoh|tuoh, -en, -t; -iin, -iid|берёста|tuohi|||||||||
 |s.|tuohuz|tuohu/z, -sen, -st; -s’iin, -s’iid|свеча|tuohus, kynttilä|||||||||
 tuomižik|s.|tuomik|(Yl) tuumik, -on, -od; -uun, -uud|черёмушник|tuomisto|||||||||
 tuomik|s.|tuomižik|(Pal) tuomižik, -on, -od; -uun, -uud|черёмушник|tuomisto|||||||||
-|v.|tüötä|t’üö/ta ~ -tä (KTK), -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|отправлять, отправить, посылать, послать, присылать, прислать, направлять, направить, высылать, выслать |lähettää|||||||||
-|s. yhd.|turbaaz|tur/baza, -n, -d|турбаза|turistiasema|||||||||
-|s.|turbin|turbin, -an, -ad|турбина|turbiini|||||||||
+|v.|tüötä|t’üö/ta ~ -tä (KTK), -ndab, -nd’ž ~ -nd’žii; -taze, -t’ihe|отправлять, отправить, посылать, послать, присылать, прислать, направлять, направить, высылать, выслать |lähettää|(Pal) mija t’üönčiin teid rahmaha (ND) kirj.|я послал вас жать|minä lähetin teidät korjaamaan satoa||||||
+|s. yhd.|turbaaz|tur/baza, -bazan, -bazad|турбаза|turistiasema|||||||||
+|s.|turbin|turbin, -an, -ad; -uun, -uud|турбина|turbiini|||||||||
 |v.|turbota|turvota (IL)|разбухать|turvota|||||||||
 |s.|turk|turk, -an, -ad|турок|turkkilainen|||||||||
 |s.|türm|t’ür’m ~ t'ur'm (KTK), -an, -ad|тюрьма|vankila, tyrmä|||||||||
@@ -3735,7 +3741,7 @@ mecankävüj, mecnik|s. yhd.|meccmiez|mecc- ~ mečč/miez’|охотник, п�
 |adv.|siid I||||a jesl'i ku vihmas keväz, ka siit pidab vierta|а если когда дождливая весна,  то тогда нужно палить подсеку|mutta silloin kun on sateinen kevät, niin sitten täytyy viertää (kaskea)||||||
 |konj.|a I||||a jesl'i ku vihmas keväz, ka siit pidab vierta|а если когда дождливая весна,  то тогда нужно палить подсеку|mutta silloin kun on sateinen kevät, niin sitten täytyy viertää (kaskea)||||||
 |konj.|ku||||a jesl'i ku vihmas keväz, ka siit pidab vierta|а если когда дождливая весна,  то тогда нужно палить подсеку|mutta silloin kun on sateinen kevät, niin sitten täytyy viertää (kaskea)||||||
-|s.|keväz|kevä/z’, -den, -t; -z’iin, -z’iid|весна|kevät|a jesl'i ku vihmas keväz, ka siit pidab vierta|а если когда дождливая весна,  то тогда нужно палить подсеку|mutta silloin kun on sateinen kevät, niin sitten täytyy viertää (kaskea)||||||
+kevädel|s.|keväz|kevä/z’, -den, -t; -z’iin, -z’iid|весна|kevät|a jesl'i ku vihmas keväz, ka siit pidab vierta|а если когда дождливая весна,  то тогда нужно палить подсеку|mutta silloin kun on sateinen kevät, niin sitten täytyy viertää (kaskea)||||||
 čagar', čagoi|s.|čagar|čagar/o, -on, -od (LMS 439)|мизинец|pikkusormi|||||||||
 miel', mozgud|s.|mozg|mozg|мозг|aivot|||||||||
 püü|s. dem.|püühüd|püühu/t, -den, -tt; -z’iin, -z’iid ~ püühü(i)t’t’i (OFMa)|рябчик, рябчичек|pyy (pieni)|püühüit’t’i püräht’ii (OFMa) loits.|рябчик вспорхнул|pyy pyrähti||||||
@@ -3838,8 +3844,8 @@ kate|s. yhd.|piälelevitez|piäl'e/l'evitez (KTK)|покрывало|peite||||||
 |s.|pualič|pal'/č, -čan, -čad; -čuun, -čuud  (KTK)|||||||||||
 sangeta|v.|däreta|d'äre/ta ~ d'are/ta (KTK), -nob, -n’ ~ -n’ii; -taze, -t’ihe|полнеть, толстеть, потолстеть|vahveta, paksuta|||||||||
 uudim|s.|polog|polog, -an, -ad (KTK)|полог|vuodeverho, vuoteenuudin|||||||||
-suada|v.|polučaida|poluča/ada, -ab, -a; -ataze, -at’ihe (KTK)|получать|saada|||||||||
-suada|v.|poluččida|poluči/da, -b, -i; -taze, -t’ihe (KTK)|получить|saada|||||||||
+poluččida, suada|v.|polučaida|poluča/ada, -ab, -a; -ataze, -at’ihe (KTK)|получать|saada|||||||||
+polučaida, suada|v.|poluččida|poluči/da, -b, -i; -taze, -t’ihe (KTK)|получить, получать|saada|rahnoj polučib nagradaks igaažen elon (ND) kirj.|жнущий получает в награду вечную жизнь|sadonkorjaaja saa palkaksi iankaikkisen elämän||||||
 sulaim|s.|polond'|polond', -an, -ad (KTK)|полынья|railo|||||||||
 tolk|s.|pol'z|pol'z/(a), -an, -ad|польза, толк|hyöty|azut’ihe pol’z(a)|сделали пользу| tuotettiin hyötyä||||||
 mielduda|v.|pol'ubida|pol'ubi/da, -b, -i; -taze, -t’ihe (KTK)|полюбить|mieltyä, rakastua|||||||||
@@ -3977,3 +3983,11 @@ oiged, todehine|a.|istinnoi|ist'inn/ij, -uun, -uud|истинный|oikea, todel
 Sünd|hn.|Iisus|Iisus, -an, -ad|Иисус|Jeesus|Iisus sanui hänel’e vastaha (ND) kirj.|Иисус сказал ей в ответ|Jeesus vastasi hänelle||||||
 |s.|D’ovanhelij|Evangel'ij (ND)|Евангелие|evankeliumi|Evangel'ij Ioannad müöt'i (ND) kirj.|Евангелие от Иоанна|Evankeliumi Johanneksen mukaan||||||
 Iivan|hn.|Ioann|Ioann, -an, -ad|Иоанн|Johannes|Evangel'ij Ioannad müöt'i (ND) kirj.|Евангелие от Иоанна|Evankeliumi Johanneksen mukaan||||||
+|s.|rahnoj|rahnoj, -an, -ad; -iin, -iid|жнец, жнущий|elonleikkaaja, leikkaaja, sadonkorjaaja, korjaaja|rahnoj polučib nagradaks igaažen elon (ND) kirj.|жнущий получает в награду вечную жизнь|sadonkorjaaja saa palkaksi iankaikkisen elämän||||||
+|s.|rahnoj||||s’iemendaj i rahnoj ühtes vessel’dumaha rubetaze (ND) kirj.|сеющий и жнущий вместе радоваться будут|kylväjä saa iloita yhdessä korjaajan kanssa||||||
+palk|s.|nagrad|nagrad, -an, -ad; -uun, -uud (KTK)|награда|palkinto, palkka|rahnoj polučib nagradaks igaažen elon (ND) kirj.|жнущий получает в награду вечную жизнь|sadonkorjaaja saa palkaksi iankaikkisen elämän||||||
+ihastuda|v.|vesselduda|ves's'el'du/da, -b, -i|веселиться, радоваться|iloita|s’iemendaj i rahnoj ühtes vessel’dumaha rubetaze (ND) kirj.|сеющий и жнущий вместе радоваться будут|kylväjä saa iloita yhdessä korjaajan kanssa||||||
+|s.|siemendaj|s'iemendaj, -an, -ad|сеятель, сеющий|kylväjä|s’iemendaj i rahnoj ühtes vessel’dumaha rubetaze (ND) kirj.|сеющий и жнущий вместе радоваться будут|kylväjä saa iloita yhdessä korjaajan kanssa||||||
+hein|s.|heinik|hein'ik, -on, -od|трава, заросли травы|heinikko, nurmi|vierd’ihe hein’ikoho narod (ND) kirj.|люди легли на траву|ihmiset paneutuivat pitkäkseen nurmelle||||||
+kirik|s.|hrama|hram, -an, -ad (ND)|храм|temppeli|konz učiimuu hramas (ND) kirj.|когда я учился в храме| kun opiskelin temppelissa||||||
+|s.|hrama||||huomesel meste tul'ii hramaha (ND) kirj.|утром опять пришёл в храм|aamulla hän tuli taas temppeliin||||||

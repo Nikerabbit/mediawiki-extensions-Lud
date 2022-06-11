@@ -5,20 +5,18 @@
 # LyKK-SU: docx -> ods with copy paste -> csv with export using | as delimiter
 # LyP (lud-x-north): xlsx -> csv with export using | as delimiter
 
-WIKI=sanat.csc.fi
-WIKI=sanat.nikerabb.it
-OUTPUT=output-2022-01-14
+OUTPUT=output-2022-06-11
 rm -rf "$OUTPUT"
 mkdir "$OUTPUT"
-php import.php --wiki=$WIKI "$OUTPUT" \
+php import.php "$OUTPUT" \
   --LyE-txt=aineistot/LyE.txt \
   --LyE-csv=aineistot/Nettisanat_LyE.csv \
   --LyK=aineistot/LyK_Simonas.csv \
   --LyKK-txt=aineistot/LyKK.txt \
   --LyKK-csv=aineistot/LyKK-SU.csv \
   --LyP=aineistot/LyP.csv
-php list-pages-to-delete.php "$OUTPUT" --wiki=$WIKI > todelete.txt
+php list-pages-to-delete.php "$OUTPUT" > todelete.txt
 cd ../..
-php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/mw --wiki=$WIKI
-php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/"$OUTPUT" --wiki=$WIKI
-php maintenance/deleteBatch.php extensions/Lud/todelete.txt  --wiki=$WIKI
+php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/mw
+php extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/"$OUTPUT"
+php maintenance/deleteBatch.php extensions/Lud/todelete.txt
