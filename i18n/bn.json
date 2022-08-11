@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"আজিজ",
 			"আফতাবুজ্জামান"
 		]
 	},
 	"sanat-lud-desc": "লুডিক অভিধানের জন্য সরঞ্জামকরণ",
 	"sanat-da": "এই শব্দটির একাধিক অর্থ রয়েছে:",
 	"sanat-entry-examples": "উদাহরণ",
-	"sanat-entry-seealso": "আরো দেখুন",
+	"sanat-entry-seealso": "আরও দেখুন",
 	"sanat-entry-translations": "অনুবাদসমূহ",
 	"sanat-entryform-addtranslation": "অনুবাদ যোগ করুন",
 	"sanat-entryform-addexample": "উদাহরণ যোগ করুন",
