@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"sanat-lud-desc": "Ferramentas para dicionário de ludic",
+	"sanat-da": "Esta palavra tem vários significados:",
+	"sanat-entry-examples": "Exemplos",
+	"sanat-entry-seealso": "Ver também",
+	"sanat-entry-translations": "Traduções",
+	"sanat-entry-forms": "Formas",
+	"sanat-entryform-baseform": "Forma de base:",
+	"sanat-entryform-pos": "Parte do discurso:",
+	"sanat-entryform-langdesc": "Descrição do dialeto",
+	"sanat-entryform-formsdesc": "Flexões",
+	"sanat-entryform-addform": "Acrescentar forma",
+	"sanat-entryform-addtranslation": "Acrescentar tradução",
+	"sanat-entryform-addexample": "Acrescentar exemplo",
+	"sanat-lc-en": "Inglês",
+	"sanat-lc-fi": "Finlandês",
+	"sanat-lc-lud": "Ludic escrito",
+	"sanat-lc-lud-x-middle": "Ludic central",
+	"sanat-lc-lud-x-north": "Ludic do norte",
+	"sanat-lc-lud-x-south": "Ludic do sul",
+	"sanat-lc-ru": "Russo",
+	"sanat-lc-und": "Língua desconhecida"
+}
