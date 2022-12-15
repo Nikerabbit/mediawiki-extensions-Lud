@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kly"
+			"Kly",
+			"捍粵者"
 		]
 	},
 	"sanat-lud-desc": "用於盧迪茨語辭典的工具",
-	"sanat-da": "這個字有多種含意：",
+	"sanat-da": "這字有多種意思：",
 	"sanat-entry-examples": "範例",
 	"sanat-entry-seealso": "參見",
 	"sanat-entry-translations": "翻譯",
