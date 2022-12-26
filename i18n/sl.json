@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"sanat-lud-desc": "Orodja za slovar ludijščine",
+	"sanat-da": "Ta beseda ima več pomenov:",
+	"sanat-entry-examples": "Zgledi",
+	"sanat-entry-seealso": "Glej tudi",
+	"sanat-entry-translations": "Prevodi",
+	"sanat-entry-forms": "Oblike",
+	"sanat-entryform-baseform": "Osnovna oblika:",
+	"sanat-entryform-pos": "Del govora:",
+	"sanat-entryform-langdesc": "Opis narečja",
+	"sanat-entryform-formsdesc": "Skloni",
+	"sanat-entryform-addform": "Dodaj obliko",
+	"sanat-entryform-addtranslation": "Dodaj prevod",
+	"sanat-entryform-addexample": "Dodaj zgled",
+	"sanat-lc-en": "Angleščina",
+	"sanat-lc-fi": "Finščina",
+	"sanat-lc-lud": "Pisana ludijščina",
+	"sanat-lc-lud-x-middle": "Srednja ludijščina",
+	"sanat-lc-lud-x-north": "Severna ludijščina",
+	"sanat-lc-lud-x-south": "Južna ludijščina",
+	"sanat-lc-ru": "Ruščina",
+	"sanat-lc-und": "Neznan jezik"
+}
