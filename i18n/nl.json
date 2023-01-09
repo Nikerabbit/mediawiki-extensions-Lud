@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"McDutchie"
 		]
 	},
 	"sanat-da": "Dit woord heeft meerdere betekenissen:",
 	"sanat-entry-examples": "Voorbeelden",
 	"sanat-entry-seealso": "Zie ook",
 	"sanat-entry-translations": "Vertalingen",
-	"sanat-entry-forms": "Formulieren",
+	"sanat-entry-forms": "Vormen",
 	"sanat-entryform-langdesc": "Dialectbeschrijving",
 	"sanat-entryform-addtranslation": "Vertaling toevoegen",
 	"sanat-entryform-addexample": "Voorbeeld toevoegen",

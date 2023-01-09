@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"sanat-lud-desc": "Utensiles pro le dictionario Ludic",
+	"sanat-da": "Iste parola ha plure significatos:",
+	"sanat-entry-examples": "Exemplos",
+	"sanat-entry-seealso": "Vide etiam",
+	"sanat-entry-translations": "Traductiones",
+	"sanat-entry-forms": "Formas",
+	"sanat-entryform-baseform": "Forma de base:",
+	"sanat-entryform-pos": "Categoria grammatical:",
+	"sanat-entryform-langdesc": "Description del dialecto",
+	"sanat-entryform-formsdesc": "Inflexiones",
+	"sanat-entryform-addform": "Adder forma",
+	"sanat-entryform-addtranslation": "Adder traduction",
+	"sanat-entryform-addexample": "Adder exemplo",
+	"sanat-lc-en": "Anglese",
+	"sanat-lc-fi": "Finnese",
+	"sanat-lc-lud": "Ludic scripte",
+	"sanat-lc-lud-x-middle": "Ludic medie",
+	"sanat-lc-lud-x-north": "Ludic del nord",
+	"sanat-lc-lud-x-south": "Ludic del sud",
+	"sanat-lc-ru": "Russo",
+	"sanat-lc-und": "Lingua incognite"
+}
