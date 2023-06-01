@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"sanat-da": "Šis žodis turi kelias reikšmes:",
+	"sanat-entry-examples": "Pavyzdžiai",
+	"sanat-entry-seealso": "Taip pat žiūrėkite",
+	"sanat-entry-translations": "Vertimai",
+	"sanat-entry-forms": "Formos",
+	"sanat-entryform-baseform": "Pagrindinė forma:",
+	"sanat-entryform-pos": "Kalbos dalis:",
+	"sanat-entryform-langdesc": "Dialekto aprašymas",
+	"sanat-entryform-formsdesc": "Linksniai",
+	"sanat-entryform-addform": "Pridėti formą",
+	"sanat-entryform-addtranslation": "Pridėti vertimą",
+	"sanat-entryform-addexample": "Pridėti pavyzdį",
+	"sanat-lc-en": "Anglų",
+	"sanat-lc-fi": "Suomių",
+	"sanat-lc-ru": "Rusų",
+	"sanat-lc-und": "Nežinoma kalba"
+}
