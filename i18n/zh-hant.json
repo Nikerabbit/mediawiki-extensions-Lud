@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
+			"Winston Sung",
 			"捍粵者"
 		]
 	},
@@ -16,7 +17,7 @@
 	"sanat-entryform-langdesc": "方言描述",
 	"sanat-entryform-formsdesc": "詞形變化",
 	"sanat-entryform-addform": "新增詞性",
-	"sanat-entryform-addtranslation": "新增翻譯",
+	"sanat-entryform-addtranslation": "新增譯文",
 	"sanat-entryform-addexample": "新增範例",
 	"sanat-lc-en": "英語",
 	"sanat-lc-fi": "芬蘭語",
