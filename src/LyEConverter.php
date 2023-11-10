@@ -56,6 +56,7 @@ class LyEConverter {
 		'refl.',
 		's.',
 		'sl.',
+		'sl. kirj.',
 		'sp.',
 		'sup.',
 		'taipum.',
