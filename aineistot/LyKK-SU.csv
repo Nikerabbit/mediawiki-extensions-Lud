@@ -243,7 +243,7 @@ jääkenttä|diäpeld|ледяное поле, каток
 tanner, kenttä|tander|площадка, поле, утоптанное место
 pelto; kenttä|peld|
 perinnöllinen|perindahine|наследственный
-puukiekko (leikkikalu)|kukerk (-on, -kod)|диск, шайба
+puukiekko (leikkikalu)|kukerk|диск, шайба
 kiekko; pyörä (ajoneuvon)|kiek|диск, шайба; колесо (транспортного средства)
 perintö; perinnöllisyys|perind|наследие; наследственность
 perustaa|panda pohd’ale|основать
@@ -399,7 +399,8 @@ eesti|edesti|эстонский язык; Эстония
 takia, tähden, vuoksi, syystä|tähte|для, из-за
 vuoropuhelu|vuor/pagin|диалог
 vuoropuhelu; vuorovaikutus|dialog|диалог; взаимовлияние
-väestö : väestöluettelo|eläjišt : eläjišton katalog|население : перепись населения
+väestö|eläjišt|население
+väestöluettelo|eläjišton/katalog|перепись населения
 kahvila|kofijik|кафе
 vähemmistökieli|vähembišt/kiel’|язык меньшинства
 vähemmistö|vähembišt|меньшинство

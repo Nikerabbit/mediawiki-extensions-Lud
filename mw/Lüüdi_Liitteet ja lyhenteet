@@ -46,7 +46,7 @@ Pahomov, Miikul 2017f: Tätä suomensukuista kieltä puhuu enää 300 ihmistä. 
 
 Pahomov, Miikul 2017g: Uhanalainen lyydi on oma itämerensuomalinen kielensä. STT Info 7.2.2017. < https://www.sttinfo.fi/tiedote/uhanalainen-lyydi-on-oma-itamerensuomalainen-kielensa?publisherId=3747&releaseId=56688844>.
 
-Pahomov, Miikul 2017h: Uhanalainen lyydi on oma itämerensuomalinen kielensä. Helsingin yliopisto 8.2.2017. https://www.helsinki.fi/fi/uutiset/kieli-kulttuuri/uhanalainen-lyydi-on-oma-itamerensuomalainen-kielensa>.
+Pahomov, Miikul 2017h: Uhanalainen lyydi on oma itämerensuomalinen kielensä. Helsingin yliopisto 8.2.2017. <https://www.helsinki.fi/fi/uutiset/kieli-kulttuuri/uhanalainen-lyydi-on-oma-itamerensuomalainen-kielensa>.
 
 Pahomov, Miikul 2020a: Jumalan sanaa lyydin kielellä. Karjalan Heimo 9–10, s. 160–161.
 
@@ -160,6 +160,8 @@ sup. = superlatiivinen
 
 taipum. = taipumaton
 
+transl. = translatiivi
+
 uskom. = uskomuksellinen
 
 uud. = uudissana, uudempi (sana tai merkitys)
@@ -178,7 +180,7 @@ KK = lyydin kirjakieli
 
 
 
-LyE = etelälyydi
+lyE = etelälyydi
 
 Kj = Kuujärven alue (Kujär’v)
 
@@ -208,7 +210,7 @@ Yl = Kuujärven Ylitsi (Ül’ič)
 
 
 
-LyK = keskilyydi
+lyK = keskilyydi
 
 AV = Ala-Viitana (Alaviidan, Alaižagd’e)
 
@@ -238,7 +240,7 @@ V = Viitanan kirkonkylä (Viidan, Pogoste)
 
 
 
-LyP = pohjoislyydi
+lyP = pohjoislyydi
 
 B = Possinkylä (Bošinkülä)
 
@@ -315,6 +317,10 @@ LT4 = Pertti Virtaranta. Lyydiläisiä tekstejä IV. Hakemistot: Reino Peltola, 
 
 LÄ1 = Aimo Turunen. Lyydiläismurteiden äännehistoria I: Konsonantit. Suomalais-Ugrilaisen Seuran Toimituksia 89. Helsinki: Suomalais-Ugrilainen Seura 1946.
 
+ND = Nazaran D’ošan (Georgi Tabunovin) Kuujärven lyydiksi kääntämän Johanneksen evankeliumin ja rukoustekstien käsikirjoitus (Kuujärvi 2001). Julkaistut osat ovat seuraavia:
+: NAZARAN D’OŠA (Kujärven lüüdin kielele kiändž). Evangelij Ioannad müöti. Ezmaane lugu. – Lüüdilaine 2006, с. 40–41.
+: NAZARAN D’OŠA (Kujärven lüüdin kielele kiändž). Evangelij Ioannad müöti. Toine lugu. – Lüüdilaine 2007, с. 26.
+
 NFL = Nikolai Feofilaktovitš Leskovin julkaisema kansanruno ja artikkeli
 : NIKOLAI LESKOV. Корельская песня (Sepuoi Ilmalline). Живая старина 4, 1893, s. 541–553.
 : NIKOLAI LESKOV. Viändüöid. Живая старина 3–4, 1894, s. 514–517 [artikkelin sivuihin viitattaan].
@@ -329,6 +335,8 @@ OFM = Miikul Pahomovin julkaisut ja kokoelmat (mainitaan erityistapauksissa)
 : MIIKUL PAHOMOV (toim.). Pit’k Randaane. Pajod: Lyydiläisiä lauluja / Ludian songs. Helsingi: Maailman musiikin keskus & Lüüdilaine Siebr 2007.
 : MIIKUL PAHOMOV. Kuujärven lyydiläistekstejä. Suomalais-Ugrilaisen Seuran Toimituksia 263. Helsinki: Suomalais-Ugrilainen Seura 2011.
 : MIIKUL PAHOMOV. Kondan Kalndan: Kujärven lüüdin rahvhansana. Kogonu da toimitanu Obraman Fed’uun Miikul. Helsingi – Võro: Lüüdilaane Siebr & Võro Selts 2012.
+: MIIKUL PAHOMOV (käänt.). Karjalan Sivistysseuran nettisivujen käännös lyydin kirjakielelle [2020c]. Karjalan Sivistyseura. <https://www.karjalansivistysseura.fi/?lang=ly>.
+: MIIKUL PAHOMOV (käänt.). Tarton yliopiston FLORES-konekäännösprojektin tekstien käännös lyydin kirjakielelle  [2023]. TartuNLP Neurotõlge. < https://translate.ut.ee/>.
 : MIIKUL PAHOMOV & LIDIA POTAŠOVA. ABC-kird’ Kujärven lüüdin kielel. Helsingi: Lüüdilaane Siebr 2003.
 : MIIKUL PAHOMOV & LIDIA POTAŠOVA. Tervheks!: Lugendkird’ Kujärven lüüdin kielel. Helsingi: Lüüdilaane Siebr 2007.
 

@@ -60,6 +60,7 @@ class LyEConverter {
 		'sp.',
 		'sup.',
 		'taipum.',
+		'transl.',
 		'uskom.',
 		'uud.',
 		'v.',
