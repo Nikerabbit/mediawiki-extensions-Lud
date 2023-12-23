@@ -1,6 +1,6 @@
 {
 	"name": "Lüüdi",
-	"version": "2020-07-04",
+	"version": "2023-12-23",
 	"author": [
 		"Niklas Laxström"
 	],
@@ -14,9 +14,14 @@
 	"TestAutoloadNamespaces": {
 		"MediaWiki\\Extensions\\Lud\\": "phpunit/"
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extensions\\Lud\\Hooks"
+		}
+	},
 	"Hooks": {
-		"BeforePageDisplay": "MediaWiki\\Extensions\\Lud\\Hooks::onBeforePageDisplay",
-		"ParserFirstCallInit": "MediaWiki\\Extensions\\Lud\\Hooks::onParserFirstCallInit"
+		"BeforePageDisplay": "main",
+		"ParserFirstCallInit": "main"
 	},
 	"MessagesDirs": {
 		"Lud": [

@@ -37,7 +37,7 @@ class Formatter {
 		}
 
 		// Pass 2: add KK as POS to entries missing it
-		foreach( $out as $id => $x ) {
+		foreach ( $out as $id => $x ) {
 			if ( $x['type'] === 'disambiguation' ) {
 				continue;
 			}
@@ -190,12 +190,12 @@ class Formatter {
 	private function sortExamples( array $es ): array {
 		uasort(
 			$es,
-			function ( $a, $b ) {
+			static function ( $a, $b ) {
 				// kirjalyydi, etelälyydi, keskilyydi, pohjoislyydi, venäjä, suomi
 				$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi' ];
 				foreach ( $order as $o ) {
-					$aa = isset( $a[$o] ) ? 1 : - 1;
-					$bb = isset( $b[$o] ) ? 1 : - 1;
+					$aa = isset( $a[$o] ) ? 1 : -1;
+					$bb = isset( $b[$o] ) ? 1 : -1;
 					$cmp = ( $aa ) <=> ( $bb );
 					if ( $cmp !== 0 ) {
 						return -$cmp;

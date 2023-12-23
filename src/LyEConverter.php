@@ -10,7 +10,7 @@ use Exception;
  * @license GPL-2.0-or-later
  */
 class LyEConverter {
-	protected $pos = [
+	protected array $pos = [
 		'a.',
 		'a. mod.',
 		'a. yhd.',
@@ -77,7 +77,7 @@ class LyEConverter {
 		// Remove empty lines
 		$lines = array_filter(
 			$lines,
-			function ( $x ) {
+			static function ( $x ) {
 				return $x !== '';
 			}
 		);
@@ -107,7 +107,7 @@ class LyEConverter {
 	}
 
 	public function isHeader( $line ): bool {
-		return strpos( $line, '.' ) === false && mb_strlen( $line, 'UTF-8' ) <= 4;
+		return !str_contains( $line, '.' ) && mb_strlen( $line, 'UTF-8' ) <= 4;
 	}
 
 	public function parseLine( $line ): array {
@@ -124,12 +124,12 @@ class LyEConverter {
 		$links = [];
 		if ( preg_match( "~[.:] ?Vrt\.\s+(.+)$~u", $line, $match ) ) {
 			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
-			$line = substr( $line, 0, - strlen( $match[0] ) );
+			$line = substr( $line, 0, -strlen( $match[0] ) );
 		}
 
 		// Normal entries
 		$wcs = implode( '|', array_map( 'preg_quote', $this->pos ) );
-		$regexp = "/^([^. ]+(?: [I]+)?)\s+(($wcs)+)\s+([^.]+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
+		$regexp = "/^([^. ]+(?: I+)?)\s+(($wcs)+)\s+([^.]+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
 			throw new Exception( '[LyE] Riviltä puuttuu "—":' );
@@ -166,7 +166,7 @@ class LyEConverter {
 	}
 
 	public function splitTranslations( $string ): array {
-		if ( strpos( $string, ' / ' ) === false ) {
+		if ( !str_contains( $string, ' / ' ) ) {
 			throw new Exception( "[LyE] Käännöksissä häikkää: *$string*" );
 		}
 
@@ -185,15 +185,15 @@ class LyEConverter {
 		$string = trim( $string );
 		$ret = [];
 		$re =
-<<<'REGEXP'
-~
-(?(DEFINE)(?'c'[^/]))
-(?(DEFINE)(?'l'[^/\p{Cyrillic}]))
-(?(DEFINE)(?'q'[‘'’]))
+		<<<'REGEXP'
+		~
+		(?(DEFINE)(?'c'[^/]))
+		(?(DEFINE)(?'l'[^/\p{Cyrillic}]))
+		(?(DEFINE)(?'q'[‘'’]))
 
-((?&l)+) (?:\s* / \s* | \s ) (?&q)((?&l)+)(?&q) \s* / \s* (?&q)((?&c)+)(?&q) (?:[.,;]\s*?|$)
-~xuU
-REGEXP;
+		((?&l)+) (?:\s* / \s* | \s ) (?&q)((?&l)+)(?&q) \s* / \s* (?&q)((?&c)+)(?&q) (?:[.,;]\s*?|$)
+		~xuU
+		REGEXP;
 
 		while ( preg_match( $re, $string, $match ) ) {
 			$ret[] = [

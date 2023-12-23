@@ -3,13 +3,15 @@ declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
-use ContentHandler;
 use Html;
+use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Hook\ParserFirstCallInitHook;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
 use ObjectCache;
-use OutputPage;
+use Override;
 use Parser;
+use TextContent;
 use Title;
 use const PREG_SET_ORDER;
 
@@ -17,16 +19,18 @@ use const PREG_SET_ORDER;
  * @author Niklas Laxström
  * @license GPL-2.0-or-later
  */
-class Hooks {
-	public static function onBeforePageDisplay( OutputPage $out ) {
+class Hooks implements BeforePageDisplayHook, ParserFirstCallInitHook {
+	#[Override]
+	public function onBeforePageDisplay( $out, $skin ): void {
 		$out->addModuleStyles( 'ext.lud.styles' );
 	}
 
-	public static function onParserFirstCallInit( Parser $parser ) {
-		$parser->setFunctionHook( 'lud', [ self::class, 'renderLud' ] );
+	#[Override]
+	public function onParserFirstCallInit( $parser ): void {
+		$parser->setFunctionHook( 'lud', self::renderLud( ... ) );
 	}
 
-	public static function renderLud( $parser, $text = '' ) {
+	public static function renderLud( Parser $parser, $text = '' ): string {
 		$abbs = self::getAbbreviations();
 		$patterns = [];
 		foreach ( $abbs as $abb => $title ) {
@@ -34,14 +38,14 @@ class Hooks {
 		}
 		$pattern = '/(?<=[ (-]|^)(' . implode( '|', $patterns ) . ')(?=[ ),-]|$)/um';
 
-		$cb = function ( $m ) use ( $abbs ) {
+		$cb = static function ( $m ) use ( $abbs ) {
 			return Html::element( 'abbr', [ 'title' => $abbs[$m[1]] ], $m[1] );
 		};
 
 		return preg_replace_callback( $pattern, $cb, $text );
 	}
 
-	public static function getAbbreviations() {
+	public static function getAbbreviations(): array {
 		$cache = ObjectCache::getInstance( CACHE_ANYTHING );
 		$key = 'lud-abbs-v2';
 		$data = $cache->get( $key );
@@ -54,12 +58,9 @@ class Hooks {
 		$store = MediaWikiServices::getInstance()->getRevisionStore();
 		$revision = $store->getRevisionByTitle( $source );
 		if ( $revision !== null ) {
-			$contents = ContentHandler::getContentText(
-				$revision->getContent( SlotRecord::MAIN )
-			);
-
-			if ( $contents ) {
-				preg_match_all( '/^(.+) = (.+):?$/m', $contents, $matches, PREG_SET_ORDER );
+			$content = $revision->getContent( SlotRecord::MAIN );
+			if ( $content instanceof TextContent ) {
+				preg_match_all( '/^(.+) = (.+):?$/m', $content->getText(), $matches, PREG_SET_ORDER );
 				foreach ( $matches as $m ) {
 					if ( isset( $data[$m[1]] ) ) {
 						$data[$m[1]] .= "\n" . $m[2];

@@ -17,7 +17,7 @@ class LyKKConverter {
 		// Remove empty lines
 		$lines = array_filter(
 			$lines,
-			function ( $x ) {
+			static function ( $x ) {
 				return $x !== '';
 			}
 		);
@@ -51,11 +51,11 @@ class LyKKConverter {
 	}
 
 	public function isHeader( $line ): bool {
-		if ( strpos( $line, '.' ) === false && mb_strlen( $line, 'UTF-8' ) <= 4 ) {
+		if ( !str_contains( $line, '.' ) && mb_strlen( $line, 'UTF-8' ) <= 4 ) {
 			return true;
 		}
 
-		if ( strpos( $line, 'VÄLIOTSIKKO' ) !== false ) {
+		if ( str_contains( $line, 'VÄLIOTSIKKO' ) ) {
 			return true;
 		}
 
@@ -67,7 +67,7 @@ class LyKKConverter {
 		$links = [];
 		if ( preg_match( "~, ?ср\. ?(.+)$~u", $line, $match ) ) {
 			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
-			$line = substr( $line, 0, - strlen( $match[0] ) );
+			$line = substr( $line, 0, -strlen( $match[0] ) );
 		}
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
@@ -77,7 +77,7 @@ class LyKKConverter {
 		$regexp = "/^(.+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
 		if ( preg_match( $regexp, $line, $match ) ) {
 			// Support PHP 7.1 without PREG_UNMATCHED_AS_NULL, trailing unmatched are not present
-			$match[3] = $match[3] ?? '';
+			$match[3] ??= '';
 			[ , $word, $trans, $examples ] = $match;
 
 			$translations = $this->splitTranslations( $trans );

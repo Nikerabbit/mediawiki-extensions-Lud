@@ -15,7 +15,7 @@ use TypeError;
 class ImportMaintenanceScript extends Maintenance {
 	public function __construct() {
 		parent::__construct();
-		$this->mDescription = 'Imports Lyydi word articles';
+		$this->addDescription( 'Imports Lyydi word articles' );
 		$this->addOption( 'LyE-txt', 'TXT file for LyE' );
 		$this->addOption( 'LyE-csv', 'CSV file for LyE' );
 		$this->addOption( 'LyK', 'CSV file for LyK' );
@@ -26,7 +26,7 @@ class ImportMaintenanceScript extends Maintenance {
 		$this->addArg( 'out', 'Dir to place output files' );
 	}
 
-	public function execute() {
+	public function execute(): void {
 		ini_set( 'display_errors', '1' );
 		error_reporting( E_ALL );
 		$outdir = $this->getArg( 0 );
@@ -122,7 +122,7 @@ class ImportMaintenanceScript extends Maintenance {
 				$cases = $b['cases'];
 			}
 
-			if ( $ac !== '' && strpos( $bc, $ac ) === false ) {
+			if ( $ac !== '' && !str_contains( $bc, $ac ) ) {
 				throw new RuntimeException(
 					json_encode(
 						[
@@ -252,7 +252,6 @@ class ImportMaintenanceScript extends Maintenance {
 					foreach ( $cands as $i ) {
 						$name =
 							$south[$i]['cases']['lud-x-south'] ??
-							$south[$i]['cases']['lud-x-south'] ??
 							$south[$i]['cases']['lud-x-middle'] ??
 							$south[$i]['cases']['lud-x-north'] ?? '#';
 						$cases[] = "$name ({$south[$i]['properties']['pos']})";
@@ -293,7 +292,7 @@ class ImportMaintenanceScript extends Maintenance {
 		foreach ( $out as $struct ) {
 			if ( $struct['type'] === 'disambiguation' ) {
 				$struct['pages'] = array_map(
-					function ( $x ) {
+					static function ( $x ) {
 						return $x['id'];
 					},
 					$struct['pages']
@@ -307,7 +306,7 @@ class ImportMaintenanceScript extends Maintenance {
 		file_put_contents( "$outdir/data.json", $json );
 	}
 
-	private function outputWikitext( array $out, Formatter $f, string $outdir ): void {
+	private function outputWikitext( array $out, Formatter $f, string $outputDirectory ): void {
 		foreach ( $out as $struct ) {
 			try {
 				$title = $f->getTitle( $struct['id'] );
@@ -321,7 +320,7 @@ class ImportMaintenanceScript extends Maintenance {
 			$text = $f->formatEntry( $struct );
 			$title = str_replace( '/', '_', $title->getPrefixedText() );
 
-			file_put_contents( "$outdir/$title", $text );
+			file_put_contents( "$outputDirectory/$title", $text );
 		}
 	}
 }
