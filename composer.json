@@ -1,4 +1,9 @@
 {
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "v42.0.0",
 		"mediawiki/mediawiki-phan-config": "0.14.0",
