@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eduardo Addad de Oliveira",
-			"Eduardoaddad"
+			"Eduardoaddad",
+			"McDutchie"
 		]
 	},
 	"sanat-lud-desc": "Ferramentas para dicionário lúdico",
@@ -15,7 +16,7 @@
 	"sanat-entryform-pos": "Parte do discurso:",
 	"sanat-entryform-langdesc": "Descrição do dialeto",
 	"sanat-entryform-formsdesc": "Inflexões",
-	"sanat-entryform-addform": "Adicionar formulário",
+	"sanat-entryform-addform": "Adicionar forma",
 	"sanat-entryform-addtranslation": "Adicionar tradução",
 	"sanat-entryform-addexample": "Adicionar exemplo",
 	"sanat-lc-en": "Inglês",

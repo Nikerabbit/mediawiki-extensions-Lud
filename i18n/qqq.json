@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"McDutchie",
 			"Nike",
 			"Robby"
 		]
@@ -15,7 +16,7 @@
 	"sanat-entryform-pos": "Label for form field",
 	"sanat-entryform-langdesc": "Placeholder for field where further info about the variant of the language can be given",
 	"sanat-entryform-formsdesc": "Field placeholdert",
-	"sanat-entryform-addform": "Button text. Form means inflections, not data input.",
+	"sanat-entryform-addform": "Button text. '''“Form” means a grammatical form (inflections), not a form for data input.'''",
 	"sanat-entryform-addtranslation": "Button text",
 	"sanat-entryform-addexample": "Button text",
 	"sanat-lc-en": "Language name",

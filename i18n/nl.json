@@ -5,16 +5,25 @@
 			"McDutchie"
 		]
 	},
+	"sanat-lud-desc": "Hulpmiddelen voor woordenboek Ludisch",
 	"sanat-da": "Dit woord heeft meerdere betekenissen:",
 	"sanat-entry-examples": "Voorbeelden",
 	"sanat-entry-seealso": "Zie ook",
 	"sanat-entry-translations": "Vertalingen",
 	"sanat-entry-forms": "Vormen",
+	"sanat-entryform-baseform": "Basisvorm:",
+	"sanat-entryform-pos": "Woordsoort:",
 	"sanat-entryform-langdesc": "Dialectbeschrijving",
+	"sanat-entryform-formsdesc": "Inflexies",
+	"sanat-entryform-addform": "Vorm toevoegen",
 	"sanat-entryform-addtranslation": "Vertaling toevoegen",
 	"sanat-entryform-addexample": "Voorbeeld toevoegen",
 	"sanat-lc-en": "Engels",
 	"sanat-lc-fi": "Fins",
+	"sanat-lc-lud": "Geschreven Ludisch",
+	"sanat-lc-lud-x-middle": "Middel-Ludisch",
+	"sanat-lc-lud-x-north": "Noord-Ludisch",
+	"sanat-lc-lud-x-south": "Zuid-Ludisch",
 	"sanat-lc-ru": "Russisch",
 	"sanat-lc-und": "Onbekende taal"
 }
