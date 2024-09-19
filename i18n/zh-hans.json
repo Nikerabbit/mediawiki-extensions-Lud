@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian",
+			"TKsdik8900",
+			"沈澄心"
+		]
+	},
+	"sanat-entry-examples": "示例",
+	"sanat-entry-seealso": "参见",
+	"sanat-entry-translations": "翻译",
+	"sanat-entry-forms": "词形",
+	"sanat-entryform-baseform": "基本形式：",
+	"sanat-entryform-pos": "词性：",
+	"sanat-entryform-langdesc": "方言描述",
+	"sanat-entryform-formsdesc": "词形变化",
+	"sanat-entryform-addform": "添加词形",
+	"sanat-entryform-addtranslation": "添加翻译",
+	"sanat-entryform-addexample": "添加示例",
+	"sanat-lc-en": "英语",
+	"sanat-lc-fi": "芬兰语",
+	"sanat-lc-ru": "俄语",
+	"sanat-lc-und": "未知语言"
+}
