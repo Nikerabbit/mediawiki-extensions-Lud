@@ -79,7 +79,7 @@ class Formatter {
 		// Pass 2a: build id => entries map
 		$map = [];
 		foreach ( $entries as $i => $x ) {
-			$map[$x['id']] = $map[$x['id']] ?? [];
+			$map[$x['id']] ??= [];
 			$map[$x['id']][] = $i;
 		}
 

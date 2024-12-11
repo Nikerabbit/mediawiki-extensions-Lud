@@ -4,6 +4,7 @@ declare( strict_types=1 );
 namespace MediaWiki\Extensions\Lud;
 
 use Exception;
+use InvalidArgumentException;
 
 /**
  * @author Niklas Laxström
@@ -132,7 +133,7 @@ class LyEConverter {
 		$regexp = "/^([^. ]+(?: I+)?)\s+(($wcs)+)\s+([^.]+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
-			throw new Exception( '[LyE] Riviltä puuttuu "—":' );
+			throw new InvalidArgumentException( '[LyE] Riviltä puuttuu "—":' );
 		}
 
 		if ( preg_match( $regexp, $line, $match ) ) {
@@ -162,17 +163,17 @@ class LyEConverter {
 			];
 		}
 
-		throw new Exception( '[LyE] Rivin jäsentäminen epäonnistui:' );
+		throw new InvalidArgumentException( '[LyE] Rivin jäsentäminen epäonnistui:' );
 	}
 
 	public function splitTranslations( $string ): array {
 		if ( !str_contains( $string, ' / ' ) ) {
-			throw new Exception( "[LyE] Käännöksissä häikkää: *$string*" );
+			throw new InvalidArgumentException( "[LyE] Käännöksissä häikkää: *$string*" );
 		}
 
 		$languages = array_filter( array_map( 'trim', explode( ' / ', $string ) ) );
 		if ( count( $languages ) !== 2 ) {
-			throw new Exception( "[LyE] Käännöksissä häikkää: *$string*" );
+			throw new InvalidArgumentException( "[LyE] Käännöksissä häikkää: *$string*" );
 		}
 
 		return [
@@ -206,7 +207,7 @@ class LyEConverter {
 		}
 
 		if ( $string !== '' ) {
-			throw new Exception( "[LyE] Esimerkeissä häikkää: *$string*" );
+			throw new InvalidArgumentException( "[LyE] Esimerkeissä häikkää: *$string*" );
 		}
 
 		return $ret;

@@ -313,7 +313,7 @@ class ImportMaintenanceScript extends Maintenance {
 			} catch ( TypeError $e ) {
 				echo "Unable to make title for:\n";
 				echo json_encode( $struct, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE ) . "\n";
-				echo $e;
+				echo $e->getMessage() . "\n\n";
 				continue;
 			}
 
