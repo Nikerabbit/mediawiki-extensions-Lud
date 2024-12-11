@@ -3,7 +3,7 @@ declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
-use Exception;
+use InvalidArgumentException;
 
 /**
  * @author Niklas Laxström
@@ -42,7 +42,7 @@ class LyKKConverter {
 
 			try {
 				$out[] = $this->parseLine( $line );
-			} catch ( Exception $e ) {
+			} catch ( InvalidArgumentException $e ) {
 				echo $e->getMessage() . "\nRivi: $line\n\n";
 			}
 		}
@@ -71,7 +71,7 @@ class LyKKConverter {
 		}
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
-			throw new Exception( '[LyKK] Riviltä puuttuu "—"' );
+			throw new InvalidArgumentException( '[LyKK] Riviltä puuttuu "—"' );
 		}
 
 		$regexp = "/^(.+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
@@ -100,7 +100,7 @@ class LyKKConverter {
 			];
 		}
 
-		throw new Exception( '[LyKK] Rivin jäsentäminen epäonnistui' );
+		throw new InvalidArgumentException( '[LyKK] Rivin jäsentäminen epäonnistui' );
 	}
 
 	public function splitTranslations( $string ): array {
