@@ -19,6 +19,10 @@
 	"sanat-entryform-addexample": "添加示例",
 	"sanat-lc-en": "英语",
 	"sanat-lc-fi": "芬兰语",
+	"sanat-lc-lud": "书面吕迪语",
+	"sanat-lc-lud-x-middle": "中吕迪语",
+	"sanat-lc-lud-x-north": "北吕迪语",
+	"sanat-lc-lud-x-south": "南吕迪语",
 	"sanat-lc-ru": "俄语",
 	"sanat-lc-und": "未知语言"
 }
