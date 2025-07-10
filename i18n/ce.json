@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"sanat-lud-desc": "Людикийн меттан дошамна гӀирсаш",
+	"sanat-da": "ХӀокху дешан масех маьӀна ду:",
+	"sanat-entry-examples": "Масалаш",
+	"sanat-entry-seealso": "Хьажа иштта",
+	"sanat-entry-translations": "Гочдарш",
+	"sanat-entry-forms": "Формаш",
+	"sanat-entryform-baseform": "Коьрта форма:",
+	"sanat-entryform-pos": "Къамелан дакъа:",
+	"sanat-entryform-langdesc": "Диалектах лаьцна",
+	"sanat-entryform-formsdesc": "Флексеш",
+	"sanat-entryform-addform": "ТӀетоха форма",
+	"sanat-entryform-addtranslation": "ТӀетоха гоч",
+	"sanat-entryform-addexample": "Масал тӀетоха",
+	"sanat-lc-en": "Ингалсан",
+	"sanat-lc-fi": "Финнийн",
+	"sanat-lc-lud": "Йозанан людикийн",
+	"sanat-lc-lud-x-middle": "йукъара людикийн",
+	"sanat-lc-lud-x-north": "Къилбаседа людикийн",
+	"sanat-lc-lud-x-south": "Къилба людикийн",
+	"sanat-lc-ru": "Оьрсийн",
+	"sanat-lc-und": "Боьвзуш боцу мотт"
+}
