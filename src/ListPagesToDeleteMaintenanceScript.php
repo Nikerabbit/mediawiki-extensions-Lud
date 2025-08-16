@@ -6,7 +6,7 @@ namespace MediaWiki\Extensions\Lud;
 use DirectoryIterator;
 use Maintenance;
 use MediaWiki\MediaWikiServices;
-use Title;
+use MediaWiki\Title\Title;
 use UtfNormal;
 
 /**

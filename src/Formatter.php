@@ -3,7 +3,7 @@ declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
-use Title;
+use MediaWiki\Title\Title;
 
 /**
  * @author Niklas Laxström

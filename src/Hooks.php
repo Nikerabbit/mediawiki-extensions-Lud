@@ -3,16 +3,16 @@ declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
-use Html;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\ParserFirstCallInitHook;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
-use ObjectCache;
+use MediaWiki\Title\Title;
 use Override;
 use Parser;
 use TextContent;
-use Title;
+use const CACHE_ANYTHING;
 use const PREG_SET_ORDER;
 
 /**
@@ -46,7 +46,8 @@ class Hooks implements BeforePageDisplayHook, ParserFirstCallInitHook {
 	}
 
 	public static function getAbbreviations(): array {
-		$cache = ObjectCache::getInstance( CACHE_ANYTHING );
+		$cache = MediaWikiServices::getInstance()->getObjectCacheFactory()->getInstance(
+			CACHE_ANYTHING );
 		$key = 'lud-abbs-v2';
 		$data = $cache->get( $key );
 		if ( is_array( $data ) ) {
