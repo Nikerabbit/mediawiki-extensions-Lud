@@ -1,14 +1,30 @@
 {
 	"@metadata": {
 		"authors": [
+			"Meno25",
 			"NEHAOUA",
 			"محمد أحمد عبد الفتاح"
 		]
 	},
+	"sanat-lud-desc": "أدوات لقاموس اللعب",
+	"sanat-da": "هذه الكلمة لها معاني متعددة:",
 	"sanat-entry-examples": "أمثلة",
+	"sanat-entry-seealso": "انظر أيضا",
+	"sanat-entry-translations": "الترجمات",
+	"sanat-entry-forms": "الاستمارات",
+	"sanat-entryform-baseform": "الشكل الأساسي:",
+	"sanat-entryform-pos": "جزء من الكلام:",
+	"sanat-entryform-langdesc": "وصف اللهجة",
+	"sanat-entryform-formsdesc": "الانحرافات",
+	"sanat-entryform-addform": "إضافة نموذج",
 	"sanat-entryform-addtranslation": "أضف ترجمة",
+	"sanat-entryform-addexample": "أضف مثالاً",
 	"sanat-lc-en": "الإنجليزية",
 	"sanat-lc-fi": "الفنلندية",
+	"sanat-lc-lud": "اللعب المكتوب",
+	"sanat-lc-lud-x-middle": "لوديك الوسطى",
+	"sanat-lc-lud-x-north": "لوديك الشمالية",
+	"sanat-lc-lud-x-south": "لوديك الجنوبية",
 	"sanat-lc-ru": "الروسية",
 	"sanat-lc-und": "لغة غير معروفة"
 }
