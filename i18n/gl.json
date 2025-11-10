@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"sanat-lud-desc": "Ferramentas para o dicionario de lingua lúdica",
+	"sanat-da": "Esta palabra ten varios significados:",
+	"sanat-entry-examples": "Exemplos",
+	"sanat-entry-seealso": "Véxase tamén",
+	"sanat-entry-translations": "Traducións",
+	"sanat-entry-forms": "Formas",
+	"sanat-entryform-baseform": "Forma base:",
+	"sanat-entryform-pos": "Categoría gramatical:",
+	"sanat-entryform-langdesc": "Descrición do dialecto",
+	"sanat-entryform-formsdesc": "Inflexións",
+	"sanat-entryform-addform": "Engadir unha forma",
+	"sanat-entryform-addtranslation": "Engadir unha tradución",
+	"sanat-entryform-addexample": "Engadir un exemplo",
+	"sanat-lc-en": "inglés",
+	"sanat-lc-fi": "finés",
+	"sanat-lc-lud": "Lúdico escrito",
+	"sanat-lc-lud-x-middle": "Lúdico central",
+	"sanat-lc-lud-x-north": "Lúdico setentrional",
+	"sanat-lc-lud-x-south": "Lúdico meridional",
+	"sanat-lc-ru": "ruso",
+	"sanat-lc-und": "Lingua descoñecida"
+}
