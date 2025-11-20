@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"पर्वत सुबेदी"
+			"पर्वत सुबेदी",
+			"बडा काजी"
 		]
 	},
 	"sanat-entry-examples": "उदाहरणहरू",
@@ -9,5 +10,5 @@
 	"sanat-entryform-addtranslation": "अनुवाद थप्नुहोस्",
 	"sanat-lc-en": "अङ्ग्रेजी",
 	"sanat-lc-fi": "फिनल्यान्डेली",
-	"sanat-lc-ru": "रूसी"
+	"sanat-lc-ru": "रुसी"
 }
