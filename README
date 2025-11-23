@@ -22,6 +22,6 @@ mkdir "$OUTPUT"
   --LyKK-csv="$INPUT"/LyKK-SU.csv \
   --LyP="$INPUT"/LyP.csv
 "$RUN" Lud:list-pages-to-delete "$OUTPUT" > "$DELETIONS"
-"$RUN" "$IMPORTER" --threads=$(nproc) extensions/Lud/mw
+"$RUN" "$IMPORTER" --threads=$(nproc) "$(pwd)/mw"
 "$RUN" "$IMPORTER" --threads=$(nproc) "$OUTPUT"
 "$RUN" deleteBatch "$DELETIONS"
