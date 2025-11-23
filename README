@@ -5,18 +5,23 @@
 # LyKK-SU: docx -> ods with copy paste -> csv with export using | as delimiter
 # LyP (lud-x-north): xlsx -> csv with export using | as delimiter
 
-OUTPUT=outputg
-rm -rf "$OUTPUT"
+OUTPUT=$(pwd)/output
+INPUT=$(pwd)/aineistot
+DELETIONS=$(pwd)/todelete.txt
+RUN=$(pwd)/../../maintenance/run
+IMPORTER=$(pwd)/../Sanat/SanatImport.php
+
+rm -rf "$OUTPUT" "$DELETIONS"
 mkdir "$OUTPUT"
-php import.php "$OUTPUT" \
-  --LyE-txt=aineistot/LyE.txt \
-  --LyE-csv=aineistot/Nettisanat_LyE.csv \
-  --LyK=aineistot/LyK_Simonas.csv \
-  --LyKK-txt=aineistot/LyKK.txt \
-  --LyKK-csv=aineistot/LyKK-SU.csv \
-  --LyP=aineistot/LyP.csv
-cd ../..
-./maintenance/run Lud:list-pages-to-delete "$OUTPUT" > todelete.txt
-./maintenance/run ./extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/mw
-./maintenance/run ./extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/"$OUTPUT"
-./maintenance/run deleteBatch extensions/Lud/todelete.txt
+
+"$RUN" Lud:import "$OUTPUT" \
+  --LyE-txt="$INPUT"/LyE.txt \
+  --LyE-csv="$INPUT"/Nettisanat_LyE.csv \
+  --LyK="$INPUT"/LyK_Simonas.csv \
+  --LyKK-txt="$INPUT"/LyKK.txt \
+  --LyKK-csv="$INPUT"/LyKK-SU.csv \
+  --LyP="$INPUT"/LyP.csv
+"$RUN" Lud:list-pages-to-delete "$OUTPUT" > "$DELETIONS"
+"$RUN" "$IMPORTER" --threads=$(nproc) extensions/Lud/mw
+"$RUN" "$IMPORTER" --threads=$(nproc) "$OUTPUT"
+"$RUN" deleteBatch "$DELETIONS"
