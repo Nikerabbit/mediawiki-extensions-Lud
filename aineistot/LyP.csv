@@ -205,9 +205,9 @@ alužim|s.|nakoval'|(N) nakoval'|наковальня|alasin (pajassa)||||||
 |s. yhd.|pardenajaj|parden/ajai (LMS 6, 300)|сплавщик|tukinuittaja, tukinuittomies||||||
 |s. yhd.|pardenajo|parden/ajo|сплав|tukinuitto (keväällä)||||||
 |s. yhd.|pardenvedaj|(B, Td) parden/vedäi|возчик леса|tukinajaja (talvella)||||||
-|s. yhd.|pardenvedo|(B) pardem/vedo|извоз, перевозка леса, перевозка брёвен|hirrenveto|(B) lähtii pardemvedoi ja šigä popad'ii kon'd'ii pezäs|отправились на извоз и там попался медведь из берлоги|lähtivät hirrenvetoon ja siellä sattui karhu tulemaan pesästä|||
+|s. yhd.|pardenvedo|(B, Td) pardem/vedo|извоз, перевозка леса, возка леса, перевозка брёвен|tukinveto (talvella), hirrenveto, tukinajo|(B) lähtii pardemvedoi ja šigä popad'ii kon'd'ii pezäs (LMS 95)|отправились на извоз и там попался медведь из берлоги|lähtivät hirrenvetoon ja siellä sattui karhu tulemaan pesästä|||
+|s. yhd.|pardenvedo||||(Td) lähtii pardemvedoi (LMS 223)|отправились на извоз|lähdettiin tukinajoon|||
 |a.|vedaj|(B, Td) vedä/i, -jän, -jäd; -jöid (LMS 300)||ajaja (tukin)|(B, Td) parden vedäi|возчик леса|tukin ajaja|||
-|s. yhd.|pardenvedo|parden/vedo|возка леса|tukinveto (talvella)||||||
 |s. yhd.|ajandaig|(B) ajand/aig|время езды|ajoaika||||||
 |v.|ajaškata|ajaška/ta, -den, -dou ~ (N) -ndou; -žin ~ (B) -in |начинать ехать, начинать гнать|alkaa ajaa||||||
 |v. frekv.|ajelta|aje/lda ~ (B, Pl, Td) -lta, -len, -l'in; -ldau|кататься, гоняться, гонять|ajella (hevosella), soudella, kulkea aluksella, ajella takaa, kaulita, kaaviloida taikinaa |ajelda venehel|грести, кататься на лодке|soudella|||
@@ -3359,7 +3359,7 @@ vahalauk|s.|vahač|(N) vaha/čču, -čun|волнушка|karvalaukku, karvarous
 vahnate|adv. komp.|vahnembati|vahnembat'i|по старшинству|vanhemmuutta, vanhemmuuttasi, vanhemmaksesi||||||
 |a. komp.|vahnemb|vahnemb/i ~ (Td, N) vahnemb, -an, -ad; -id ~ (Ks) -iid ||vanhempi, isä, äiti||||||
 roditel'ad; vahnemb|s. mon.|vahnembad|vahnemb/ad, -iden, -id|родители|vanhemmat||||||
-vai II|konj. yhd.|vaiku|(Hj) vai/kui|лишь только, сразу как|vaan, silti, ainoastaan, heti kun|(Hj) kevädel vaikui suad'ii svetat svet't'imai  l'ibo tuomikkopuuss än'iksed (LT2 121)|весной, лишь только начинали цветы цвести или на дереве черёмухи цветочки |keväällä heti kun alkoivat kukkaset kukkia tai tuomen kukat|||
+vai II|adv.-konj. yhd.|vaiku|(Hj) vai/kui|лишь только, сразу как|vaan, silti, ainoastaan, heti kun|(Hj) kevädel vaikui suad'ii svetat svet't'imai  l'ibo tuomikkopuuss än'iksed (LT2 121)|весной, лишь только начинали цветы цвести или на дереве черёмухи цветочки |keväällä heti kun alkoivat kukkaset kukkia tai tuomen kukat|||
 vajeti|adv.|vaikkani|vaikkan'i ~ (Td, Kh, Kn) vaikkan'e|молчаливо|ääneti, vaiti||||||
 |a.|vakkinain'e|vakkina/in'e, -ižen, -št; -ižiden, -ižid|молчаливый|vaitelias||||||
 mazi, voide|s.|vaks|vaks, -an, -ad|гуталин|kiiltovoide (kengän)||||||

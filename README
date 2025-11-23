@@ -5,7 +5,7 @@
 # LyKK-SU: docx -> ods with copy paste -> csv with export using | as delimiter
 # LyP (lud-x-north): xlsx -> csv with export using | as delimiter
 
-OUTPUT=output-2024-01-19
+OUTPUT=outputg
 rm -rf "$OUTPUT"
 mkdir "$OUTPUT"
 php import.php "$OUTPUT" \

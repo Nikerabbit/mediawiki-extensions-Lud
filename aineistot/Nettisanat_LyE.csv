@@ -41,12 +41,8 @@ akoi, inehmoi, mučoi, naine|s.|akk|a/kk, -kan, -kkad; -kuun, -kuud|женщин
 |s.|akk||||akk, mida siä itked? (ND) kirj.|жена, что ты плачешь?|mitä itket, nainen?||||||
 |s.|akk||||minun akan tuat, app, meil’ sandaze ”app” (OF)|отец моей жены, тесть, у нас говорят - “тесть”|minun vaimoni isä, appi, meillä sanotaan “appi”||||||
 |s.|akk||||viber’ii mindaa akaks (KTK)|выбрал меня в жёны|valitsi minut vaimokseen||||||
-|s.|akk||||(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Федюо было имя Оучуо|Fedjuon vaimon nimi oli Outšuo||||||
+|s.|akk||||(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Huotarin vaimon nimi oli Outi||||||
 |s.|akk||||ezmaa kasartaze kasriil akad (OF)|сперва женщины рубят косарём (побеги)|ensin naiset katkovat vesurilla (vesoja)||||||
-|hn.|Fed'oi|Fed'uu ~ (Js) Fed’uo, -n, -d|Фёдор, Феодор (8.2/21.2)|Feodor  (8.2./21.2.)|(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Feodorin vaimon nimi oli Outi||||||
-Ouči, Oudoi|hn.|Oučoi|Oučuu ~ (Js) Oučuo, -n, -d|Евдокия (1.3/14.3)|Eudokia  (1.3./14.3.), Outi|(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Feodorin vaimon nimi oli Outi||||||
-Ouči, Oučoi|hn.|Oudoi|Ouduu ~ (Js) Ouduo, -n, -d|Евдокия (1.3/14.3)|Eudokia  (1.3./14.3.), Outi|||||||||
-Oučoi, Oudoi|hn.|Ouči|Ouči, -n, -d|Евдокия (1.3/14.3)|Eudokia  (1.3./14.3.), Outi|||||||||
 |s.|akoin-|akuun-|женский|naisten-|||||||||
 |s.|akoinvračč|akuun/vračč|гинеколог|naistenlääkäri, gynekologi|||||||||
 |s.|akt|akt, -an, -ad|акт|akti|pidab akt kir’itada (KTK)|нужно написать акт|pitää kirjoittaa akti||||||
@@ -2284,7 +2280,7 @@ lava|s.|palub|palub, -an, -ad|палуба|kansi|||||||||
 |s.|papp|pa/pp, -pin, -ppid; -piin, -piid|священник, поп|pappi|papin riizud  (KTK)|ряса священника|papin messupuku||||||
 |s.|papp||||pappid ei ol’e (SV)|нет священника|ei ole pappia||||||
 näpiine|s.|päpp|päppi (IL)|лепёшка|kakkara|||||||||
-päpp|s. dem.|päpiine|päppi/in’e, -ižen, -št; -ižiin, -ižiid|лепёшечка, пончик|munkki (leivonnainen)|||||||||
+mahač, päpp|s. dem.|päpiine|päppi/in’e, -ižen, -št; -ižiin, -ižiid|лепёшечка, пончик, булочка (без начинки на дрожжевом тесте, испечённая в печи)|munkki (leivonnainen), pulla (pyöreä)|||||||||
 |s.|parad|parad, -an, -ad|парад|paraati|||||||||
 |s.|paragraf|paragraf, -an, -ad|параграф|pykälä|||||||||
 |s.|paralel’|paral’el’, -in, -id; -iin, -iid|параллель|yhdensuuntainen suora; leveyspiiri; paralleeli|||||||||
@@ -3804,14 +3800,16 @@ hebo, orihsälg, orihvarz, ubeh|s. yhd.|orihhebo|or'h/hebo (KTK)|конь, ме�
 |adv.|venččah|ven'čha|под венец, венчаться|vihille|jesl’i ven’čha vied’ihe|когда вели под венец|kun vietiin vihille||||||
 |s.|kude|kude, -gen, -t; -giid (LMS 163)|уток, горизонтальная нить (в ткачестве)|kude (kankaan)|||||||||
 |s.|nellik|n’el’l’ik, -on, -od; -uun, -uud (LMS 262)|четверть (мера зерна)|nelikko, viljamitta|||||||||
-|hn.|Fed'oi|Fed'uu ~ Fed'uo, -n, -d|Фёдор, Федя|Huotari, Teodoros|Obraman Fed’uu|Фёдор Абрамович|Abrahamin poika Huotari||||||
-|hn.|Fed'oi||||(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Huorarin vaimon nimi oli Outi||||||
-Ouči|hn.|Oučoi|Oučuu ~ Oučuo, -n, -d|Евдокия|Outi, Eudokia|(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Huorarin vaimon nimi oli Outi||||||
+|hn.|Fed'oi|Fed'uu ~ (Js) Fed’uo, -n, -d|Феодор (8.2/21.2), Фёдор, Федя|Feodor (8.2./21.2.), Huotari, Teodoros|Obraman Fed’uu|Фёдор Абрамович|Abrahamin poika Huotari||||||
+|hn.|Fed'oi||||(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Huotarin vaimon nimi oli Outi||||||
+Ouči, Oudoi|hn.|Oučoi|Oučuu ~ (Js) Oučuo, -n, -d|Евдокия (1.3/14.3)|Eudokia  (1.3./14.3.), Outi|(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Huotarin vaimon nimi oli Outi||||||
+Ouči, Oučoi|hn.|Oudoi|Ouduu ~ (Js) Ouduo, -n, -d|Евдокия (1.3/14.3)|Eudokia  (1.3./14.3.), Outi|||||||||
+Oučoi, Oudoi|hn.|Ouči|Ouči, -n, -d|Евдокия (1.3/14.3)|Eudokia  (1.3./14.3.), Outi|||||||||
 |hn.|Obram|Obram, -an, -ad|Абрам, Авраам, Аврамий|Abraham, Abramios |Obraman Fed’uu|Фёдор Абрамович|Abrahamin poika Huotari||||||
 |hn.|Obram||||Obraman kod’i|дом Абрама|Abrahamin talo||||||
 |hn.|Obram||||Obramam pol'ankad|Абрамовы поля|Abrahamin pellot||||||
 halmeh|s.|pol'ank|pol'ank, -an, -ad; -uun, -uud|||Obramam pol'ankad|поля Обрама|Obramin pellot||||||
-Oučoi|hn.|Ouči|Ouči, -n, -d|Евдокия|Outi, Eudokia|(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Huorarin vaimon nimi oli Outi||||||
+Oučoi|hn.|Ouči|Ouči, -n, -d|Евдокия|Outi, Eudokia|(Js) Fed’uon akal ol’ii n’imi Oučuo|у жены Фёдора было имя Евдокия|Huotarin vaimon nimi oli Outi||||||
 |hn.|Ouči||||D’eis’ijam Pekkon Ouči|Евдокия Петровна внучка Евсея|Eusebioksen Pekon tytär Outi||||||
 |hn.|Pekko|Pekko, -n, -d|Пётр|Pekko, Pekka|D’eis’ijam Pekko ol’ii izvesnij kaikel s’iga D’ogensuuz da Kujärvel pol’esn’ik|Пётр Евсеевич был известный всем там в Устье и в Михайловскои известный охотник|Eusebioksen poika Pekko oli Joensuuun ja koko Kuujärven kuuluisin metsäsätäjä||||||
 |hn.|Pekko|Pekko, -n, -d|Пётр|Pekko, Pekka|D’eis’ijam Pekkoks hänt sand’ihe|Пётром Евсеевичем его называли|Eusebioksen pojaksi Pekoksi häntä kutsuttiin||||||
@@ -3878,7 +3876,6 @@ sadul'|s.|sadal|sadal (KTK)|седло|satula|||||||||
 |v.|saduloita|saduluu/ta, -čob, -č ~ -čii; -taze, -t’ihe (KTK)|седлать, оседлать|satuloida|||||||||
 kard'alaine, livvikaine|s.|livvik|l'ivvik, -on, -od; -uun, -uud (IL)|ливвик, карел|livvikko, karjalainen|l'ivvikod, kudamad tul'd'ihe Kujärvehe müöhemba (IL) kirj.|ливвики, которые поселились в Куярв позднее|livvikot, jotka tulivat Kuujärvelle myöhemmin||||||
 |pron.|kudam||||l'ivvikod, kudamad tul'd'ihe Kujärvehe müöhemba (IL) kirj.|ливвики, которые поселились в Куярв позднее|livvikot, jotka tulivat Kuujärvelle myöhemmin||||||
-|v.|tulda||||l'ivvikod, kudamad tul'd'ihe Kujärvehe müöhemba (IL) kirj.|ливвики, которые поселились в Куярв позднее|livvikot, jotka tulivat Kuujärvelle myöhemmin||||||
 |s.|livvi|l'ivvi, -n|ливви, ливвиковский|livvi|(Pal) laps'iil'e eras'iil'e d'o opastad'ihe l'ivvin  d'ial'ektad (IL) kirj.|некоторым детям уже преподавали диввиковский диалект|eräille lapsille jo opetettiin livvin murretta||||||
 |s.|laps'||||(Pal) laps'iil'e eras'iil'e d'o opastad'ihe l'ivvin  d'ial'ektad (IL) kirj.|некоторым детям уже преподавали диввиковский диалект|eräille lapsille jo opetettiin livvin murretta||||||
 |adv.|d'o I||||(Pal) laps'iil'e eras'iil'e d'o opastad'ihe l'ivvin  d'ial'ektad (IL) kirj.|некоторым детям уже преподавали диввиковский диалект|eräille lapsille jo opetettiin livvin murretta||||||
