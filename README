@@ -15,8 +15,8 @@ php import.php "$OUTPUT" \
   --LyKK-txt=aineistot/LyKK.txt \
   --LyKK-csv=aineistot/LyKK-SU.csv \
   --LyP=aineistot/LyP.csv
-php list-pages-to-delete.php "$OUTPUT" > todelete.txt
 cd ../..
+./maintenance/run Lud:list-pages-to-delete "$OUTPUT" > todelete.txt
 ./maintenance/run ./extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/mw
 ./maintenance/run ./extensions/Sanat/SanatImport.php --threads=$(nproc) extensions/Lud/"$OUTPUT"
 ./maintenance/run deleteBatch extensions/Lud/todelete.txt
