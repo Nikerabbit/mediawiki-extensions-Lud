@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fec8ff5e58c384a974b801d37a9ee697",
+    "content-hash": "cf7e7f96e0207af3ca5291e76f66eb5d",
     "packages": [],
     "packages-dev": [
         {
@@ -483,16 +483,16 @@
         },
         {
             "name": "mediawiki/mediawiki-codesniffer",
-            "version": "v48.0.0",
+            "version": "v49.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-tools-codesniffer.git",
-                "reference": "6d46ca2334d5e1c5be10bf28e01f6010cfbff212"
+                "reference": "15219ac40cd18f259a7170270165c0a7b47af10a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-codesniffer/zipball/6d46ca2334d5e1c5be10bf28e01f6010cfbff212",
-                "reference": "6d46ca2334d5e1c5be10bf28e01f6010cfbff212",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-codesniffer/zipball/15219ac40cd18f259a7170270165c0a7b47af10a",
+                "reference": "15219ac40cd18f259a7170270165c0a7b47af10a",
                 "shasum": ""
             },
             "require": {
@@ -500,17 +500,17 @@
                 "composer/spdx-licenses": "~1.5.2",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=8.1.0",
+                "php": ">=8.2.0",
                 "phpcsstandards/phpcsextra": "1.4.0",
-                "squizlabs/php_codesniffer": "3.13.2"
+                "squizlabs/php_codesniffer": "3.13.5"
             },
             "require-dev": {
                 "ext-dom": "*",
-                "mediawiki/mediawiki-phan-config": "0.17.0",
+                "mediawiki/mediawiki-phan-config": "0.18.0",
                 "mediawiki/minus-x": "1.1.3",
                 "php-parallel-lint/php-console-highlighter": "1.0.0",
                 "php-parallel-lint/php-parallel-lint": "1.4.0",
-                "phpunit/phpunit": "9.6.21"
+                "phpunit/phpunit": "10.5.58"
             },
             "type": "phpcodesniffer-standard",
             "autoload": {
@@ -529,9 +529,9 @@
                 "mediawiki"
             ],
             "support": {
-                "source": "https://github.com/wikimedia/mediawiki-tools-codesniffer/tree/v48.0.0"
+                "source": "https://github.com/wikimedia/mediawiki-tools-codesniffer/tree/v49.0.0"
             },
-            "time": "2025-09-04T20:12:57+00:00"
+            "time": "2026-01-11T00:02:41+00:00"
         },
         {
             "name": "mediawiki/mediawiki-phan-config",
@@ -3169,16 +3169,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.13.2",
+            "version": "3.13.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "5b5e3821314f947dd040c70f7992a64eac89025c"
+                "reference": "0ca86845ce43291e8f5692c7356fccf3bcf02bf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/5b5e3821314f947dd040c70f7992a64eac89025c",
-                "reference": "5b5e3821314f947dd040c70f7992a64eac89025c",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/0ca86845ce43291e8f5692c7356fccf3bcf02bf4",
+                "reference": "0ca86845ce43291e8f5692c7356fccf3bcf02bf4",
                 "shasum": ""
             },
             "require": {
@@ -3195,11 +3195,6 @@
                 "bin/phpcs"
             ],
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -3249,7 +3244,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-06-17T22:17:01+00:00"
+            "time": "2025-11-04T16:30:35+00:00"
         },
         {
             "name": "staabm/side-effects-detector",
