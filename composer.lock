@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf7e7f96e0207af3ca5291e76f66eb5d",
+    "content-hash": "6a088ba97532ed7bbc13a25afe3068e0",
     "packages": [],
     "packages-dev": [
         {
@@ -585,16 +585,16 @@
         },
         {
             "name": "mediawiki/minus-x",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-tools-minus-x.git",
-                "reference": "28497a86db0c3fef593d5b43e25ed307ec20a87c"
+                "reference": "777613baa12603fa80921d626961a44679fe39cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-minus-x/zipball/28497a86db0c3fef593d5b43e25ed307ec20a87c",
-                "reference": "28497a86db0c3fef593d5b43e25ed307ec20a87c",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-minus-x/zipball/777613baa12603fa80921d626961a44679fe39cd",
+                "reference": "777613baa12603fa80921d626961a44679fe39cd",
                 "shasum": ""
             },
             "require": {
@@ -603,7 +603,7 @@
                 "symfony/console": "^6 || ^7 || ^8"
             },
             "require-dev": {
-                "mediawiki/mediawiki-codesniffer": "48.0.0",
+                "mediawiki/mediawiki-codesniffer": "49.0.0",
                 "php-parallel-lint/php-console-highlighter": "1.0.0",
                 "php-parallel-lint/php-parallel-lint": "1.4.0"
             },
@@ -629,9 +629,9 @@
             "description": "Removes executable bit from files that shouldn't be executable",
             "homepage": "https://www.mediawiki.org/wiki/MinusX",
             "support": {
-                "source": "https://github.com/wikimedia/mediawiki-tools-minus-x/tree/2.0.0"
+                "source": "https://github.com/wikimedia/mediawiki-tools-minus-x/tree/2.0.1"
             },
-            "time": "2026-01-10T18:19:35+00:00"
+            "time": "2026-01-19T01:16:25+00:00"
         },
         {
             "name": "mediawiki/phan-taint-check-plugin",
