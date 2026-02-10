@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a088ba97532ed7bbc13a25afe3068e0",
+    "content-hash": "d4a7abcf4c3d64064d940b90902e4c91",
     "packages": [],
     "packages-dev": [
         {
@@ -483,16 +483,16 @@
         },
         {
             "name": "mediawiki/mediawiki-codesniffer",
-            "version": "v49.0.0",
+            "version": "v50.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-tools-codesniffer.git",
-                "reference": "15219ac40cd18f259a7170270165c0a7b47af10a"
+                "reference": "8f8ba0099b59f26c908f8d3b299ba01fb9a0e1dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-codesniffer/zipball/15219ac40cd18f259a7170270165c0a7b47af10a",
-                "reference": "15219ac40cd18f259a7170270165c0a7b47af10a",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-codesniffer/zipball/8f8ba0099b59f26c908f8d3b299ba01fb9a0e1dc",
+                "reference": "8f8ba0099b59f26c908f8d3b299ba01fb9a0e1dc",
                 "shasum": ""
             },
             "require": {
@@ -507,10 +507,10 @@
             "require-dev": {
                 "ext-dom": "*",
                 "mediawiki/mediawiki-phan-config": "0.18.0",
-                "mediawiki/minus-x": "1.1.3",
+                "mediawiki/minus-x": "2.0.1",
                 "php-parallel-lint/php-console-highlighter": "1.0.0",
                 "php-parallel-lint/php-parallel-lint": "1.4.0",
-                "phpunit/phpunit": "10.5.58"
+                "phpunit/phpunit": "10.5.63"
             },
             "type": "phpcodesniffer-standard",
             "autoload": {
@@ -529,9 +529,9 @@
                 "mediawiki"
             ],
             "support": {
-                "source": "https://github.com/wikimedia/mediawiki-tools-codesniffer/tree/v49.0.0"
+                "source": "https://github.com/wikimedia/mediawiki-tools-codesniffer/tree/v50.0.0"
             },
-            "time": "2026-01-11T00:02:41+00:00"
+            "time": "2026-02-10T11:49:03+00:00"
         },
         {
             "name": "mediawiki/mediawiki-phan-config",
