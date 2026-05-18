@@ -1,16 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
+	"sanat-lud-desc": "뤼드어 사전을 위한 도구",
+	"sanat-da": "이 단어는 여러 가지 뜻을 가지고 있습니다.",
 	"sanat-entry-examples": "예시",
 	"sanat-entry-seealso": "같이 보기",
 	"sanat-entry-translations": "번역",
+	"sanat-entry-forms": "형태",
+	"sanat-entryform-baseform": "기본 형태:",
+	"sanat-entryform-pos": "품사:",
+	"sanat-entryform-langdesc": "방언 설명",
+	"sanat-entryform-formsdesc": "굴절",
+	"sanat-entryform-addform": "형태 추가",
 	"sanat-entryform-addtranslation": "번역 추가",
 	"sanat-entryform-addexample": "예시 추가",
 	"sanat-lc-en": "영어",
 	"sanat-lc-fi": "핀란드어",
+	"sanat-lc-lud": "문어체 뤼드어",
+	"sanat-lc-lud-x-middle": "중부 뤼드어",
+	"sanat-lc-lud-x-north": "북부 뤼드어",
+	"sanat-lc-lud-x-south": "남부 뤼드어",
 	"sanat-lc-ru": "러시아어",
 	"sanat-lc-und": "알 수 없는 언어"
 }
