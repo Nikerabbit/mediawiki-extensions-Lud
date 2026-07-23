@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"sanat-lud-desc": "د لوبيزې ويي‌سيند لپاره کارتوکي",
+	"sanat-da": "دا ويی څو ماناوې لري:",
+	"sanat-entry-examples": "بېلگې",
+	"sanat-entry-seealso": "دا هم وگورئ",
+	"sanat-entry-translations": "ژباړې",
+	"sanat-entry-forms": "بڼې",
+	"sanat-entryform-baseform": "بنسټيزې بڼې:",
+	"sanat-entryform-pos": "وينا برخه:",
+	"sanat-entryform-langdesc": "وينگ څرگنداوی",
+	"sanat-entryform-formsdesc": "اوښتنه",
+	"sanat-entryform-addform": "فورم ورگډول",
+	"sanat-entryform-addtranslation": "ژباړه ورگډول",
+	"sanat-entryform-addexample": "بېلگه ورگډول",
+	"sanat-lc-en": "انگليسي",
+	"sanat-lc-fi": "فينلينډي",
+	"sanat-lc-lud": "ليکلې لوبيزه",
+	"sanat-lc-lud-x-middle": "منځنۍ لوبيزه",
+	"sanat-lc-lud-x-north": "شمالي لوبيزه",
+	"sanat-lc-lud-x-south": "سوېلي لوبيزه",
+	"sanat-lc-ru": "روسي",
+	"sanat-lc-und": "ناڅرگنده ژبه"
+}
