@@ -21,7 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php: [ '8.3', '8.4', '8.5' ]
+        php: [ '8.4', '8.5' ]
 
     name: PHP ${{ matrix.php }} quality
 
@@ -72,9 +72,9 @@ jobs:
       matrix:
         include:
         - mediawiki: REL1_45
-          php: '8.3'
+          php: '8.4'
         - mediawiki: REL1_46
-          php: '8.3'
+          php: '8.4'
         - mediawiki: master
           php: '8.4'
         - mediawiki: master
