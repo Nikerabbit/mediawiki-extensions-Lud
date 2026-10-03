@@ -37,12 +37,14 @@
 	},
 	"ResourceModules": {
 		"ext.lud.styles": {
-			"styles": "resources/ext.lud.less",
-			"targets": [
-				"desktop",
-				"mobile"
-			]
+			"styles": "resources/ext.lud.less"
 		}
 	},
-	"manifest_version": 2
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.45.0",
+		"platform": {
+			"php": ">= 8.3.0"
+		}
+	}
 }
