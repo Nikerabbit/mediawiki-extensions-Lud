@@ -18,7 +18,10 @@
 	width: 10em;
 
 	/* Make the selects max width to have equal widths in different sections */
+	/* Page Forms requires this ID selector and an override of its input width. */
+	/* stylelint-disable-next-line selector-max-id */
 	#pfForm & select {
+		/* stylelint-disable-next-line declaration-no-important */
 		width: 100% !important;
 	}
 }

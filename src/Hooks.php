@@ -3,15 +3,15 @@ declare( strict_types=1 );
 
 namespace MediaWiki\Extensions\Lud;
 
-use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Content\TextContent;
 use MediaWiki\Hook\ParserFirstCallInitHook;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Output\Hook\BeforePageDisplayHook;
+use MediaWiki\Parser\Parser;
 use MediaWiki\Revision\SlotRecord;
 use MediaWiki\Title\Title;
 use Override;
-use Parser;
-use TextContent;
 use const CACHE_ANYTHING;
 use const PREG_SET_ORDER;
 

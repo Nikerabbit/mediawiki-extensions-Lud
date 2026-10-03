@@ -2,6 +2,9 @@
 	"config": {
 		"allow-plugins": {
 			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"platform": {
+			"php": "8.4.0"
 		}
 	},
 	"require-dev": {
@@ -10,8 +13,7 @@
 		"mediawiki/minus-x": "2.0.1",
 		"php-parallel-lint/php-console-highlighter": "v1.0.0",
 		"php-parallel-lint/php-parallel-lint": "v1.4.0",
-		"phpunit/phpunit": "*"
-
+		"phpunit/phpunit": "^12.5"
 	},
 	"scripts": {
 		"fix": [
@@ -21,13 +23,23 @@
 		"test": [
 			"parallel-lint . --exclude vendor --exclude node_modules",
 			"phpcs -p -s",
-			"minus-x check ."
+			"minus-x check .",
+			"@phpunit"
 		],
-		"phan": [
-			"phan -d . -p --allow-polyfill-parser"
-		]
+		"phan": "phan -d . --long-progress-bar",
+		"phpunit": "phpunit --fail-on-warning --fail-on-risky --bootstrap vendor/autoload.php phpunit"
 	},
 	"require": {
-		"ext-json": "*"
+		"ext-json": "*",
+		"php": ">=8.4"
+	},
+	"name": "mediawiki/lud",
+	"type": "mediawiki-extension",
+	"description": "Ludian dictionary import and display tools",
+	"license": "GPL-2.0-or-later",
+	"autoload-dev": {
+		"psr-4": {
+			"MediaWiki\\Extensions\\Lud\\": "src/"
+		}
 	}
 }
