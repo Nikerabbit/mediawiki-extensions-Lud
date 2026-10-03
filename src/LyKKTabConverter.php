@@ -14,7 +14,7 @@ class LyKKTabConverter {
 		$in = [];
 
 		foreach ( file( $filepath ) as $line ) {
-			$in[] = str_getcsv( $line, '|' );
+			$in[] = str_getcsv( $line, '|', '"', '\\' );
 		}
 
 		$out = [];

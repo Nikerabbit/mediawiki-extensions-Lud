@@ -4,7 +4,7 @@ declare( strict_types=1 );
 namespace MediaWiki\Extensions\Lud;
 
 use Exception;
-use Maintenance;
+use MediaWiki\Maintenance\Maintenance;
 use RuntimeException;
 use TypeError;
 

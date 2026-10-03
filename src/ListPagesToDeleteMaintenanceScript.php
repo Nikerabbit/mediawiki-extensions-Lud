@@ -4,7 +4,7 @@ declare( strict_types=1 );
 namespace MediaWiki\Extensions\Lud;
 
 use DirectoryIterator;
-use Maintenance;
+use MediaWiki\Maintenance\Maintenance;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 use UtfNormal;
@@ -26,7 +26,7 @@ class ListPagesToDeleteMaintenanceScript extends Maintenance {
 		$exists = [];
 		$toKeep = [];
 
-		$connection = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
+		$connection = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 		$res = $connection->newSelectQueryBuilder()
 			->select( 'page_title' )
 			->from( 'page' )
