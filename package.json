@@ -4,7 +4,7 @@
 		"test": "stylelint \"resources/**/*.less\""
 	},
 	"devDependencies": {
-		"stylelint": "17.16.0",
+		"stylelint": "18.0.0",
 		"stylelint-config-wikimedia": "0.20.0"
 	}
 }
