@@ -58,6 +58,7 @@ class LyKTabConverter {
 		if ( $x[5] !== '' ) {
 			$translations['ru'] = self::splitTranslations( $x[5] );
 		}
+
 		if ( $x[6] !== '' ) {
 			$translations['fi'] = self::splitTranslations( $x[6] );
 		}
@@ -102,7 +103,7 @@ class LyKTabConverter {
 			$ph[$key] = $match[0];
 		}
 
-		$translations = array_map( 'trim', preg_split( '/[,;]\s+/u', $x ) );
+		$translations = array_map( trim( ... ), preg_split( '/[,;]\s+/u', $x ) );
 		foreach ( $translations as $i => $t ) {
 			$translations[$i] = str_replace( array_keys( $ph ), array_values( $ph ), $t );
 		}

@@ -1,5 +1,7 @@
 <?php
 
+declare( strict_types=1 );
+
 namespace MediaWiki\Extensions\Lud;
 
 use PHPUnit\Framework\Attributes\DataProvider;
@@ -10,18 +12,16 @@ use PHPUnit\Framework\TestCase;
  * @license GPL-2.0-or-later
  * @covers \MediaWiki\Extensions\Lud\LyEConverter
  */
-class LyEConverterTest extends TestCase {
+final class LyEConverterTest extends TestCase {
 	#[DataProvider( 'provideIsHeader' )]
-	public function testIsHeader( $input, $expected, $comment = '' ) {
+	public function testIsHeader( string $input, bool $expected, string $comment = '' ): void {
 		$c = new LyEConverter();
 		$output = $c->isHeader( $input );
-		$this->assertEquals( $expected, $output, $comment );
+		$this->assertSame( $expected, $output, $comment );
 	}
 
-	public static function provideIsHeader() {
-		return [
-			[ 'A', true ],
-			[ 'S, Š', true, 'Letter variants' ],
-		];
+	public static function provideIsHeader(): \Iterator {
+		yield [ 'A', true ];
+		yield [ 'S, Š', true, 'Letter variants' ];
 	}
 }

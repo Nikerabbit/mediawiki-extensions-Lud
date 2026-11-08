@@ -74,14 +74,10 @@ class ImportMaintenanceScript extends Maintenance {
 		$out = $f->getEntries( $out );
 
 		$format = $this->getOption( 'format', 'wikitext' );
-		switch ( $format ) {
-			case 'json':
-				$this->outputJson( $out, $outdir );
-				break;
-			case 'wikitext':
-			default:
-				$this->outputWikitext( $out, $f, $outdir );
-		}
+		match ( $format ) {
+			'json' => $this->outputJson( $out, $outdir ),
+			default => $this->outputWikitext( $out, $f, $outdir ),
+		};
 	}
 
 	protected function merge( array $entries ): array {
@@ -256,11 +252,13 @@ class ImportMaintenanceScript extends Maintenance {
 							$south[$i]['cases']['lud-x-north'] ?? '#';
 						$cases[] = "$name ({$south[$i]['properties']['pos']})";
 					}
+
 					$cases = implode( "\n", $cases );
 					echo "[LyKK] Kirjalyydin hakusanan '$id' yhdistäminen olemassa olevaan " .
 						"sanatietueeseen ei onnistunut. " .
 						"Useita vaihtoehtoja. Lisätään omana artikkelinaan.\n$cases\n\n";
 				}
+
 				$new[] = $entry;
 				continue;
 			}
@@ -292,9 +290,7 @@ class ImportMaintenanceScript extends Maintenance {
 		foreach ( $out as $struct ) {
 			if ( $struct['type'] === 'disambiguation' ) {
 				$struct['pages'] = array_map(
-					static function ( $x ) {
-						return $x['id'];
-					},
+					static fn ( array $x ) => $x['id'],
 					$struct['pages']
 				);
 			}

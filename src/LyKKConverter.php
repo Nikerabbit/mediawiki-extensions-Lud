@@ -17,9 +17,7 @@ class LyKKConverter {
 		// Remove empty lines
 		$lines = array_filter(
 			$lines,
-			static function ( $x ) {
-				return $x !== '';
-			}
+			static fn ( $x ): bool => $x !== ''
 		);
 
 		// Remove beginning
@@ -27,6 +25,7 @@ class LyKKConverter {
 			if ( $line === 'A' ) {
 				break;
 			}
+
 			unset( $lines[$i] );
 		}
 
@@ -55,18 +54,14 @@ class LyKKConverter {
 			return true;
 		}
 
-		if ( str_contains( $line, 'VÄLIOTSIKKO' ) ) {
-			return true;
-		}
-
-		return false;
+		return str_contains( $line, 'VÄLIOTSIKKO' );
 	}
 
 	public function parseLine( $line ): array {
 		// References to other words
 		$links = [];
 		if ( preg_match( "~, ?ср\. ?(.+)$~u", $line, $match ) ) {
-			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
+			$links = array_map( trim( ... ), preg_split( '/[;,]/', $match[1] ) );
 			$line = substr( $line, 0, -strlen( $match[0] ) );
 		}
 
@@ -112,6 +107,7 @@ class LyKKConverter {
 	public function splitExamples( string $string ): array {
 		$string = ltrim( $string, ':' );
 		$string = trim( $string );
+
 		$ret = [];
 		$re = '~(.+) [‘’]([^‘’]+)[‘’](,|$)~uU';
 		while ( preg_match( $re, $string, $match ) ) {

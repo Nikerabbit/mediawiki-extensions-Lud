@@ -36,11 +36,10 @@ class Hooks implements BeforePageDisplayHook, ParserFirstCallInitHook {
 		foreach ( $abbs as $abb => $title ) {
 			$patterns[] = preg_quote( $abb, '/' );
 		}
+
 		$pattern = '/(?<=[ (-]|^)(' . implode( '|', $patterns ) . ')(?=[ ),-]|$)/um';
 
-		$cb = static function ( $m ) use ( $abbs ) {
-			return Html::element( 'abbr', [ 'title' => $abbs[$m[1]] ], $m[1] );
-		};
+		$cb = ( static fn ( $m ) => Html::element( 'abbr', [ 'title' => $abbs[$m[1]] ], $m[1] ) );
 
 		return preg_replace_callback( $pattern, $cb, $text );
 	}

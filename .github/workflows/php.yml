@@ -64,6 +64,9 @@ jobs:
     - name: Run test suite
       run: composer run-script test
 
+    - name: Run Rector
+      run: composer run-script rector -- --dry-run --no-progress-bar
+
   mediawiki:
     runs-on: ubuntu-latest
     timeout-minutes: 15
