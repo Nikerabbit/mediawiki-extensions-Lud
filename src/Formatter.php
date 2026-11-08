@@ -111,6 +111,7 @@ class Formatter {
 				$target = $this->getTitle( $subentry['id'] )->getPrefixedText();
 				$out .= "* [[$target]]\n";
 			}
+
 			return $out;
 		}
 
@@ -126,11 +127,13 @@ class Formatter {
 			$value = implode( ',', (array)$value );
 			$out .= "|$key=$value\n";
 		}
+
 		$out .= "|variants=";
 		$cases = $this->sortTranslations( $entry['cases'] );
 		foreach ( $cases as $lang => $value ) {
 			$out .= "{{Variant\n|language=$lang\n|text=$value\n}}\n";
 		}
+
 		$out .= "}}\n";
 
 		$out .= "=={{INT:sanat-entry-translations}}==\n\n";
@@ -190,7 +193,7 @@ class Formatter {
 	private function sortExamples( array $es ): array {
 		uasort(
 			$es,
-			static function ( $a, $b ) {
+			static function ( array $a, array $b ) {
 				// kirjalyydi, etelälyydi, keskilyydi, pohjoislyydi, venäjä, suomi
 				$order = [ 'lud', 'lud-x-south', 'lud-x-middle', 'lud-x-north', 'ru', 'fi' ];
 				foreach ( $order as $o ) {

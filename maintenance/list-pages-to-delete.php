@@ -1,5 +1,7 @@
 <?php
 
+declare( strict_types=1 );
+
 use MediaWiki\Extensions\Lud\ListPagesToDeleteMaintenanceScript;
 
 $env = getenv( 'MW_INSTALL_PATH' );

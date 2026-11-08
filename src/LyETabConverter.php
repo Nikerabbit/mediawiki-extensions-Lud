@@ -86,6 +86,7 @@ class LyETabConverter {
 		if ( $x[4] ) {
 			$translations['ru'] = array_map( trim( ... ), preg_split( '/[,;] /', $x[4] ) );
 		}
+
 		if ( $x[5] ) {
 			$translations['fi'] = array_map( trim( ... ), preg_split( '/[,;] /', $x[5] ) );
 		}

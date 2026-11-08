@@ -1,5 +1,7 @@
 <?php
 
+declare( strict_types=1 );
+
 use MediaWiki\Extensions\Lud\ImportMaintenanceScript;
 
 $env = getenv( 'MW_INSTALL_PATH' );

@@ -78,9 +78,7 @@ class LyEConverter {
 		// Remove empty lines
 		$lines = array_filter(
 			$lines,
-			static function ( $x ) {
-				return $x !== '';
-			}
+			static fn ( $x ): bool => $x !== ''
 		);
 
 		// Remove beginning
@@ -88,6 +86,7 @@ class LyEConverter {
 			if ( $line === 'A' ) {
 				break;
 			}
+
 			unset( $lines[$i] );
 		}
 
@@ -124,12 +123,12 @@ class LyEConverter {
 		// References to other words
 		$links = [];
 		if ( preg_match( "~[.:] ?Vrt\.\s+(.+)$~u", $line, $match ) ) {
-			$links = array_map( 'trim', preg_split( '/[;,]/', $match[1] ) );
+			$links = array_map( trim( ... ), preg_split( '/[;,]/', $match[1] ) );
 			$line = substr( $line, 0, -strlen( $match[0] ) );
 		}
 
 		// Normal entries
-		$wcs = implode( '|', array_map( 'preg_quote', $this->pos ) );
+		$wcs = implode( '|', array_map( preg_quote( ... ), $this->pos ) );
 		$regexp = "/^([^. ]+(?: I+)?)\s+(($wcs)+)\s+([^.]+)\s*[—–]\s*([^:]+)(: .+)?$/uU";
 
 		if ( !preg_match( '/[—–]/', $line ) ) {
@@ -171,7 +170,7 @@ class LyEConverter {
 			throw new InvalidArgumentException( "[LyE] Käännöksissä häikkää: *$string*" );
 		}
 
-		$languages = array_filter( array_map( 'trim', explode( ' / ', $string ) ) );
+		$languages = array_filter( array_map( trim( ... ), explode( ' / ', $string ) ) );
 		if ( count( $languages ) !== 2 ) {
 			throw new InvalidArgumentException( "[LyE] Käännöksissä häikkää: *$string*" );
 		}
