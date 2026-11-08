@@ -7,6 +7,8 @@ use Rector\Config\RectorConfig;
 
 return RectorConfig::configure()
 	->withPaths( [
+		__DIR__ . '/rector.php',
+		__DIR__ . '/.phan/config.php',
 		__DIR__ . '/src',
 		__DIR__ . '/maintenance',
 		__DIR__ . '/phpunit',
