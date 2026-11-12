@@ -26,12 +26,12 @@ jobs:
     name: PHP ${{ matrix.php }} quality
 
     steps:
-    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+    - uses: actions/checkout@v7.0.1
       with:
         persist-credentials: false
 
     - name: Setup PHP
-      uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # v2
+      uses: shivammathur/setup-php@2.40.0
       with:
         php-version: ${{ matrix.php }}
         coverage: none
@@ -46,7 +46,7 @@ jobs:
         echo "dir=$cache_dir" >> "$GITHUB_OUTPUT"
 
     - name: Cache Composer downloads
-      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+      uses: actions/cache@v6.1.0
       with:
         path: ${{ steps.composer-cache-dir.outputs.dir }}
         key: ${{ runner.os }}-php${{ matrix.php }}-composer-${{ hashFiles('**/composer.lock') }}
@@ -87,7 +87,7 @@ jobs:
 
     steps:
     - name: Check out MediaWiki
-      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      uses: actions/checkout@v7.0.1
       with:
         repository: wikimedia/mediawiki
         ref: ${{ matrix.mediawiki }}
@@ -95,13 +95,13 @@ jobs:
         persist-credentials: false
 
     - name: Check out Lud
-      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      uses: actions/checkout@v7.0.1
       with:
         path: mediawiki/extensions/Lud
         persist-credentials: false
 
     - name: Setup PHP
-      uses: shivammathur/setup-php@eb7c497e18156a6bbabfef1d3a82760b9eda3962 # v2
+      uses: shivammathur/setup-php@2.40.0
       with:
         php-version: ${{ matrix.php }}
         coverage: none
@@ -116,7 +116,7 @@ jobs:
         echo "dir=$cache_dir" >> "$GITHUB_OUTPUT"
 
     - name: Cache Composer downloads
-      uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6
+      uses: actions/cache@v6.1.0
       with:
         path: ${{ steps.composer-cache-dir.outputs.dir }}
         key: ${{ runner.os }}-php${{ matrix.php }}-mw${{ matrix.mediawiki }}-composer-${{ hashFiles('mediawiki/composer.lock', 'mediawiki/extensions/Lud/composer.lock') }}
