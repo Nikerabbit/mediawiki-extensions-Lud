@@ -5,6 +5,6 @@
 	},
 	"devDependencies": {
 		"stylelint": "18.0.0",
-		"stylelint-config-wikimedia": "0.20.0"
+		"stylelint-config-wikimedia": "0.20.1"
 	}
 }
